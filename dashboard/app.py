@@ -294,6 +294,41 @@ with onglet_propre:
                "un modèle commun ne pourra utiliser que les variables renseignées partout ; "
                "les autres serviront aux modèles par pays.")
 
+    # --- Aperçu des données qui serviront à la modélisation
+    st.subheader("Aperçu des données utilisées pour la modélisation")
+    st.caption("Ce sont exactement les lignes du fichier data/clean/sinistres_europe.parquet, "
+               "avec les filtres de la barre latérale.")
+    DICO = {
+        "pays": "Pays de la source", "type": "auto ou moto", "source": "Jeu de données d'origine",
+        "age_conducteur": "Âge du conducteur (ans)", "jeune_conducteur": "Moins de 26 ans",
+        "sexe": "H / F / inconnu", "age_vehicule": "Âge du véhicule (ans)", "puissance_ch": "Puissance (chevaux)",
+        "carburant": "essence, diesel, ou code d'origine", "usage": "Usage du véhicule",
+        "zone": "Région, province, code postal ou zone", "bonus_malus": "Bonus-malus (échelle du pays)",
+        "exposition": "Durée du contrat sur l'année", "nb_sinistres": "Nombre de sinistres du contrat",
+        "cout_total_eur": "Coût total des sinistres (€)", "cout_moyen_eur": "VARIABLE À PRÉDIRE : coût moyen par sinistre (€)",
+        "log_cout": "Logarithme du coût moyen (cible transformée)", "sinistre_extreme": "Coût au-delà du 99,5e centile",
+    }
+    c1, c2, c3 = st.columns([1, 1, 2])
+    nb_lignes = c1.selectbox("Nombre de lignes", [20, 50, 100, 500], index=1)
+    ordre = c2.selectbox("Ordre", ["Échantillon aléatoire", "Coût décroissant", "Coût croissant"])
+    colonnes = c3.multiselect("Colonnes affichées", list(DICO), default=[
+        "pays", "type", "age_conducteur", "sexe", "age_vehicule", "puissance_ch", "carburant",
+        "zone", "bonus_malus", "nb_sinistres", "cout_moyen_eur"])
+    if ordre == "Échantillon aléatoire":
+        apercu = P.sample(min(nb_lignes, len(P)), random_state=42) if len(P) else P
+    else:
+        apercu = P.sort_values("cout_moyen_eur", ascending=(ordre == "Coût croissant")).head(nb_lignes)
+    st.dataframe(apercu[colonnes or list(DICO)], hide_index=True, use_container_width=True,
+                 column_config={"cout_moyen_eur": st.column_config.NumberColumn("cout_moyen_eur", format="%.0f €"),
+                                "cout_total_eur": st.column_config.NumberColumn("cout_total_eur", format="%.0f €"),
+                                "puissance_ch": st.column_config.NumberColumn("puissance_ch", format="%.0f")})
+    with st.expander("Signification des colonnes"):
+        st.dataframe(pd.DataFrame({"Colonne": list(DICO), "Contenu": list(DICO.values()),
+                                   "% renseigné": [round(100 * P[c].notna().mean() *
+                                                         (P[c].astype(str) != "inconnu").mean(), 1) if len(P) else 0
+                                                   for c in DICO]}),
+                     hide_index=True, use_container_width=True)
+
 # ================================================================== 3. AVANT / APRÈS
 with onglet_avap:
     nb_b, nb_p = B.groupby("pays").size(), P.groupby("pays").size()

@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-19T14:12:48+00:00",
+  "genere_le": "2026-10-19T14:25:09+00:00",
   "sources": {
     "fr_fremtpl2": [
       {
@@ -19,14 +19,6 @@
         "detail": "0 contrats sans caractéristiques retirés"
       },
       {
-        "etape": 2,
-        "nom": "Coûts négatifs ou nuls retirés",
-        "lignes_avant": 24944,
-        "lignes_apres": 24944,
-        "retirees": 0,
-        "detail": "0 montants négatifs"
-      },
-      {
         "etape": 12,
         "nom": "Conversion EUR -> EUR (taux 1.0)",
         "lignes_avant": 24944,
@@ -43,36 +35,44 @@
         "detail": ""
       },
       {
+        "etape": 2,
+        "nom": "Coûts négatifs, nuls ou inférieurs à 10 € retirés",
+        "lignes_avant": 24944,
+        "lignes_apres": 24898,
+        "retirees": 46,
+        "detail": "0 négatifs ; 46 coûts inférieurs à 10 €"
+      },
+      {
         "etape": 7,
         "nom": "Valeurs impossibles",
-        "lignes_avant": 24944,
-        "lignes_apres": 24944,
+        "lignes_avant": 24898,
+        "lignes_apres": 24898,
         "retirees": 0,
         "detail": "3 valeurs mises à vide (âge, puissance, âge véhicule) ; expositions nulles retirées"
       },
       {
         "etape": 8,
         "nom": "Sinistres extrêmes repérés (> 99,5e centile)",
-        "lignes_avant": 24944,
-        "lignes_apres": 24944,
+        "lignes_avant": 24898,
+        "lignes_apres": 24898,
         "retirees": 0,
-        "detail": "seuil = 34,565 EUR ; 125 sinistres repérés"
+        "detail": "seuil = 34,647 EUR ; 125 sinistres repérés"
       },
       {
         "etape": 10,
         "nom": "Libellés harmonisés (carburant, sexe)",
-        "lignes_avant": 24944,
-        "lignes_apres": 24944,
+        "lignes_avant": 24898,
+        "lignes_apres": 24898,
         "retirees": 0,
         "detail": ""
       },
       {
         "etape": 5,
         "nom": "Valeurs manquantes (texte) remplacées par « inconnu »",
-        "lignes_avant": 24944,
-        "lignes_apres": 24944,
+        "lignes_avant": 24898,
+        "lignes_apres": 24898,
         "retirees": 0,
-        "detail": "49888 valeurs remplacées ; les colonnes numériques manquantes restent vides"
+        "detail": "49796 valeurs remplacées ; les colonnes numériques manquantes restent vides"
       }
     ],
     "fr_frempl": [
@@ -85,60 +85,60 @@
         "detail": ""
       },
       {
-        "etape": 2,
-        "nom": "Coûts négatifs ou nuls retirés",
-        "lignes_avant": 17393,
-        "lignes_apres": 15903,
-        "retirees": 1490,
-        "detail": "1490 montants négatifs"
-      },
-      {
         "etape": 12,
         "nom": "Conversion EUR -> EUR (taux 1.0)",
-        "lignes_avant": 15903,
-        "lignes_apres": 15903,
+        "lignes_avant": 17393,
+        "lignes_apres": 17393,
         "retirees": 0,
         "detail": ""
       },
       {
         "etape": 3,
         "nom": "Coût moyen par sinistre calculé",
-        "lignes_avant": 15903,
-        "lignes_apres": 15903,
+        "lignes_avant": 17393,
+        "lignes_apres": 17393,
         "retirees": 0,
         "detail": ""
       },
       {
+        "etape": 2,
+        "nom": "Coûts négatifs, nuls ou inférieurs à 10 € retirés",
+        "lignes_avant": 17393,
+        "lignes_apres": 15875,
+        "retirees": 1518,
+        "detail": "1490 négatifs ; 28 coûts inférieurs à 10 €"
+      },
+      {
         "etape": 7,
         "nom": "Valeurs impossibles",
-        "lignes_avant": 15903,
-        "lignes_apres": 15903,
+        "lignes_avant": 15875,
+        "lignes_apres": 15875,
         "retirees": 0,
         "detail": "0 valeurs mises à vide (âge, puissance, âge véhicule) ; expositions nulles retirées"
       },
       {
         "etape": 8,
         "nom": "Sinistres extrêmes repérés (> 99,5e centile)",
-        "lignes_avant": 15903,
-        "lignes_apres": 15903,
+        "lignes_avant": 15875,
+        "lignes_apres": 15875,
         "retirees": 0,
-        "detail": "seuil = 24,093 EUR ; 80 sinistres repérés"
+        "detail": "seuil = 24,108 EUR ; 80 sinistres repérés"
       },
       {
         "etape": 10,
         "nom": "Libellés harmonisés (carburant, sexe)",
-        "lignes_avant": 15903,
-        "lignes_apres": 15903,
+        "lignes_avant": 15875,
+        "lignes_apres": 15875,
         "retirees": 0,
         "detail": ""
       },
       {
         "etape": 5,
         "nom": "Valeurs manquantes (texte) remplacées par « inconnu »",
-        "lignes_avant": 15903,
-        "lignes_apres": 15903,
+        "lignes_avant": 15875,
+        "lignes_apres": 15875,
         "retirees": 0,
-        "detail": "15903 valeurs remplacées ; les colonnes numériques manquantes restent vides"
+        "detail": "15875 valeurs remplacées ; les colonnes numériques manquantes restent vides"
       }
     ],
     "it_eumtpl": [
@@ -151,58 +151,58 @@
         "detail": ""
       },
       {
-        "etape": 2,
-        "nom": "Coûts négatifs ou nuls retirés",
-        "lignes_avant": 183644,
-        "lignes_apres": 183630,
-        "retirees": 14,
-        "detail": "13 montants négatifs"
-      },
-      {
         "etape": 12,
         "nom": "Conversion EUR -> EUR (taux 1.0)",
-        "lignes_avant": 183630,
-        "lignes_apres": 183630,
+        "lignes_avant": 183644,
+        "lignes_apres": 183644,
         "retirees": 0,
         "detail": ""
       },
       {
         "etape": 3,
         "nom": "Coût moyen par sinistre calculé",
-        "lignes_avant": 183630,
-        "lignes_apres": 183630,
+        "lignes_avant": 183644,
+        "lignes_apres": 183644,
         "retirees": 0,
         "detail": ""
       },
       {
+        "etape": 2,
+        "nom": "Coûts négatifs, nuls ou inférieurs à 10 € retirés",
+        "lignes_avant": 183644,
+        "lignes_apres": 183618,
+        "retirees": 26,
+        "detail": "13 négatifs ; 12 coûts inférieurs à 10 €"
+      },
+      {
         "etape": 7,
         "nom": "Valeurs impossibles",
-        "lignes_avant": 183630,
-        "lignes_apres": 183630,
+        "lignes_avant": 183618,
+        "lignes_apres": 183618,
         "retirees": 0,
         "detail": "14 valeurs mises à vide (âge, puissance, âge véhicule) ; expositions nulles retirées"
       },
       {
         "etape": 8,
         "nom": "Sinistres extrêmes repérés (> 99,5e centile)",
-        "lignes_avant": 183630,
-        "lignes_apres": 183630,
+        "lignes_avant": 183618,
+        "lignes_apres": 183618,
         "retirees": 0,
-        "detail": "seuil = 19,765 EUR ; 919 sinistres repérés"
+        "detail": "seuil = 19,766 EUR ; 919 sinistres repérés"
       },
       {
         "etape": 10,
         "nom": "Libellés harmonisés (carburant, sexe)",
-        "lignes_avant": 183630,
-        "lignes_apres": 183630,
+        "lignes_avant": 183618,
+        "lignes_apres": 183618,
         "retirees": 0,
         "detail": ""
       },
       {
         "etape": 5,
         "nom": "Valeurs manquantes (texte) remplacées par « inconnu »",
-        "lignes_avant": 183630,
-        "lignes_apres": 183630,
+        "lignes_avant": 183618,
+        "lignes_apres": 183618,
         "retirees": 0,
         "detail": "0 valeurs remplacées ; les colonnes numériques manquantes restent vides"
       }
@@ -225,14 +225,6 @@
         "detail": ""
       },
       {
-        "etape": 2,
-        "nom": "Coûts négatifs ou nuls retirés",
-        "lignes_avant": 18276,
-        "lignes_apres": 18276,
-        "retirees": 0,
-        "detail": "0 montants négatifs"
-      },
-      {
         "etape": 12,
         "nom": "Conversion EUR -> EUR (taux 1.0)",
         "lignes_avant": 18276,
@@ -249,34 +241,42 @@
         "detail": ""
       },
       {
+        "etape": 2,
+        "nom": "Coûts négatifs, nuls ou inférieurs à 10 € retirés",
+        "lignes_avant": 18276,
+        "lignes_apres": 18151,
+        "retirees": 125,
+        "detail": "0 négatifs ; 125 coûts inférieurs à 10 €"
+      },
+      {
         "etape": 7,
         "nom": "Valeurs impossibles",
-        "lignes_avant": 18276,
-        "lignes_apres": 18276,
+        "lignes_avant": 18151,
+        "lignes_apres": 18151,
         "retirees": 0,
         "detail": "0 valeurs mises à vide (âge, puissance, âge véhicule) ; expositions nulles retirées"
       },
       {
         "etape": 8,
         "nom": "Sinistres extrêmes repérés (> 99,5e centile)",
-        "lignes_avant": 18276,
-        "lignes_apres": 18276,
+        "lignes_avant": 18151,
+        "lignes_apres": 18151,
         "retirees": 0,
         "detail": "seuil = 24,789 EUR ; 88 sinistres repérés"
       },
       {
         "etape": 10,
         "nom": "Libellés harmonisés (carburant, sexe)",
-        "lignes_avant": 18276,
-        "lignes_apres": 18276,
+        "lignes_avant": 18151,
+        "lignes_apres": 18151,
         "retirees": 0,
         "detail": ""
       },
       {
         "etape": 5,
         "nom": "Valeurs manquantes (texte) remplacées par « inconnu »",
-        "lignes_avant": 18276,
-        "lignes_apres": 18276,
+        "lignes_avant": 18151,
+        "lignes_apres": 18151,
         "retirees": 0,
         "detail": "0 valeurs remplacées ; les colonnes numériques manquantes restent vides"
       }
@@ -289,14 +289,6 @@
         "lignes_apres": 8444,
         "retirees": 175555,
         "detail": ""
-      },
-      {
-        "etape": 2,
-        "nom": "Coûts négatifs ou nuls retirés",
-        "lignes_avant": 8444,
-        "lignes_apres": 8444,
-        "retirees": 0,
-        "detail": "0 montants négatifs"
       },
       {
         "etape": 12,
@@ -315,36 +307,44 @@
         "detail": ""
       },
       {
+        "etape": 2,
+        "nom": "Coûts négatifs, nuls ou inférieurs à 10 € retirés",
+        "lignes_avant": 8444,
+        "lignes_apres": 8416,
+        "retirees": 28,
+        "detail": "0 négatifs ; 28 coûts inférieurs à 10 €"
+      },
+      {
         "etape": 7,
         "nom": "Valeurs impossibles",
-        "lignes_avant": 8444,
-        "lignes_apres": 8444,
+        "lignes_avant": 8416,
+        "lignes_apres": 8416,
         "retirees": 0,
         "detail": "0 valeurs mises à vide (âge, puissance, âge véhicule) ; expositions nulles retirées"
       },
       {
         "etape": 8,
         "nom": "Sinistres extrêmes repérés (> 99,5e centile)",
-        "lignes_avant": 8444,
-        "lignes_apres": 8444,
+        "lignes_avant": 8416,
+        "lignes_apres": 8416,
         "retirees": 0,
-        "detail": "seuil = 19,494 EUR ; 43 sinistres repérés"
+        "detail": "seuil = 19,547 EUR ; 43 sinistres repérés"
       },
       {
         "etape": 10,
         "nom": "Libellés harmonisés (carburant, sexe)",
-        "lignes_avant": 8444,
-        "lignes_apres": 8444,
+        "lignes_avant": 8416,
+        "lignes_apres": 8416,
         "retirees": 0,
         "detail": ""
       },
       {
         "etape": 5,
         "nom": "Valeurs manquantes (texte) remplacées par « inconnu »",
-        "lignes_avant": 8444,
-        "lignes_apres": 8444,
+        "lignes_avant": 8416,
+        "lignes_apres": 8416,
         "retirees": 0,
-        "detail": "8444 valeurs remplacées ; les colonnes numériques manquantes restent vides"
+        "detail": "8416 valeurs remplacées ; les colonnes numériques manquantes restent vides"
       }
     ],
     "se_swmotorcycle": [
@@ -355,14 +355,6 @@
         "lignes_apres": 670,
         "retirees": 63878,
         "detail": ""
-      },
-      {
-        "etape": 2,
-        "nom": "Coûts négatifs ou nuls retirés",
-        "lignes_avant": 670,
-        "lignes_apres": 670,
-        "retirees": 0,
-        "detail": "0 montants négatifs"
       },
       {
         "etape": 12,
@@ -381,36 +373,44 @@
         "detail": ""
       },
       {
-        "etape": 7,
-        "nom": "Valeurs impossibles",
+        "etape": 2,
+        "nom": "Coûts négatifs, nuls ou inférieurs à 10 € retirés",
         "lignes_avant": 670,
         "lignes_apres": 666,
+        "retirees": 4,
+        "detail": "0 négatifs ; 4 coûts inférieurs à 10 €"
+      },
+      {
+        "etape": 7,
+        "nom": "Valeurs impossibles",
+        "lignes_avant": 666,
+        "lignes_apres": 662,
         "retirees": 4,
         "detail": "0 valeurs mises à vide (âge, puissance, âge véhicule) ; expositions nulles retirées"
       },
       {
         "etape": 8,
         "nom": "Sinistres extrêmes repérés (> 99,5e centile)",
-        "lignes_avant": 666,
-        "lignes_apres": 666,
+        "lignes_avant": 662,
+        "lignes_apres": 662,
         "retirees": 0,
-        "detail": "seuil = 18,969 EUR ; 4 sinistres repérés"
+        "detail": "seuil = 18,973 EUR ; 4 sinistres repérés"
       },
       {
         "etape": 10,
         "nom": "Libellés harmonisés (carburant, sexe)",
-        "lignes_avant": 666,
-        "lignes_apres": 666,
+        "lignes_avant": 662,
+        "lignes_apres": 662,
         "retirees": 0,
         "detail": ""
       },
       {
         "etape": 5,
         "nom": "Valeurs manquantes (texte) remplacées par « inconnu »",
-        "lignes_avant": 666,
-        "lignes_apres": 666,
+        "lignes_avant": 662,
+        "lignes_apres": 662,
         "retirees": 0,
-        "detail": "666 valeurs remplacées ; les colonnes numériques manquantes restent vides"
+        "detail": "662 valeurs remplacées ; les colonnes numériques manquantes restent vides"
       }
     ]
   }

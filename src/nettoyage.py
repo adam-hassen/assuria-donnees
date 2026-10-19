@@ -71,25 +71,68 @@ R = Rapport()
 
 
 # ------------------------------------------------------------------ étapes communes
-def etapes_communes(df: pd.DataFrame, src: str, devise: str) -> pd.DataFrame:
-    """Étapes 2, 7, 8, 10 et 12 appliquées à toutes les sources, une fois les colonnes renommées."""
-    # 2. Coûts négatifs ou nuls : ce ne sont pas des coûts de sinistres
-    n = len(df)
-    nb_neg = int((df["cout_total_eur"] < 0).sum())
-    df = df[(df["cout_total_eur"] > 0) & (df["nb_sinistres"] > 0)]
-    R.etape(src, 2, "Coûts négatifs ou nuls retirés", n, len(df), f"{nb_neg} montants négatifs")
+BRUTS: dict[str, pd.DataFrame] = {}  # données brutes harmonisées, avec les anomalies repérées
+COUT_MIN = float(CONFIG.get("cout_minimum_eur", 10))
 
-    # 12. Conversion en euros
+
+def harmoniser_libelles(df: pd.DataFrame) -> pd.DataFrame:
+    """Étape 10 : libellés communs (carburant, sexe). Appliquée aussi aux données brutes pour les comparer."""
+    df = df.copy()
+    if "carburant" in df:
+        df["carburant"] = df["carburant"].astype("string").map(
+            lambda v: CARBURANT.get(str(v).lower(), v) if pd.notna(v) else v)
+    if "sexe" in df:
+        df["sexe"] = df["sexe"].astype("string").str.lower().map(lambda v: SEXE.get(v, v) if pd.notna(v) else v)
+    if "age_conducteur" in df and "jeune_conducteur" not in df:
+        df["jeune_conducteur"] = df["age_conducteur"] < 26
+    return df
+
+
+def reperer_anomalies(df: pd.DataFrame) -> pd.DataFrame:
+    """Ajoute une colonne booléenne par type d'anomalie (sans rien supprimer)."""
+    col = lambda c: df[c] if c in df else pd.Series(np.nan, index=df.index)
+    a = pd.DataFrame(index=df.index)
+    a["anom_cout_negatif"] = col("cout_total_eur") < 0
+    a["anom_cout_nul"] = col("cout_total_eur") == 0
+    a["anom_cout_minuscule"] = (col("cout_moyen_eur") > 0) & (col("cout_moyen_eur") < COUT_MIN)
+    a["anom_age_impossible"] = (col("age_conducteur") < 16) | (col("age_conducteur") > 100)
+    a["anom_puissance_impossible"] = (col("puissance_ch") <= 0) | (col("puissance_ch") > 1000)
+    a["anom_age_vehicule_impossible"] = (col("age_vehicule") < 0) | (col("age_vehicule") > 60)
+    a["anom_exposition_nulle"] = col("exposition").notna() & (col("exposition") <= 0)
+    pos = col("cout_moyen_eur")[col("cout_moyen_eur") > 0]
+    seuil = pos.quantile(0.995) if len(pos) else np.inf
+    a["anom_cout_extreme"] = col("cout_moyen_eur") > seuil
+    out = pd.concat([df, a], axis=1)
+    out["nb_anomalies"] = a.sum(axis=1)
+    return out
+
+
+def etapes_communes(df: pd.DataFrame, src: str, devise: str) -> pd.DataFrame:
+    """Conversion, coût moyen, repérage des anomalies (copie brute gardée), puis nettoyage."""
+    # 12. Conversion en euros (avant tout, pour comparer brut et nettoyé dans la même unité)
     taux = TAUX.get(devise, 1.0)
     df = df.assign(cout_total_eur=df["cout_total_eur"] * taux)
     R.etape(src, 12, f"Conversion {devise} -> EUR (taux {taux})", len(df), len(df))
 
     # 3. Coût moyen par sinistre (variable à prédire)
-    df = df.assign(cout_moyen_eur=df["cout_total_eur"] / df["nb_sinistres"])
+    nb = df["nb_sinistres"].where(df["nb_sinistres"] > 0)
+    df = df.assign(cout_moyen_eur=df["cout_total_eur"] / nb)
     R.etape(src, 3, "Coût moyen par sinistre calculé", len(df), len(df))
+
+    # Copie BRUTE avec anomalies repérées (pour le dashboard)
+    BRUTS[src] = harmoniser_libelles(reperer_anomalies(df))
+
+    # 2. Coûts négatifs, nuls ou minuscules
+    n = len(df)
+    nb_neg = int((df["cout_total_eur"] < 0).sum())
+    nb_min = int(((df["cout_moyen_eur"] > 0) & (df["cout_moyen_eur"] < COUT_MIN)).sum())
+    df = df[(df["cout_total_eur"] > 0) & (df["nb_sinistres"] > 0) & (df["cout_moyen_eur"] >= COUT_MIN)]
+    R.etape(src, 2, f"Coûts négatifs, nuls ou inférieurs à {COUT_MIN:.0f} € retirés", n, len(df),
+            f"{nb_neg} négatifs ; {nb_min} coûts inférieurs à {COUT_MIN:.0f} €")
 
     # 7. Valeurs impossibles : mises à vide (âge, puissance) ou lignes retirées (exposition nulle)
     n = len(df)
+    df = df.copy()
     imposs = 0
     if "age_conducteur" in df:
         m = (df["age_conducteur"] < 16) | (df["age_conducteur"] > 100)
@@ -112,13 +155,7 @@ def etapes_communes(df: pd.DataFrame, src: str, devise: str) -> pd.DataFrame:
             f"seuil = {seuil:,.0f} EUR ; {int(df['sinistre_extreme'].sum())} sinistres repérés")
 
     # 10. Libellés communs
-    if "carburant" in df:
-        df["carburant"] = df["carburant"].astype("string").map(
-            lambda v: CARBURANT.get(str(v).lower(), v) if pd.notna(v) else v)
-    if "sexe" in df:
-        df["sexe"] = df["sexe"].astype("string").str.lower().map(lambda v: SEXE.get(v, v) if pd.notna(v) else v)
-    if "age_conducteur" in df and "jeune_conducteur" not in df:
-        df["jeune_conducteur"] = df["age_conducteur"] < 26
+    df = harmoniser_libelles(df)
     R.etape(src, 10, "Libellés harmonisés (carburant, sexe)", len(df), len(df))
     return df
 
@@ -353,6 +390,23 @@ def main() -> int:
     extra = [c for c in final.columns if c not in COLONNES]
     final = final[COLONNES + extra]
     final.to_parquet(CLEAN / "sinistres_europe.parquet", index=False)
+
+    # Données brutes harmonisées (lignes avec un montant de sinistre, AVANT nettoyage), anomalies repérées
+    bruts = []
+    for sid, b in BRUTS.items():
+        b = b.copy()
+        b["source"], b["pays"] = sid, infos[sid]["pays"]
+        if "type" not in b or b["type"].isna().all():
+            b["type"] = infos[sid]["type"]
+        if sid == "it_eumtpl":  # « NA » = Naples : faux manquant que l'on a évité
+            b["faux_manquant_naples"] = b["zone"].astype("string") == "NA"
+        bruts.append(b)
+    brut = pd.concat(bruts, ignore_index=True)
+    for c in ["sexe", "carburant", "usage", "zone"]:
+        if c in brut:
+            brut[c] = brut[c].astype("string")
+    brut.to_parquet(CLEAN / "sinistres_bruts.parquet", index=False)
+    log(f"Fichier brut : {len(brut):,} lignes, {int((brut['nb_anomalies'] > 0).sum()):,} avec au moins une anomalie")
     R.sauver(CLEAN / "rapport_nettoyage.json")
     (CLEAN / "qualite_brute.json").write_text(json.dumps(profil_qualite(), indent=1, ensure_ascii=False), encoding="utf-8")
     log(f"Fichier final : {len(final):,} sinistres, {final['pays'].nunique()} pays -> data/clean/sinistres_europe.parquet")

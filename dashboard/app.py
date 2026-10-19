@@ -1,7 +1,9 @@
 """
-Dashboard d'exploration des données de sinistres auto et moto (objectif 3).
+Dashboard des données de sinistres auto et moto (projet AssurIA, objectif 3).
 
-Les données sont lues DIRECTEMENT depuis le dépôt GitHub (rien à télécharger sur son PC).
+Chaque graphe répond à une question précise, utile pour décider du nettoyage ou de la modélisation.
+Les données sont lues directement dans le dépôt GitHub (rien à télécharger sur son PC).
+
 Lancement local :  streamlit run dashboard/app.py
 """
 from __future__ import annotations
@@ -14,21 +16,61 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 import requests
 import streamlit as st
 
-# ------------------------------------------------------------------ source des données
-DEPOT = os.environ.get("DEPOT_GITHUB", "adam-hassen/assuria-donnees")  # propriétaire/nom du dépôt
+# ------------------------------------------------------------------ configuration
+DEPOT = os.environ.get("DEPOT_GITHUB", "adam-hassen/assuria-donnees")
 BRANCHE = os.environ.get("BRANCHE", "main")
 URL_DEPOT = f"https://raw.githubusercontent.com/{DEPOT}/{BRANCHE}/data"
 LOCAL = Path(__file__).resolve().parents[1] / "data"
-MODE = os.environ.get("SOURCE_DONNEES", "github")  # "github" ou "local"
+MODE = os.environ.get("SOURCE_DONNEES", "github")
 
-st.set_page_config(page_title="AssurIA · Données sinistres", layout="wide")
+ENCRE, MUET, FOND, ACCENT = "#14213D", "#6B7280", "#F5F7FA", "#0E7C66"
+COULEURS_PAYS = {"France": "#2E5EAA", "Italie": "#0E7C66", "Belgique": "#C8963E",
+                 "Norvège": "#B5485D", "Suède": "#6B5CA5", "Espagne": "#D9822B"}
+ANOMALIES = {
+    "anom_cout_negatif": ("Coût négatif", "Remboursement récupéré par l'assureur, pas un coût.", "Ligne retirée"),
+    "anom_cout_nul": ("Coût nul", "Sinistre déclaré sans aucun montant.", "Ligne retirée"),
+    "anom_cout_minuscule": ("Coût < 10 €", "Montant trop faible pour un vrai sinistre (frais, arrondi).", "Ligne retirée"),
+    "anom_age_impossible": ("Âge impossible", "Âge du conducteur < 16 ou > 100 ans.", "Valeur mise à vide"),
+    "anom_puissance_impossible": ("Puissance impossible", "Puissance ≤ 0 ou > 1 000 ch.", "Valeur mise à vide"),
+    "anom_age_vehicule_impossible": ("Âge véhicule impossible", "Âge du véhicule < 0 ou > 60 ans.", "Valeur mise à vide"),
+    "anom_exposition_nulle": ("Exposition nulle", "Contrat d'une durée nulle.", "Ligne retirée"),
+    "anom_cout_extreme": ("Coût extrême", "Au-delà du 99,5e centile de sa source.", "Gardé et repéré"),
+}
+VARIABLES = {"age_conducteur": "Âge conducteur", "sexe": "Sexe", "age_vehicule": "Âge véhicule",
+             "puissance_ch": "Puissance (ch)", "carburant": "Carburant", "usage": "Usage",
+             "zone": "Zone", "bonus_malus": "Bonus-malus", "exposition": "Exposition"}
+
+st.set_page_config(page_title="AssurIA · Sinistres", page_icon="📊", layout="wide")
+
+st.markdown(f"""
+<style>
+  .block-container {{padding-top: 3.5rem; max-width: 1400px;}}
+  h1, h2, h3 {{color: {ENCRE}; letter-spacing: -0.01em;}}
+  .entete {{border-bottom: 2px solid {ENCRE}; padding-bottom: .6rem; margin-bottom: 1.2rem;}}
+  .entete .sur {{color: {ACCENT}; font-size: .78rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;}}
+  .entete h1 {{font-size: 2rem; margin: .2rem 0 0;}}
+  .kpi {{background: white; border: 1px solid #E3E6EB; border-radius: 10px; padding: 14px 18px;}}
+  .kpi .l {{color: {MUET}; font-size: .78rem; text-transform: uppercase; letter-spacing: .06em;}}
+  .kpi .v {{color: {ENCRE}; font-size: 1.7rem; font-weight: 700; line-height: 1.2;}}
+  .kpi .s {{color: {MUET}; font-size: .8rem;}}
+  .carte {{background: white; border: 1px solid #E3E6EB; border-radius: 10px; padding: 16px 18px 4px; margin-bottom: 16px;}}
+  .carte .q {{color: {ENCRE}; font-weight: 700; font-size: 1.05rem;}}
+  .carte .o {{color: {MUET}; font-size: .85rem; margin: 2px 0 4px;}}
+  .retenir {{background: #E7F4F0; border-left: 3px solid {ACCENT}; border-radius: 0 6px 6px 0;
+             padding: 8px 12px; font-size: .88rem; color: {ENCRE}; margin: 4px 0 14px;}}
+  .alerte {{background: #FDF4E6; border-left: 3px solid #9A5B0B; border-radius: 0 6px 6px 0;
+            padding: 8px 12px; font-size: .88rem; color: {ENCRE}; margin: 4px 0 14px;}}
+  div[data-testid="stTabs"] button p {{font-size: 1rem; font-weight: 600;}}
+</style>""", unsafe_allow_html=True)
 
 
+# ------------------------------------------------------------------ données
 @st.cache_data(ttl=3600, show_spinner="Chargement des données depuis le dépôt…")
-def lire_octets(chemin: str) -> bytes:
+def octets(chemin: str) -> bytes:
     if MODE == "local":
         return (LOCAL / chemin).read_bytes()
     r = requests.get(f"{URL_DEPOT}/{chemin}", timeout=120)
@@ -38,141 +80,279 @@ def lire_octets(chemin: str) -> bytes:
 
 @st.cache_data(ttl=3600)
 def charger():
-    df = pd.read_parquet(io.BytesIO(lire_octets("clean/sinistres_europe.parquet")))
-    rapport = json.loads(lire_octets("clean/rapport_nettoyage.json"))
-    qualite = json.loads(lire_octets("clean/qualite_brute.json"))
-    manifest = json.loads(lire_octets("raw/manifest.json"))
-    return df, rapport, qualite, manifest
+    propre = pd.read_parquet(io.BytesIO(octets("clean/sinistres_europe.parquet")))
+    brut = pd.read_parquet(io.BytesIO(octets("clean/sinistres_bruts.parquet")))
+    rapport = json.loads(octets("clean/rapport_nettoyage.json"))
+    manifest = json.loads(octets("raw/manifest.json"))
+    return propre, brut, rapport, manifest
 
 
 try:
-    df, rapport, qualite, manifest = charger()
+    propre, brut, rapport, manifest = charger()
 except Exception as e:
     st.error(f"Impossible de lire les données ({MODE}) : {e}")
     st.stop()
 
-# ------------------------------------------------------------------ filtres
-st.sidebar.title("AssurIA")
-st.sidebar.caption("Objectif 3 · Coût des sinistres")
-pays = st.sidebar.multiselect("Pays", sorted(df["pays"].unique()), default=sorted(df["pays"].unique()))
-types = st.sidebar.multiselect("Type", sorted(df["type"].unique()), default=sorted(df["type"].unique()))
-sans_extremes = st.sidebar.toggle("Exclure les sinistres extrêmes", value=False)
+
+# ------------------------------------------------------------------ outils d'affichage
+def euros(x: float) -> str:
+    return f"{x:,.0f} €".replace(",", " ")
+
+
+def nombre(x: float) -> str:
+    return f"{x:,.0f}".replace(",", " ")
+
+
+def kpis(valeurs: list[tuple[str, str, str]]) -> None:
+    for col, (l, v, s) in zip(st.columns(len(valeurs)), valeurs):
+        col.markdown(f'<div class="kpi"><div class="l">{l}</div><div class="v">{v}</div><div class="s">{s}</div></div>',
+                     unsafe_allow_html=True)
+    st.write("")
+
+
+def mise_en_forme(fig: go.Figure, hauteur: int = 380) -> go.Figure:
+    fig.update_layout(template="simple_white", height=hauteur, margin=dict(l=10, r=10, t=10, b=10),
+                      font=dict(family="Inter, sans-serif", color=ENCRE, size=13),
+                      legend=dict(orientation="h", yanchor="bottom", y=1.02, x=0, title=None),
+                      hoverlabel=dict(bgcolor="white"))
+    fig.update_xaxes(showgrid=False)
+    fig.update_yaxes(gridcolor="#EEF0F3", showgrid=True)
+    return fig
+
+
+def graphe(question: str, objectif: str, fig: go.Figure, retenir: str = "", alerte: bool = False,
+           hauteur: int = 380) -> None:
+    st.markdown(f'<div class="carte"><div class="q">{question}</div><div class="o">Objectif : {objectif}</div></div>',
+                unsafe_allow_html=True)
+    st.plotly_chart(mise_en_forme(fig, hauteur), use_container_width=True, config={"displayModeBar": False})
+    if retenir:
+        st.markdown(f'<div class="{"alerte" if alerte else "retenir"}"><b>À retenir :</b> {retenir}</div>',
+                    unsafe_allow_html=True)
+
+
+def mediane_par_tranche(d: pd.DataFrame, var: str, n: int = 8) -> pd.DataFrame:
+    morceaux = []
+    for p, g in d[d[var].notna()].groupby("pays"):
+        if g[var].nunique() < 3:
+            continue
+        g = g.assign(tranche=pd.qcut(g[var], q=n, duplicates="drop"))
+        m = g.groupby("tranche", observed=True).agg(x=(var, "median"), cout=("cout_moyen_eur", "median"),
+                                                     n=("cout_moyen_eur", "size")).reset_index(drop=True)
+        morceaux.append(m.assign(pays=p))
+    return pd.concat(morceaux) if morceaux else pd.DataFrame(columns=["x", "cout", "n", "pays"])
+
+
+# ------------------------------------------------------------------ barre latérale
+st.sidebar.markdown(f"### AssurIA\n<span style='color:{MUET}'>Objectif 3 · Coût des sinistres</span>",
+                    unsafe_allow_html=True)
+tous_pays = sorted(brut["pays"].unique())
+pays = st.sidebar.multiselect("Pays", tous_pays, default=tous_pays)
+types = st.sidebar.multiselect("Type de véhicule", sorted(brut["type"].unique()), default=sorted(brut["type"].unique()))
 st.sidebar.divider()
-st.sidebar.caption(f"Données : {'dépôt ' + DEPOT if MODE == 'github' else 'dossier local'}")
-derniere = max((v.get("collecte_le", "") for v in manifest.values()), default="?")
+derniere = max((v.get("collecte_le", "") for v in manifest.values()), default="")
+st.sidebar.caption(f"Source : {'dépôt ' + DEPOT if MODE == 'github' else 'dossier local'}")
 st.sidebar.caption(f"Dernière collecte : {derniere[:16].replace('T', ' ')}")
+st.sidebar.caption(f"Nettoyage : {rapport['genere_le'][:16].replace('T', ' ')}")
 
-f = df[df["pays"].isin(pays) & df["type"].isin(types)]
-if sans_extremes:
-    f = f[~f["sinistre_extreme"]]
+B = brut[brut["pays"].isin(pays) & brut["type"].isin(types)]
+P = propre[propre["pays"].isin(pays) & propre["type"].isin(types)]
+couleurs = {p: COULEURS_PAYS.get(p, MUET) for p in tous_pays}
 
-st.title("Données de sinistres auto et moto en Europe")
-onglets = st.tabs(["Vue d'ensemble", "Qualité des données brutes", "Coûts", "Explorer une variable",
-                   "Nettoyage", "Données"])
+st.markdown('<div class="entete"><div class="sur">Projet AssurIA · Objectif 3</div>'
+            '<h1>Sinistres auto et moto en Europe</h1></div>', unsafe_allow_html=True)
 
-# ------------------------------------------------------------------ 1. vue d'ensemble
-with onglets[0]:
-    c = st.columns(4)
-    c[0].metric("Sinistres", f"{len(f):,}".replace(",", " "))
-    c[1].metric("Pays", f["pays"].nunique())
-    c[2].metric("Coût médian", f"{f['cout_moyen_eur'].median():,.0f} €".replace(",", " "))
-    c[3].metric("Coût moyen", f"{f['cout_moyen_eur'].mean():,.0f} €".replace(",", " "))
+onglet_brut, onglet_propre, onglet_avap, onglet_detail = st.tabs(
+    ["Données brutes et anomalies", "Données nettoyées", "Avant / après nettoyage", "Détail du nettoyage"])
+
+# ================================================================== 1. DONNÉES BRUTES
+with onglet_brut:
+    cols_anom = [c for c in ANOMALIES if c in B]
+    avec_anom = int((B["nb_anomalies"] > 0).sum())
+    naples = int(B.get("faux_manquant_naples", pd.Series(dtype=bool)).fillna(False).sum())
+    kpis([("Lignes brutes", nombre(len(B)), "lignes avec un montant de sinistre"),
+          ("Lignes avec anomalie", nombre(avec_anom), f"{100 * avec_anom / max(len(B), 1):.1f} % des lignes"),
+          ("Types d'anomalies", str(int((B[cols_anom].sum() > 0).sum())), f"sur {len(cols_anom)} contrôlés"),
+          ("Faux manquants évités", nombre(naples), "« NA » = Naples, pas une valeur vide")])
+
+    # --- Rapport d'anomalies
+    st.subheader("Rapport des anomalies")
+    rapport_anom = []
+    for c in cols_anom:
+        nom, desc, decision = ANOMALIES[c]
+        n = int(B[c].sum())
+        rapport_anom.append({"Anomalie": nom, "Lignes": n, "% des lignes": round(100 * n / max(len(B), 1), 2),
+                             "Pays concernés": ", ".join(B.loc[B[c], "pays"].unique()) or "aucun",
+                             "Description": desc, "Décision": decision})
+    st.dataframe(pd.DataFrame(rapport_anom).sort_values("Lignes", ascending=False), hide_index=True,
+                 use_container_width=True)
 
     g1, g2 = st.columns(2)
-    par_pays = f.groupby(["pays", "type"]).size().reset_index(name="sinistres")
-    g1.plotly_chart(px.bar(par_pays, x="pays", y="sinistres", color="type", title="Nombre de sinistres par pays"),
-                    use_container_width=True)
-    med = f.groupby("pays")["cout_moyen_eur"].median().sort_values().reset_index()
-    g2.plotly_chart(px.bar(med, x="cout_moyen_eur", y="pays", orientation="h",
-                           title="Coût médian d'un sinistre (€)", labels={"cout_moyen_eur": "€"}),
-                    use_container_width=True)
+    with g1:
+        heat = B.groupby("pays")[cols_anom].mean().mul(100).rename(columns={c: ANOMALIES[c][0] for c in cols_anom})
+        cnt = B.groupby("pays")[cols_anom].sum().rename(columns={c: ANOMALIES[c][0] for c in cols_anom})
+        fig = px.imshow(heat.T, color_continuous_scale=["#FFFFFF", "#F2C48D", "#B5485D"], aspect="auto",
+                        labels=dict(color="% lignes"))
+        fig.update_traces(text=cnt.T.values, texttemplate="%{text}", hovertemplate="%{y} · %{x}<br>%{z:.2f} % des lignes")
+        pire = cnt.stack().idxmax() if cnt.values.sum() else None
+        graphe("Où se concentrent les anomalies ?",
+               "repérer, pays par pays, les problèmes à traiter avant de nettoyer.", fig,
+               f"l'anomalie la plus fréquente est « {pire[1]} » en {pire[0]} ({nombre(cnt.stack().max())} lignes)."
+               if pire else "aucune anomalie avec ces filtres.")
+    with g2:
+        manq = B.groupby("pays")[list(VARIABLES)].apply(lambda d: d.isna().mean() * 100)
+        manq = manq.rename(columns=VARIABLES)
+        fig = px.imshow(manq.T.round(0), color_continuous_scale=["#FFFFFF", "#9FB8DA", ENCRE], aspect="auto",
+                        text_auto=".0f", labels=dict(color="% manquant"), zmin=0, zmax=100)
+        partout = [VARIABLES[v] for v in VARIABLES if B.groupby("pays")[v].apply(lambda s: s.notna().mean()).min() > 0.95]
+        graphe("Quelles informations manquent selon le pays ?",
+               "savoir quelles variables seront exploitables dans tous les pays.", fig,
+               "variables présentes partout : " + (", ".join(partout) if partout else "aucune")
+               + ". Les autres n'existent que dans certaines sources.")
 
-    st.subheader("Fichiers collectés")
-    st.dataframe(pd.DataFrame([{"fichier": k, "pays": v.get("pays"), "lignes": v.get("lignes"),
-                                "colonnes": len(v.get("colonnes", [])), "collecté le": v.get("collecte_le", "")[:16]}
-                               for k, v in manifest.items()]), hide_index=True, use_container_width=True)
+    pos = B[B["cout_moyen_eur"] > 0]
+    fig = px.histogram(pos, x=np.log10(pos["cout_moyen_eur"]), color="pays", nbins=120, barmode="overlay",
+                       opacity=0.6, color_discrete_map=couleurs, labels={"x": "Coût moyen par sinistre (€, échelle log)"})
+    fig.add_vline(x=1, line_dash="dash", line_color="#9A5B0B", annotation_text="10 € (seuil minimum)",
+                  annotation_position="top left")
+    if len(pos):
+        p995 = pos["cout_moyen_eur"].quantile(0.995)
+        fig.add_vline(x=np.log10(p995), line_dash="dash", line_color="#B5485D",
+                      annotation_text=f"{euros(p995)} (extrêmes)", annotation_position="top right")
+    fig.update_xaxes(tickvals=[0, 1, 2, 3, 4, 5, 6], ticktext=["1 €", "10 €", "100 €", "1 k€", "10 k€", "100 k€", "1 M€"])
+    neg = int((B["cout_total_eur"] <= 0).sum())
+    graphe("Les coûts aberrants sont-ils nombreux par rapport à la masse des sinistres ?",
+           "situer les coûts minuscules et extrêmes avant de fixer les seuils de nettoyage.", fig,
+           f"la grande majorité des sinistres coûte entre 100 € et 10 000 €. {nombre(neg)} lignes ont un coût négatif ou nul "
+           "(non visibles sur l'échelle log) et seront retirées.", alerte=neg > 0, hauteur=360)
 
-# ------------------------------------------------------------------ 2. qualité brute
-with onglets[1]:
-    st.caption("Profil des fichiers bruts, avant nettoyage : à utiliser pour décider quoi nettoyer.")
-    fichier = st.selectbox("Fichier brut", list(qualite.keys()))
-    q = qualite[fichier]
-    c = st.columns(3)
-    c[0].metric("Lignes", f"{q['lignes']:,}".replace(",", " "))
-    c[1].metric("Colonnes", q["colonnes"])
-    c[2].metric("Lignes en double", q["doublons"])
-    tab = pd.DataFrame([{"colonne": k, **{x: v.get(x) for x in
-                        ["type", "pct_manquants", "distinctes", "min", "max", "negatifs", "zeros"]},
-                         "exemples": ", ".join(v.get("exemples", []))} for k, v in q["detail"].items()])
-    alertes = tab[(tab["pct_manquants"] > 0) | (tab["negatifs"].fillna(0) > 0)]
-    if len(alertes):
-        st.warning(f"{len(alertes)} colonne(s) avec des valeurs manquantes ou négatives : "
-                   + ", ".join(alertes["colonne"]))
-    st.dataframe(tab, hide_index=True, use_container_width=True)
-    if tab["pct_manquants"].sum() > 0:
-        st.plotly_chart(px.bar(tab[tab["pct_manquants"] > 0], x="colonne", y="pct_manquants",
-                               title="% de valeurs manquantes par colonne"), use_container_width=True)
+    with st.expander("Voir des exemples de lignes anormales"):
+        choix = st.selectbox("Type d'anomalie", [ANOMALIES[c][0] for c in cols_anom])
+        c = next(k for k in cols_anom if ANOMALIES[k][0] == choix)
+        st.dataframe(B.loc[B[c], ["pays", "source", "age_conducteur", "age_vehicule", "puissance_ch", "exposition",
+                                  "nb_sinistres", "cout_total_eur", "cout_moyen_eur"]].head(200),
+                     hide_index=True, use_container_width=True)
 
-# ------------------------------------------------------------------ 3. coûts
-with onglets[2]:
-    st.caption("Le coût est très asymétrique : l'axe est en échelle logarithmique.")
+# ================================================================== 2. DONNÉES NETTOYÉES
+with onglet_propre:
+    med = P.groupby("pays")["cout_moyen_eur"].median().sort_values()
+    kpis([("Sinistres propres", nombre(len(P)), f"{P['pays'].nunique()} pays"),
+          ("Coût médian", euros(P["cout_moyen_eur"].median()), "par sinistre"),
+          ("Coût moyen", euros(P["cout_moyen_eur"].mean()), "tiré vers le haut par les gros sinistres"),
+          ("Sinistres extrêmes", nombre(P["sinistre_extreme"].sum()), "gardés mais repérés")])
+
     g1, g2 = st.columns(2)
-    g1.plotly_chart(px.histogram(f, x="log_cout", color="pays", nbins=80, barmode="overlay", opacity=0.55,
-                                 title="Distribution du log du coût moyen par sinistre",
-                                 labels={"log_cout": "log(coût en €)"}), use_container_width=True)
-    g2.plotly_chart(px.box(f, x="pays", y="cout_moyen_eur", log_y=True, points=False,
-                           title="Coût par pays (échelle log)", labels={"cout_moyen_eur": "€"}),
-                    use_container_width=True)
-    quant = f.groupby("pays")["cout_moyen_eur"].describe(percentiles=[.25, .5, .75, .99]).round(0)
-    st.dataframe(quant, use_container_width=True)
-    st.subheader("Sinistres les plus coûteux")
-    st.dataframe(f.nlargest(20, "cout_moyen_eur")[["pays", "source", "age_conducteur", "puissance_ch",
-                                                   "zone", "nb_sinistres", "cout_moyen_eur"]],
-                 hide_index=True, use_container_width=True)
+    with g1:
+        fig = px.box(P, x="pays", y="cout_moyen_eur", color="pays", log_y=True, points=False,
+                     color_discrete_map=couleurs, category_orders={"pays": list(med.index)},
+                     labels={"cout_moyen_eur": "Coût moyen par sinistre (€, log)", "pays": ""})
+        fig.update_layout(showlegend=False)
+        graphe("Le coût d'un sinistre dépend-il du pays ?",
+               "justifier la colonne « pays » et l'harmonisation des montants.", fig,
+               f"le coût médian va de {euros(med.iloc[0])} ({med.index[0]}) à {euros(med.iloc[-1])} ({med.index[-1]}) : "
+               "le pays doit être une variable du modèle." if len(med) > 1 else "")
+    with g2:
+        fig = px.histogram(P, x="log_cout", nbins=80, color_discrete_sequence=[ACCENT],
+                           labels={"log_cout": "log(coût en €)"})
+        fig.add_vline(x=np.log(P["cout_moyen_eur"].median()), line_dash="dash", line_color=ENCRE,
+                      annotation_text="médiane")
+        graphe("Quelle forme a la variable à prédire ?",
+               "choisir la bonne transformation de la cible avant la modélisation.", fig,
+               "en échelle log, la distribution devient presque symétrique : on modélisera le log du coût, "
+               "pas le coût brut.")
 
-# ------------------------------------------------------------------ 4. explorer une variable
-with onglets[3]:
-    variables = ["age_conducteur", "age_vehicule", "puissance_ch", "bonus_malus", "exposition",
-                 "sexe", "carburant", "usage", "zone", "jeune_conducteur"]
-    v = st.selectbox("Variable", variables)
-    sous = f[f[v].notna()]
-    if sous.empty:
-        st.info("Aucune donnée pour cette variable avec les filtres choisis.")
-    elif pd.api.types.is_numeric_dtype(sous[v]) and sous[v].nunique() > 15:
-        sous = sous.assign(tranche=pd.qcut(sous[v], q=10, duplicates="drop").astype(str))
-        g1, g2 = st.columns(2)
-        g1.plotly_chart(px.histogram(sous, x=v, color="pays", barmode="overlay", opacity=0.55,
-                                     title=f"Répartition de {v}"), use_container_width=True)
-        m = sous.groupby(["pays", "tranche"], observed=True)["cout_moyen_eur"].median().reset_index()
-        g2.plotly_chart(px.line(m, x="tranche", y="cout_moyen_eur", color="pays", markers=True,
-                                title=f"Coût médian selon {v}", labels={"cout_moyen_eur": "€"}),
-                        use_container_width=True)
-    else:
-        top = sous[v].astype(str).value_counts().head(25).index
-        sous = sous[sous[v].astype(str).isin(top)].assign(valeur=lambda d: d[v].astype(str))
-        g1, g2 = st.columns(2)
-        g1.plotly_chart(px.histogram(sous, x="valeur", color="pays", title=f"Valeurs de {v}"),
-                        use_container_width=True)
-        m = sous.groupby(["pays", "valeur"])["cout_moyen_eur"].median().reset_index()
-        g2.plotly_chart(px.bar(m, x="valeur", y="cout_moyen_eur", color="pays", barmode="group",
-                               title=f"Coût médian selon {v}", labels={"cout_moyen_eur": "€"}),
-                        use_container_width=True)
-    dispo = f.groupby("pays")[variables].apply(lambda d: d.notna().mean().round(2) * 100)
-    st.subheader("Disponibilité des variables par pays (%)")
-    st.dataframe(dispo, use_container_width=True)
+    g1, g2 = st.columns(2)
+    with g1:
+        m = mediane_par_tranche(P, "age_conducteur")
+        fig = px.line(m, x="x", y="cout", color="pays", markers=True, color_discrete_map=couleurs,
+                      labels={"x": "Âge du conducteur", "cout": "Coût médian (€)"})
+        graphe("Le coût varie-t-il avec l'âge du conducteur ?",
+               "vérifier que l'âge est une variable utile pour prédire le coût.", fig,
+               "si les courbes descendent avec l'âge, les jeunes conducteurs ont des sinistres plus coûteux.")
+    with g2:
+        m = mediane_par_tranche(P, "puissance_ch")
+        fig = px.line(m, x="x", y="cout", color="pays", markers=True, color_discrete_map=couleurs,
+                      labels={"x": "Puissance (ch)", "cout": "Coût médian (€)"})
+        graphe("Les véhicules puissants coûtent-ils plus cher en sinistre ?",
+               "vérifier que la puissance apporte de l'information au modèle.", fig,
+               "disponible seulement pour les pays où la puissance est connue en chevaux.")
 
-# ------------------------------------------------------------------ 5. nettoyage
-with onglets[4]:
-    st.caption(f"Rapport généré le {rapport['genere_le'][:16].replace('T', ' ')}")
-    for src, etapes in rapport["sources"].items():
-        e = pd.DataFrame(etapes).sort_values("etape")
+    g1, g2 = st.columns(2)
+    with g1:
+        m = mediane_par_tranche(P, "bonus_malus", n=6)
+        fig = px.line(m, x="x", y="cout", color="pays", markers=True, color_discrete_map=couleurs,
+                      labels={"x": "Bonus-malus (échelle propre à chaque pays)", "cout": "Coût médian (€)"})
+        graphe("Le bonus-malus est-il lié au coût des sinistres ?",
+               "décider si le bonus-malus doit être harmonisé entre pays ou gardé par pays.", fig,
+               "les échelles diffèrent (France 50-230, Belgique 0-22, Suède 1-7) : on compare les tendances, pas les valeurs.")
+    with g2:
+        dispo = P.groupby("pays")[list(VARIABLES)].apply(
+            lambda d: d.notna().mean() * 100 * (d.astype(str) != "inconnu").mean()).rename(columns=VARIABLES)
+        fig = px.imshow(dispo.T.round(0), color_continuous_scale=["#FFFFFF", "#9FD8C7", ACCENT], aspect="auto",
+                        text_auto=".0f", zmin=0, zmax=100, labels=dict(color="% renseigné"))
+        graphe("Quelles variables pourra-t-on utiliser pour prédire ?",
+               "choisir les variables d'entrée du modèle commun à tous les pays.", fig,
+               "un modèle commun ne pourra utiliser que les variables renseignées partout ; "
+               "les autres serviront aux modèles par pays.")
+
+# ================================================================== 3. AVANT / APRÈS
+with onglet_avap:
+    nb_b, nb_p = B.groupby("pays").size(), P.groupby("pays").size()
+    comp = pd.DataFrame({"Avant": nb_b, "Après": nb_p}).fillna(0)
+    comp["% retiré"] = (100 * (1 - comp["Après"] / comp["Avant"])).round(2)
+    kpis([("Avant nettoyage", nombre(comp["Avant"].sum()), "lignes"),
+          ("Après nettoyage", nombre(comp["Après"].sum()), "sinistres"),
+          ("Lignes retirées", nombre(comp["Avant"].sum() - comp["Après"].sum()),
+           f"{100 * (1 - comp['Après'].sum() / max(comp['Avant'].sum(), 1)):.2f} % du total"),
+          ("Médiane avant → après", f"{euros(B.loc[B['cout_moyen_eur'] > 0, 'cout_moyen_eur'].median())} → "
+                                    f"{euros(P['cout_moyen_eur'].median())}", "le centre ne bouge presque pas")])
+
+    g1, g2 = st.columns(2)
+    with g1:
+        long = comp[["Avant", "Après"]].reset_index(names="pays").melt("pays", var_name="état", value_name="lignes")
+        fig = px.bar(long, x="pays", y="lignes", color="état", barmode="group",
+                     color_discrete_map={"Avant": "#C9CED6", "Après": ACCENT}, log_y=True,
+                     labels={"lignes": "Lignes (échelle log)", "pays": ""})
+        top = comp["% retiré"].idxmax() if len(comp) else ""
+        graphe("Combien de lignes le nettoyage retire-t-il dans chaque pays ?",
+               "vérifier que le nettoyage ne vide pas un pays de ses données.", fig,
+               f"c'est en {top} que le nettoyage retire le plus ({comp['% retiré'].max():.1f} % des lignes)." if top else "")
+    with g2:
+        etapes = pd.DataFrame([e for src, es in rapport["sources"].items() for e in es])
+        # On ne compte que les règles de nettoyage (pas la sélection des contrats avec sinistre ni la jointure)
+        par_etape = (etapes[(etapes["retirees"] > 0) & (~etapes["etape"].isin([0, 1, 4]))]
+                     .groupby("nom")["retirees"].sum().sort_values().reset_index())
+        fig = px.bar(par_etape, x="retirees", y="nom", orientation="h", color_discrete_sequence=["#B5485D"],
+                     labels={"retirees": "Lignes retirées", "nom": ""})
+        graphe("Quelle règle de nettoyage a le plus d'impact ?",
+               "justifier chaque règle dans le rapport par son effet réel.", fig,
+               (f"la règle « {par_etape.iloc[-1]['nom']} » retire le plus de lignes "
+                f"({nombre(par_etape.iloc[-1]['retirees'])})." if len(par_etape) else ""))
+
+    av = B[B["cout_moyen_eur"] > 0].assign(état="Avant")[["cout_moyen_eur", "état"]]
+    ap = P.assign(état="Après")[["cout_moyen_eur", "état"]]
+    both = pd.concat([av, ap])
+    fig = px.histogram(both, x=np.log10(both["cout_moyen_eur"]), color="état", nbins=120, barmode="overlay",
+                       opacity=0.6, histnorm="percent", color_discrete_map={"Avant": "#9AA3AF", "Après": ACCENT},
+                       labels={"x": "Coût moyen par sinistre (€, échelle log)"})
+    fig.update_xaxes(tickvals=[0, 1, 2, 3, 4, 5, 6], ticktext=["1 €", "10 €", "100 €", "1 k€", "10 k€", "100 k€", "1 M€"])
+    graphe("Le nettoyage déforme-t-il la distribution des coûts ?",
+           "s'assurer qu'on retire les anomalies sans changer la nature des données.", fig,
+           "les deux courbes se superposent sauf sous 10 € : seules les anomalies ont été retirées.", hauteur=340)
+
+    st.dataframe(comp.assign(**{"Médiane avant (€)": B[B["cout_moyen_eur"] > 0].groupby("pays")["cout_moyen_eur"].median().round(0),
+                                "Médiane après (€)": P.groupby("pays")["cout_moyen_eur"].median().round(0)}),
+                 use_container_width=True)
+
+# ================================================================== 4. DÉTAIL DU NETTOYAGE
+with onglet_detail:
+    st.caption("Chaque étape, pour chaque source : nombre de lignes avant, après, et raison.")
+    for src, es in rapport["sources"].items():
+        e = pd.DataFrame(es).sort_values("etape")
         debut, fin = e["lignes_avant"].iloc[0], e["lignes_apres"].iloc[-1]
-        with st.expander(f"{src} : {debut:,} → {fin:,} lignes".replace(",", " ")):
-            st.dataframe(e[["etape", "nom", "lignes_avant", "lignes_apres", "retirees", "detail"]],
+        with st.expander(f"{src} · {nombre(debut)} → {nombre(fin)} lignes"):
+            st.dataframe(e[["etape", "nom", "lignes_avant", "lignes_apres", "retirees", "detail"]]
+                         .rename(columns={"etape": "Étape", "nom": "Règle", "lignes_avant": "Avant",
+                                          "lignes_apres": "Après", "retirees": "Retirées", "detail": "Détail"}),
                          hide_index=True, use_container_width=True)
-
-# ------------------------------------------------------------------ 6. données
-with onglets[5]:
-    st.dataframe(f.head(1000), hide_index=True, use_container_width=True)
-    st.download_button("Télécharger la sélection (CSV)", f.to_csv(index=False).encode("utf-8"),
-                       file_name="sinistres_selection.csv", mime="text/csv")
+    st.download_button("Télécharger les données nettoyées (CSV)", P.to_csv(index=False).encode("utf-8"),
+                       file_name="sinistres_nettoyes.csv", mime="text/csv")

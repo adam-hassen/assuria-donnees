@@ -14,7 +14,7 @@ src/nettoyage.py             nettoie, harmonise et fusionne en un seul fichier
 dashboard/app.py             dashboard Streamlit (lit les données directement dans ce dépôt)
 data/raw/                    données brutes (Parquet) + manifest.json
 data/raw/manuel/             fichiers à déposer à la main (Espagne)
-data/clean/                  sinistres_europe.parquet + rapports
+data/clean/                  sinistres_europe.parquet (nettoyé), sinistres_bruts.parquet (brut + anomalies), rapports
 .github/workflows/           pipeline automatique (chaque lundi, ou à la demande)
 ```
 
@@ -46,6 +46,13 @@ En local (lit quand même les données du dépôt GitHub) :
 pip install -r requirements.txt
 streamlit run dashboard/app.py
 ```
+
+## Dashboard : 4 onglets
+
+- **Données brutes et anomalies** : rapport des anomalies, où elles se concentrent, valeurs manquantes par pays.
+- **Données nettoyées** : chaque graphe répond à une question utile pour la modélisation.
+- **Avant / après nettoyage** : lignes retirées par pays et par règle, effet sur la distribution des coûts.
+- **Détail du nettoyage** : chaque étape, pour chaque source.
 
 ## Fichier final : `data/clean/sinistres_europe.parquet`
 

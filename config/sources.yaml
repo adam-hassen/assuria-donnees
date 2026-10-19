@@ -60,6 +60,9 @@ sources:
     fichier_manuel: data/raw/manuel/espagne.csv
     devise: EUR
 
+# Coût minimum d'un sinistre : en dessous, considéré comme une anomalie (frais, arrondis...)
+cout_minimum_eur: 10
+
 # Taux de conversion vers l'euro (hypothèse à valider, période des données)
 taux_euro:
   EUR: 1.0

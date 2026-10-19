@@ -1,0 +1,4436 @@
+{
+ "beMTPL97": {
+  "lignes": 163212,
+  "colonnes": 18,
+  "doublons": 0,
+  "detail": {
+   "id": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 163212,
+    "min": 1.0,
+    "max": 163212.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "expo": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 365,
+    "min": 0.0027397260273972603,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "1.0",
+     "0.08493150684931507",
+     "0.4958904109589041",
+     "0.7479452054794521",
+     "0.4136986301369863",
+     "0.3287671232876712"
+    ]
+   },
+   "claim": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   },
+   "nclaims": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 144936,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "amount": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 8186,
+    "min": 0.0,
+    "max": 140032.42447304033,
+    "negatifs": 0,
+    "zeros": 144936,
+    "exemples": [
+     "0.0",
+     "1426.3793415452194",
+     "64.6258419083835",
+     "145.01771199234506",
+     "150.37221212744703",
+     "3021.8716456907428"
+    ]
+   },
+   "average": {
+    "type": "float64",
+    "manquants": 144936,
+    "pct_manquants": 88.8,
+    "distinctes": 8217,
+    "min": 0.02478935247732394,
+    "max": 80499.60460982799,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "1426.3793415452194",
+     "64.6258419083835",
+     "145.01771199234506",
+     "150.37221212744703",
+     "3021.8716456907428",
+     "1363.4143862528167"
+    ]
+   },
+   "coverage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 3,
+    "exemples": [
+     "TPL",
+     "TPL+",
+     "TPL++"
+    ]
+   },
+   "ageph": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 78,
+    "min": 18.0,
+    "max": 95.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "43",
+     "49",
+     "47",
+     "50",
+     "51",
+     "45"
+    ]
+   },
+   "sex": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "male",
+     "female"
+    ]
+   },
+   "bm": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 23,
+    "min": 0.0,
+    "max": 22.0,
+    "negatifs": 0,
+    "zeros": 61647,
+    "exemples": [
+     "0",
+     "1",
+     "5",
+     "2",
+     "4",
+     "11"
+    ]
+   },
+   "power": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 178,
+    "min": 10.0,
+    "max": 243.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "55",
+     "40",
+     "66",
+     "44",
+     "33",
+     "43"
+    ]
+   },
+   "agec": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 49,
+    "min": 0.0,
+    "max": 48.0,
+    "negatifs": 0,
+    "zeros": 195,
+    "exemples": [
+     "6",
+     "8",
+     "7",
+     "2",
+     "4",
+     "3"
+    ]
+   },
+   "fuel": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "gasoline",
+     "diesel"
+    ]
+   },
+   "use": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "private",
+     "work"
+    ]
+   },
+   "fleet": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   },
+   "postcode": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 583,
+    "min": 1000.0,
+    "max": 9990.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "6000",
+     "2000",
+     "9000",
+     "4000",
+     "7100",
+     "7000"
+    ]
+   },
+   "long": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 583,
+    "min": 2.5777867603521205,
+    "max": 6.305543260501581,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "4.437091775601765",
+     "4.3871464361559385",
+     "3.7066088447235472",
+     "5.5566490116782274",
+     "4.166021167567297",
+     "3.956761394759104"
+    ]
+   },
+   "lat": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 583,
+    "min": 49.53624602461652,
+    "max": 51.44981596772337,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "50.41734118587973",
+     "51.21604236710876",
+     "51.0590759805841",
+     "50.64780752912394",
+     "50.467925878781564",
+     "50.456904850557095"
+    ]
+   }
+  }
+ },
+ "euMTPL": {
+  "lignes": 2373197,
+  "colonnes": 19,
+  "doublons": 0,
+  "detail": {
+   "policy_id": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2373197,
+    "min": 1.0,
+    "max": 2595214.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "1",
+     "2",
+     "4",
+     "5",
+     "6",
+     "8"
+    ]
+   },
+   "group": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 3,
+    "exemples": [
+     "train",
+     "test",
+     "valid"
+    ]
+   },
+   "fuel_type": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 8,
+    "exemples": [
+     "B",
+     "D",
+     "G",
+     "T",
+     "P",
+     "S"
+    ]
+   },
+   "year": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 3,
+    "min": 7.0,
+    "max": 9.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "9.0",
+     "8.0",
+     "7.0"
+    ]
+   },
+   "vehicle_category": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "1",
+     "8"
+    ]
+   },
+   "vehicle_use": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 5,
+    "exemples": [
+     "1",
+     "0",
+     "5",
+     "26",
+     "4"
+    ]
+   },
+   "province": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 108,
+    "exemples": [
+     "MI",
+     "TO",
+     "NA",
+     "VA",
+     "RM",
+     "VR"
+    ]
+   },
+   "horsepower": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 109,
+    "min": 0.0,
+    "max": 999.0,
+    "negatifs": 0,
+    "zeros": 69,
+    "exemples": [
+     "14",
+     "19",
+     "15",
+     "17",
+     "20",
+     "12"
+    ]
+   },
+   "gender": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "M",
+     "F"
+    ]
+   },
+   "age": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 92,
+    "min": 18.0,
+    "max": 109.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "40",
+     "39",
+     "41",
+     "38",
+     "37",
+     "42"
+    ]
+   },
+   "exposure": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 731,
+    "min": 0.001,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "1.0",
+     "0.0054794521",
+     "0.0054644809",
+     "0.5068493151",
+     "0.3287671233",
+     "0.1616438356"
+    ]
+   },
+   "cost_nc": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 21370,
+    "min": -10343.09,
+    "max": 1450118.0,
+    "negatifs": 124,
+    "zeros": 2337373,
+    "exemples": [
+     "0.0",
+     "52.0",
+     "56.0",
+     "1226.0",
+     "3130.0",
+     "10.4"
+    ]
+   },
+   "num_nc": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 9,
+    "min": 0.0,
+    "max": 8.0,
+    "negatifs": 0,
+    "zeros": 2337493,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "cost_cg": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 62925,
+    "min": -1457.2,
+    "max": 100086.24,
+    "negatifs": 14,
+    "zeros": 2276608,
+    "exemples": [
+     "0.0",
+     "1226.0",
+     "1686.0",
+     "1077.0",
+     "1556.0",
+     "1496.0"
+    ]
+   },
+   "num_cg": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 7,
+    "min": 0.0,
+    "max": 6.0,
+    "negatifs": 0,
+    "zeros": 2276622,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "cost_fcg": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 1643,
+    "min": 0.0,
+    "max": 88974.7,
+    "negatifs": 0,
+    "zeros": 2276622,
+    "exemples": [
+     "0.0",
+     "1419.0",
+     "1373.0",
+     "2000.0",
+     "1658.0",
+     "2300.0"
+    ]
+   },
+   "num_fcg": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 2276622,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "cost_cd": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 1578,
+    "min": 0.0,
+    "max": 132838.0,
+    "negatifs": 0,
+    "zeros": 2295662,
+    "exemples": [
+     "0.0",
+     "1419.0",
+     "1373.0",
+     "2000.0",
+     "1658.0",
+     "2300.0"
+    ]
+   },
+   "num_cd": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 15,
+    "min": 0.0,
+    "max": 19.0,
+    "negatifs": 0,
+    "zeros": 2295662,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  }
+ },
+ "freMPL1": {
+  "lignes": 20600,
+  "colonnes": 22,
+  "doublons": 6,
+  "detail": {
+   "Exposure": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 755,
+    "min": 0.001,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "0.083",
+     "0.166",
+     "0.333",
+     "0.416",
+     "0.833",
+     "0.666"
+    ]
+   },
+   "LicAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 787,
+    "min": 0.0,
+    "max": 940.0,
+    "negatifs": 0,
+    "zeros": 5,
+    "exemples": [
+     "132",
+     "156",
+     "145",
+     "154",
+     "157",
+     "136"
+    ]
+   },
+   "RecordBeg": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 364,
+    "min": 12418.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12418.0",
+     "12600.0",
+     "12509.0",
+     "12692.0",
+     "12753.0",
+     "12570.0"
+    ]
+   },
+   "RecordEnd": {
+    "type": "float64",
+    "manquants": 9798,
+    "pct_manquants": 47.56,
+    "distinctes": 365,
+    "min": 12419.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12600.0",
+     "12509.0",
+     "12692.0",
+     "12753.0",
+     "12570.0",
+     "12723.0"
+    ]
+   },
+   "VehAge": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 9,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "6-7"
+    ]
+   },
+   "Gender": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Male",
+     "Female"
+    ]
+   },
+   "MariStat": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Other",
+     "Alone"
+    ]
+   },
+   "SocioCateg": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 37,
+    "exemples": [
+     "CSP50",
+     "CSP60",
+     "CSP55",
+     "CSP1",
+     "CSP48",
+     "CSP42"
+    ]
+   },
+   "VehUsage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "Private+trip to office",
+     "Private",
+     "Professional",
+     "Professional run"
+    ]
+   },
+   "DrivAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 80,
+    "min": 18.0,
+    "max": 97.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "31",
+     "33",
+     "32",
+     "30",
+     "37",
+     "56"
+    ]
+   },
+   "HasKmLimit": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 18287,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   },
+   "BonusMalus": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 92,
+    "min": 50.0,
+    "max": 272.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "50",
+     "95",
+     "90",
+     "100",
+     "85",
+     "80"
+    ]
+   },
+   "VehBody": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 9,
+    "exemples": [
+     "sedan",
+     "sport utility vehicle",
+     "station wagon",
+     "other microvan",
+     "microvan",
+     "cabriolet"
+    ]
+   },
+   "VehPrice": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 27,
+    "exemples": [
+     "K ",
+     "J ",
+     "L ",
+     "F ",
+     "H ",
+     "G "
+    ]
+   },
+   "VehEngine": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "exemples": [
+     "injection",
+     "direct injection overpowered",
+     "injection overpowered",
+     "carburation",
+     "electric",
+     "GPL"
+    ]
+   },
+   "VehEnergy": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "regular",
+     "diesel",
+     "eletric",
+     "GPL"
+    ]
+   },
+   "VehMaxSpeed": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 10,
+    "exemples": [
+     "160-170 km/h",
+     "170-180 km/h",
+     "180-190 km/h",
+     "150-160 km/h",
+     "190-200 km/h",
+     "200-220 km/h"
+    ]
+   },
+   "VehClass": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "exemples": [
+     "B",
+     "M1",
+     "H",
+     "M2",
+     "A",
+     "0"
+    ]
+   },
+   "ClaimAmount": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 1995,
+    "min": -1920.88549848943,
+    "max": 163427.013897281,
+    "negatifs": 196,
+    "zeros": 18199,
+    "exemples": [
+     "0.0",
+     "1418.61027190332",
+     "4326.52567975831",
+     "102.59003021148",
+     "1562.35649546828",
+     "2163.26283987915"
+    ]
+   },
+   "RiskVar": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 20,
+    "min": 1.0,
+    "max": 20.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "16",
+     "15",
+     "17",
+     "12",
+     "13",
+     "19"
+    ]
+   },
+   "Garage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 3,
+    "exemples": [
+     "None",
+     "Collective garage",
+     "Private garage"
+    ]
+   },
+   "ClaimInd": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 18395,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   }
+  }
+ },
+ "freMPL10": {
+  "lignes": 22100,
+  "colonnes": 21,
+  "doublons": 1,
+  "detail": {
+   "Exposure": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 751,
+    "min": 0.001,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "1.0",
+     "0.166",
+     "0.083",
+     "0.333",
+     "0.25",
+     "0.749"
+    ]
+   },
+   "LicAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 763,
+    "min": 24.0,
+    "max": 885.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "408",
+     "307",
+     "468",
+     "252",
+     "303",
+     "288"
+    ]
+   },
+   "RecordBeg": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 365,
+    "min": 12418.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12418.0",
+     "12509.0",
+     "12692.0",
+     "12600.0",
+     "12723.0",
+     "12753.0"
+    ]
+   },
+   "RecordEnd": {
+    "type": "float64",
+    "manquants": 10822,
+    "pct_manquants": 48.97,
+    "distinctes": 365,
+    "min": 12419.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12509.0",
+     "12600.0",
+     "12692.0",
+     "12723.0",
+     "12753.0",
+     "12570.0"
+    ]
+   },
+   "VehAge": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 9,
+    "exemples": [
+     "2",
+     "0",
+     "1",
+     "6-7",
+     "3",
+     "4"
+    ]
+   },
+   "Gender": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Male",
+     "Female"
+    ]
+   },
+   "MariStat": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Other",
+     "Alone"
+    ]
+   },
+   "SocioCateg": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 41,
+    "exemples": [
+     "CSP50",
+     "CSP60",
+     "CSP55",
+     "CSP21",
+     "CSP46",
+     "CSP48"
+    ]
+   },
+   "VehUsage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "Private+trip to office",
+     "Private",
+     "Professional",
+     "Professional run"
+    ]
+   },
+   "DrivAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 76,
+    "min": 20.0,
+    "max": 96.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "55",
+     "54",
+     "46",
+     "43",
+     "53",
+     "47"
+    ]
+   },
+   "HasKmLimit": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 19903,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   },
+   "ClaimNbResp": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 5,
+    "min": 0.0,
+    "max": 4.0,
+    "negatifs": 0,
+    "zeros": 17067,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "ClaimNbNonResp": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 7,
+    "min": 0.0,
+    "max": 6.0,
+    "negatifs": 0,
+    "zeros": 16846,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "ClaimNbParking": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 20857,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "5",
+     "4"
+    ]
+   },
+   "ClaimNbFireTheft": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "min": 0.0,
+    "max": 3.0,
+    "negatifs": 0,
+    "zeros": 21081,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ]
+   },
+   "ClaimNbWindscreen": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 7,
+    "min": 0.0,
+    "max": 6.0,
+    "negatifs": 0,
+    "zeros": 15452,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "OutUseNb": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 18998,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "ClaimAmount": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 13,
+    "min": 0.0,
+    "max": 5152.44,
+    "negatifs": 0,
+    "zeros": 22082,
+    "exemples": [
+     "0.0",
+     "1866.0",
+     "1152.44",
+     "652.44",
+     "5152.44",
+     "4152.44"
+    ]
+   },
+   "RiskArea": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 13,
+    "min": 1.0,
+    "max": 13.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "4",
+     "6",
+     "3",
+     "2",
+     "5",
+     "7"
+    ]
+   },
+   "BonusMalus": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 79,
+    "min": 50.0,
+    "max": 230.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "50",
+     "80",
+     "76",
+     "85",
+     "68",
+     "72"
+    ]
+   },
+   "ClaimInd": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 22082,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   }
+  }
+ },
+ "freMPL2": {
+  "lignes": 38300,
+  "colonnes": 22,
+  "doublons": 6,
+  "detail": {
+   "Exposure": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 757,
+    "min": 0.001,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "0.083",
+     "0.166",
+     "0.333",
+     "0.416",
+     "0.666",
+     "0.583"
+    ]
+   },
+   "LicAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 809,
+    "min": 0.0,
+    "max": 940.0,
+    "negatifs": 0,
+    "zeros": 27,
+    "exemples": [
+     "154",
+     "156",
+     "108",
+     "132",
+     "150",
+     "142"
+    ]
+   },
+   "RecordBeg": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 366,
+    "min": 12418.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12418.0",
+     "12600.0",
+     "12509.0",
+     "12692.0",
+     "12753.0",
+     "12570.0"
+    ]
+   },
+   "RecordEnd": {
+    "type": "float64",
+    "manquants": 17973,
+    "pct_manquants": 46.93,
+    "distinctes": 365,
+    "min": 12419.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12600.0",
+     "12509.0",
+     "12692.0",
+     "12753.0",
+     "12570.0",
+     "12723.0"
+    ]
+   },
+   "VehAge": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 9,
+    "exemples": [
+     "10+",
+     "8-9",
+     "6-7",
+     "0",
+     "2",
+     "1"
+    ]
+   },
+   "Gender": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Male",
+     "Female"
+    ]
+   },
+   "MariStat": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Other",
+     "Alone"
+    ]
+   },
+   "SocioCateg": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 52,
+    "exemples": [
+     "CSP50",
+     "CSP60",
+     "CSP55",
+     "CSP1",
+     "CSP26",
+     "CSP48"
+    ]
+   },
+   "VehUsage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "Private+trip to office",
+     "Private",
+     "Professional",
+     "Professional run"
+    ]
+   },
+   "DrivAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 83,
+    "min": 18.0,
+    "max": 103.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "31",
+     "32",
+     "33",
+     "30",
+     "29",
+     "34"
+    ]
+   },
+   "HasKmLimit": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 33104,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   },
+   "BonusMalus": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 108,
+    "min": 50.0,
+    "max": 272.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "50",
+     "100",
+     "95",
+     "90",
+     "85",
+     "80"
+    ]
+   },
+   "VehBody": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 9,
+    "exemples": [
+     "sedan",
+     "van",
+     "station wagon",
+     "sport utility vehicle",
+     "coupe",
+     "other microvan"
+    ]
+   },
+   "VehPrice": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 27,
+    "exemples": [
+     "G ",
+     "F ",
+     "H ",
+     "K ",
+     "E ",
+     "J "
+    ]
+   },
+   "VehEngine": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "exemples": [
+     "injection",
+     "carburation",
+     "direct injection overpowered",
+     "injection overpowered",
+     "electric",
+     "GPL"
+    ]
+   },
+   "VehEnergy": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "regular",
+     "diesel",
+     "eletric",
+     "GPL"
+    ]
+   },
+   "VehMaxSpeed": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 10,
+    "exemples": [
+     "170-180 km/h",
+     "160-170 km/h",
+     "150-160 km/h",
+     "180-190 km/h",
+     "190-200 km/h",
+     "140-150 km/h"
+    ]
+   },
+   "VehClass": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "exemples": [
+     "B",
+     "M1",
+     "M2",
+     "H",
+     "A",
+     "0"
+    ]
+   },
+   "RiskVar": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 20,
+    "min": 1.0,
+    "max": 20.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "16",
+     "15",
+     "17",
+     "20",
+     "19",
+     "13"
+    ]
+   },
+   "ClaimAmount": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 1199,
+    "min": -3407.7,
+    "max": 120152.44,
+    "negatifs": 327,
+    "zeros": 36261,
+    "exemples": [
+     "0.0",
+     "1204.0",
+     "1326.0",
+     "1300.0",
+     "663.0",
+     "1205.0"
+    ]
+   },
+   "Garage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 3,
+    "exemples": [
+     "None",
+     "Collective garage",
+     "Private garage"
+    ]
+   },
+   "ClaimInd": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 36588,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   }
+  }
+ },
+ "freMPL3": {
+  "lignes": 20600,
+  "colonnes": 23,
+  "doublons": 6,
+  "detail": {
+   "Exposure": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 755,
+    "min": 0.001,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "0.083",
+     "0.166",
+     "0.333",
+     "0.416",
+     "0.833",
+     "0.666"
+    ]
+   },
+   "LicAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 787,
+    "min": 0.0,
+    "max": 940.0,
+    "negatifs": 0,
+    "zeros": 5,
+    "exemples": [
+     "132",
+     "156",
+     "145",
+     "154",
+     "157",
+     "136"
+    ]
+   },
+   "RecordBeg": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 364,
+    "min": 12418.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12418.0",
+     "12600.0",
+     "12509.0",
+     "12692.0",
+     "12753.0",
+     "12570.0"
+    ]
+   },
+   "RecordEnd": {
+    "type": "float64",
+    "manquants": 9798,
+    "pct_manquants": 47.56,
+    "distinctes": 365,
+    "min": 12419.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12600.0",
+     "12509.0",
+     "12692.0",
+     "12753.0",
+     "12570.0",
+     "12723.0"
+    ]
+   },
+   "VehAge": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 9,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "6-7"
+    ]
+   },
+   "Gender": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Male",
+     "Female"
+    ]
+   },
+   "MariStat": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Other",
+     "Alone"
+    ]
+   },
+   "SocioCateg": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 37,
+    "exemples": [
+     "CSP50",
+     "CSP60",
+     "CSP55",
+     "CSP1",
+     "CSP48",
+     "CSP42"
+    ]
+   },
+   "VehUsage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "Private+trip to office",
+     "Private",
+     "Professional",
+     "Professional run"
+    ]
+   },
+   "DrivAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 80,
+    "min": 18.0,
+    "max": 97.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "31",
+     "33",
+     "32",
+     "30",
+     "37",
+     "56"
+    ]
+   },
+   "HasKmLimit": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 18287,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   },
+   "DeducType": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "Normal",
+     "Partially refunded",
+     "Majorized",
+     "Proportional"
+    ]
+   },
+   "BonusMalus": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 92,
+    "min": 50.0,
+    "max": 272.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "50",
+     "95",
+     "90",
+     "100",
+     "85",
+     "80"
+    ]
+   },
+   "VehBody": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 9,
+    "exemples": [
+     "sedan",
+     "sport utility vehicle",
+     "station wagon",
+     "other microvan",
+     "microvan",
+     "cabriolet"
+    ]
+   },
+   "VehPrice": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 27,
+    "exemples": [
+     "K ",
+     "J ",
+     "L ",
+     "F ",
+     "H ",
+     "G "
+    ]
+   },
+   "VehEngine": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "exemples": [
+     "injection",
+     "direct injection overpowered",
+     "injection overpowered",
+     "carburation",
+     "electric",
+     "GPL"
+    ]
+   },
+   "VehEnergy": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "regular",
+     "diesel",
+     "eletric",
+     "GPL"
+    ]
+   },
+   "VehMaxSpeed": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 10,
+    "exemples": [
+     "160-170 km/h",
+     "170-180 km/h",
+     "180-190 km/h",
+     "150-160 km/h",
+     "190-200 km/h",
+     "200-220 km/h"
+    ]
+   },
+   "VehClass": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "exemples": [
+     "B",
+     "M1",
+     "H",
+     "M2",
+     "A",
+     "0"
+    ]
+   },
+   "RiskVar": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 20,
+    "min": 1.0,
+    "max": 20.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "16",
+     "15",
+     "17",
+     "12",
+     "13",
+     "19"
+    ]
+   },
+   "ClaimAmount": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 674,
+    "min": 0.0,
+    "max": 23229.8,
+    "negatifs": 0,
+    "zeros": 19756,
+    "exemples": [
+     "0.0",
+     "2346.0",
+     "1173.0",
+     "2300.0",
+     "1150.0",
+     "79.82"
+    ]
+   },
+   "Garage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 3,
+    "exemples": [
+     "None",
+     "Collective garage",
+     "Private garage"
+    ]
+   },
+   "ClaimInd": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 19756,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   }
+  }
+ },
+ "freMPL4": {
+  "lignes": 26300,
+  "colonnes": 23,
+  "doublons": 6,
+  "detail": {
+   "Exposure": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 756,
+    "min": 0.001,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "0.083",
+     "0.166",
+     "0.333",
+     "0.416",
+     "0.833",
+     "0.666"
+    ]
+   },
+   "LicAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 801,
+    "min": 0.0,
+    "max": 940.0,
+    "negatifs": 0,
+    "zeros": 7,
+    "exemples": [
+     "156",
+     "145",
+     "136",
+     "154",
+     "142",
+     "149"
+    ]
+   },
+   "RecordBeg": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 364,
+    "min": 12418.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12418.0",
+     "12600.0",
+     "12509.0",
+     "12692.0",
+     "12753.0",
+     "12570.0"
+    ]
+   },
+   "RecordEnd": {
+    "type": "float64",
+    "manquants": 12384,
+    "pct_manquants": 47.09,
+    "distinctes": 365,
+    "min": 12419.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12600.0",
+     "12509.0",
+     "12692.0",
+     "12753.0",
+     "12570.0",
+     "12723.0"
+    ]
+   },
+   "VehAge": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 9,
+    "exemples": [
+     "0",
+     "10+",
+     "1",
+     "2",
+     "6-7",
+     "3"
+    ]
+   },
+   "Gender": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Male",
+     "Female"
+    ]
+   },
+   "MariStat": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Other",
+     "Alone"
+    ]
+   },
+   "SocioCateg": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 38,
+    "exemples": [
+     "CSP50",
+     "CSP60",
+     "CSP55",
+     "CSP1",
+     "CSP48",
+     "CSP42"
+    ]
+   },
+   "VehUsage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "Private+trip to office",
+     "Private",
+     "Professional",
+     "Professional run"
+    ]
+   },
+   "DrivAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 81,
+    "min": 18.0,
+    "max": 98.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "31",
+     "33",
+     "32",
+     "30",
+     "29",
+     "37"
+    ]
+   },
+   "HasKmLimit": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 23094,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   },
+   "DeducType": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 5,
+    "exemples": [
+     "Normal",
+     "Majorized",
+     "Refunded",
+     "Partially refunded",
+     "Proportional"
+    ]
+   },
+   "BonusMalus": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 101,
+    "min": 50.0,
+    "max": 272.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "50",
+     "95",
+     "100",
+     "90",
+     "85",
+     "80"
+    ]
+   },
+   "VehBody": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 9,
+    "exemples": [
+     "sedan",
+     "sport utility vehicle",
+     "station wagon",
+     "other microvan",
+     "coupe",
+     "microvan"
+    ]
+   },
+   "VehPrice": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 27,
+    "exemples": [
+     "K ",
+     "J ",
+     "G ",
+     "F ",
+     "H ",
+     "E "
+    ]
+   },
+   "VehEngine": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "exemples": [
+     "injection",
+     "direct injection overpowered",
+     "injection overpowered",
+     "carburation",
+     "electric",
+     "GPL"
+    ]
+   },
+   "VehEnergy": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "regular",
+     "diesel",
+     "eletric",
+     "GPL"
+    ]
+   },
+   "VehMaxSpeed": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 10,
+    "exemples": [
+     "160-170 km/h",
+     "170-180 km/h",
+     "180-190 km/h",
+     "150-160 km/h",
+     "190-200 km/h",
+     "200-220 km/h"
+    ]
+   },
+   "VehClass": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "exemples": [
+     "B",
+     "M1",
+     "M2",
+     "H",
+     "A",
+     "0"
+    ]
+   },
+   "RiskVar": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 20,
+    "min": 1.0,
+    "max": 20.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "16",
+     "15",
+     "17",
+     "12",
+     "13",
+     "19"
+    ]
+   },
+   "ClaimAmount": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 219,
+    "min": 0.0,
+    "max": 111332.0,
+    "negatifs": 0,
+    "zeros": 26045,
+    "exemples": [
+     "0.0",
+     "928.0",
+     "2774.0",
+     "5330.0",
+     "910.0",
+     "5436.0"
+    ]
+   },
+   "Garage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 3,
+    "exemples": [
+     "None",
+     "Collective garage",
+     "Private garage"
+    ]
+   },
+   "ClaimInd": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 26045,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   }
+  }
+ },
+ "freMPL5": {
+  "lignes": 16000,
+  "colonnes": 20,
+  "doublons": 0,
+  "detail": {
+   "Exposure": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 752,
+    "min": 0.001,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "1.0",
+     "0.083",
+     "0.166",
+     "0.416",
+     "0.25",
+     "0.333"
+    ]
+   },
+   "LicAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 736,
+    "min": 24.0,
+    "max": 844.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "408",
+     "451",
+     "452",
+     "456",
+     "312",
+     "416"
+    ]
+   },
+   "RecordBeg": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 364,
+    "min": 12418.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12418.0",
+     "12509.0",
+     "12600.0",
+     "12692.0",
+     "12570.0",
+     "12753.0"
+    ]
+   },
+   "RecordEnd": {
+    "type": "float64",
+    "manquants": 7839,
+    "pct_manquants": 48.99,
+    "distinctes": 364,
+    "min": 12419.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12600.0",
+     "12692.0",
+     "12509.0",
+     "12753.0",
+     "12723.0",
+     "12570.0"
+    ]
+   },
+   "Gender": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Male",
+     "Female"
+    ]
+   },
+   "MariStat": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Other",
+     "Alone"
+    ]
+   },
+   "SocioCateg": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 33,
+    "exemples": [
+     "CSP50",
+     "CSP60",
+     "CSP55",
+     "CSP1",
+     "CSP42",
+     "CSP66"
+    ]
+   },
+   "VehUsage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "Private+trip to office",
+     "Private",
+     "Professional",
+     "Professional run"
+    ]
+   },
+   "DrivAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 73,
+    "min": 20.0,
+    "max": 95.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "57",
+     "55",
+     "56",
+     "54",
+     "53",
+     "52"
+    ]
+   },
+   "HasKmLimit": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 14806,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   },
+   "ClaimAmount": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 1417,
+    "min": -1842.01359516616,
+    "max": 95150.9628398791,
+    "negatifs": 165,
+    "zeros": 14353,
+    "exemples": [
+     "0.0",
+     "102.59003021148",
+     "1418.61027190332",
+     "97.3232628398791",
+     "1562.35649546828",
+     "4326.52567975831"
+    ]
+   },
+   "ClaimNbResp": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 5,
+    "min": 0.0,
+    "max": 4.0,
+    "negatifs": 0,
+    "zeros": 12366,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "ClaimNbNonResp": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 8,
+    "min": 0.0,
+    "max": 7.0,
+    "negatifs": 0,
+    "zeros": 11912,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "ClaimNbParking": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 5,
+    "min": 0.0,
+    "max": 4.0,
+    "negatifs": 0,
+    "zeros": 14782,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "ClaimNbFireTheft": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "min": 0.0,
+    "max": 3.0,
+    "negatifs": 0,
+    "zeros": 14896,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ]
+   },
+   "ClaimNbWindscreen": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 8,
+    "min": 0.0,
+    "max": 8.0,
+    "negatifs": 0,
+    "zeros": 10791,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "OutUseNb": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 13706,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "RiskArea": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 13,
+    "min": 1.0,
+    "max": 13.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "7",
+     "10",
+     "6",
+     "9",
+     "11",
+     "5"
+    ]
+   },
+   "BonusMalus": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 75,
+    "min": 50.0,
+    "max": 185.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "50",
+     "90",
+     "85",
+     "80",
+     "76",
+     "57"
+    ]
+   },
+   "ClaimInd": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 14518,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   }
+  }
+ },
+ "freMPL6": {
+  "lignes": 32400,
+  "colonnes": 20,
+  "doublons": 4,
+  "detail": {
+   "Exposure": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 757,
+    "min": 0.001,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "0.166",
+     "0.083",
+     "0.333",
+     "0.833",
+     "1.0",
+     "0.666"
+    ]
+   },
+   "LicAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 774,
+    "min": 24.0,
+    "max": 875.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "408",
+     "468",
+     "432",
+     "169",
+     "307",
+     "313"
+    ]
+   },
+   "RecordBeg": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 366,
+    "min": 12418.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12418.0",
+     "12509.0",
+     "12600.0",
+     "12692.0",
+     "12478.0",
+     "12570.0"
+    ]
+   },
+   "RecordEnd": {
+    "type": "float64",
+    "manquants": 15305,
+    "pct_manquants": 47.24,
+    "distinctes": 365,
+    "min": 12419.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12509.0",
+     "12600.0",
+     "12692.0",
+     "12753.0",
+     "12570.0",
+     "12723.0"
+    ]
+   },
+   "Gender": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Male",
+     "Female"
+    ]
+   },
+   "MariStat": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Other",
+     "Alone"
+    ]
+   },
+   "SocioCateg": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 29,
+    "exemples": [
+     "CSP50",
+     "CSP60",
+     "CSP55",
+     "CSP46",
+     "CSP1",
+     "CSP48"
+    ]
+   },
+   "VehUsage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "Private+trip to office",
+     "Private",
+     "Professional",
+     "Professional run"
+    ]
+   },
+   "DrivAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 75,
+    "min": 20.0,
+    "max": 96.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "55",
+     "57",
+     "54",
+     "56",
+     "52",
+     "53"
+    ]
+   },
+   "HasKmLimit": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 30161,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   },
+   "ClaimAmount": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 3010,
+    "min": -1947.61993957704,
+    "max": 163427.013897281,
+    "negatifs": 324,
+    "zeros": 28847,
+    "exemples": [
+     "0.0",
+     "1418.61027190332",
+     "102.59003021148",
+     "4326.52567975831",
+     "97.3232628398791",
+     "1562.35649546828"
+    ]
+   },
+   "ClaimNbResp": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 5,
+    "min": 0.0,
+    "max": 4.0,
+    "negatifs": 0,
+    "zeros": 24810,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "ClaimNbNonResp": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 23683,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "ClaimNbParking": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 5,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 29806,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "5"
+    ]
+   },
+   "ClaimNbFireTheft": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "min": 0.0,
+    "max": 3.0,
+    "negatifs": 0,
+    "zeros": 30008,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ]
+   },
+   "ClaimNbWindscreen": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 7,
+    "min": 0.0,
+    "max": 6.0,
+    "negatifs": 0,
+    "zeros": 22860,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "OutUseNb": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 27429,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "RiskArea": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 13,
+    "min": 1.0,
+    "max": 13.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "7",
+     "10",
+     "6",
+     "9",
+     "11",
+     "5"
+    ]
+   },
+   "BonusMalus": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 90,
+    "min": 50.0,
+    "max": 185.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "50",
+     "90",
+     "80",
+     "85",
+     "76",
+     "72"
+    ]
+   },
+   "ClaimInd": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 29171,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   }
+  }
+ },
+ "freMPL7": {
+  "lignes": 26600,
+  "colonnes": 20,
+  "doublons": 0,
+  "detail": {
+   "Exposure": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 756,
+    "min": 0.001,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "0.166",
+     "0.083",
+     "0.333",
+     "0.833",
+     "1.0",
+     "0.666"
+    ]
+   },
+   "LicAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 761,
+    "min": 2.0,
+    "max": 885.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "150",
+     "144",
+     "133",
+     "174",
+     "117",
+     "180"
+    ]
+   },
+   "RecordBeg": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 365,
+    "min": 12418.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12418.0",
+     "12509.0",
+     "12600.0",
+     "12692.0",
+     "12753.0",
+     "12723.0"
+    ]
+   },
+   "RecordEnd": {
+    "type": "float64",
+    "manquants": 12922,
+    "pct_manquants": 48.58,
+    "distinctes": 365,
+    "min": 12419.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12509.0",
+     "12600.0",
+     "12692.0",
+     "12753.0",
+     "12723.0",
+     "12539.0"
+    ]
+   },
+   "Gender": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Male",
+     "Female"
+    ]
+   },
+   "MariStat": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Other",
+     "Alone"
+    ]
+   },
+   "SocioCateg": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 31,
+    "exemples": [
+     "CSP50",
+     "CSP60",
+     "CSP55",
+     "CSP1",
+     "CSP46",
+     "CSP48"
+    ]
+   },
+   "VehUsage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "Private+trip to office",
+     "Private",
+     "Professional",
+     "Professional run"
+    ]
+   },
+   "DrivAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 76,
+    "min": 20.0,
+    "max": 95.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "33",
+     "32",
+     "34",
+     "35",
+     "31",
+     "37"
+    ]
+   },
+   "HasKmLimit": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 23738,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   },
+   "ClaimAmount": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2424,
+    "min": -1300.05498489426,
+    "max": 802620.270996979,
+    "negatifs": 220,
+    "zeros": 23723,
+    "exemples": [
+     "0.0",
+     "1418.61027190332",
+     "102.59003021148",
+     "4326.52567975831",
+     "97.3232628398791",
+     "1562.35649546828"
+    ]
+   },
+   "ClaimNbResp": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 20466,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "ClaimNbNonResp": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 7,
+    "min": 0.0,
+    "max": 6.0,
+    "negatifs": 0,
+    "zeros": 19490,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "ClaimNbParking": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 5,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 24595,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "5"
+    ]
+   },
+   "ClaimNbFireTheft": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 5,
+    "min": 0.0,
+    "max": 4.0,
+    "negatifs": 0,
+    "zeros": 24658,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "ClaimNbWindscreen": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 19060,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "OutUseNb": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 22098,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "RiskArea": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 13,
+    "min": 1.0,
+    "max": 13.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "7",
+     "10",
+     "9",
+     "6",
+     "11",
+     "5"
+    ]
+   },
+   "BonusMalus": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 83,
+    "min": 50.0,
+    "max": 195.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "50",
+     "80",
+     "85",
+     "76",
+     "90",
+     "72"
+    ]
+   },
+   "ClaimInd": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 23943,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   }
+  }
+ },
+ "freMPL8": {
+  "lignes": 24000,
+  "colonnes": 20,
+  "doublons": 4,
+  "detail": {
+   "Exposure": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 751,
+    "min": 0.001,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "0.083",
+     "0.166",
+     "0.333",
+     "0.749",
+     "1.0",
+     "0.416"
+    ]
+   },
+   "LicAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 758,
+    "min": 24.0,
+    "max": 902.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "408",
+     "298",
+     "180",
+     "420",
+     "187",
+     "150"
+    ]
+   },
+   "RecordBeg": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 364,
+    "min": 12418.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12418.0",
+     "12509.0",
+     "12600.0",
+     "12692.0",
+     "12753.0",
+     "12723.0"
+    ]
+   },
+   "RecordEnd": {
+    "type": "float64",
+    "manquants": 11853,
+    "pct_manquants": 49.39,
+    "distinctes": 364,
+    "min": 12419.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12509.0",
+     "12600.0",
+     "12692.0",
+     "12753.0",
+     "12723.0",
+     "12570.0"
+    ]
+   },
+   "Gender": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Male",
+     "Female"
+    ]
+   },
+   "MariStat": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Other",
+     "Alone"
+    ]
+   },
+   "SocioCateg": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 27,
+    "exemples": [
+     "CSP50",
+     "CSP60",
+     "CSP55",
+     "CSP46",
+     "CSP48",
+     "CSP1"
+    ]
+   },
+   "VehUsage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "Private+trip to office",
+     "Private",
+     "Professional",
+     "Professional run"
+    ]
+   },
+   "DrivAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 77,
+    "min": 20.0,
+    "max": 99.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "32",
+     "55",
+     "37",
+     "56",
+     "31",
+     "35"
+    ]
+   },
+   "HasKmLimit": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 20717,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   },
+   "ClaimAmount": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2080,
+    "min": -1912.92054380665,
+    "max": 154957.180060423,
+    "negatifs": 163,
+    "zeros": 21577,
+    "exemples": [
+     "0.0",
+     "1418.61027190332",
+     "102.59003021148",
+     "4326.52567975831",
+     "1562.35649546828",
+     "97.3232628398791"
+    ]
+   },
+   "ClaimNbResp": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 18842,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "ClaimNbNonResp": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 17849,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "ClaimNbParking": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "min": 0.0,
+    "max": 3.0,
+    "negatifs": 0,
+    "zeros": 22364,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ]
+   },
+   "ClaimNbFireTheft": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "min": 0.0,
+    "max": 3.0,
+    "negatifs": 0,
+    "zeros": 22264,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ]
+   },
+   "ClaimNbWindscreen": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 5,
+    "min": 0.0,
+    "max": 4.0,
+    "negatifs": 0,
+    "zeros": 16895,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "OutUseNb": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 19873,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "RiskArea": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 13,
+    "min": 1.0,
+    "max": 13.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "7",
+     "10",
+     "6",
+     "9",
+     "11",
+     "5"
+    ]
+   },
+   "BonusMalus": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 84,
+    "min": 50.0,
+    "max": 185.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "50",
+     "76",
+     "90",
+     "85",
+     "80",
+     "72"
+    ]
+   },
+   "ClaimInd": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 21740,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   }
+  }
+ },
+ "freMPL9": {
+  "lignes": 16200,
+  "colonnes": 20,
+  "doublons": 2,
+  "detail": {
+   "Exposure": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 747,
+    "min": 0.001,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "0.083",
+     "0.166",
+     "0.416",
+     "0.333",
+     "1.0",
+     "0.25"
+    ]
+   },
+   "LicAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 781,
+    "min": 24.0,
+    "max": 940.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "408",
+     "411",
+     "324",
+     "420",
+     "432",
+     "428"
+    ]
+   },
+   "RecordBeg": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 365,
+    "min": 12418.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12418.0",
+     "12509.0",
+     "12600.0",
+     "12692.0",
+     "12753.0",
+     "12570.0"
+    ]
+   },
+   "RecordEnd": {
+    "type": "float64",
+    "manquants": 7812,
+    "pct_manquants": 48.22,
+    "distinctes": 364,
+    "min": 12419.0,
+    "max": 12783.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "12509.0",
+     "12600.0",
+     "12692.0",
+     "12570.0",
+     "12753.0",
+     "12723.0"
+    ]
+   },
+   "Gender": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Male",
+     "Female"
+    ]
+   },
+   "MariStat": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Other",
+     "Alone"
+    ]
+   },
+   "SocioCateg": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 26,
+    "exemples": [
+     "CSP50",
+     "CSP60",
+     "CSP55",
+     "CSP48",
+     "CSP46",
+     "CSP1"
+    ]
+   },
+   "VehUsage": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "exemples": [
+     "Private+trip to office",
+     "Private",
+     "Professional",
+     "Professional run"
+    ]
+   },
+   "DrivAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 78,
+    "min": 20.0,
+    "max": 97.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "54",
+     "55",
+     "56",
+     "57",
+     "53",
+     "51"
+    ]
+   },
+   "HasKmLimit": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 13117,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   },
+   "ClaimAmount": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 1163,
+    "min": -1211.29758308157,
+    "max": 119887.979456193,
+    "negatifs": 95,
+    "zeros": 14864,
+    "exemples": [
+     "0.0",
+     "1418.61027190332",
+     "4326.52567975831",
+     "102.59003021148",
+     "1562.35649546828",
+     "97.3232628398791"
+    ]
+   },
+   "ClaimNbResp": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 5,
+    "min": 0.0,
+    "max": 4.0,
+    "negatifs": 0,
+    "zeros": 13068,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "ClaimNbNonResp": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 12662,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "ClaimNbParking": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "min": 0.0,
+    "max": 3.0,
+    "negatifs": 0,
+    "zeros": 15277,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ]
+   },
+   "ClaimNbFireTheft": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "min": 0.0,
+    "max": 3.0,
+    "negatifs": 0,
+    "zeros": 15152,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ]
+   },
+   "ClaimNbWindscreen": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 5,
+    "min": 0.0,
+    "max": 4.0,
+    "negatifs": 0,
+    "zeros": 11901,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "OutUseNb": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "min": 0.0,
+    "max": 5.0,
+    "negatifs": 0,
+    "zeros": 13478,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "RiskArea": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 13,
+    "min": 1.0,
+    "max": 13.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "7",
+     "10",
+     "6",
+     "9",
+     "11",
+     "5"
+    ]
+   },
+   "BonusMalus": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 64,
+    "min": 50.0,
+    "max": 148.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "50",
+     "57",
+     "76",
+     "80",
+     "54",
+     "64"
+    ]
+   },
+   "ClaimInd": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 14959,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   }
+  }
+ },
+ "freMTPL2freq": {
+  "lignes": 677991,
+  "colonnes": 12,
+  "doublons": 0,
+  "detail": {
+   "IDpol": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 677991,
+    "exemples": [
+     "1",
+     "3",
+     "5",
+     "10",
+     "11",
+     "13"
+    ]
+   },
+   "ClaimNb": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 11,
+    "min": 0.0,
+    "max": 16.0,
+    "negatifs": 0,
+    "zeros": 653047,
+    "exemples": [
+     "0.0",
+     "1.0",
+     "2.0",
+     "3.0",
+     "4.0",
+     "5.0"
+    ]
+   },
+   "Exposure": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 181,
+    "min": 0.00273224043715847,
+    "max": 2.01,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "1.0",
+     "0.08",
+     "0.07",
+     "0.24",
+     "0.5",
+     "0.49"
+    ]
+   },
+   "VehPower": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 12,
+    "min": 4.0,
+    "max": 15.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "6",
+     "7",
+     "5",
+     "4",
+     "8",
+     "10"
+    ]
+   },
+   "VehAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 78,
+    "min": 0.0,
+    "max": 100.0,
+    "negatifs": 0,
+    "zeros": 57739,
+    "exemples": [
+     "1",
+     "2",
+     "0",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "DrivAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 83,
+    "min": 18.0,
+    "max": 100.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "36",
+     "38",
+     "39",
+     "37",
+     "52",
+     "34"
+    ]
+   },
+   "BonusMalus": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 115,
+    "min": 50.0,
+    "max": 230.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "50",
+     "100",
+     "68",
+     "72",
+     "76",
+     "64"
+    ]
+   },
+   "VehBrand": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 11,
+    "exemples": [
+     "B12",
+     "B1",
+     "B2",
+     "B3",
+     "B5",
+     "B6"
+    ]
+   },
+   "VehGas": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Regular",
+     "Diesel"
+    ]
+   },
+   "Area": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "exemples": [
+     "C",
+     "D",
+     "E",
+     "A",
+     "B",
+     "F"
+    ]
+   },
+   "Density": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 1607,
+    "min": 1.0,
+    "max": 27000.0,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "27000",
+     "3317",
+     "1313",
+     "9307",
+     "3744",
+     "1326"
+    ]
+   },
+   "Region": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 22,
+    "exemples": [
+     "Centre",
+     "Rhone-Alpes",
+     "Provence-Alpes-Cotes-D'Azur",
+     "Ile-de-France",
+     "Bretagne",
+     "Pays-de-la-Loire"
+    ]
+   }
+  }
+ },
+ "freMTPL2sev": {
+  "lignes": 26444,
+  "colonnes": 2,
+  "doublons": 235,
+  "detail": {
+   "IDpol": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 24944,
+    "exemples": [
+     "2241683",
+     "3253234",
+     "3254353",
+     "2248174",
+     "2239279",
+     "2216294"
+    ]
+   },
+   "ClaimAmount": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 12255,
+    "min": 1.0,
+    "max": 4075400.56,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "1204.0",
+     "1128.12",
+     "1172.0",
+     "1128.0",
+     "602.0",
+     "1320.0"
+    ]
+   }
+  }
+ },
+ "norauto": {
+  "lignes": 183999,
+  "colonnes": 7,
+  "doublons": 145367,
+  "detail": {
+   "Male": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 4413,
+    "exemples": [
+     "1",
+     "0"
+    ]
+   },
+   "Young": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "negatifs": 0,
+    "zeros": 139261,
+    "exemples": [
+     "0",
+     "1"
+    ]
+   },
+   "DistLimit": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "exemples": [
+     "no limit",
+     "20000 km",
+     "12000 km",
+     "25000-30000 km",
+     "8000 km",
+     "16000 km"
+    ]
+   },
+   "GeoRegion": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 6,
+    "exemples": [
+     "High-",
+     "High+",
+     "Medium+",
+     "Medium-",
+     "Low+",
+     "Low-"
+    ]
+   },
+   "Expo": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 1661,
+    "min": 0.101,
+    "max": 25.849,
+    "negatifs": 0,
+    "zeros": 0,
+    "exemples": [
+     "1.0",
+     "1.003",
+     "0.918",
+     "0.915",
+     "0.167",
+     "0.501"
+    ]
+   },
+   "ClaimAmount": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4142,
+    "min": 0.0,
+    "max": 700000.0,
+    "negatifs": 0,
+    "zeros": 175555,
+    "exemples": [
+     "0.0",
+     "16999.0",
+     "99.0",
+     "1.0",
+     "18000.0",
+     "17000.0"
+    ]
+   },
+   "NbClaim": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 4,
+    "min": 0.0,
+    "max": 3.0,
+    "negatifs": 0,
+    "zeros": 175555,
+    "exemples": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ]
+   }
+  }
+ },
+ "swmotorcycle": {
+  "lignes": 64548,
+  "colonnes": 9,
+  "doublons": 0,
+  "detail": {
+   "OwnerAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 85,
+    "min": 0.0,
+    "max": 92.0,
+    "negatifs": 0,
+    "zeros": 1,
+    "exemples": [
+     "46",
+     "45",
+     "47",
+     "43",
+     "44",
+     "48"
+    ]
+   },
+   "Gender": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2,
+    "exemples": [
+     "Male",
+     "Female"
+    ]
+   },
+   "Area": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 7,
+    "exemples": [
+     "Small towns; countryside except Gotland; Northern towns",
+     "Lesser towns except Gotland; Northern towns",
+     "Suburbs; middle-sized cities",
+     "Central parts of Sweden's three largest cities",
+     "Northern countryside",
+     "Northern towns"
+    ]
+   },
+   "RiskClass": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 7,
+    "exemples": [
+     "EV ratio 9-12",
+     "EV ratio 13-15",
+     "EV ratio 16-19",
+     "EV ratio 20-24",
+     "EV ratio <5",
+     "EV ratio 6-8"
+    ]
+   },
+   "VehAge": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 85,
+    "min": 0.0,
+    "max": 99.0,
+    "negatifs": 0,
+    "zeros": 1696,
+    "exemples": [
+     "15",
+     "16",
+     "14",
+     "1",
+     "17",
+     "13"
+    ]
+   },
+   "BonusClass": {
+    "type": "string",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 7,
+    "exemples": [
+     "BM7",
+     "BM1",
+     "BM2",
+     "BM3",
+     "BM4",
+     "BM6"
+    ]
+   },
+   "Exposure": {
+    "type": "float64",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 2577,
+    "min": 0.0,
+    "max": 31.33973,
+    "negatifs": 0,
+    "zeros": 2074,
+    "exemples": [
+     "1.0",
+     "0.49863",
+     "0.49589",
+     "0.0",
+     "0.50137",
+     "0.50411"
+    ]
+   },
+   "ClaimNb": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 3,
+    "min": 0.0,
+    "max": 2.0,
+    "negatifs": 0,
+    "zeros": 63878,
+    "exemples": [
+     "0",
+     "1",
+     "2"
+    ]
+   },
+   "ClaimAmount": {
+    "type": "Int32",
+    "manquants": 0,
+    "pct_manquants": 0.0,
+    "distinctes": 590,
+    "min": 0.0,
+    "max": 365347.0,
+    "negatifs": 0,
+    "zeros": 63878,
+    "exemples": [
+     "0",
+     "8000",
+     "68000",
+     "1000",
+     "78000",
+     "11000"
+    ]
+   }
+  }
+ }
+}

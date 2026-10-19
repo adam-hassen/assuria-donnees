@@ -1,0 +1,67 @@
+# Sources de données de sinistres auto et moto (objectif 3)
+# Chaque source est téléchargée puis convertie automatiquement par src/collecte.py
+
+casdatasets:
+  url_base: https://raw.githubusercontent.com/dutangc/CASdatasets/master/data
+  reference: https://github.com/dutangc/CASdatasets
+  licence: GPL (>= 2)
+
+sources:
+  - id: fr_fremtpl2
+    pays: France
+    type: auto
+    origine: casdatasets
+    fichiers: [freMTPL2freq, freMTPL2sev]
+    devise: EUR
+
+  - id: fr_frempl
+    pays: France
+    type: auto
+    origine: casdatasets
+    fichiers: [freMPL1, freMPL2, freMPL3, freMPL4, freMPL5, freMPL6, freMPL7, freMPL8, freMPL9, freMPL10]
+    devise: EUR
+
+  - id: it_eumtpl
+    pays: Italie
+    type: auto
+    origine: casdatasets
+    fichiers: [euMTPL]
+    devise: EUR
+
+  - id: be_bemtpl97
+    pays: Belgique
+    type: auto
+    origine: casdatasets
+    fichiers: [beMTPL97]
+    devise: EUR
+
+  - id: no_norauto
+    pays: Norvège
+    type: auto
+    origine: casdatasets
+    fichiers: [norauto]
+    devise: NOK
+
+  - id: se_swmotorcycle
+    pays: Suède
+    type: moto
+    origine: casdatasets
+    fichiers: [swmotorcycle]
+    devise: SEK
+
+  - id: es_portefeuille
+    pays: Espagne
+    type: auto+moto
+    origine: mendeley
+    doi: https://doi.org/10.17632/5cxyb5fp4f.2
+    mendeley_id: 5cxyb5fp4f
+    mendeley_version: 2
+    # Si le téléchargement automatique échoue, déposer le CSV dans data/raw/manuel/
+    fichier_manuel: data/raw/manuel/espagne.csv
+    devise: EUR
+
+# Taux de conversion vers l'euro (hypothèse à valider, période des données)
+taux_euro:
+  EUR: 1.0
+  NOK: 0.12   # couronne norvégienne, ordre de grandeur années 2000
+  SEK: 0.11   # couronne suédoise, ordre de grandeur fin des années 1990

@@ -13,6 +13,8 @@ pages_a_explorer:
   - {url: "https://www.pv.be/fr/ipid", pays: Belgique, assureur: P&V, langue: fr}
   - {url: "https://www.vivium.be/fr/private-individuals/ipid", pays: Belgique, assureur: Vivium, langue: fr}
   - {url: "https://www.april-moto.com/documents-utiles/", pays: France, assureur: APRIL Moto, langue: fr}
+  - {url: "https://www.creditmutuel.fr/fr/guides-et-informations-reglementaires/IPID.html", pays: France, assureur: Crédit Mutuel, langue: fr}
+  - {url: "https://www.cic.fr/fr/informations-legales/IPID.html", pays: France, assureur: CIC, langue: fr}
   - {url: "https://www.mapfre.pt/seguros/particulares/documentos-informativos/", pays: Portugal, assureur: Mapfre, langue: pt}
 
 
@@ -182,3 +184,5 @@ offres:
   # ---------------------------------------------------------------- Pays-Bas
   - {pays: Pays-Bas, type: moto, assureur: a.s.r., produit: Bromfietsverzekering WA, langue: nl, url: "https://kuiperverzekeringen.nl/storage/app/media/verzekeringkaarten/asr-2024/ASR-Verzekeringskaart-Bromfietsverzekering-WA-versie-6.pdf"}
   - {pays: Pays-Bas, type: auto, assureur: Interpolis, produit: Autoverzekering WA, langue: nl, url: "https://verzekeringskaarten.nl/interpolis/Interpolis-Autoverzekering-WA-AIEP-20"}
+  - {pays: Italie, type: auto, assureur: Quixa, produit: Auto, langue: it, url: "https://www.quixa.it/wp-content/documents/SetInformativi/ed.14.11.2023_Auto_QP.pdf"}
+  - {pays: Italie, type: auto, assureur: Quixa, produit: Sicurauto, langue: it, url: "https://www.quixa.it/wp-content/documents/SetInformativi/ed.19.12.24_Sicurauto.pdf"}

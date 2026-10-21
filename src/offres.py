@@ -196,9 +196,29 @@ def montants_franchise(texte: str) -> list[float]:
 def telecharger(url: str) -> bytes:
     r = requests.get(url, headers=NAVIGATEUR, timeout=90, allow_redirects=True)
     r.raise_for_status()
-    if not r.content.lstrip()[:5].startswith(b"%PDF"):
-        raise ValueError("la réponse n'est pas un PDF")
+    debut = r.content.lstrip()[:500].lower()
+    if not debut.startswith(b"%pdf") and b"<html" not in debut and b"<!doctype" not in debut:
+        raise ValueError("ni PDF ni page web")
     return r.content
+
+
+def est_pdf(contenu: bytes) -> bool:
+    return contenu.lstrip()[:5].startswith(b"%PDF")
+
+
+def texte_html(contenu: bytes) -> str:
+    """Certains assureurs (Crédit Mutuel, CIC…) publient l'IPID en page web plutôt qu'en PDF."""
+    page = contenu.decode("utf-8", errors="ignore")
+    page = re.sub(r"(?is)<(script|style|nav|header|footer)[^>]*>.*?</\1>", " ", page)
+    page = re.sub(r"(?i)<br\s*/?>|</(p|div|li|h\d|tr)>", "\n", page)
+    return html.unescape(re.sub(r"<[^>]+>", " ", page))
+
+
+def fichier(oid: str) -> Path | None:
+    for ext in (".pdf", ".txt"):
+        if (RAW / f"{oid}{ext}").exists():
+            return RAW / f"{oid}{ext}"
+    return None
 
 
 def lire_pdf(contenu: bytes) -> tuple[str, int, PdfReader]:
@@ -245,7 +265,7 @@ def decouvrir(page: dict) -> list[dict]:
         url = urljoin(r.url, lien.strip())
         texte = html.unescape(re.sub(r"<[^>]+>|\s+", " ", texte)).strip()
         cle = normaliser(url + " " + texte)
-        if not re.search(r"\.pdf|ipid|dipa|\bdip\b|informatie|informacion|informacao", cle):
+        if not re.search(r"\.pdf|ipid|dipa|\bdip\b|informatie|informacion|informacao|document d.information", cle):
             continue
         if not VEHICULE_RE.search(cle) or HORS_SUJET_RE.search(cle) or url in trouves:
             continue
@@ -263,7 +283,8 @@ def est_une_offre(texte: str) -> bool:
 
 
 def collecter(offre: dict, manifest: dict, empreintes: dict) -> bool:
-    oid, chemin = offre["id"], RAW / f"{offre['id']}.pdf"
+    oid = offre["id"]
+    chemin = fichier(oid) or RAW / f"{oid}.pdf"
     ancien = manifest.get(oid, {})
     meta = {k: offre[k] for k in ("pays", "type", "assureur", "produit", "langue", "url", "decouvert_sur") if k in offre}
     try:
@@ -285,7 +306,10 @@ def collecter(offre: dict, manifest: dict, empreintes: dict) -> bool:
         manifest[oid] = {**ancien, "offre": meta, "statut": "ok"}
         return False
     try:
-        texte, nb_pages, lecteur = lire_pdf(contenu)
+        if est_pdf(contenu):
+            texte, nb_pages, lecteur = lire_pdf(contenu)
+        else:
+            texte, nb_pages, lecteur = texte_html(contenu), 1, None
     except Exception as e:
         manifest[oid] = {"offre": meta, "statut": f"PDF illisible ({e.__class__.__name__})"}
         return False
@@ -294,7 +318,11 @@ def collecter(offre: dict, manifest: dict, empreintes: dict) -> bool:
         chemin.unlink(missing_ok=True)
         log(f"{oid} : écarté")
         return False
-    sauver_pdf(contenu, lecteur, chemin)
+    chemin.unlink(missing_ok=True)
+    if lecteur is not None:
+        sauver_pdf(contenu, lecteur, RAW / f"{oid}.pdf")
+    else:
+        (RAW / f"{oid}.txt").write_text(re.sub(r"\n\s*\n+", "\n", texte).strip(), encoding="utf-8")
     manifest[oid] = {"offre": meta, "sha256": empreinte, "pages": nb_pages, "statut": "ok", "collecte_le": maintenant()}
     log(f"{oid} : NOUVELLE VERSION ({nb_pages} pages)")
     return True
@@ -308,11 +336,11 @@ def maintenant() -> str:
 def construire_table(manifest: dict) -> pd.DataFrame:
     lignes = []
     for oid, m in sorted(manifest.items()):
-        chemin = RAW / f"{oid}.pdf"
-        if not chemin.exists() or "offre" not in m:
+        chemin = fichier(oid)
+        if chemin is None or "offre" not in m:
             continue
         o = {**m["offre"], "id": oid}
-        texte, _, _ = lire_pdf(chemin.read_bytes())
+        texte = lire_pdf(chemin.read_bytes())[0] if chemin.suffix == ".pdf" else chemin.read_text(encoding="utf-8")
         r = decouper(texte)
         # Si la rubrique est vide (titres empilés en haut de page), on cherche dans tout le document sauf les exclusions
         if r["garanties"] and len(r["garanties"]) >= 40:
@@ -332,7 +360,7 @@ def construire_table(manifest: dict) -> pd.DataFrame:
             **r,
             "rubriques_trouvees": sum(v is not None for v in r.values()),
             "prix": None,  # pas publié dans l'IPID : dépend d'un devis personnalisé
-            "url_source": o["url"], "fichier_pdf": f"data/raw/offres/{oid}.pdf",
+            "url_source": o["url"], "fichier_source": f"data/raw/offres/{chemin.name}",
             "collecte_le": m.get("collecte_le"), "statut_lien": m.get("statut"),
         }
         lignes.append(ligne)
@@ -355,7 +383,7 @@ DESCRIPTION_COLONNES = [
     ("resiliation", "Rubrique « Comment résilier ? »"),
     ("rubriques_trouvees", "Nombre de rubriques retrouvées sur 9 (qualité de l'extraction)"),
     ("prix", "Vide pour l'instant : le prix n'est pas publié, il dépend d'un devis"),
-    ("url_source, fichier_pdf", "Lien d'origine et copie du PDF dans le dépôt (traçabilité)"),
+    ("url_source, fichier_source", "Lien d'origine et copie du document dans le dépôt (PDF, ou texte si l'IPID est une page web)"),
     ("collecte_le, statut_lien", "Date de la version collectée et état du lien au dernier passage"),
 ]
 
@@ -430,9 +458,9 @@ def main() -> int:
     empreintes = {v["sha256"]: k for k, v in manifest.items() if v.get("sha256") and v.get("statut", "").startswith(("ok", "lien"))}
     nouveautes = sum(collecter(o, manifest, empreintes) for o in offres)
     MANIFEST.write_text(json.dumps(manifest, indent=2, ensure_ascii=False, sort_keys=True), encoding="utf-8")
-    for pdf in RAW.glob("*.pdf"):                        # PDF d'offres retirées de la liste
-        if pdf.stem not in manifest:
-            pdf.unlink()
+    for f in [*RAW.glob("*.pdf"), *RAW.glob("*.txt")]:   # documents d'offres retirées de la liste
+        if f.stem not in manifest or not manifest[f.stem].get("statut", "").startswith(("ok", "lien")):
+            f.unlink()
 
     df = construire_table(manifest)
     df.to_parquet(CLEAN / "offres_europe.parquet", index=False)

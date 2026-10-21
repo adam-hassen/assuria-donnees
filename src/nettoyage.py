@@ -360,6 +360,85 @@ def profil_qualite() -> dict:
     return profil
 
 
+# ------------------------------------------------------------------ fiche descriptive du jeu de données
+DESCRIPTION_COLONNES = [
+    ("pays", "Pays de la source"), ("type", "auto ou moto"), ("source", "Jeu de données d'origine"),
+    ("id_contrat", "Identifiant du contrat dans la source"), ("annee", "Année du contrat, si connue"),
+    ("age_conducteur", "Âge du conducteur (ans)"), ("jeune_conducteur", "Conducteur de moins de 26 ans"),
+    ("sexe", "H, F ou inconnu"), ("age_vehicule", "Âge du véhicule (ans)"), ("puissance_ch", "Puissance (chevaux)"),
+    ("carburant", "essence, diesel, électrique, gpl, ou code d'origine (Italie)"), ("usage", "Usage du véhicule"),
+    ("zone", "Région, province, code postal ou type de zone selon le pays"),
+    ("bonus_malus", "Bonus-malus, dans l'échelle propre à chaque pays"),
+    ("exposition", "Durée du contrat sur l'année (1 = année complète)"),
+    ("nb_sinistres", "Nombre de sinistres du contrat"), ("cout_total_eur", "Coût total des sinistres (€)"),
+    ("cout_moyen_eur", "**Variable à prédire** : coût moyen par sinistre (€)"),
+    ("log_cout", "Logarithme du coût moyen (cible transformée)"),
+    ("sinistre_extreme", "Coût au-delà du 99,5e centile de sa source (gardé, mais repéré)"),
+    ("periode_source", "Année relative fournie par la source italienne (7, 8, 9)"),
+]
+
+
+def ecrire_fiche(final: pd.DataFrame, brut: pd.DataFrame) -> None:
+    """Écrit data/clean/README.md : description du jeu de données, avec les chiffres à jour."""
+    infos = {s["id"]: s for s in CONFIG["sources"]}
+    n = lambda x: f"{int(x):,}".replace(",", " ")
+    e = lambda x: f"{x:,.0f} €".replace(",", " ")
+    l = []
+    l += ["# Jeu de données : sinistres auto et moto en Europe", "",
+          "Premier jeu de données du projet AssurIA (objectif 3 : prédiction du coût d'un sinistre).",
+          "Ce fichier est **généré automatiquement** à chaque mise à jour des données.", "",
+          f"- **Mis à jour le** : {datetime.now(timezone.utc).strftime('%d/%m/%Y %H:%M')} (UTC)",
+          f"- **Sinistres** : {n(len(final))} sinistres nettoyés ({n(len(brut))} lignes brutes)",
+          f"- **Pays** : {', '.join(sorted(final['pays'].unique()))}",
+          f"- **Variable à prédire** : `cout_moyen_eur`, coût moyen par sinistre en euros",
+          "- **Format** : Parquet (`pd.read_parquet(...)`)", ""]
+    l += ["## Fichiers", "",
+          "| Fichier | Contenu |", "| --- | --- |",
+          "| `sinistres_europe.parquet` | Données nettoyées, prêtes pour la modélisation |",
+          "| `sinistres_bruts.parquet` | Données avant nettoyage, avec une colonne par type d'anomalie (`anom_*`) |",
+          "| `rapport_nettoyage.json` | Lignes avant / après chaque étape de nettoyage, par source |", ""]
+    l += ["## Sources", "",
+          "| Source | Pays | Type | Sinistres nettoyés | Coût médian | Devise d'origine |",
+          "| --- | --- | --- | --- | --- | --- |"]
+    for sid, g in final.groupby("source"):
+        s = infos.get(sid, {})
+        l.append(f"| `{sid}` | {s.get('pays', '')} | {', '.join(sorted(g['type'].unique()))} | {n(len(g))} | "
+                 f"{e(g['cout_moyen_eur'].median())} | {s.get('devise', '')} |")
+    l += ["", "Origine : [CASdatasets](https://github.com/dutangc/CASdatasets) (C. Dutang et A. Charpentier, licence GPL ≥ 2). "
+          "Portefeuille espagnol : [Mendeley Data](https://doi.org/10.17632/5cxyb5fp4f.2), "
+          + ("intégré." if "es_portefeuille" in set(final["source"]) else "pas encore intégré."), ""]
+    l += ["## Colonnes", "", "| Colonne | Contenu | % renseigné |", "| --- | --- | --- |"]
+    for c, d in DESCRIPTION_COLONNES:
+        if c in final:
+            s = final[c]
+            pct = 100 * s.notna().mean() * (s.astype(str) != "inconnu").mean()
+            l.append(f"| `{c}` | {d} | {pct:.0f} % |")
+    l += ["", "## Coût par pays", "", "| Pays | Sinistres | Coût médian | Coût moyen |", "| --- | --- | --- | --- |"]
+    for p, g in final.groupby("pays"):
+        l.append(f"| {p} | {n(len(g))} | {e(g['cout_moyen_eur'].median())} | {e(g['cout_moyen_eur'].mean())} |")
+    l += ["", "## Nettoyage appliqué", "",
+          "1. Seuls les contrats avec au moins un sinistre sont gardés.",
+          f"2. Les coûts négatifs, nuls ou inférieurs à {COUT_MIN:.0f} € sont retirés.",
+          "3. Le coût moyen par sinistre est calculé partout (coût total ÷ nombre de sinistres).",
+          "4. Les valeurs impossibles (âge < 16 ou > 100 ans, puissance ≤ 0, âge du véhicule > 60 ans) sont mises à vide ; "
+          "les contrats d'exposition nulle sont retirés.",
+          "5. Les sinistres au-delà du 99,5e centile sont gardés mais repérés (`sinistre_extreme`).",
+          "6. Les libellés sont harmonisés (carburant, sexe) ; les textes manquants deviennent « inconnu ».",
+          "7. Les montants sont convertis en euros ; une colonne `pays` et une colonne `type` sont ajoutées.", "",
+          f"Lignes retirées au total : {n(len(brut) - len(final))} ({100 * (1 - len(final) / max(len(brut), 1)):.2f} %)".replace(".", ",") + f".", ""]
+    l += ["## Limites connues", "",
+          "- Toutes les variables n'existent pas dans tous les pays (voir « % renseigné ») : les valeurs vides sont "
+          "laissées vides, sans être inventées.",
+          "- Les codes de carburant et d'usage italiens ne sont pas documentés par la source : ils sont gardés tels quels.",
+          "- La puissance italienne semble exprimée en chevaux fiscaux : à vérifier avant de la comparer aux autres pays.",
+          "- Les taux de conversion des couronnes (Norvège, Suède) sont des ordres de grandeur, à valider.",
+          "- Les montants ne sont pas encore ajustés à l'inflation (les données vont de 1997 aux années 2000).",
+          "- Les échelles de bonus-malus diffèrent selon les pays.", ""]
+    l += ["## Utilisation", "", "```python", "import pandas as pd",
+          "df = pd.read_parquet(\"sinistres_europe.parquet\")", "y = df[\"log_cout\"]   # cible transformée", "```", ""]
+    (CLEAN / "README.md").write_text("\n".join(l), encoding="utf-8")
+
+
 def main() -> int:
     CLEAN.mkdir(parents=True, exist_ok=True)
     infos = {s["id"]: s for s in CONFIG["sources"]}
@@ -406,6 +485,7 @@ def main() -> int:
         if c in brut:
             brut[c] = brut[c].astype("string")
     brut.to_parquet(CLEAN / "sinistres_bruts.parquet", index=False)
+    ecrire_fiche(final, brut)
     log(f"Fichier brut : {len(brut):,} lignes, {int((brut['nb_anomalies'] > 0).sum()):,} avec au moins une anomalie")
     R.sauver(CLEAN / "rapport_nettoyage.json")
     (CLEAN / "qualite_brute.json").write_text(json.dumps(profil_qualite(), indent=1, ensure_ascii=False), encoding="utf-8")

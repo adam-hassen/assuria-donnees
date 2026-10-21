@@ -1,0 +1,46 @@
+name: Pipeline offres d'assurance
+
+on:
+  schedule:
+    - cron: "30 5 * * 1"       # chaque lundi à 5h30 UTC
+  workflow_dispatch:            # lancement manuel depuis l'onglet Actions
+  push:
+    branches: [main]
+    paths: ["src/offres.py", "config/offres.yaml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ecriture-donnees      # évite deux pipelines qui écrivent en même temps
+  cancel-in-progress: false
+
+jobs:
+  collecte-offres:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Collecte des documents d'offres et construction du fichier
+        run: python -m src.offres
+
+      - name: Enregistrer les données mises à jour dans le dépôt
+        run: |
+          git config user.name "pipeline-donnees"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Aucune donnée modifiée."
+          else
+            git commit -m "Offres : mise à jour automatique $(date -u +'%Y-%m-%d')"
+            git pull --rebase
+            git push
+          fi

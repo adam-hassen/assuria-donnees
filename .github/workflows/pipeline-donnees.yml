@@ -8,6 +8,10 @@ on:
     branches: [main]
     paths: ["src/**", "config/**", "data/raw/manuel/**"]
 
+concurrency:
+  group: ecriture-donnees
+  cancel-in-progress: false
+
 permissions:
   contents: write
 

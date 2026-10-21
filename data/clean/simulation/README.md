@@ -24,6 +24,7 @@ Comme un assureur : **prix = prix de base de l'offre x coefficients du profil**.
 | `coefficients.json` | Coefficients appris (âge, puissance, âge du véhicule, zone, énergie) et règles |
 | `profils.parquet` | Profils générés : conducteur, permis, véhicule, zone, usage, besoins |
 | `devis_simules.parquet` | Un prix simulé par profil x offre x formule, avec le détail des coefficients |
+| **`offres_prix_profils.csv` / `.parquet`** | **Le fichier unique** : une ligne = un profil simulé x une offre réelle x une formule. Caractéristiques du profil (`profil_*`), offre et garanties (`offre_*`), prix de base, prix simulé, détail des coefficients, lien de l'offre. Le CSV s'ouvre dans Excel (séparateur « ; ») |
 
 ## Les profils couvrent
 

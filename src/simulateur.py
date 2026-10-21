@@ -497,7 +497,10 @@ def ecrire_readme(prix_base, coefs, profils, devis, cfg):
          "| `prix_base.parquet` | Prix de base par offre réelle et par formule, avec sa source |",
          "| `coefficients.json` | Coefficients appris (âge, puissance, âge du véhicule, zone, énergie) et règles |",
          "| `profils.parquet` | Profils générés : conducteur, permis, véhicule, zone, usage, besoins |",
-         "| `devis_simules.parquet` | Un prix simulé par profil x offre x formule, avec le détail des coefficients |", "",
+         "| `devis_simules.parquet` | Un prix simulé par profil x offre x formule, avec le détail des coefficients |",
+         "| **`offres_prix_profils.csv` / `.parquet`** | **Le fichier unique** : une ligne = un profil simulé x une offre réelle x une formule. "
+         "Caractéristiques du profil (`profil_*`), offre et garanties (`offre_*`), prix de base, prix simulé, détail des coefficients, lien de l'offre. "
+         "Le CSV s'ouvre dans Excel (séparateur « ; ») |", "",
          "## Les profils couvrent", "",
          "- 9 pays, auto et moto ; chaque tranche d'âge (18 à 85 ans) croisée avec chaque catégorie de véhicule",
          "- Auto : citadine, compacte, SUV, familiale, premium, sportive, électrique (20 modèles)",
@@ -527,6 +530,23 @@ def ecrire_readme(prix_base, coefs, profils, devis, cfg):
     (SORTIE / "README.md").write_text("\n".join(l), encoding="utf-8")
 
 
+def fichier_unique(offres: pd.DataFrame, profils: pd.DataFrame, devis: pd.DataFrame) -> pd.DataFrame:
+    """Un seul fichier : une ligne = un profil simulé x une offre réelle x une formule, avec tout le détail."""
+    p = profils.rename(columns={c: f"profil_{c}" for c in profils.columns if c not in ("id_profil", "pays", "type")})
+    g = [c for c in offres.columns if c.startswith("g_")]
+    o = offres[["id_offre", "produit", *g, "franchise_min_eur", "franchise_max_eur", "paiement_mensuel"]].rename(
+        columns={c: f"offre_{c}" for c in [*g, "franchise_min_eur", "franchise_max_eur", "paiement_mensuel"]})
+    d = devis.drop(columns=["produit"]).merge(p.drop(columns=["pays", "type"]), on="id_profil").merge(o, on="id_offre")
+    colonnes_profil = [c for c in d.columns if c.startswith("profil_")]
+    colonnes_offre = [c for c in d.columns if c.startswith("offre_")]
+    coefs = [c for c in d.columns if c.startswith("coef_")]
+    ordre = ["id_profil", "pays", "type", *colonnes_profil,
+             "id_offre", "assureur", "produit", "formule", "formule_souhaitee", *colonnes_offre,
+             "prix_base_annuel", "source_prix_base", "prix_annuel_estime", "prix_mensuel_estime", "statut",
+             *coefs, "url_offre"]
+    return d[ordre].sort_values(["id_profil", "formule", "prix_annuel_estime"]).reset_index(drop=True)
+
+
 def main() -> int:
     SORTIE.mkdir(parents=True, exist_ok=True)
     cfg = yaml.safe_load(CONFIG.read_text(encoding="utf-8"))
@@ -546,6 +566,10 @@ def main() -> int:
     (SORTIE / "coefficients.json").write_text(json.dumps(coefs, indent=2, ensure_ascii=False), encoding="utf-8")
     profils.to_parquet(SORTIE / "profils.parquet", index=False)
     devis.to_parquet(SORTIE / "devis_simules.parquet", index=False)
+    tout = fichier_unique(offres, profils, devis)
+    tout.to_parquet(SORTIE / "offres_prix_profils.parquet", index=False)
+    tout.to_csv(SORTIE / "offres_prix_profils.csv", index=False, sep=";", decimal=",", encoding="utf-8-sig")
+    log(f"Fichier unique : {len(tout)} lignes, {tout.shape[1]} colonnes")
     ecrire_readme(prix_base, coefs, profils, devis, cfg)
     return 0
 

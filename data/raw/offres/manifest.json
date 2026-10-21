@@ -1,41 +1,595 @@
 {
+  "at_allianz_osterreich_auto_d8cf67": {
+    "collecte_le": "2026-10-21T12:49:54+00:00",
+    "offre": {
+      "assureur": "Allianz Österreich",
+      "langue": "de",
+      "pays": "Autriche",
+      "produit": "Mein Kfz Paket MAX",
+      "type": "auto",
+      "url": "https://www.allianz.at/content/dam/onemarketing/cee/azat/privat_pdf/Mein-Kfz-Paket-MAX.pdf"
+    },
+    "pages": 3,
+    "sha256": "faf85d2c8c0965121d6da4ed2b2e20aa8dc18abf584f295c88c10a3a1369935d",
+    "statut": "ok"
+  },
+  "be_argenta_auto_7c5910": {
+    "collecte_le": "2026-10-21T12:46:56+00:00",
+    "offre": {
+      "assureur": "Argenta",
+      "langue": "nl",
+      "pays": "Belgique",
+      "produit": "Autoverzekering",
+      "type": "auto",
+      "url": "https://www.argenta.be/content/dam/argenta/documenten/verzekeringen/ipid/IPID%20Autoverzekering.pdf"
+    },
+    "pages": 2,
+    "sha256": "f0a104666e34531050d38bc30c8e98638647095871bb93cf525670f23a6fc375",
+    "statut": "ok"
+  },
   "be_argenta_moto": {
     "collecte_le": "2026-10-21T12:32:04+00:00",
+    "offre": {
+      "assureur": "Argenta",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Assurance moto",
+      "type": "moto",
+      "url": "https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20moto.pdf"
+    },
     "pages": 2,
     "sha256": "b30d4902901e6d53e261bb6f2a6de2f721e9b0651a1fb17a24c248115520b18a",
     "statut": "ok",
     "url": "https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20moto.pdf"
   },
+  "be_arval_auto_bfff1c": {
+    "collecte_le": "2026-10-21T12:47:01+00:00",
+    "offre": {
+      "assureur": "Arval",
+      "langue": "nl",
+      "pays": "Belgique",
+      "produit": "Autoverzekering",
+      "type": "auto",
+      "url": "https://www.arval.be/sites/default/files/inline-files/IPID%20BA.pdf"
+    },
+    "pages": 2,
+    "sha256": "99c9ce953b3b145bb2615c90b92edbc03e9c43f62a5127de5dab1a71a23bdfaa",
+    "statut": "ok"
+  },
+  "be_axa_belgium_auto_f27080": {
+    "collecte_le": "2026-10-21T12:46:58+00:00",
+    "offre": {
+      "assureur": "AXA Belgium",
+      "langue": "nl",
+      "pays": "Belgique",
+      "produit": "Comfort Auto",
+      "type": "auto",
+      "url": "https://cdn.website.axa.be/nl-be/-/media/axa-documents/library-public/ipid/3/8/c/d/a/Comfort%20Auto%20(Personenwagen,%20Mobilhome,%20Minibus)%20-%20IPID%20Fiches.pdf?rev=39a27ef263c344f98695978d4af045eb"
+    },
+    "pages": 3,
+    "sha256": "d441bdcc5b8a56319c286e3b4ded20a6cfb9fb602c0608e9bdc4d4c2d0a7469b",
+    "statut": "ok"
+  },
   "be_axa_confort_auto": {
     "collecte_le": "2026-10-21T12:32:03+00:00",
+    "offre": {
+      "assureur": "AXA Belgium",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Confort Auto",
+      "type": "auto",
+      "url": "https://distributorportal.axa.be/fr-be/-/media/axa-documents/library-public/ipid/3/8/c/d/a/Confort%20Auto%20-%20Fiches%20IPID.pdf?rev=e72a16bb015743978fd0a703857733fe"
+    },
     "pages": 3,
     "sha256": "fc607fc22c6b7fd065e3e096fbbf7d1e48c1bb6ff5956707181c8ec29a67305b",
     "statut": "ok",
     "url": "https://distributorportal.axa.be/fr-be/-/media/axa-documents/library-public/ipid/3/8/c/d/a/Confort%20Auto%20-%20Fiches%20IPID.pdf?rev=e72a16bb015743978fd0a703857733fe"
   },
+  "be_baloise_auto_407069": {
+    "offre": {
+      "assureur": "Baloise",
+      "langue": "nl",
+      "pays": "Belgique",
+      "produit": "Mobility Safe 1",
+      "type": "auto",
+      "url": "https://www.baloise.be/dam/baloise-be/prive/documents/nl/IPID/B9000.MOT.02.26.Fiche-ipid-Mobility_Safe_1_Personenwagens-en-Lichte-vrachtwagens_NL.pdf"
+    },
+    "statut": "lien en erreur (HTTPError)"
+  },
+  "be_ethias_auto_80ae6a": {
+    "offre": {
+      "assureur": "Ethias",
+      "langue": "nl",
+      "pays": "Belgique",
+      "produit": "Motorrijtuigenverzekering",
+      "type": "auto",
+      "url": "https://www.mijnvergelijker.be/insurance/downloads/ethias/car-ipid-nl.pdf"
+    },
+    "statut": "lien en erreur (HTTPError)"
+  },
   "be_hyundai_auto": {
     "collecte_le": "2026-10-21T12:24:21+00:00",
+    "offre": {
+      "assureur": "Hyundai Insurance",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Assurance auto",
+      "type": "auto",
+      "url": "https://www.hyundai.com/content/dam/hyundai/downloads/be/lu/pdf/FR_Hy_IPID_Insurance.pdf"
+    },
     "pages": 3,
     "sha256": "6cb93fa16dfc23293b7a4d55a4546b23c1cd11297cb5dedf7ebdcd0c88eb934b",
     "statut": "ok",
     "url": "https://www.hyundai.com/content/dam/hyundai/downloads/be/lu/pdf/FR_Hy_IPID_Insurance.pdf"
   },
+  "be_hyundai_insurance_auto_a56cad": {
+    "collecte_le": "2026-10-21T12:47:01+00:00",
+    "offre": {
+      "assureur": "Hyundai Insurance",
+      "langue": "nl",
+      "pays": "Belgique",
+      "produit": "Autoverzekering",
+      "type": "auto",
+      "url": "https://www.hyundai.com/content/dam/hyundai/downloads/be/nl/pdf/NL_Hy_IPID_Insurance.pdf"
+    },
+    "pages": 3,
+    "sha256": "e04b41ff90157bf7e60a59662dfee655fb9ce184b59099bb7f317519642f51eb",
+    "statut": "ok"
+  },
+  "be_ing_belgique_moto_06e2cd": {
+    "collecte_le": "2026-10-21T12:48:36+00:00",
+    "offre": {
+      "assureur": "ING Belgique",
+      "langue": "nl",
+      "pays": "Belgique",
+      "produit": "Motor- en bromfietsverzekering",
+      "type": "moto",
+      "url": "https://assets.ing.com/m/445285b944971a8d/original/ING-motorbike-and-moped-insurance-IPID-NL.pdf"
+    },
+    "pages": 3,
+    "sha256": "d18d8d92c52744eee0067bd4edfe5665a07eb088ea84391583dff8d0b59dfa52",
+    "statut": "ok"
+  },
   "be_ing_moto": {
     "collecte_le": "2026-10-21T12:32:05+00:00",
+    "offre": {
+      "assureur": "ING Belgique",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Assurance moto et cyclomoteur",
+      "type": "moto",
+      "url": "https://assets.ing.com/m/531a38da1f7d4826/original/ING-motorbike-and-moped-insurance-IPID-FR.pdf"
+    },
     "pages": 3,
     "sha256": "88faf0eb7baf7e210595d2d43c74448fd586bc33b034a2e7729d11bcbca2869f",
     "statut": "ok",
     "url": "https://assets.ing.com/m/531a38da1f7d4826/original/ING-motorbike-and-moped-insurance-IPID-FR.pdf"
   },
+  "be_mini_carplan_auto_fc3337": {
+    "offre": {
+      "assureur": "MINI CarPlan",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Assurance auto",
+      "type": "auto",
+      "url": "https://mini.be/content/dam/MINI/marketBE/mini_be/fr_be/documents/standalone/21MAY102_220627_IPID_CarPlan_Auto_BMW_FR1.pdf.asset.1670859198169.pdf"
+    },
+    "statut": "lien en erreur (ReadTimeout)"
+  },
+  "be_p_v_auto_2f9d8b": {
+    "collecte_le": "2026-10-21T12:50:34+00:00",
+    "offre": {
+      "assureur": "P&V",
+      "decouvert_sur": "https://www.pv.be/fr/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - P&amp;V Auto - Mobilhome ",
+      "type": "auto",
+      "url": "https://www.pv.be/documents/2579080/0/IPID_495_PV+Mobilhome_FR_DEFweb.pdf/879c1fc0-bd40-5b48-2ed8-d4a18bf8d9ba"
+    },
+    "pages": 3,
+    "sha256": "54802ddaf087f16c89028971703c4a53aa4473904079ebebf871664e28e0331b",
+    "statut": "ok"
+  },
+  "be_p_v_auto_98c6eb": {
+    "collecte_le": "2026-10-21T12:50:30+00:00",
+    "offre": {
+      "assureur": "P&V",
+      "decouvert_sur": "https://www.pv.be/fr/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - P&amp;V Auto - 010/1294 -",
+      "type": "auto",
+      "url": "https://www.pv.be/documents/2579080/0/IPID_495_PV+Auto_FR_0101294_201811.pdf/fea71854-173a-c58d-def1-20006281cb2b"
+    },
+    "pages": 3,
+    "sha256": "5ec3f2eb33bb6c9fcfb807e6cf6fbc045f8332df8bd37f7ef88fb7a487164557",
+    "statut": "ok"
+  },
+  "be_p_v_auto_c08ff0": {
+    "collecte_le": "2026-10-21T12:50:36+00:00",
+    "offre": {
+      "assureur": "P&V",
+      "decouvert_sur": "https://www.pv.be/fr/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - P&amp;V Auto - Oldtimer -",
+      "type": "auto",
+      "url": "https://www.pv.be/documents/2579080/0/IPID_495_PV+Oldtimer_FR_DEFweb.pdf/05d27820-016a-bf96-5ae3-8945de9f12f2"
+    },
+    "pages": 3,
+    "sha256": "bfd38f1a92657cf71fa2bec3414fdef0112b5ba30af8062912b1ff9040111110",
+    "statut": "ok"
+  },
+  "be_p_v_moto_b60e59": {
+    "collecte_le": "2026-10-21T12:50:32+00:00",
+    "offre": {
+      "assureur": "P&V",
+      "decouvert_sur": "https://www.pv.be/fr/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - P&amp;V Auto - Moto - 010",
+      "type": "moto",
+      "url": "https://www.pv.be/documents/2579080/0/IPID_495_PV+Moto_FR_DEFweb.pdf/553317d9-8010-8c82-3d1e-8c89cae73844"
+    },
+    "pages": 3,
+    "sha256": "3e02b1ab9280e04425fdeab2a08d2bc735a5b42edb2a1ff6c5b1bda1169673b6",
+    "statut": "ok"
+  },
+  "be_polisa_auto_046a93": {
+    "offre": {
+      "assureur": "Polisa",
+      "langue": "nl",
+      "pays": "Belgique",
+      "produit": "Motorvoertuigenverzekering",
+      "type": "auto",
+      "url": "https://polisa.be/wp-content/uploads/2025/10/IPID-polisa-NL-FR-v3-auto-20230607.pdf"
+    },
+    "statut": "lien en erreur (HTTPError)"
+  },
   "be_pv_auto": {
     "collecte_le": "2026-10-21T12:32:02+00:00",
+    "offre": {
+      "assureur": "P&V",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "P&V Auto",
+      "type": "auto",
+      "url": "https://www.pv.be/documents/2579080/0/IPID_495_PV+Auto_FR_DEFweb.pdf/2b84f6f9-5aec-989a-3084-20350cfc497a"
+    },
     "pages": 3,
     "sha256": "9509056b34e6eb483e802d8c3e879cee2f96ca067f8535d6984003413b46b507",
     "statut": "ok",
     "url": "https://www.pv.be/documents/2579080/0/IPID_495_PV+Auto_FR_DEFweb.pdf/2b84f6f9-5aec-989a-3084-20350cfc497a"
   },
+  "be_toyota_insurance_auto_f3858f": {
+    "offre": {
+      "assureur": "Toyota Insurance",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "AND-E",
+      "type": "auto",
+      "url": "https://fr.toyota.be/content/dam/toyota/nmsc/belgium/local-assets/assurance/and-e/IPID%20AND-E%20FR_new.pdf"
+    },
+    "statut": "lien en erreur (HTTPError)"
+  },
+  "be_vivium_auto_099840": {
+    "collecte_le": "2026-10-21T12:54:38+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Camion - 8.",
+      "type": "auto",
+      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Vrachtwagen_8933F_2025.pdf/00fcf938-e62a-7c8e-c28a-1001f754369f?t=1741172035798"
+    },
+    "pages": 2,
+    "sha256": "4448a9e877604f4363d5b2d1f24d285257211d089d3e1d791a613bffefb3aa99",
+    "statut": "ok"
+  },
+  "be_vivium_auto_1fa4e5": {
+    "collecte_le": "2026-10-21T12:50:38+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - 8.933F - se",
+      "type": "auto",
+      "url": "https://www.vivium.be/documents/1091840/1198871/IPID_495_VIV+Auto_FR_DEFweb.pdf/131a7864-14f3-5f23-918b-1d1cbb74097a?t=1741252135635"
+    },
+    "pages": 3,
+    "sha256": "fb8aea2b2bdba6a3d455d48ebb835d5847b50ce22ebf576d802b2d6f0c207a62",
+    "statut": "ok"
+  },
+  "be_vivium_auto_349f6f": {
+    "collecte_le": "2026-10-21T12:52:00+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Oldtimer - ",
+      "type": "auto",
+      "url": "https://www.vivium.be/documents/1091840/1198851/IPID_495_VIV+Oldtimer_FR_DEFweb.pdf/64ebca30-4312-bb00-4cb0-dde9db82fe1f?t=1741252155937"
+    },
+    "pages": 3,
+    "sha256": "099d212fda9172598b5f45f5169a0790f00850fc5b104549dff1e533ae40b2e7",
+    "statut": "ok"
+  },
+  "be_vivium_auto_3a06cd": {
+    "collecte_le": "2026-10-21T12:53:20+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Caravanes -",
+      "type": "auto",
+      "url": "https://www.vivium.be/documents/1091840/1198851/_IPID_495_VIV+Caravan_FR_2020.pdf/7479f822-84ff-f14e-0408-c87ed11c4ede?t=1741252155936"
+    },
+    "pages": 3,
+    "sha256": "3637da6944a0bd574d35d79d0ba41f014e189d6846611c6da3c7d6102aa9ef94",
+    "statut": "ok"
+  },
+  "be_vivium_auto_8ac42e": {
+    "collecte_le": "2026-10-21T12:52:02+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Oldtimer - ",
+      "type": "auto",
+      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Oldtimer_8932F_2025.pdf/5e81ad48-5ca7-30b9-9b57-f57358cc9f12?t=1741171338427"
+    },
+    "pages": 3,
+    "sha256": "823833d2a472f469e7810594c7fe13e34845ebd548d8be8d40acdca25518f059",
+    "statut": "ok"
+  },
+  "be_vivium_auto_a159a6": {
+    "collecte_le": "2026-10-21T12:52:06+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Remorque - ",
+      "type": "auto",
+      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Aanhangwagen_8975F_2025.pdf/391fcba9-d43d-3845-8cac-4290e7719d1c?t=1741171409627"
+    },
+    "pages": 2,
+    "sha256": "bc77f25286140272ec1eb10a7961d2b3c8ac70e75abdd7999f8769a771e1079f",
+    "statut": "ok"
+  },
+  "be_vivium_auto_b77d90": {
+    "collecte_le": "2026-10-21T12:52:04+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Remorque - ",
+      "type": "auto",
+      "url": "https://www.vivium.be/documents/1091840/1198851/_IPID_495_VIV+Aanhangwagen_FR_2020.pdf/57458ed3-43f0-e50a-f474-05147fe83fc7?t=1741252155935"
+    },
+    "pages": 3,
+    "sha256": "bbb2923de44e6cb6b517bb6085ec86fdf9c1e3402286630f5ef5ec095c28dfa1",
+    "statut": "ok"
+  },
+  "be_vivium_auto_be6cfc": {
+    "collecte_le": "2026-10-21T12:51:56+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Mobilhome -",
+      "type": "auto",
+      "url": "https://www.vivium.be/documents/1091840/1198851/IPID_495_VIV+Mobilhome_FR_2019.pdf/2911626b-369e-64c8-9bb6-592596cbd37b?t=1741252155938"
+    },
+    "pages": 3,
+    "sha256": "106d4b49bd4a32637dbb9aa54de570b0aea4443f734b19e89ee03aa900d7348d",
+    "statut": "ok"
+  },
+  "be_vivium_auto_c41f06": {
+    "collecte_le": "2026-10-21T12:51:58+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Mobilhome -",
+      "type": "auto",
+      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Mobilhome_8930F_2025.pdf/93f9f244-fbf9-df1a-fddb-201180057b0f?t=1741171242373"
+    },
+    "pages": 3,
+    "sha256": "2674b1dc43ca45e0e0de8fa787e8d97fdac240e96444b6961a5ad8501fe076ca",
+    "statut": "ok"
+  },
+  "be_vivium_auto_cee5ba": {
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Caravanes -",
+      "type": "auto",
+      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Mobilhome_8930F_2025+%281%29.pdf/b1bea223-40e8-bd12-3b90-efb74e4cd63c?t=1741171840220"
+    },
+    "statut": "doublon de be_vivium_auto_c41f06"
+  },
+  "be_vivium_auto_e1e0c5": {
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - 8.933F - no",
+      "type": "auto",
+      "url": "https://www.vivium.be/documents/1091840/1198851/IPID_495_VIV+Auto_FR_DEFweb.pdf/68707378-1cb7-9b5b-c634-ee9ff91518ce?t=1741252155936"
+    },
+    "statut": "doublon de be_vivium_auto_1fa4e5"
+  },
+  "be_vivium_auto_ed002d": {
+    "collecte_le": "2026-10-21T12:50:40+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - 8.933F - ja",
+      "type": "auto",
+      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Auto_8933F_2025.pdf/de2042a0-8fc0-1c6f-bf9a-2059c1806081?t=1740652956203"
+    },
+    "pages": 3,
+    "sha256": "7f92c49d9e2c7c53f61e40c607ae1ad8cb7640ef5a7be4fbf42792cb76343af7",
+    "statut": "ok"
+  },
+  "be_vivium_auto_fd2725": {
+    "collecte_le": "2026-10-21T12:54:36+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Caravane - ",
+      "type": "auto",
+      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Caravan_8930F_2025.pdf/3e9d2f16-8e21-3af3-3db9-139bda877535?t=1741171978827"
+    },
+    "pages": 3,
+    "sha256": "9a869732cce845d275cad60882a5819feabd073f7f23c55cebd0de32b1316bb9",
+    "statut": "ok"
+  },
+  "be_vivium_moto_354cfc": {
+    "collecte_le": "2026-10-21T12:53:16+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Autres 2 ro",
+      "type": "moto",
+      "url": "https://www.vivium.be/documents/1091840/1198851/_IPID_495_VIV+Andere+tweewielers_FR_2020.pdf/6060525b-9ad5-5e93-7f79-c3b14299a514?t=1741252155935"
+    },
+    "pages": 3,
+    "sha256": "7f8a1fab4d91840b00b9772c09adde8b40012c0d7bc3e8b3a9a31a3041a11de1",
+    "statut": "ok"
+  },
+  "be_vivium_moto_5e7595": {
+    "collecte_le": "2026-10-21T12:50:46+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Moto - 8.93",
+      "type": "moto",
+      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Moto_8931F_2025.pdf/8bc98d9f-86aa-2874-93db-90ccf29664d5?t=1741171153793"
+    },
+    "pages": 3,
+    "sha256": "7d2d1efefbac378deeacf586bf276247026dd74e09559133d73b8a8a67de94ce",
+    "statut": "ok"
+  },
+  "be_vivium_moto_64d24e": {
+    "collecte_le": "2026-10-21T12:50:44+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Moto - 8.93",
+      "type": "moto",
+      "url": "https://www.vivium.be/documents/1091840/1198851/IPID_495_VIV+Moto_FR_2019.pdf/00d8adbd-1460-2086-7176-01aed26e0769?t=1741252155937"
+    },
+    "pages": 3,
+    "sha256": "c61a658b5b3accfc38b393137c0fcc190180e4313c2fd44bf934eebffecb0e58",
+    "statut": "ok"
+  },
+  "be_vivium_moto_9873a5": {
+    "collecte_le": "2026-10-21T12:53:18+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Autres 2 ro",
+      "type": "moto",
+      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Andere+tweewielers_8974F_2025.pdf/2f7fc3d1-dc9b-d1d0-a42a-35d1e98479e3?t=1741171745228"
+    },
+    "pages": 3,
+    "sha256": "3351f958e24224b63c0fdab43232b3a3aa64813a973ce8ae933bf0a516de7a10",
+    "statut": "ok"
+  },
+  "be_vivium_moto_bb5dd3": {
+    "collecte_le": "2026-10-21T12:53:24+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Moto oldtim",
+      "type": "moto",
+      "url": "https://www.vivium.be/documents/1091840/1198851/_IPID_495_VIV+Moto+Oldtimer_FR_2020.pdf/2ca3e480-b0b0-d0a4-c3fe-50add710f66c?t=1741252155936"
+    },
+    "pages": 3,
+    "sha256": "285d3ea9dc8803d646925652b4351a7afc3a4b200f6a7a91ca0841e13ba7e00e",
+    "statut": "ok"
+  },
+  "be_vivium_moto_c4e7b3": {
+    "collecte_le": "2026-10-21T12:53:26+00:00",
+    "offre": {
+      "assureur": "Vivium",
+      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
+      "langue": "fr",
+      "pays": "Belgique",
+      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Moto oldtim",
+      "type": "moto",
+      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Moto+Oldtimer_8976F_2025.pdf/6e463abe-d772-c731-3ba1-9ca0be4eb100?t=1741171913020"
+    },
+    "pages": 3,
+    "sha256": "5cdce2f47e1c4f4885e9f652682f1a07e41e0dd2a25e298e0d5ab10ce1464dcd",
+    "statut": "ok"
+  },
+  "de_allianz_auto_57f941": {
+    "collecte_le": "2026-10-21T12:49:52+00:00",
+    "offre": {
+      "assureur": "Allianz",
+      "langue": "de",
+      "pays": "Allemagne",
+      "produit": "Kfz-Versicherung 2006",
+      "type": "auto",
+      "url": "https://goa-eportale.allianz.de/IPI/D-2/IPID-2006Z0.pdf.open.pdf"
+    },
+    "pages": 2,
+    "sha256": "6bc728af13fa1158899dbc1de717e0d1dc47eb6c08da899dd2c63e8244a6bd78",
+    "statut": "ok"
+  },
+  "de_allianz_auto_ec2ba1": {
+    "collecte_le": "2026-10-21T12:49:52+00:00",
+    "offre": {
+      "assureur": "Allianz",
+      "langue": "de",
+      "pays": "Allemagne",
+      "produit": "Kfz-Versicherung 2008",
+      "type": "auto",
+      "url": "https://goa-eportale.allianz.de/IPI/D-2/IPID-2008Z0.pdf.open.pdf"
+    },
+    "pages": 2,
+    "sha256": "429788ab6dea781170b12932c6b7ac65363eb75ac00b881eaf079f027f6837bd",
+    "statut": "ok"
+  },
   "de_allianz_kfz_2002": {
     "collecte_le": "2026-10-21T12:26:48+00:00",
+    "offre": {
+      "assureur": "Allianz",
+      "langue": "de",
+      "pays": "Allemagne",
+      "produit": "Kfz-Versicherung",
+      "type": "auto",
+      "url": "https://goa-eportale.allianz.de/IPI/D-2/IPID-2002Z0.pdf.open.pdf"
+    },
     "pages": 2,
     "sha256": "ee5a053872b182dcebffae974bb6b3db3c522d9d379483f17b4ae847e531ba9f",
     "statut": "ok",
@@ -43,6 +597,14 @@
   },
   "de_allianz_kfz_smart": {
     "collecte_le": "2026-10-21T12:26:47+00:00",
+    "offre": {
+      "assureur": "Allianz",
+      "langue": "de",
+      "pays": "Allemagne",
+      "produit": "Kfz-Versicherung Smart",
+      "type": "auto",
+      "url": "https://goa-eportale.allianz.de/IPI/D-2/IPID-2001Z0.pdf.open.pdf"
+    },
     "pages": 2,
     "sha256": "0bb9ee7d2c5ac055ce073859446a8f534070d9630112ac975fa474e0e0684900",
     "statut": "ok",
@@ -50,6 +612,14 @@
   },
   "de_allianz_moped": {
     "collecte_le": "2026-10-21T12:32:18+00:00",
+    "offre": {
+      "assureur": "Allianz",
+      "langue": "de",
+      "pays": "Allemagne",
+      "produit": "Mopedversicherung",
+      "type": "moto",
+      "url": "https://goa-eportale.allianz.de/IPI/D-2/IPID-2009Z0.pdf.open.pdf"
+    },
     "pages": 2,
     "sha256": "dcd44724cf21bac3d946172bc15183f68e65ec36e83edd5d05ea5f5be1bae05e",
     "statut": "ok",
@@ -57,20 +627,197 @@
   },
   "de_arcd_kfz": {
     "collecte_le": "2026-10-21T12:26:51+00:00",
+    "offre": {
+      "assureur": "ARCD",
+      "langue": "de",
+      "pays": "Allemagne",
+      "produit": "Kfz-Versicherung",
+      "type": "auto",
+      "url": "https://www.arcd.de/fileadmin/Dokumente/Versicherungen/Kfz-Versicherung/produktinformationsblatt-kfz.pdf"
+    },
     "pages": 2,
     "sha256": "f8f3d36f6a77a35c8d9a7ef4d75b132425ae53513dfd5e131449fec19b9b2048",
     "statut": "ok",
     "url": "https://www.arcd.de/fileadmin/Dokumente/Versicherungen/Kfz-Versicherung/produktinformationsblatt-kfz.pdf"
   },
+  "de_devk_auto_4d9d31": {
+    "offre": {
+      "assureur": "DEVK",
+      "langue": "de",
+      "pays": "Allemagne",
+      "produit": "Kfz-Versicherung 42100",
+      "type": "auto",
+      "url": "https://medien.devk.de/assets/content/download/produkte/fahrzeuge/devk-kfz-kundeninfo-42100-002-2026-01.pdf?versionId=LkXzChFI7DAYe2i0tQFn52Y9M1Z0Kx_H"
+    },
+    "statut": "PDF illisible (DependencyError)"
+  },
+  "de_devk_auto_c61eb9": {
+    "offre": {
+      "assureur": "DEVK",
+      "langue": "de",
+      "pays": "Allemagne",
+      "produit": "Kfz-Versicherung",
+      "type": "auto",
+      "url": "https://medien.devk.de/assets/content/download/produkte/fahrzeuge/devk-kfz-kundeninfo-42032-2025-10.pdf?versionId=FiDTjzLry8dEKYCKm2GJ_IEL.8RgfzaD"
+    },
+    "statut": "PDF illisible (DependencyError)"
+  },
+  "de_gothaer_auto_96a53b": {
+    "offre": {
+      "assureur": "Gothaer",
+      "langue": "de",
+      "pays": "Allemagne",
+      "produit": "Kraftfahrtversicherung",
+      "type": "auto",
+      "url": "https://www.gothaer.de/StreamingServlet/app/dvz/DocumentDownload/216446?scope=gothaer_scope"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "de_herzenssache_auto_f96060": {
+    "offre": {
+      "assureur": "Herzenssache",
+      "langue": "de",
+      "pays": "Allemagne",
+      "produit": "Kfz-Versicherung",
+      "type": "auto",
+      "url": "https://herzenssache.eu/wp-content/uploads/2026/01/Produktinformationen-und-Versicherungsbedingungen-01.01.2026.pdf"
+    },
+    "statut": "lien en erreur (HTTPError)"
+  },
+  "de_wgv_auto_e0d2b0": {
+    "collecte_le": "2026-10-21T12:49:43+00:00",
+    "offre": {
+      "assureur": "WGV",
+      "langue": "de",
+      "pays": "Allemagne",
+      "produit": "Kfz-Versicherung",
+      "type": "auto",
+      "url": "https://www.wgv.de/docs/vertragsunterlagen/kfz.pdf"
+    },
+    "pages": 44,
+    "sha256": "ee7664ea9d3d489192b2d0a32d683dfd5eecb589394438e7785338cb2b453d9d",
+    "statut": "ok"
+  },
+  "es_allianz_direct_auto_6c05a9": {
+    "collecte_le": "2026-10-21T12:50:03+00:00",
+    "offre": {
+      "assureur": "Allianz Direct",
+      "langue": "es",
+      "pays": "Espagne",
+      "produit": "Seguro de coche",
+      "type": "auto",
+      "url": "https://www.allianzdirect.es/dam/documents/IPID-seguro-de-coche.pdf"
+    },
+    "pages": 3,
+    "sha256": "6f65f60873df7261d7809f3e760fbfe8b61856236a4bfd2245e2552489348c37",
+    "statut": "ok"
+  },
+  "es_allianz_espana_auto_73e273": {
+    "collecte_le": "2026-10-21T12:49:58+00:00",
+    "offre": {
+      "assureur": "Allianz España",
+      "langue": "es",
+      "pays": "Espagne",
+      "produit": "Auto Plus terceros",
+      "type": "auto",
+      "url": "https://www.allianz.es/content/dam/onemarketing/iberolatam/allianz-es/legal/pdf/productos/seguros-auto/auto-plus-terceros.pdf"
+    },
+    "pages": 2,
+    "sha256": "aa32c4476964648801767b52a13bdae4446e62ad0242569415c37fad40249f05",
+    "statut": "ok"
+  },
+  "es_allianz_espana_moto_d59bb3": {
+    "collecte_le": "2026-10-21T12:49:58+00:00",
+    "offre": {
+      "assureur": "Allianz España",
+      "langue": "es",
+      "pays": "Espagne",
+      "produit": "Moto con franquicia",
+      "type": "moto",
+      "url": "https://www.allianz.es/content/dam/onemarketing/iberolatam/allianz-es/legal/pdf/productos/seguros-moto/ipid-moto-seguro-franquicia.pdf"
+    },
+    "pages": 2,
+    "sha256": "b1baa95c79d9e5915d40614b4fe567928cb20453a5c6a68a9c49a3937c6de747",
+    "statut": "ok"
+  },
+  "es_axa_espana_auto_190f29": {
+    "collecte_le": "2026-10-21T12:49:57+00:00",
+    "offre": {
+      "assureur": "AXA España",
+      "langue": "es",
+      "pays": "Espagne",
+      "produit": "MotorElige",
+      "type": "auto",
+      "url": "https://calcular-seguro.axa.es/documents/776357/19370091/Documento_informacion_producto_MotorElige_8972.pdf/a64cddaf-81e9-195e-d252-a2230ef983e9?t=1669128995936"
+    },
+    "pages": 2,
+    "sha256": "f5224c7237a3ed2d8209f909eb121e26d3a06e10368b705647ca3c156a5001e4",
+    "statut": "ok"
+  },
+  "es_axa_espana_auto_9fc651": {
+    "collecte_le": "2026-10-21T12:49:56+00:00",
+    "offre": {
+      "assureur": "AXA España",
+      "langue": "es",
+      "pays": "Espagne",
+      "produit": "Coche 360",
+      "type": "auto",
+      "url": "https://servicios.axa.es/documents/776357/53007345/Documento_de_informaci%C3%B3n_sobre_el_producto_Coche+360_castellano.pdf/a5c3418a-4ff5-512f-d70f-2e83ce26f69b?t=1766059561113"
+    },
+    "pages": 2,
+    "sha256": "7d9b96999ef27ebd69248b7b60913d665e6bab04c21f6d6dad7e4484538c3104",
+    "statut": "ok"
+  },
+  "es_bbva_allianz_auto_505d45": {
+    "offre": {
+      "assureur": "BBVA Allianz",
+      "langue": "es",
+      "pays": "Espagne",
+      "produit": "Auto profesional",
+      "type": "auto",
+      "url": "https://www.bbva.es/content/dam/public-web/bbvaes/documents/productos/seguros/ipid/IPID-BBVA-Allianz-Auto-Profesional.pdf"
+    },
+    "statut": "lien en erreur (HTTPError)"
+  },
+  "es_generali_espana_auto_6f9c8c": {
+    "collecte_le": "2026-10-21T12:50:05+00:00",
+    "offre": {
+      "assureur": "Generali España",
+      "langue": "es",
+      "pays": "Espagne",
+      "produit": "Seguro autos",
+      "type": "auto",
+      "url": "https://www.generalion.es/documents/13959/21879141/IPID+AUTO/4551add2-0622-057d-799b-3c6d9e38d028"
+    },
+    "pages": 2,
+    "sha256": "554988ed618cec096816abd128a089141759e4ec98688bb46594f34367f6f217",
+    "statut": "ok"
+  },
   "es_lam_todo_riesgo": {
     "collecte_le": "2026-10-21T12:26:58+00:00",
+    "offre": {
+      "assureur": "LAM Seguros",
+      "langue": "es",
+      "pays": "Espagne",
+      "produit": "Todo riesgo",
+      "type": "auto",
+      "url": "https://lam-seguros.com/wp-content/uploads/2025/09/seguro-de-coche-a-todo-riesgo.pdf"
+    },
     "pages": 2,
     "sha256": "064ed25daa941da4c1810cd527087145fd7877b9ca56a39e610f3f935d4c0648",
-    "statut": "ok",
+    "statut": "lien en erreur (ConnectionError), dernière version gardée",
     "url": "https://lam-seguros.com/wp-content/uploads/2025/09/seguro-de-coche-a-todo-riesgo.pdf"
   },
   "es_mutua_terceros": {
     "collecte_le": "2026-10-21T12:26:55+00:00",
+    "offre": {
+      "assureur": "Mutua Madrileña",
+      "langue": "es",
+      "pays": "Espagne",
+      "produit": "Terceros básico",
+      "type": "auto",
+      "url": "https://www.mutua.es/digital/webcontent/1459158692600PID_Autos_Terceros+BC3A1sico_TCB.pdf"
+    },
     "pages": 2,
     "sha256": "59359eaf7a954e81f1228bede335241e422019c87631d94f2c4759f58133411f",
     "statut": "ok",
@@ -78,20 +825,102 @@
   },
   "es_santander_mapfre_auto": {
     "collecte_le": "2026-10-21T12:26:57+00:00",
+    "offre": {
+      "assureur": "Santander Mapfre",
+      "langue": "es",
+      "pays": "Espagne",
+      "produit": "Seguro de autos",
+      "type": "auto",
+      "url": "https://www.santandermapfreseguros.es/obtener-documento?entidad=015&sector=200&producto=43&subtipo=5&timestamp=1728604800046"
+    },
     "pages": 2,
     "sha256": "2c7e775a23671315ea6545264d8e1a6ba06d6b45f0e379c48763e58adf682fe6",
     "statut": "ok",
     "url": "https://www.santandermapfreseguros.es/obtener-documento?entidad=015&sector=200&producto=43&subtipo=5&timestamp=1728604800046"
   },
+  "fi_if_auto_9e1481": {
+    "collecte_le": "2026-10-21T12:55:07+00:00",
+    "offre": {
+      "assureur": "If",
+      "decouvert_sur": "https://www.if.fi/en/commercial/insurances/ipid-en",
+      "langue": "en",
+      "pays": "Finlande",
+      "produit": "Construction and Installation Insurance (",
+      "type": "auto",
+      "url": "https://www.if.fi/globalassets/fi/commercial/brochures/ipid/english/ipid-car-ear.pdf"
+    },
+    "pages": 2,
+    "sha256": "4ce2ae6134ebdfe029b1478fe0f6d1974a6ab2f7a53fc3df6fc5453547ee945b",
+    "statut": "ok"
+  },
+  "fi_if_moto_1d18ab": {
+    "collecte_le": "2026-10-21T12:55:06+00:00",
+    "offre": {
+      "assureur": "If",
+      "decouvert_sur": "https://www.if.fi/en/commercial/insurances/ipid-en",
+      "langue": "en",
+      "pays": "Finlande",
+      "produit": "Corporate Motor Third Party Liability Insurance (",
+      "type": "moto",
+      "url": "https://www.if.fi/globalassets/fi/commercial/brochures/ipid/english/ipid-corporate-mtpl-insurance.pdf"
+    },
+    "pages": 2,
+    "sha256": "ab0e794a71d83581832b2460f17f36601bb2986a1f6313f9530287a597476d97",
+    "statut": "ok"
+  },
   "fr_adep_auto": {
     "collecte_le": "2026-10-21T12:22:55+00:00",
+    "offre": {
+      "assureur": "ADEP",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "ADEP Auto",
+      "type": "auto",
+      "url": "https://www.adep.com/cms/Paragraphes/an103431/ADEP%20Assurance%20IPID%20ADEP%20Auto.pdf"
+    },
     "pages": 6,
     "sha256": "28669aee4e45990a50cd8627cd01fa83bde541e547cfc47b6bd52ff2b1a4154e",
     "statut": "ok",
     "url": "https://www.adep.com/cms/Paragraphes/an103431/ADEP%20Assurance%20IPID%20ADEP%20Auto.pdf"
   },
+  "fr_allianz_france_auto_2178b3": {
+    "collecte_le": "2026-10-21T12:46:36+00:00",
+    "offre": {
+      "assureur": "Allianz France",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Auto malussé",
+      "type": "auto",
+      "url": "https://www.best-assurances.com/app/uploads/IPAC_IPID_ALLIANZ_MALUS.pdf"
+    },
+    "pages": 2,
+    "sha256": "28cc1983deb1b36576232ad45a9e4f1d11123435162d26e00cfb245783ee24e8",
+    "statut": "ok"
+  },
+  "fr_allianz_france_auto_cceb21": {
+    "collecte_le": "2026-10-21T12:46:37+00:00",
+    "offre": {
+      "assureur": "Allianz France",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance automobile",
+      "type": "auto",
+      "url": "https://espaceclient.allianz.fr/pdf/tarification/DG/auto/AUTO-MA/COM21405-V0721.pdf"
+    },
+    "pages": 2,
+    "sha256": "da7fcc9483f743f98f529f8abe5065cd3fb9029e6ca2b6070c587fddebfc54ae",
+    "statut": "ok"
+  },
   "fr_amv_moto_eq": {
     "collecte_le": "2026-10-21T12:24:11+00:00",
+    "offre": {
+      "assureur": "AMV",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance moto (équipement)",
+      "type": "moto",
+      "url": "https://www.amv.fr/docs/Docs/IPID_AMV_MOTO_EQ.pdf"
+    },
     "pages": 2,
     "sha256": "816760a41f29112922286ea100bc4d46b9a0d7518d86b459d1c061c40c3618e8",
     "statut": "ok",
@@ -99,41 +928,755 @@
   },
   "fr_amv_moto_gb": {
     "collecte_le": "2026-10-21T12:24:13+00:00",
+    "offre": {
+      "assureur": "AMV",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance moto",
+      "type": "moto",
+      "url": "https://www.amv.fr/docs/Docs/IPID_AMV_MOTO_GB.pdf"
+    },
     "pages": 2,
     "sha256": "a5c9a238b58e221db2a8dd06222cec1fda05fd734756685b39fd2abe6ba4e2cb",
     "statut": "ok",
     "url": "https://www.amv.fr/docs/Docs/IPID_AMV_MOTO_GB.pdf"
   },
+  "fr_april_moto_moto_062108": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Moto et Scooter - Novembre2020",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2020/11/DG-APRIL_Moto-Moto_et_Scooter-Novembre2020.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_088fad": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto verte - V0124",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2024/01/DG-APRIL_Moto-Quad_MotoVerte-V0124.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_14ba7c": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales E-Trottinette - Mai2020",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2020/05/DG-APRIL_Moto-eTrottinette-Mai2020.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_19242c": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo - V0424",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2024/03/DG-APRIL_Moto-Cyclo50-V0424.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_1e3666": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales V&eacute;lo - Octobre2021",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2021/10/DG-APRIL_Moto-Velo-Octobre2021.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_1f6345": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Moto &amp; Scooter - V0424",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2024/03/DG-APRIL_Moto-Moto_et_Scooter-V0424.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_1fb69d": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo 50 - Mai2020",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2020/05/DG-APRIL_Moto-Cyclo50-Mai2020.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_2e0baa": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales e-Trottineur - Janvier2022",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2022/07/DG-APRIL_Moto-eTrottineur-Janvier2022.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_3cea98": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto verte - V0424",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2024/03/DG-APRIL_Moto-Quad_MotoVerte-V0424.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_3e6d97": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales e-Trottineur - Avril2023",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2023/03/DG-APRIL_Moto-eTrottineur-Avril2023.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_5015d1": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto Verte - Mars2022",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2022/06/DG-APRIL_Moto-Quad_MotoVerte-Mars2022.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_53f339": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Livraison - V0624",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2024/09/DG-APRIL_Moto-Livraison-V0624-1.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_5c395c": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo - V0425",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2025/05/DG-APRIL_Moto-Cyclo50-V0425.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_6e8a2a": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Auto - Novembre2020",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2020/11/DG-APRIL_Moto-Auto-Novembre2020.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_754896": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales V&eacute;lo - V0425",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2025/05/DG-APRIL_Moto-Velo-V0425.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_772c19": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Moto et Scooter - Avril2023",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2023/03/DG-APRIL_Moto-Moto_et_Scooter-Avril2023.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_7e901a": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales eTrottineur - V0425",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2025/05/DG-APRIL_Moto-eTrottineur-V0425.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_834352": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Moto &amp; Scooter - V1026",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2026/10/DG-APRIL_Moto-Moto_et_Scooter-V1026.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_86dade": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto Verte - Juin2019",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2021/12/DG-APRIL_Moto-Quad_MotoVerte-Juin2019.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_97401f": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo - Juin2019",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2021/12/DG-APRIL_Moto-Cyclo50-Juin2019.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_9a67e8": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales E-Trottinette - Novembre2020",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2020/11/DG-APRIL_Moto-eTrottinette-Novembre2020.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_a1d098": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo 50 - Novembre2020",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2021/08/DG-APRIL_Moto-Cyclo50-Novembre2020.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_a48011": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto Verte - V0425",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2025/05/DG-APRIL_Moto-Quad_MotoVerte-V0425.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_a6e7f6": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Moto et Scooter - Juin2019",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2019/09/DG-APRIL_Moto-Moto_et_Scooter-Juin2019.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_b52afd": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto Verte - Mai2020",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2020/05/DG-APRIL_Moto-Quad_MotoVerte-Mai2020.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_b68f14": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales V&eacute;lo - V1123",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2023/11/DG-APRIL_Moto-Velo-V1123.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_b7282a": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Moto et Scooter - Decembre2020",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2021/08/DG-APRIL_Moto-Moto_et_Scooter-Decembre2020.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_b794a0": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo 50 - Avril2023",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2023/03/DG-APRIL_Moto-Cyclo50-Avril2023.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_b8fc61": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto verte - V0624",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2024/06/DG-APRIL_Moto-Quad_MotoVerte-V0624.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_ba6184": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Moto &amp; Scooter - V0425",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2025/08/DG-APRIL_Moto-Moto_et_Scooter-V0425.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_c2a8d0": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Moto et Scooter - Mai2020",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2020/05/DG-APRIL_Moto-Moto_et_Scooter-Mai2020.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_c44513": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo 50 - Mars2022",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2022/06/DG-APRIL_Moto-Cyclo50-Mars2022.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_c90825": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto Verte - Novembre2020",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2021/08/DG-APRIL_Moto-Quad_MotoVerte-Novembre2020.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_cd19f5": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo - V0124",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2024/01/DG-APRIL_Moto-Cyclo50-V0124.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_d2d643": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo - V0624",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2024/06/DG-APRIL_Moto-Cyclo50-V0624.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_d64830": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Moto &amp; Scooter - V0124",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2024/01/DG-APRIL_Moto-Moto_et_Scooter-V0124.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_e4f593": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Quad et Moto verte - Avril2023",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2023/03/DG-APRIL_Moto-Quad_MotoVerte-Avril2023.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_ecf993": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Moto &amp; Scooter - V0624",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2024/06/DG-APRIL_Moto-Moto_et_Scooter-V0624.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_ed48df": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales Moto et Scooter - Mars2022",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2022/06/DG-APRIL_Moto-Moto_et_Scooter-Mars2022.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
+  "fr_april_moto_moto_ee1f34": {
+    "offre": {
+      "assureur": "APRIL Moto",
+      "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Dispositions G&eacute;n&eacute;rales V&eacute;lo - V0626",
+      "type": "moto",
+      "url": "https://cdn.april-moto.com/wp-content/uploads/2026/06/DG-APRIL_Moto-Velo-V0626.pdf"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
+  },
   "fr_assu2000_auto": {
     "collecte_le": "2026-10-21T12:22:50+00:00",
+    "offre": {
+      "assureur": "Assu 2000",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance auto",
+      "type": "auto",
+      "url": "https://www.assu2000.fr/sites/default/files/documents-legaux/A2_IPID_AUTO.pdf"
+    },
     "pages": 2,
     "sha256": "07bec3c83376c5d4208ce572e6a0a74895412412f2c5b46b1b048363fd1a1f4f",
     "statut": "ok",
     "url": "https://www.assu2000.fr/sites/default/files/documents-legaux/A2_IPID_AUTO.pdf"
   },
+  "fr_axa_france_auto_2cf219": {
+    "collecte_le": "2026-10-21T12:46:29+00:00",
+    "offre": {
+      "assureur": "AXA France",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Mon Auto",
+      "type": "auto",
+      "url": "https://media.axa.fr/content/dam/axa-fr/image/particuliers/auto/documents-informations/auto/pdf-mon-auto-dipa.pdf"
+    },
+    "pages": 3,
+    "sha256": "a2135506ce503246a9e3ad0f1220cedc3ee8c6c8f5eaae334b103b69e7f85f1c",
+    "statut": "ok"
+  },
+  "fr_axa_france_auto_8682b5": {
+    "collecte_le": "2026-10-21T12:46:28+00:00",
+    "offre": {
+      "assureur": "AXA France",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance automobile",
+      "type": "auto",
+      "url": "https://www.axa.fr/content/dam/axa-fr-convergence/auto/ipid/972723-1121-Dipa-NDA.pdf"
+    },
+    "pages": 2,
+    "sha256": "abee3214d497ec6acc885030f0f508b1978f9c4b5ad6b22e43c4094f7ab63282",
+    "statut": "ok"
+  },
+  "fr_axa_france_auto_8d8bbd": {
+    "collecte_le": "2026-10-21T12:46:30+00:00",
+    "offre": {
+      "assureur": "AXA France",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Auto Prestige",
+      "type": "auto",
+      "url": "https://www.tea-cerede.com/wp-content/uploads/2023/03/IPID-Prestige-AXA.pdf"
+    },
+    "pages": 2,
+    "sha256": "1956bf18dd3a27f1208e98b28156d169447a7ad9c5f01668acf3ff68851392a9",
+    "statut": "ok"
+  },
+  "fr_bnp_paribas_auto_94c14d": {
+    "offre": {
+      "assureur": "BNP Paribas",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance auto",
+      "type": "auto",
+      "url": "https://m-service.bnpparibas.net/rsc/contrib/document/particuliers/produits/assurance/Document_information_sur_le_produit_Assurance_Auto_BNP_Paribas.pdf"
+    },
+    "statut": "lien en erreur (HTTPError)"
+  },
+  "fr_bnp_paribas_moto_5385c9": {
+    "offre": {
+      "assureur": "BNP Paribas",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Deux-roues",
+      "type": "moto",
+      "url": "https://mabanque.bnpparibas/content/dam/mabanque/rsc/contrib/pdf/ipid-deux-roues.pdf"
+    },
+    "statut": "lien en erreur (HTTPError)"
+  },
   "fr_caisse_epargne_auto": {
     "collecte_le": "2026-10-21T12:22:47+00:00",
+    "offre": {
+      "assureur": "Caisse d'Epargne",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance automobile",
+      "type": "auto",
+      "url": "https://www.img.caisse-epargne.fr/app/uploads/sites/3/2021/10/08170442/2021-03-ipid-auto-part.pdf"
+    },
     "pages": 2,
     "sha256": "a22dcbb6814daae60b08f22790b1b6c4963aa7245384cb9767ed7683635f68ed",
     "statut": "ok",
     "url": "https://www.img.caisse-epargne.fr/app/uploads/sites/3/2021/10/08170442/2021-03-ipid-auto-part.pdf"
   },
+  "fr_club_auto_macsf_auto_ff01ac": {
+    "offre": {
+      "assureur": "Club Auto MACSF",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance véhicule",
+      "type": "auto",
+      "url": "https://www.clubauto-macsf.com/libs/pdf/ipid.pdf"
+    },
+    "statut": "doublon de fr_club_auto_mma_auto_2d9ab9"
+  },
+  "fr_club_auto_mma_auto_2d9ab9": {
+    "collecte_le": "2026-10-21T12:46:40+00:00",
+    "offre": {
+      "assureur": "Club Auto MMA",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance véhicule",
+      "type": "auto",
+      "url": "https://www.clubauto-mma.com/libs/pdf/ipid.pdf"
+    },
+    "pages": 2,
+    "sha256": "217211fa1bd7d7f15b721714c662051a4c43401a156dd1e5d0def8e22a09b866",
+    "statut": "ok"
+  },
+  "fr_credit_mutuel_auto_3fc56c": {
+    "collecte_le": "2026-10-21T12:46:35+00:00",
+    "offre": {
+      "assureur": "Crédit Mutuel",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance automobile",
+      "type": "auto",
+      "url": "https://www.creditmutuel.fr/fr/guides-et-informations-reglementaires/IPID.html?refipid=AA1AFRFR001"
+    },
+    "pages": 2,
+    "sha256": "494915d922bae0467f8d12c21cb1ff1104d5376169b214e70b9f90a0e78e0baf",
+    "statut": "ok"
+  },
   "fr_direct_assurance_auto": {
-    "collecte_le": "2026-10-21T12:22:44+00:00",
+    "collecte_le": "2026-10-21T12:42:37+00:00",
+    "offre": {
+      "assureur": "Direct Assurance",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance automobile",
+      "type": "auto",
+      "url": "https://directassurance.cdn.prismic.io/directassurance/aYnxBN0YXLCxVnsa_fiche-ipid-auto-022026.pdf"
+    },
     "pages": 3,
-    "sha256": "777b4cdff982129aee103c65c6b1641c8bffdfe8cdbba06adf442966a6005b6a",
-    "statut": "ok",
-    "url": "https://directassurance.cdn.axa-contento-118412.eu/directassurance/aed9dfb5-3d46-4669-82ac-273c5d8372af_fiche-ipid-auto-032025.pdf"
+    "sha256": "779b12d59683a4bd7caa12d1488d8d790e509a6d4c4f56e03de94e502d77b2b2",
+    "statut": "ok"
   },
   "fr_lolivier_auto": {
     "collecte_le": "2026-10-21T12:22:54+00:00",
+    "offre": {
+      "assureur": "L'olivier Assurance",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Auto tous risques (LOA)",
+      "type": "auto",
+      "url": "https://www.lolivier.fr/medias/uploads/2025/07/ipid-loa-tous-risques.pdf"
+    },
     "pages": 2,
     "sha256": "0b8d6a23b03e5f946e7e8cbd68fa10e2a626cacb9c3d9d725788d4f271b7a0fe",
     "statut": "ok",
     "url": "https://www.lolivier.fr/medias/uploads/2025/07/ipid-loa-tous-risques.pdf"
   },
+  "fr_luko_allianz_direct_auto_0944ae": {
+    "collecte_le": "2026-10-21T12:46:31+00:00",
+    "offre": {
+      "assureur": "Luko (Allianz Direct)",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance automobile",
+      "type": "auto",
+      "url": "https://www.fr.luko.eu/dam/documents/motor/dfcar202606/IPID.pdf"
+    },
+    "pages": 2,
+    "sha256": "71ab95cd03b2887dc4d075d188852490692df001b360395ba3c15a9823a73203",
+    "statut": "ok"
+  },
+  "fr_maaf_auto_91457d": {
+    "collecte_le": "2026-10-21T12:46:26+00:00",
+    "offre": {
+      "assureur": "MAAF",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance véhicule",
+      "type": "auto",
+      "url": "https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11001.PDF"
+    },
+    "pages": 2,
+    "sha256": "0ef464522ffff31727327b498370da11081e13f6383120de8afa5ac1fa08c837",
+    "statut": "ok"
+  },
+  "fr_macif_auto_60c1a9": {
+    "collecte_le": "2026-10-21T12:46:27+00:00",
+    "offre": {
+      "assureur": "Macif",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Auto professionnel",
+      "type": "auto",
+      "url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_auto_pro.pdf"
+    },
+    "pages": 2,
+    "sha256": "8d5a3bbfa97b97ae0acd9344b6313d769855eff79e9096b56770332834ecf836",
+    "statut": "ok"
+  },
+  "fr_macif_moto_b972f0": {
+    "collecte_le": "2026-10-21T12:46:46+00:00",
+    "offre": {
+      "assureur": "Macif",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Deux-roues",
+      "type": "moto",
+      "url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_deux_roues.pdf"
+    },
+    "pages": 2,
+    "sha256": "eecd5e777cf2688c132b856e83820b6c5e1fd2c8b1c07b45780a3b545aa98dd0",
+    "statut": "ok"
+  },
+  "fr_macif_moto_c3a235": {
+    "collecte_le": "2026-10-21T12:46:47+00:00",
+    "offre": {
+      "assureur": "Macif",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Moto professionnel",
+      "type": "moto",
+      "url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_Moto_Pro.pdf"
+    },
+    "pages": 2,
+    "sha256": "b6dc90dc5c653d49a1c820e58cb8219b21bf8edd66b71f1656cf04a5292626ae",
+    "statut": "ok"
+  },
+  "fr_maif_auto_f359ae": {
+    "collecte_le": "2026-10-21T12:46:39+00:00",
+    "offre": {
+      "assureur": "MAIF",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Auto VAM",
+      "type": "auto",
+      "url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-auto-vam.pdf"
+    },
+    "pages": 2,
+    "sha256": "6d34d78bc59a879164399e5caa6649604ce6e86048468f93f17665aa3f502844",
+    "statut": "ok"
+  },
   "fr_maif_moto": {
     "collecte_le": "2026-10-21T12:22:57+00:00",
+    "offre": {
+      "assureur": "MAIF",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance moto (contrat 4+2)",
+      "type": "moto",
+      "url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-moto-loisir.pdf"
+    },
     "pages": 2,
     "sha256": "382364cab688792afc2091c55d5ec16308ae5ac04e04555cc09e6b739f6ec85b",
     "statut": "ok",
@@ -141,6 +1684,14 @@
   },
   "fr_matmut_2roues": {
     "collecte_le": "2026-10-21T12:24:06+00:00",
+    "offre": {
+      "assureur": "Matmut",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance deux-roues",
+      "type": "moto",
+      "url": "https://www.matmut.fr/services-en-ligne/doc/IPID/IPID2R.pdf"
+    },
     "pages": 2,
     "sha256": "49f0138c7b9c154cde250a86f3f99f4b3257b73a1cbe7c44b16e1cd7889abf11",
     "statut": "ok",
@@ -148,13 +1699,40 @@
   },
   "fr_matmut_auto": {
     "collecte_le": "2026-10-21T12:22:43+00:00",
+    "offre": {
+      "assureur": "Matmut",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance automobile",
+      "type": "auto",
+      "url": "https://www.matmut.fr/services-en-ligne/doc/IPID/ipidauto4d.pdf"
+    },
     "pages": 2,
     "sha256": "9f6b41ef4c68c6b67adb58a3661ef0757db2418ebdb6d4fd5f93f8c5ab0fb95d",
     "statut": "ok",
     "url": "https://www.matmut.fr/services-en-ligne/doc/IPID/ipidauto4d.pdf"
   },
+  "fr_mutuelle_des_motards_moto_78df94": {
+    "offre": {
+      "assureur": "Mutuelle des Motards",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Multirisque moto scooter cyclo",
+      "type": "moto",
+      "url": "https://www.mutuelledesmotards.fr/sites/default/files/documentinformation-produit/MUT003.pdf"
+    },
+    "statut": "PDF illisible (DependencyError)"
+  },
   "fr_probtp_auto": {
     "collecte_le": "2026-10-21T12:22:50+00:00",
+    "offre": {
+      "assureur": "PRO BTP",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance auto",
+      "type": "auto",
+      "url": "https://www.probtp.com/files/live/sites/probtp/files/media/pdf/ipid/ipid-assurance-auto.pdf"
+    },
     "pages": 2,
     "sha256": "0c2663c72149afb5854681b4ca736c5c36220c2468cf5b7bffb47aa9a122394e",
     "statut": "ok",
@@ -162,6 +1740,14 @@
   },
   "fr_sg_auto": {
     "collecte_le": "2026-10-21T12:22:46+00:00",
+    "offre": {
+      "assureur": "SG (Sogessur)",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Assurance automobile",
+      "type": "auto",
+      "url": "https://particuliers.sg.fr/static/Particuliers/Home/Assurances/nos-offres/assurance-vehicule/assurance-auto/Ipid_assurance_automobile.pdf"
+    },
     "pages": 2,
     "sha256": "871a6cef36292c7566661a03e05262cf121240d350b2da0cd110c34c535ffb27",
     "statut": "ok",
@@ -169,6 +1755,14 @@
   },
   "fr_sollyazar_moto125": {
     "collecte_le": "2026-10-21T12:24:15+00:00",
+    "offre": {
+      "assureur": "Solly Azar",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Moto 125 et quad",
+      "type": "moto",
+      "url": "https://www.sollyazar.com/sites/particulier/files/media_fichier/dg-ipid-gbike-moto125quad.pdf"
+    },
     "pages": 34,
     "sha256": "e6c81a8e90399d744bb7970fc0a836f5959584627ad95273fde371bcc80797bc",
     "statut": "ok",
@@ -176,6 +1770,14 @@
   },
   "fr_sollyazar_motopass": {
     "collecte_le": "2026-10-21T12:24:18+00:00",
+    "offre": {
+      "assureur": "Solly Azar (Wakam)",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Motopass",
+      "type": "moto",
+      "url": "https://www.sollyazar.com/sites/particulier/files/2023-07/moto_motopass_ipid_wakam.pdf"
+    },
     "pages": 2,
     "sha256": "68f4c15b292498b2d408d27c178a469e333aa8c4aec544bffe81d5e37843072f",
     "statut": "ok",
@@ -183,37 +1785,462 @@
   },
   "fr_sollyazar_scooter50": {
     "collecte_le": "2026-10-21T12:24:17+00:00",
+    "offre": {
+      "assureur": "Solly Azar",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Cyclo et scooter 50",
+      "type": "moto",
+      "url": "https://www.sollyazar.com/sites/particulier/files/media_fichier/DG_IPID_CYCLO_ET_SCOOTER_50.pdf"
+    },
     "pages": 20,
     "sha256": "83858c954c2f595ccc26e44a3b1a933af078a5f0eda6c8f4ff5169f7148162be",
     "statut": "ok",
     "url": "https://www.sollyazar.com/sites/particulier/files/media_fichier/DG_IPID_CYCLO_ET_SCOOTER_50.pdf"
   },
+  "fr_wakam_auto_920173": {
+    "collecte_le": "2026-10-21T12:46:44+00:00",
+    "offre": {
+      "assureur": "Wakam",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Auto DOM",
+      "type": "auto",
+      "url": "https://www.best-assurances.com/app/uploads/wakam-ipid-auto.pdf"
+    },
+    "pages": 2,
+    "sha256": "175709b236e700251842d44e5859387abab7332467499a5f7ee41eee8520201f",
+    "statut": "ok"
+  },
+  "fr_wakam_solly_azar_auto_fc86ec": {
+    "collecte_le": "2026-10-21T12:46:44+00:00",
+    "offre": {
+      "assureur": "Wakam (Solly Azar)",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Auto",
+      "type": "auto",
+      "url": "https://www.sollyazar.com/sites/particulier/files/media_fichier/dg-ipid-wakam-auto-moto.pdf"
+    },
+    "pages": 24,
+    "sha256": "9338b9a97a01dc8860a85bcf08e4b34a05730ddc5ec738e1059c5b99431fae69",
+    "statut": "ok"
+  },
+  "fr_wakam_solly_azar_moto_0d2a51": {
+    "collecte_le": "2026-10-21T12:46:51+00:00",
+    "offre": {
+      "assureur": "Wakam (Solly Azar)",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "Cyclo",
+      "type": "moto",
+      "url": "https://www.sollyazar.com/sites/particulier/files/media_fichier/dg-ipid-wakam-cyclo.pdf"
+    },
+    "pages": 24,
+    "sha256": "1836193a34037ba0e42e9d82a6d6df06a43e7ac4cb71cf89c5532a3e46eaf343",
+    "statut": "ok"
+  },
+  "ie_aig_ireland_auto_fcafbc": {
+    "collecte_le": "2026-10-21T12:50:22+00:00",
+    "offre": {
+      "assureur": "AIG Ireland",
+      "langue": "en",
+      "pays": "Irlande",
+      "produit": "Direct motor",
+      "type": "auto",
+      "url": "https://www.aig.ie/content/dam/aig/emea/ireland/documents/ipids/post-brexit-ipids/ie-direct-motor-ipid-12-2018-min.pdf"
+    },
+    "pages": 2,
+    "sha256": "67ad524413e954f25708b0ccacefea6475a6fdb94e009e6e15a0e12f4f74ba73",
+    "statut": "ok"
+  },
+  "ie_allianz_ireland_auto_f3d648": {
+    "collecte_le": "2026-10-21T12:50:27+00:00",
+    "offre": {
+      "assureur": "Allianz Ireland",
+      "langue": "en",
+      "pays": "Irlande",
+      "produit": "Car insurance",
+      "type": "auto",
+      "url": "https://www.allianz.ie/content/dam/onemarketing/azie/allianz-ireland/en_us/documents/documents---car-insurance/DMR-Full-IPID-Pre-July-2025.pdf"
+    },
+    "pages": 2,
+    "sha256": "449808439be1ac9cdfb9ab8aa9a705e467c284d5601b158db1fad6c6c0653be5",
+    "statut": "ok"
+  },
+  "ie_aviva_ireland_auto_7c8477": {
+    "collecte_le": "2026-10-21T12:50:23+00:00",
+    "offre": {
+      "assureur": "Aviva Ireland",
+      "langue": "en",
+      "pays": "Irlande",
+      "produit": "Motorcare",
+      "type": "auto",
+      "url": "https://static.aviva.io/content/dam/aviva-public/ie/pdfs/motorcare-ipid.pdf"
+    },
+    "pages": 2,
+    "sha256": "4233556039a62b40e5999b9fcfc67b10ae340005a9846b56f28f87d0793af748",
+    "statut": "ok"
+  },
+  "ie_outsurance_auto_94d850": {
+    "collecte_le": "2026-10-21T12:50:26+00:00",
+    "offre": {
+      "assureur": "Outsurance",
+      "langue": "en",
+      "pays": "Irlande",
+      "produit": "Car insurance",
+      "type": "auto",
+      "url": "https://www.outsurance.ie/globalassets/documents/outsurance-dac/outsurance-car-ipid_202403.pdf"
+    },
+    "pages": 2,
+    "sha256": "b3ea15fd24b232daae3f7fa5d3e934b834ec9b44733b3582f468b146e6e1c3d5",
+    "statut": "ok"
+  },
+  "it_allianz_italia_auto_87bfe5": {
+    "collecte_le": "2026-10-21T12:49:14+00:00",
+    "offre": {
+      "assureur": "Allianz Italia",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "RC auto bonus malus",
+      "type": "auto",
+      "url": "https://www.allianz.it/content/dam/onemarketing/azit/allianz-it/le-soluzioni-per-te/mobilita/set_informativi/01_SI_BM_ed_RCA_01_07_2024_e_ARD_01_02_2024.pdf"
+    },
+    "pages": 88,
+    "sha256": "e1b6cf40360d287379c08384675da942e9b1bf0a40c21714eb45f47194f4c3dd",
+    "statut": "ok"
+  },
+  "it_allianz_italia_moto_f8c39a": {
+    "collecte_le": "2026-10-21T12:49:15+00:00",
+    "offre": {
+      "assureur": "Allianz Italia",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "Moto e ciclomotori",
+      "type": "moto",
+      "url": "https://www.allianz.it/content/dam/onemarketing/azit/allianz-it/le-soluzioni-per-te/mobilita/set_informativi/03_moto_ciclo_ed_RCA_01_06_2025_e_ARD_01_12_2024.pdf"
+    },
+    "pages": 42,
+    "sha256": "3ebe12616065d963c3a73f1e30f581a300539c5d243c43188c8515ec4b445488",
+    "statut": "ok"
+  },
   "it_ca_honda_moto": {
     "collecte_le": "2026-10-21T12:26:45+00:00",
+    "offre": {
+      "assureur": "Crédit Agricole Assicurazioni",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "Honda Safe 2.0 moto",
+      "type": "moto",
+      "url": "https://www.ca-assicurazioni.it/media/filer_public/ad/0f/ad0f0423-1f71-4134-8ae3-77ddf53707ce/202601_honda_safe_20_moto.pdf"
+    },
     "pages": 45,
     "sha256": "1a0945e8e456216748b6a037df435d000b0c88ad5f8d129cf9f399071b94bc19",
     "statut": "ok",
     "url": "https://www.ca-assicurazioni.it/media/filer_public/ad/0f/ad0f0423-1f71-4134-8ae3-77ddf53707ce/202601_honda_safe_20_moto.pdf"
   },
+  "it_linear_moto_79372e": {
+    "collecte_le": "2026-10-21T12:49:35+00:00",
+    "offre": {
+      "assureur": "Linear",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "Moto",
+      "type": "moto",
+      "url": "https://www.linear.it/extra/pdf/set_informativo_moto_06-2026.pdf"
+    },
+    "pages": 60,
+    "sha256": "d2c041957f59b6e1411ee4e6a473b22f610ad818d88a9a4064765c0e4724d389",
+    "statut": "ok"
+  },
+  "it_linear_next_moto_e8862a": {
+    "collecte_le": "2026-10-21T12:49:41+00:00",
+    "offre": {
+      "assureur": "Linear Next",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "Moto",
+      "type": "moto",
+      "url": "https://www.linearnext.it/extra/pdf/set_informativo_linearnext_moto_05-2026.pdf"
+    },
+    "pages": 55,
+    "sha256": "34d3eb6795d8db1635b2b9fc19fa02032d730ed94d3303f7416f62e088f4754c",
+    "statut": "ok"
+  },
   "it_quixa_auto": {
     "collecte_le": "2026-10-21T12:25:56+00:00",
+    "offre": {
+      "assureur": "Quixa",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "Assicurazione auto",
+      "type": "auto",
+      "url": "https://www.quixa.it/wp-content/documents/SetInformativi/ed.25.05.2022_Auto_QP.pdf"
+    },
     "pages": 32,
     "sha256": "5f5e2cc238c8d400f5ec097e61d14f68b6a3fda18d0fbc64d81d4f1268126807",
     "statut": "ok",
     "url": "https://www.quixa.it/wp-content/documents/SetInformativi/ed.25.05.2022_Auto_QP.pdf"
   },
   "it_quixa_moto": {
-    "collecte_le": "2026-10-21T12:26:41+00:00",
-    "pages": 39,
-    "sha256": "e439e78435e23441cffa1179131852aa9d3cf2b93f3df62463adc16d509f589d",
-    "statut": "ok",
-    "url": "https://www.quixa.it/wp-content/documents/SetInformativi/ed.15.01.2026_Moto.pdf"
+    "collecte_le": "2026-10-21T12:43:14+00:00",
+    "offre": {
+      "assureur": "Quixa",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "Assicurazione moto",
+      "type": "moto",
+      "url": "https://www.quixa.it/wp-content/documents/SetInformativi/ed.16.07.2026_Moto.pdf"
+    },
+    "pages": 43,
+    "sha256": "d8a1a5c7e1965908bf56488ceef715303575594c90deda3728b0264e24bdf9db",
+    "statut": "ok"
+  },
+  "it_quixa_moto_c0eb60": {
+    "collecte_le": "2026-10-21T12:49:22+00:00",
+    "offre": {
+      "assureur": "Quixa",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "Contratto base moto",
+      "type": "moto",
+      "url": "https://www.quixa.it/wp-content/documents/SetInformativi/ed.25.06.2025_Moto_ContrattoBase.pdf"
+    },
+    "pages": 23,
+    "sha256": "d2c93beabb2714037bc0b1e435c13613a0a1da8a1af4e7923f0428b13fddc568",
+    "statut": "ok"
+  },
+  "it_quixa_moto_ff8955": {
+    "collecte_le": "2026-10-21T12:49:19+00:00",
+    "offre": {
+      "assureur": "Quixa",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "Moto Protetta",
+      "type": "moto",
+      "url": "https://quixa.it/wp-content/documents/SetInformativi/ed.01.04.2025_Moto_Protetta.pdf"
+    },
+    "pages": 17,
+    "sha256": "23decacfa6f74d8ad6d6f4ba0c5f5e61478b9e606d0fbaa5d4515b5fbcbf84d0",
+    "statut": "ok"
+  },
+  "it_unipolsai_auto_199d02": {
+    "collecte_le": "2026-10-21T12:48:42+00:00",
+    "offre": {
+      "assureur": "UnipolSai",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "RCA autovetture",
+      "type": "auto",
+      "url": "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/345a4c27-b163-491c-b3b9-bdfb511ba345"
+    },
+    "pages": 112,
+    "sha256": "a40c85d3b2591d0da8afe6cb0107d1329fb7af5b6aa345c5963fb3eb43da3e85",
+    "statut": "ok"
+  },
+  "it_unipolsai_auto_24bcec": {
+    "collecte_le": "2026-10-21T12:48:39+00:00",
+    "offre": {
+      "assureur": "UnipolSai",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "Contratto base RCA autovetture",
+      "type": "auto",
+      "url": "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/a599b493-f541-4aa9-88f2-1745285d89f4"
+    },
+    "pages": 35,
+    "sha256": "26e9a4a7587627d6c132f6856e48fc8906eeca049ccb2211c99066b625e726a3",
+    "statut": "ok"
+  },
+  "it_unipolsai_auto_5b118c": {
+    "collecte_le": "2026-10-21T12:49:12+00:00",
+    "offre": {
+      "assureur": "UnipolSai",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "Auto",
+      "type": "auto",
+      "url": "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/ddae4130-7d3b-453b-bc75-419f18e04bee"
+    },
+    "pages": 224,
+    "sha256": "19be0755cec55f5bb966100b2d8e9f0ad9058f2f78cb76e3eaa55a0886512c85",
+    "statut": "ok"
+  },
+  "it_unipolsai_auto_9983af": {
+    "collecte_le": "2026-10-21T12:49:09+00:00",
+    "offre": {
+      "assureur": "UnipolSai",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "Km&Servizi",
+      "type": "auto",
+      "url": "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/981646c6-9a11-422a-a2e4-0daa88ab0086"
+    },
+    "pages": 212,
+    "sha256": "d58b894c3822f56ef5d7cb54262a97b10a172323aad1337292501cff6cc4342a",
+    "statut": "ok"
   },
   "it_verti_auto": {
     "collecte_le": "2026-10-21T12:26:35+00:00",
+    "offre": {
+      "assureur": "Verti",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "RC auto",
+      "type": "auto",
+      "url": "https://www.santanderconsumer.it/sites/default/files/2022-08/SET%20INFORMATIVO_SANTANDER%20RCauto_Verti%20ed.2022.pdf"
+    },
     "pages": 28,
     "sha256": "ea1e443ff361b6266850534bbb3245a2abc84b79e51eae23bff1d2cf56fdd8dc",
     "statut": "ok",
     "url": "https://www.santanderconsumer.it/sites/default/files/2022-08/SET%20INFORMATIVO_SANTANDER%20RCauto_Verti%20ed.2022.pdf"
+  },
+  "it_verti_moto_3bef7d": {
+    "collecte_le": "2026-10-21T12:49:25+00:00",
+    "offre": {
+      "assureur": "Verti",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "Motociclo e ciclomotore",
+      "type": "moto",
+      "url": "https://www.verti.it/media/SET-INFORMATIVO-MOTOCICLO-E-CICLOMOTORE-05-07-2025.pdf"
+    },
+    "pages": 57,
+    "sha256": "948c327439d14388252d8dddd4367fe44f6e7b016357375608f9bfce2a665af1",
+    "statut": "ok"
+  },
+  "nl_a_s_r_moto_a95f2f": {
+    "offre": {
+      "assureur": "a.s.r.",
+      "langue": "nl",
+      "pays": "Pays-Bas",
+      "produit": "Bromfietsverzekering WA",
+      "type": "moto",
+      "url": "https://kuiperverzekeringen.nl/storage/app/media/verzekeringkaarten/asr-2024/ASR-Verzekeringskaart-Bromfietsverzekering-WA-versie-6.pdf"
+    },
+    "statut": "lien en erreur (ConnectionError)"
+  },
+  "nl_interpolis_auto_f7cba4": {
+    "offre": {
+      "assureur": "Interpolis",
+      "langue": "nl",
+      "pays": "Pays-Bas",
+      "produit": "Autoverzekering WA",
+      "type": "auto",
+      "url": "https://verzekeringskaarten.nl/interpolis/Interpolis-Autoverzekering-WA-AIEP-20"
+    },
+    "statut": "lien en erreur (ValueError)"
+  },
+  "pt_allianz_portugal_moto_32f825": {
+    "collecte_le": "2026-10-21T12:50:21+00:00",
+    "offre": {
+      "assureur": "Allianz Portugal",
+      "langue": "pt",
+      "pays": "Portugal",
+      "produit": "Moto",
+      "type": "moto",
+      "url": "https://www.allianz.pt/content/dam/onemarketing/iberolatam/allianz-pt/seguros-/moto/docs/DISPS_Moto_2022.pdf"
+    },
+    "pages": 2,
+    "sha256": "907c855b2e86f6e3f1eb12638cb3deddb84e3b17c72402c16a256c05931aae19",
+    "statut": "ok"
+  },
+  "pt_cofidis_auto_d38ef1": {
+    "collecte_le": "2026-10-21T12:50:18+00:00",
+    "offre": {
+      "assureur": "Cofidis",
+      "langue": "pt",
+      "pays": "Portugal",
+      "produit": "Auto Protec",
+      "type": "auto",
+      "url": "https://campanhas-cofidis.pt/seguros/seguro-automovel/A1827_IPID_Protec_jun22.pdf"
+    },
+    "pages": 2,
+    "sha256": "ce0cde794d33f0bfbfb47366bcce28fe5d5a01b9f655ba9f9008ba845e043575",
+    "statut": "ok"
+  },
+  "pt_ctt_seguros_auto_6ceac9": {
+    "collecte_le": "2026-10-21T12:50:06+00:00",
+    "offre": {
+      "assureur": "CTT Seguros",
+      "langue": "pt",
+      "pays": "Portugal",
+      "produit": "Seguro automóvel",
+      "type": "auto",
+      "url": "https://www.ctt.pt/application/themes/pdfs/particulares/dinheiro-e-seguros/ipc-dds-automovel.pdf"
+    },
+    "pages": 2,
+    "sha256": "6c721fd517fda0482bd63d23e820124da96fe7b1d392d0f40a4a672ca2d0ffe2",
+    "statut": "ok"
+  },
+  "pt_ctt_seguros_auto_bbd273": {
+    "collecte_le": "2026-10-21T12:50:06+00:00",
+    "offre": {
+      "assureur": "CTT Seguros",
+      "langue": "pt",
+      "pays": "Portugal",
+      "produit": "Auto Plano 3",
+      "type": "auto",
+      "url": "https://www.ctt.pt/application/themes/pdfs/IPID_+AUTO_Plano%203.pdf"
+    },
+    "pages": 2,
+    "sha256": "88ee9dcc0143939f6f46653f3765dd6c01669d76cbecdad9c56866090e6ff8b3",
+    "statut": "ok"
+  },
+  "pt_generali_tranquilidade_moto_f59d60": {
+    "collecte_le": "2026-10-21T12:50:20+00:00",
+    "offre": {
+      "assureur": "Generali Tranquilidade",
+      "langue": "pt",
+      "pays": "Portugal",
+      "produit": "Auto 2 rodas",
+      "type": "moto",
+      "url": "https://generalitranquilidade.pt/-/media/files/moto-bicicleta-trotinete/ficha-produto-dds-auto-2-rodas.pdf"
+    },
+    "pages": 2,
+    "sha256": "9d713a27e486dcfe894df2b2f0efb5b3a7b97fcdfd2808e66a782e437670c3c4",
+    "statut": "ok"
+  },
+  "pt_mapfre_portugal_moto_785cf4": {
+    "collecte_le": "2026-10-21T12:50:18+00:00",
+    "offre": {
+      "assureur": "Mapfre Portugal",
+      "langue": "pt",
+      "pays": "Portugal",
+      "produit": "MAPFRE Auto Moto",
+      "type": "moto",
+      "url": "https://www.mapfre.pt/media/DIPS_410_MAPFREAuto_Moto_16062026.pdf"
+    },
+    "pages": 2,
+    "sha256": "b3756ebf2cc69b8750c788a38ace762b438b27594fb06fcb7c718a2fc75aac49",
+    "statut": "ok"
+  },
+  "pt_novo_banco_auto_e7b353": {
+    "collecte_le": "2026-10-21T12:50:13+00:00",
+    "offre": {
+      "assureur": "Novo Banco",
+      "langue": "pt",
+      "pays": "Portugal",
+      "produit": "Seguro auto",
+      "type": "auto",
+      "url": "https://www.novobanco.pt/content/dam/novobancopublicsites/docs/pdfs/seguros/seguro-auto/Documento%20de%20Informacao%20sobre%20o%20Produto%20Seguro%20Auto.pdf.coredownload.inline.pdf"
+    },
+    "pages": 2,
+    "sha256": "6d8d7b8330744515d1240520af8f225940008fc9e460873836c693d709c2c067",
+    "statut": "ok"
+  },
+  "pt_victoria_seguros_auto_04b65c": {
+    "collecte_le": "2026-10-21T12:50:11+00:00",
+    "offre": {
+      "assureur": "Victoria Seguros",
+      "langue": "pt",
+      "pays": "Portugal",
+      "produit": "Auto RC",
+      "type": "auto",
+      "url": "https://www.victoria-seguros.pt/cdu-services/IPID_REALRC_AUTO_MKT"
+    },
+    "pages": 3,
+    "sha256": "0d7d8b6363c7b7e28ea3d4d3ec96157b5ec669466b9030d7de4d7307c31ae47b",
+    "statut": "ok"
   }
 }

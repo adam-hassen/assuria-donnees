@@ -1,15 +1,17 @@
 {
-  "be_baloise_auto": {
-    "statut": "lien en erreur (HTTPError)",
-    "url": "https://www.baloise.be/dam/mybaloise-baloise-be/fr/non-vie-particuliers/Vehicules-automoteurs/IPID/IPID-Auto/B9001.MOT.02.26.Fiche-ipid-Mobility_Safe_1_Voitures-de-tourisme-et-Camionnettes_FR.pdf"
+  "be_argenta_moto": {
+    "collecte_le": "2026-10-21T12:32:04+00:00",
+    "pages": 2,
+    "sha256": "b30d4902901e6d53e261bb6f2a6de2f721e9b0651a1fb17a24c248115520b18a",
+    "statut": "ok",
+    "url": "https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20moto.pdf"
   },
-  "be_bmw_carplan": {
-    "statut": "lien en erreur (ReadTimeout)",
-    "url": "https://www.bmw.be/content/dam/bmw/marketBE/common/topics/bfs-insurances/pdf/ipid-carplan-assurance-vehicules-automoteurs.pdf.asset.1600960117295.pdf"
-  },
-  "be_ethias_auto": {
-    "statut": "lien en erreur (HTTPError)",
-    "url": "https://www.comparateur.be/insurance/downloads/ethias/car-ipid-fr.pdf"
+  "be_axa_confort_auto": {
+    "collecte_le": "2026-10-21T12:32:03+00:00",
+    "pages": 3,
+    "sha256": "fc607fc22c6b7fd065e3e096fbbf7d1e48c1bb6ff5956707181c8ec29a67305b",
+    "statut": "ok",
+    "url": "https://distributorportal.axa.be/fr-be/-/media/axa-documents/library-public/ipid/3/8/c/d/a/Confort%20Auto%20-%20Fiches%20IPID.pdf?rev=e72a16bb015743978fd0a703857733fe"
   },
   "be_hyundai_auto": {
     "collecte_le": "2026-10-21T12:24:21+00:00",
@@ -17,6 +19,20 @@
     "sha256": "6cb93fa16dfc23293b7a4d55a4546b23c1cd11297cb5dedf7ebdcd0c88eb934b",
     "statut": "ok",
     "url": "https://www.hyundai.com/content/dam/hyundai/downloads/be/lu/pdf/FR_Hy_IPID_Insurance.pdf"
+  },
+  "be_ing_moto": {
+    "collecte_le": "2026-10-21T12:32:05+00:00",
+    "pages": 3,
+    "sha256": "88faf0eb7baf7e210595d2d43c74448fd586bc33b034a2e7729d11bcbca2869f",
+    "statut": "ok",
+    "url": "https://assets.ing.com/m/531a38da1f7d4826/original/ING-motorbike-and-moped-insurance-IPID-FR.pdf"
+  },
+  "be_pv_auto": {
+    "collecte_le": "2026-10-21T12:32:02+00:00",
+    "pages": 3,
+    "sha256": "9509056b34e6eb483e802d8c3e879cee2f96ca067f8535d6984003413b46b507",
+    "statut": "ok",
+    "url": "https://www.pv.be/documents/2579080/0/IPID_495_PV+Auto_FR_DEFweb.pdf/2b84f6f9-5aec-989a-3084-20350cfc497a"
   },
   "de_allianz_kfz_2002": {
     "collecte_le": "2026-10-21T12:26:48+00:00",
@@ -32,24 +48,19 @@
     "statut": "ok",
     "url": "https://goa-eportale.allianz.de/IPI/D-2/IPID-2001Z0.pdf.open.pdf"
   },
+  "de_allianz_moped": {
+    "collecte_le": "2026-10-21T12:32:18+00:00",
+    "pages": 2,
+    "sha256": "dcd44724cf21bac3d946172bc15183f68e65ec36e83edd5d05ea5f5be1bae05e",
+    "statut": "ok",
+    "url": "https://goa-eportale.allianz.de/IPI/D-2/IPID-2009Z0.pdf.open.pdf"
+  },
   "de_arcd_kfz": {
     "collecte_le": "2026-10-21T12:26:51+00:00",
     "pages": 2,
     "sha256": "f8f3d36f6a77a35c8d9a7ef4d75b132425ae53513dfd5e131449fec19b9b2048",
     "statut": "ok",
     "url": "https://www.arcd.de/fileadmin/Dokumente/Versicherungen/Kfz-Versicherung/produktinformationsblatt-kfz.pdf"
-  },
-  "de_provinzial_kfz": {
-    "statut": "lien en erreur (HTTPError)",
-    "url": "https://www.provinzial-online.de/export/sites/wpv/_resources/download/privat_versicherungen/01.1_IPID_WP_PN_Kfz-IPID-Stand_9.2019.pdf"
-  },
-  "de_provinzial_moped": {
-    "statut": "lien en erreur (HTTPError)",
-    "url": "https://www.provinzial.de/export/sites/pvn/_resources/download/privat_versicherungen/584-17-PIB_Moped-IPID_Stand-3.2018.pdf"
-  },
-  "de_svsachsen_moped": {
-    "statut": "lien en erreur (HTTPError)",
-    "url": "https://www.sv-sachsen.de/export/sites/svsa/_micro/makler/_downloads/moped/IPID-Moped.pdf"
   },
   "es_lam_todo_riesgo": {
     "collecte_le": "2026-10-21T12:26:58+00:00",
@@ -99,10 +110,6 @@
     "sha256": "07bec3c83376c5d4208ce572e6a0a74895412412f2c5b46b1b048363fd1a1f4f",
     "statut": "ok",
     "url": "https://www.assu2000.fr/sites/default/files/documents-legaux/A2_IPID_AUTO.pdf"
-  },
-  "fr_bred_moto": {
-    "statut": "lien en erreur (ValueError)",
-    "url": "https://www.bred.fr/medias/pdf/informations-reglementaires/ipid-assurance-moto.pdf"
   },
   "fr_caisse_epargne_auto": {
     "collecte_le": "2026-10-21T12:22:47+00:00",
@@ -187,14 +194,6 @@
     "sha256": "1a0945e8e456216748b6a037df435d000b0c88ad5f8d129cf9f399071b94bc19",
     "statut": "ok",
     "url": "https://www.ca-assicurazioni.it/media/filer_public/ad/0f/ad0f0423-1f71-4134-8ae3-77ddf53707ce/202601_honda_safe_20_moto.pdf"
-  },
-  "it_genertel_moto": {
-    "statut": "lien en erreur (HTTPError)",
-    "url": "https://www.genertel.it/assets/95d54cf8d591703842c28a8ce0bc9537/GT_DIP_CAAB_Motorbike_Protection.pdf"
-  },
-  "it_linear_auto": {
-    "statut": "lien en erreur (ChunkedEncodingError)",
-    "url": "https://www.linear.it/extra/pdf/set_informativo_auto_05-2019.pdf"
   },
   "it_quixa_auto": {
     "collecte_le": "2026-10-21T12:25:56+00:00",

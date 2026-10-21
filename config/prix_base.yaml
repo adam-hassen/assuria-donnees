@@ -1,0 +1,90 @@
+# Prix de base des offres (objectif 1), en euros par an.
+#
+# Le prix de base = le prix pour le PROFIL DE RÉFÉRENCE, c'est-à-dire le prix « à partir de » affiché par les assureurs :
+#   conducteur de 50 ans, permis depuis plus de 10 ans, bonus maximal (coefficient 0,50), aucun sinistre,
+#   citadine récente (type Renault Clio, environ 90 ch, 3 ans), ville moyenne, usage privé, 10 000 à 12 000 km/an,
+#   parking, franchise standard.
+# Le simulateur (src/simulateur.py) part de ce prix et l'ajuste au profil de chaque personne.
+#
+# Trois formules : tiers (responsabilité civile seule), intermediaire (tiers + vol, incendie, bris de glace),
+# tous_risques (+ dommages au véhicule même si l'assuré est responsable).
+#
+# 1) Prix d'entrée publiés par les assureurs (vrais prix publics). Prioritaires.
+# 2) Sinon : référence de marché du pays (prix moyen publié ramené au profil de référence, méthode ci-dessous).
+
+ratios_marche:
+  # France 2026 (LeLynx, baromètre au 19/03/2026) : prix moyens tous profils
+  #   auto : tiers 526 €, tous risques 784 €, moyenne 663 € ; moto : tiers 394 €, tous risques 800 €
+  #   Profil de référence France (prix d'entrée des assureurs, avis-assurances.com 2026) : tiers 255 €, tous risques 450 €
+  # -> pour passer d'un prix moyen publié au profil de référence :
+  moyenne_vers_reference: 0.385        # 255 / 663 (moyenne toutes formules)
+  tiers_moyen_vers_reference: 0.485    # 255 / 526 (moyenne responsabilité civile seule)
+  # -> écarts entre formules au profil de référence (France)
+  intermediaire_sur_tiers: 1.196       # 305 / 255
+  tous_risques_sur_tiers: 1.765        # 450 / 255
+  # -> moto par rapport à auto, même formule (LeLynx 2026)
+  moto_sur_auto: {tiers: 0.749, intermediaire: 0.885, tous_risques: 1.020}
+  source: "https://www.lelynx.fr/assurance-auto/barometre-auto-moto/ ; https://www.avis-assurances.com/assurances/auto"
+
+references_pays:   # auto, profil de référence, €/an
+  France:
+    tiers: 255
+    intermediaire: 305
+    tous_risques: 450
+    methode: "Prix d'entrée médians des assureurs pour un conducteur expérimenté bonussé à 50 %"
+    source: "https://www.avis-assurances.com/assurances/auto ; https://www.jechange.fr/assurance/macif/auto"
+  Belgique:
+    tiers: 280
+    intermediaire: 410
+    tous_risques: 800
+    methode: "Bas des fourchettes publiées (profil favorable) : RC, mini-omnium, full omnium"
+    source: "https://callmepower.be/fr/assurance/auto/prix"
+  Pays-Bas:
+    tiers: 230
+    intermediaire: 235
+    tous_risques: 279
+    methode: "Médiane des 5 primes les moins chères (60 ans, 19 ans sans sinistre, Citroën C1), octobre 2026"
+    source: "https://www.overstappen.nl/nieuws/dit-zijn-de-vijf-goedkoopste-autopremies-in-oktober-2026/"
+  Italie:
+    tiers: 205
+    methode: "Prix moyen RC auto IVASS 422 € (T2 2026) x 0,485 ; cohérent avec les prix d'entrée publiés (131 à 161 €/an)"
+    source: "https://www.teleborsa.it/DettaglioNews/239_2026-09-24_TLB/RC-Auto-prezzo-medio-scende-a-422-euro-le-province-che-pagano-di-pi.html"
+  Espagne:
+    tiers: 150
+    methode: "Prime moyenne 390 € (mai 2026) x 0,385 ; cohérent avec les prix d'entrée publiés (153 à 171 €/an)"
+    source: "https://seguros.check24.es/wp-content/uploads/2026/06/NdP_La-prima-media-del-seguro-de-coche-baja-en-mayo-hasta-los-390-euros-un-53-menos-que-hace-un-ano.pdf"
+  Portugal:
+    tiers: 132
+    methode: "Prime moyenne 344 €/an (2026) x 0,385"
+    source: "https://www.e-konomista.pt/seguro-automovel-mais-caro-em-2026/"
+  Irlande:
+    tiers: 252
+    methode: "Prime moyenne 655 € (Banque centrale d'Irlande, S1 2025) x 0,385"
+    source: "https://rte.ie/news/business/2026/0331/1566059-average-cost-of-motor-insurance-was-655-last-year/"
+  Allemagne:
+    tiers: 146
+    tous_risques: 316
+    methode: "Haftpflicht moyenne 300 € x 0,485 ; Vollkasko moyenne 550 € x (450 / 784)"
+    source: "https://versicherungsvergleiche.de/fragen/was-kostet-eine-kfz-versicherung-im-durchschnitt/"
+  Autriche:
+    tiers: 386
+    methode: "Prime moyenne 1 004 € x 0,385 (donnée ancienne, durchblicker.at 2015 : à mettre à jour)"
+    source: "https://www.trend.at/mobilitaet/autoversicherung-vergleich"
+
+prix_assureurs:   # prix d'entrée publiés, €/an (= €/mois x 12), profil expérimenté bonussé sauf mention
+  - {pays: France, type: auto, assureur: MAIF, tiers: 255, tous_risques: 452, source: "https://www.avis-assurances.com/assurances/auto"}
+  - {pays: France, type: auto, assureur: Macif, tiers: 275, intermediaire: 305, tous_risques: 458,
+     profil: "Homme 50 ans, bonus 0,5, Renault Clio 4, 12 000 km/an, Nantes, parking couvert", source: "https://www.jechange.fr/assurance/macif/auto"}
+  - {pays: France, type: auto, assureur: MAAF, tiers: 300, intermediaire: 312, tous_risques: 570,
+     profil: "Homme 50 ans, bonus 0,5, Renault Clio 4, 6 000 km/an, Nantes", source: "https://www.jechange.fr/assurance/maaf/assurance-auto"}
+  - {pays: France, type: auto, assureur: Direct Assurance, tiers: 216, tous_risques: 360, source: "https://www.avis-assurances.com/assurances/auto"}
+  - {pays: France, type: auto, assureur: "L'olivier Assurance", tiers: 204, tous_risques: 360, source: "https://www.avis-assurances.com/assurances/auto"}
+  - {pays: France, type: auto, assureur: Allianz France, tiers: 204, tous_risques: 336, source: "https://www.avis-assurances.com/assurances/auto"}
+  - {pays: France, type: auto, assureur: AXA France, tous_risques: 480, source: "https://www.avis-assurances.com/assurances/auto"}
+  - {pays: France, type: auto, assureur: Matmut, tous_risques: 384, source: "https://www.avis-assurances.com/assurances/auto"}
+  - {pays: France, type: moto, assureur: AMV, intermediaire: 480, profil: "Motard bonussé (cotisation moyenne)", source: "https://www.avis-assurances.com/assurances/moto"}
+  - {pays: France, type: moto, assureur: Solly Azar, tiers: 132, source: "https://www.lelynx.fr/assurance-moto/assureurs/assurance-moto-solly-azar/"}
+  - {pays: Espagne, type: auto, assureur: AXA España, tiers: 154, intermediaire: 163,
+     profil: "Homme 37 ans, permis depuis 18 ans, Madrid, SEAT Arona 2024, 15 000 km/an", source: "https://www.rastreator.com/seguros-de-coche/articulos-destacados/como-encontrar-seguro-coche-barato.aspx"}
+  - {pays: Espagne, type: auto, assureur: Allianz Direct, tiers: 171,
+     profil: "Homme 37 ans, permis depuis 18 ans, Madrid, SEAT Arona 2024, 15 000 km/an", source: "https://www.rastreator.com/seguros-de-coche/articulos-destacados/como-encontrar-seguro-coche-barato.aspx"}

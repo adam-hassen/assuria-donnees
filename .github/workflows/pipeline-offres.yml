@@ -1,4 +1,4 @@
-name: Pipeline offres d'assurance
+name: Pipeline offres d'assurance et simulation des prix
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:            # lancement manuel depuis l'onglet Actions
   push:
     branches: [main]
-    paths: ["src/offres.py", "config/offres.yaml"]
+    paths: ["src/offres.py", "config/offres.yaml", "src/simulateur.py", "config/prix_base.yaml"]
 
 permissions:
   contents: write
@@ -31,6 +31,9 @@ jobs:
 
       - name: Collecte des documents d'offres et construction du fichier
         run: python -m src.offres
+
+      - name: Prix de base, simulateur et profils
+        run: python -m src.simulateur
 
       - name: Enregistrer les données mises à jour dans le dépôt
         run: |

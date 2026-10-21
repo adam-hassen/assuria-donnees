@@ -4,6 +4,7 @@ Collecte automatique des deux jeux de données européens du projet, auto et mot
 
 - **Sinistres** (objectif 3) : pour prédire le coût d'un sinistre ;
 - **Offres d'assurance** (objectif 1) : pour proposer à l'assuré les offres qui lui correspondent. Description : [`data/clean/offres/README.md`](data/clean/offres/README.md).
+- **Simulation des prix** (objectif 1) : prix de base de chaque offre, simulateur de tarif et profils générés. Description : [`data/clean/simulation/README.md`](data/clean/simulation/README.md).
 
 Projet ENSIM 5A · Omar El-Moujahid, Adam Hassen, Ismail Achibat · Encadrant : Meysam Shamsi
 
@@ -13,6 +14,8 @@ Projet ENSIM 5A · Omar El-Moujahid, Adam Hassen, Ismail Achibat · Encadrant : 
 config/sources.yaml          liste des sources et taux de conversion
 config/offres.yaml           liste des offres d'assurance suivies (liens vers les documents IPID)
 src/offres.py                collecte les documents d'offres et construit le fichier des offres
+config/prix_base.yaml        prix de base (prix d'entrée publiés, références de marché) avec leurs sources
+src/simulateur.py            simulateur de prix, profils générés et devis simulés
 src/collecte.py              télécharge les sources et détecte les nouvelles versions
 src/nettoyage.py             nettoie, harmonise et fusionne en un seul fichier
 dashboard/app.py             dashboard Streamlit (lit les données directement dans ce dépôt)
@@ -20,6 +23,7 @@ data/raw/                    données brutes (Parquet) + manifest.json
 data/raw/manuel/             fichiers à déposer à la main (Espagne)
 data/raw/offres/              documents d'offres (PDF) + manifest.json
 data/clean/offres/           offres_europe.parquet / .json + README
+data/clean/simulation/       prix_base, coefficients, profils, devis_simules + README
 data/clean/                  sinistres_europe.parquet (nettoyé), sinistres_bruts.parquet (brut + anomalies), rapports
 .github/workflows/           pipeline automatique (chaque lundi, ou à la demande)
 ```
@@ -43,8 +47,8 @@ Le workflow GitHub Actions `pipeline-donnees.yml` tourne chaque lundi, à chaque
 ou à la demande (onglet **Actions** → **Run workflow**). Il collecte, nettoie, puis enregistre les
 données mises à jour dans le dépôt. Rien à télécharger sur son PC.
 
-Le workflow `pipeline-offres.yml` fait de même pour les offres d'assurance (chaque lundi, ou dès que
-`config/offres.yaml` change). Pour suivre une nouvelle offre, il suffit d'ajouter son lien dans ce fichier.
+Le workflow `pipeline-offres.yml` fait de même pour les offres d'assurance, puis relance le simulateur de prix (chaque lundi, ou dès que
+`config/offres.yaml` ou `config/prix_base.yaml` change). Pour suivre une nouvelle offre, il suffit d'ajouter son lien dans ce fichier.
 
 Les deux jeux sont recopiés automatiquement dans le dépôt global du projet
 [assuria-projet](https://github.com/adam-hassen/assuria-projet), dossier `data/`.

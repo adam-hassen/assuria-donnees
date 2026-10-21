@@ -420,5 +420,44 @@
       "ClaimAmount"
     ],
     "collecte_le": "2026-10-19T14:00:57+00:00"
+  },
+  "espagne": {
+    "source": "es_portefeuille",
+    "pays": "Espagne",
+    "sha256": "00061a64e355a7f9bbd06f1bcd3f0846b1f849955119a812acf2bc7781ee293a",
+    "lignes": 105555,
+    "colonnes": [
+      "ID",
+      "Date_start_contract",
+      "Date_last_renewal",
+      "Date_next_renewal",
+      "Date_birth",
+      "Date_driving_licence",
+      "Distribution_channel",
+      "Seniority",
+      "Policies_in_force",
+      "Max_policies",
+      "Max_products",
+      "Lapse",
+      "Date_lapse",
+      "Payment",
+      "Premium",
+      "Cost_claims_year",
+      "N_claims_year",
+      "N_claims_history",
+      "R_Claims_history",
+      "Type_risk",
+      "Area",
+      "Second_driver",
+      "Year_matriculation",
+      "Power",
+      "Cylinder_capacity",
+      "Value_vehicle",
+      "N_doors",
+      "Type_fuel",
+      "Length",
+      "Weight"
+    ],
+    "collecte_le": "2026-10-21T12:01:09+00:00"
   }
 }

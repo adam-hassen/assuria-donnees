@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-21T12:00:22+00:00",
+  "genere_le": "2026-10-21T12:01:15+00:00",
   "sources": {
     "fr_fremtpl2": [
       {
@@ -411,6 +411,80 @@
         "lignes_apres": 662,
         "retirees": 0,
         "detail": "662 valeurs remplacées ; les colonnes numériques manquantes restent vides"
+      }
+    ],
+    "es_portefeuille": [
+      {
+        "etape": 0,
+        "nom": "Utilitaires et véhicules agricoles écartés",
+        "lignes_avant": 105555,
+        "lignes_apres": 91492,
+        "retirees": 14063,
+        "detail": ""
+      },
+      {
+        "etape": 1,
+        "nom": "Contrats sans sinistre retirés",
+        "lignes_avant": 91492,
+        "lignes_apres": 16632,
+        "retirees": 74860,
+        "detail": ""
+      },
+      {
+        "etape": 12,
+        "nom": "Conversion EUR -> EUR (taux 1.0)",
+        "lignes_avant": 16632,
+        "lignes_apres": 16632,
+        "retirees": 0,
+        "detail": ""
+      },
+      {
+        "etape": 3,
+        "nom": "Coût moyen par sinistre calculé",
+        "lignes_avant": 16632,
+        "lignes_apres": 16632,
+        "retirees": 0,
+        "detail": ""
+      },
+      {
+        "etape": 2,
+        "nom": "Coûts négatifs, nuls ou inférieurs à 10 € retirés",
+        "lignes_avant": 16632,
+        "lignes_apres": 16564,
+        "retirees": 68,
+        "detail": "0 négatifs ; 68 coûts inférieurs à 10 €"
+      },
+      {
+        "etape": 7,
+        "nom": "Valeurs impossibles",
+        "lignes_avant": 16564,
+        "lignes_apres": 16564,
+        "retirees": 0,
+        "detail": "148 valeurs mises à vide (âge, puissance, âge véhicule) ; expositions nulles retirées"
+      },
+      {
+        "etape": 8,
+        "nom": "Sinistres extrêmes repérés (> 99,5e centile)",
+        "lignes_avant": 16564,
+        "lignes_apres": 16564,
+        "retirees": 0,
+        "detail": "seuil = 7,291 EUR ; 83 sinistres repérés"
+      },
+      {
+        "etape": 10,
+        "nom": "Libellés harmonisés (carburant, sexe)",
+        "lignes_avant": 16564,
+        "lignes_apres": 16564,
+        "retirees": 0,
+        "detail": ""
+      },
+      {
+        "etape": 5,
+        "nom": "Valeurs manquantes (texte) remplacées par « inconnu »",
+        "lignes_avant": 16564,
+        "lignes_apres": 16564,
+        "retirees": 0,
+        "detail": "33128 valeurs remplacées ; les colonnes numériques manquantes restent vides"
       }
     ]
   }

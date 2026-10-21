@@ -3,9 +3,9 @@
 Premier jeu de données du projet AssurIA (objectif 3 : prédiction du coût d'un sinistre).
 Ce fichier est **généré automatiquement** à chaque mise à jour des données.
 
-- **Mis à jour le** : 21/10/2026 12:00 (UTC)
-- **Sinistres** : 251 620 sinistres nettoyés (253 371 lignes brutes)
-- **Pays** : Belgique, France, Italie, Norvège, Suède
+- **Mis à jour le** : 21/10/2026 12:01 (UTC)
+- **Sinistres** : 268 184 sinistres nettoyés (270 003 lignes brutes)
+- **Pays** : Belgique, Espagne, France, Italie, Norvège, Suède
 - **Variable à prédire** : `cout_moyen_eur`, coût moyen par sinistre en euros
 - **Format** : Parquet (`pd.read_parquet(...)`)
 
@@ -22,13 +22,14 @@ Ce fichier est **généré automatiquement** à chaque mise à jour des données
 | Source | Pays | Type | Sinistres nettoyés | Coût médian | Devise d'origine |
 | --- | --- | --- | --- | --- | --- |
 | `be_bemtpl97` | Belgique | auto | 18 151 | 545 € | EUR |
+| `es_portefeuille` | Espagne | auto, moto | 16 564 | 159 € | EUR |
 | `fr_frempl` | France | auto | 15 875 | 980 € | EUR |
 | `fr_fremtpl2` | France | auto | 24 898 | 1 172 € | EUR |
 | `it_eumtpl` | Italie | auto | 183 618 | 1 425 € | EUR |
 | `no_norauto` | Norvège | auto | 8 416 | 2 004 € | NOK |
 | `se_swmotorcycle` | Suède | moto | 662 | 960 € | SEK |
 
-Origine : [CASdatasets](https://github.com/dutangc/CASdatasets) (C. Dutang et A. Charpentier, licence GPL ≥ 2). Portefeuille espagnol : [Mendeley Data](https://doi.org/10.17632/5cxyb5fp4f.2), pas encore intégré.
+Origine : [CASdatasets](https://github.com/dutangc/CASdatasets) (C. Dutang et A. Charpentier, licence GPL ≥ 2). Portefeuille espagnol : [Mendeley Data](https://doi.org/10.17632/5cxyb5fp4f.2), intégré.
 
 ## Colonnes
 
@@ -38,29 +39,30 @@ Origine : [CASdatasets](https://github.com/dutangc/CASdatasets) (C. Dutang et A.
 | `type` | auto ou moto | 100 % |
 | `source` | Jeu de données d'origine | 100 % |
 | `id_contrat` | Identifiant du contrat dans la source | 100 % |
-| `annee` | Année du contrat, si connue | 14 % |
+| `annee` | Année du contrat, si connue | 19 % |
 | `age_conducteur` | Âge du conducteur (ans) | 97 % |
 | `jeune_conducteur` | Conducteur de moins de 26 ans | 100 % |
-| `sexe` | H, F ou inconnu | 90 % |
-| `age_vehicule` | Âge du véhicule (ans) | 19 % |
-| `puissance_ch` | Puissance (chevaux) | 80 % |
-| `carburant` | essence, diesel, électrique, gpl, ou code d'origine (Italie) | 92 % |
-| `usage` | Usage du véhicule | 90 % |
+| `sexe` | H, F ou inconnu | 85 % |
+| `age_vehicule` | Âge du véhicule (ans) | 24 % |
+| `puissance_ch` | Puissance (chevaux) | 81 % |
+| `carburant` | essence, diesel, électrique, gpl, ou code d'origine (Italie) | 93 % |
+| `usage` | Usage du véhicule | 85 % |
 | `zone` | Région, province, code postal ou type de zone selon le pays | 98 % |
-| `bonus_malus` | Bonus-malus, dans l'échelle propre à chaque pays | 24 % |
-| `exposition` | Durée du contrat sur l'année (1 = année complète) | 100 % |
+| `bonus_malus` | Bonus-malus, dans l'échelle propre à chaque pays | 22 % |
+| `exposition` | Durée du contrat sur l'année (1 = année complète) | 94 % |
 | `nb_sinistres` | Nombre de sinistres du contrat | 100 % |
 | `cout_total_eur` | Coût total des sinistres (€) | 100 % |
 | `cout_moyen_eur` | **Variable à prédire** : coût moyen par sinistre (€) | 100 % |
 | `log_cout` | Logarithme du coût moyen (cible transformée) | 100 % |
 | `sinistre_extreme` | Coût au-delà du 99,5e centile de sa source (gardé, mais repéré) | 100 % |
-| `periode_source` | Année relative fournie par la source italienne (7, 8, 9) | 73 % |
+| `periode_source` | Année relative fournie par la source italienne (7, 8, 9) | 68 % |
 
 ## Coût par pays
 
 | Pays | Sinistres | Coût médian | Coût moyen |
 | --- | --- | --- | --- |
 | Belgique | 18 151 | 545 € | 1 317 € |
+| Espagne | 16 564 | 159 € | 483 € |
 | France | 40 773 | 1 136 € | 2 178 € |
 | Italie | 183 618 | 1 425 € | 2 460 € |
 | Norvège | 8 416 | 2 004 € | 2 840 € |
@@ -76,7 +78,7 @@ Origine : [CASdatasets](https://github.com/dutangc/CASdatasets) (C. Dutang et A.
 6. Les libellés sont harmonisés (carburant, sexe) ; les textes manquants deviennent « inconnu ».
 7. Les montants sont convertis en euros ; une colonne `pays` et une colonne `type` sont ajoutées.
 
-Lignes retirées au total : 1 751 (0,69 %).
+Lignes retirées au total : 1 819 (0,67 %).
 
 ## Limites connues
 

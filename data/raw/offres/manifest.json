@@ -86,6 +86,7 @@
     "url": "https://distributorportal.axa.be/fr-be/-/media/axa-documents/library-public/ipid/3/8/c/d/a/Confort%20Auto%20-%20Fiches%20IPID.pdf?rev=e72a16bb015743978fd0a703857733fe"
   },
   "be_baloise_auto_407069": {
+    "collecte_le": "2026-10-21T13:00:06+00:00",
     "offre": {
       "assureur": "Baloise",
       "langue": "nl",
@@ -94,7 +95,9 @@
       "type": "auto",
       "url": "https://www.baloise.be/dam/baloise-be/prive/documents/nl/IPID/B9000.MOT.02.26.Fiche-ipid-Mobility_Safe_1_Personenwagens-en-Lichte-vrachtwagens_NL.pdf"
     },
-    "statut": "lien en erreur (HTTPError)"
+    "pages": 3,
+    "sha256": "479d89e37592881cfa01d4879b1d20d4b4891c1e73d5acc1a287caa5b9528fed",
+    "statut": "ok"
   },
   "be_ethias_auto_80ae6a": {
     "offre": {
@@ -176,21 +179,6 @@
     },
     "statut": "lien en erreur (ReadTimeout)"
   },
-  "be_p_v_auto_2f9d8b": {
-    "collecte_le": "2026-10-21T12:50:34+00:00",
-    "offre": {
-      "assureur": "P&V",
-      "decouvert_sur": "https://www.pv.be/fr/ipid",
-      "langue": "fr",
-      "pays": "Belgique",
-      "produit": "Document d’information Assurance véhicule automoteur - P&amp;V Auto - Mobilhome ",
-      "type": "auto",
-      "url": "https://www.pv.be/documents/2579080/0/IPID_495_PV+Mobilhome_FR_DEFweb.pdf/879c1fc0-bd40-5b48-2ed8-d4a18bf8d9ba"
-    },
-    "pages": 3,
-    "sha256": "54802ddaf087f16c89028971703c4a53aa4473904079ebebf871664e28e0331b",
-    "statut": "ok"
-  },
   "be_p_v_auto_98c6eb": {
     "collecte_le": "2026-10-21T12:50:30+00:00",
     "offre": {
@@ -198,7 +186,7 @@
       "decouvert_sur": "https://www.pv.be/fr/ipid",
       "langue": "fr",
       "pays": "Belgique",
-      "produit": "Document d’information Assurance véhicule automoteur - P&amp;V Auto - 010/1294 -",
+      "produit": "Document d’information Assurance véhicule automoteur - P&V Auto - 010/1294 - nov",
       "type": "auto",
       "url": "https://www.pv.be/documents/2579080/0/IPID_495_PV+Auto_FR_0101294_201811.pdf/fea71854-173a-c58d-def1-20006281cb2b"
     },
@@ -213,7 +201,7 @@
       "decouvert_sur": "https://www.pv.be/fr/ipid",
       "langue": "fr",
       "pays": "Belgique",
-      "produit": "Document d’information Assurance véhicule automoteur - P&amp;V Auto - Oldtimer -",
+      "produit": "Document d’information Assurance véhicule automoteur - P&V Auto - Oldtimer - 010",
       "type": "auto",
       "url": "https://www.pv.be/documents/2579080/0/IPID_495_PV+Oldtimer_FR_DEFweb.pdf/05d27820-016a-bf96-5ae3-8945de9f12f2"
     },
@@ -228,7 +216,7 @@
       "decouvert_sur": "https://www.pv.be/fr/ipid",
       "langue": "fr",
       "pays": "Belgique",
-      "produit": "Document d’information Assurance véhicule automoteur - P&amp;V Auto - Moto - 010",
+      "produit": "Document d’information Assurance véhicule automoteur - P&V Auto - Moto - 010/129",
       "type": "moto",
       "url": "https://www.pv.be/documents/2579080/0/IPID_495_PV+Moto_FR_DEFweb.pdf/553317d9-8010-8c82-3d1e-8c89cae73844"
     },
@@ -273,21 +261,6 @@
     },
     "statut": "lien en erreur (HTTPError)"
   },
-  "be_vivium_auto_099840": {
-    "collecte_le": "2026-10-21T12:54:38+00:00",
-    "offre": {
-      "assureur": "Vivium",
-      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
-      "langue": "fr",
-      "pays": "Belgique",
-      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Camion - 8.",
-      "type": "auto",
-      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Vrachtwagen_8933F_2025.pdf/00fcf938-e62a-7c8e-c28a-1001f754369f?t=1741172035798"
-    },
-    "pages": 2,
-    "sha256": "4448a9e877604f4363d5b2d1f24d285257211d089d3e1d791a613bffefb3aa99",
-    "statut": "ok"
-  },
   "be_vivium_auto_1fa4e5": {
     "collecte_le": "2026-10-21T12:50:38+00:00",
     "offre": {
@@ -318,21 +291,6 @@
     "sha256": "099d212fda9172598b5f45f5169a0790f00850fc5b104549dff1e533ae40b2e7",
     "statut": "ok"
   },
-  "be_vivium_auto_3a06cd": {
-    "collecte_le": "2026-10-21T12:53:20+00:00",
-    "offre": {
-      "assureur": "Vivium",
-      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
-      "langue": "fr",
-      "pays": "Belgique",
-      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Caravanes -",
-      "type": "auto",
-      "url": "https://www.vivium.be/documents/1091840/1198851/_IPID_495_VIV+Caravan_FR_2020.pdf/7479f822-84ff-f14e-0408-c87ed11c4ede?t=1741252155936"
-    },
-    "pages": 3,
-    "sha256": "3637da6944a0bd574d35d79d0ba41f014e189d6846611c6da3c7d6102aa9ef94",
-    "statut": "ok"
-  },
   "be_vivium_auto_8ac42e": {
     "collecte_le": "2026-10-21T12:52:02+00:00",
     "offre": {
@@ -347,78 +305,6 @@
     "pages": 3,
     "sha256": "823833d2a472f469e7810594c7fe13e34845ebd548d8be8d40acdca25518f059",
     "statut": "ok"
-  },
-  "be_vivium_auto_a159a6": {
-    "collecte_le": "2026-10-21T12:52:06+00:00",
-    "offre": {
-      "assureur": "Vivium",
-      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
-      "langue": "fr",
-      "pays": "Belgique",
-      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Remorque - ",
-      "type": "auto",
-      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Aanhangwagen_8975F_2025.pdf/391fcba9-d43d-3845-8cac-4290e7719d1c?t=1741171409627"
-    },
-    "pages": 2,
-    "sha256": "bc77f25286140272ec1eb10a7961d2b3c8ac70e75abdd7999f8769a771e1079f",
-    "statut": "ok"
-  },
-  "be_vivium_auto_b77d90": {
-    "collecte_le": "2026-10-21T12:52:04+00:00",
-    "offre": {
-      "assureur": "Vivium",
-      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
-      "langue": "fr",
-      "pays": "Belgique",
-      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Remorque - ",
-      "type": "auto",
-      "url": "https://www.vivium.be/documents/1091840/1198851/_IPID_495_VIV+Aanhangwagen_FR_2020.pdf/57458ed3-43f0-e50a-f474-05147fe83fc7?t=1741252155935"
-    },
-    "pages": 3,
-    "sha256": "bbb2923de44e6cb6b517bb6085ec86fdf9c1e3402286630f5ef5ec095c28dfa1",
-    "statut": "ok"
-  },
-  "be_vivium_auto_be6cfc": {
-    "collecte_le": "2026-10-21T12:51:56+00:00",
-    "offre": {
-      "assureur": "Vivium",
-      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
-      "langue": "fr",
-      "pays": "Belgique",
-      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Mobilhome -",
-      "type": "auto",
-      "url": "https://www.vivium.be/documents/1091840/1198851/IPID_495_VIV+Mobilhome_FR_2019.pdf/2911626b-369e-64c8-9bb6-592596cbd37b?t=1741252155938"
-    },
-    "pages": 3,
-    "sha256": "106d4b49bd4a32637dbb9aa54de570b0aea4443f734b19e89ee03aa900d7348d",
-    "statut": "ok"
-  },
-  "be_vivium_auto_c41f06": {
-    "collecte_le": "2026-10-21T12:51:58+00:00",
-    "offre": {
-      "assureur": "Vivium",
-      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
-      "langue": "fr",
-      "pays": "Belgique",
-      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Mobilhome -",
-      "type": "auto",
-      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Mobilhome_8930F_2025.pdf/93f9f244-fbf9-df1a-fddb-201180057b0f?t=1741171242373"
-    },
-    "pages": 3,
-    "sha256": "2674b1dc43ca45e0e0de8fa787e8d97fdac240e96444b6961a5ad8501fe076ca",
-    "statut": "ok"
-  },
-  "be_vivium_auto_cee5ba": {
-    "offre": {
-      "assureur": "Vivium",
-      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
-      "langue": "fr",
-      "pays": "Belgique",
-      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Caravanes -",
-      "type": "auto",
-      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Mobilhome_8930F_2025+%281%29.pdf/b1bea223-40e8-bd12-3b90-efb74e4cd63c?t=1741171840220"
-    },
-    "statut": "doublon de be_vivium_auto_c41f06"
   },
   "be_vivium_auto_e1e0c5": {
     "offre": {
@@ -445,21 +331,6 @@
     },
     "pages": 3,
     "sha256": "7f92c49d9e2c7c53f61e40c607ae1ad8cb7640ef5a7be4fbf42792cb76343af7",
-    "statut": "ok"
-  },
-  "be_vivium_auto_fd2725": {
-    "collecte_le": "2026-10-21T12:54:36+00:00",
-    "offre": {
-      "assureur": "Vivium",
-      "decouvert_sur": "https://www.vivium.be/fr/private-individuals/ipid",
-      "langue": "fr",
-      "pays": "Belgique",
-      "produit": "Document d’information Assurance véhicule automoteur - VIVIUM Auto - Caravane - ",
-      "type": "auto",
-      "url": "https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Caravan_8930F_2025.pdf/3e9d2f16-8e21-3af3-3db9-139bda877535?t=1741171978827"
-    },
-    "pages": 3,
-    "sha256": "9a869732cce845d275cad60882a5819feabd073f7f23c55cebd0de32b1316bb9",
     "statut": "ok"
   },
   "be_vivium_moto_354cfc": {
@@ -805,7 +676,7 @@
     },
     "pages": 2,
     "sha256": "064ed25daa941da4c1810cd527087145fd7877b9ca56a39e610f3f935d4c0648",
-    "statut": "lien en erreur (ConnectionError), dernière version gardée",
+    "statut": "ok",
     "url": "https://lam-seguros.com/wp-content/uploads/2025/09/seguro-de-coche-a-todo-riesgo.pdf"
   },
   "es_mutua_terceros": {
@@ -837,36 +708,6 @@
     "sha256": "2c7e775a23671315ea6545264d8e1a6ba06d6b45f0e379c48763e58adf682fe6",
     "statut": "ok",
     "url": "https://www.santandermapfreseguros.es/obtener-documento?entidad=015&sector=200&producto=43&subtipo=5&timestamp=1728604800046"
-  },
-  "fi_if_auto_9e1481": {
-    "collecte_le": "2026-10-21T12:55:07+00:00",
-    "offre": {
-      "assureur": "If",
-      "decouvert_sur": "https://www.if.fi/en/commercial/insurances/ipid-en",
-      "langue": "en",
-      "pays": "Finlande",
-      "produit": "Construction and Installation Insurance (",
-      "type": "auto",
-      "url": "https://www.if.fi/globalassets/fi/commercial/brochures/ipid/english/ipid-car-ear.pdf"
-    },
-    "pages": 2,
-    "sha256": "4ce2ae6134ebdfe029b1478fe0f6d1974a6ab2f7a53fc3df6fc5453547ee945b",
-    "statut": "ok"
-  },
-  "fi_if_moto_1d18ab": {
-    "collecte_le": "2026-10-21T12:55:06+00:00",
-    "offre": {
-      "assureur": "If",
-      "decouvert_sur": "https://www.if.fi/en/commercial/insurances/ipid-en",
-      "langue": "en",
-      "pays": "Finlande",
-      "produit": "Corporate Motor Third Party Liability Insurance (",
-      "type": "moto",
-      "url": "https://www.if.fi/globalassets/fi/commercial/brochures/ipid/english/ipid-corporate-mtpl-insurance.pdf"
-    },
-    "pages": 2,
-    "sha256": "ab0e794a71d83581832b2460f17f36601bb2986a1f6313f9530287a597476d97",
-    "statut": "ok"
   },
   "fr_adep_auto": {
     "collecte_le": "2026-10-21T12:22:55+00:00",
@@ -947,7 +788,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Moto et Scooter - Novembre2020",
+      "produit": "Dispositions Générales Moto et Scooter - Novembre2020",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2020/11/DG-APRIL_Moto-Moto_et_Scooter-Novembre2020.pdf"
     },
@@ -959,7 +800,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto verte - V0124",
+      "produit": "Dispositions Générales Quad & Moto verte - V0124",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2024/01/DG-APRIL_Moto-Quad_MotoVerte-V0124.pdf"
     },
@@ -971,7 +812,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales E-Trottinette - Mai2020",
+      "produit": "Dispositions Générales E-Trottinette - Mai2020",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2020/05/DG-APRIL_Moto-eTrottinette-Mai2020.pdf"
     },
@@ -983,7 +824,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo - V0424",
+      "produit": "Dispositions Générales Cyclo - V0424",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2024/03/DG-APRIL_Moto-Cyclo50-V0424.pdf"
     },
@@ -995,7 +836,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales V&eacute;lo - Octobre2021",
+      "produit": "Dispositions Générales Vélo - Octobre2021",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2021/10/DG-APRIL_Moto-Velo-Octobre2021.pdf"
     },
@@ -1007,7 +848,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Moto &amp; Scooter - V0424",
+      "produit": "Dispositions Générales Moto & Scooter - V0424",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2024/03/DG-APRIL_Moto-Moto_et_Scooter-V0424.pdf"
     },
@@ -1019,7 +860,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo 50 - Mai2020",
+      "produit": "Dispositions Générales Cyclo 50 - Mai2020",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2020/05/DG-APRIL_Moto-Cyclo50-Mai2020.pdf"
     },
@@ -1031,7 +872,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales e-Trottineur - Janvier2022",
+      "produit": "Dispositions Générales e-Trottineur - Janvier2022",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2022/07/DG-APRIL_Moto-eTrottineur-Janvier2022.pdf"
     },
@@ -1043,7 +884,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto verte - V0424",
+      "produit": "Dispositions Générales Quad & Moto verte - V0424",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2024/03/DG-APRIL_Moto-Quad_MotoVerte-V0424.pdf"
     },
@@ -1055,7 +896,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales e-Trottineur - Avril2023",
+      "produit": "Dispositions Générales e-Trottineur - Avril2023",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2023/03/DG-APRIL_Moto-eTrottineur-Avril2023.pdf"
     },
@@ -1067,7 +908,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto Verte - Mars2022",
+      "produit": "Dispositions Générales Quad & Moto Verte - Mars2022",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2022/06/DG-APRIL_Moto-Quad_MotoVerte-Mars2022.pdf"
     },
@@ -1079,7 +920,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Livraison - V0624",
+      "produit": "Dispositions Générales Livraison - V0624",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2024/09/DG-APRIL_Moto-Livraison-V0624-1.pdf"
     },
@@ -1091,7 +932,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo - V0425",
+      "produit": "Dispositions Générales Cyclo - V0425",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2025/05/DG-APRIL_Moto-Cyclo50-V0425.pdf"
     },
@@ -1103,7 +944,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Auto - Novembre2020",
+      "produit": "Dispositions Générales Auto - Novembre2020",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2020/11/DG-APRIL_Moto-Auto-Novembre2020.pdf"
     },
@@ -1115,7 +956,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales V&eacute;lo - V0425",
+      "produit": "Dispositions Générales Vélo - V0425",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2025/05/DG-APRIL_Moto-Velo-V0425.pdf"
     },
@@ -1127,7 +968,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Moto et Scooter - Avril2023",
+      "produit": "Dispositions Générales Moto et Scooter - Avril2023",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2023/03/DG-APRIL_Moto-Moto_et_Scooter-Avril2023.pdf"
     },
@@ -1139,7 +980,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales eTrottineur - V0425",
+      "produit": "Dispositions Générales eTrottineur - V0425",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2025/05/DG-APRIL_Moto-eTrottineur-V0425.pdf"
     },
@@ -1151,7 +992,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Moto &amp; Scooter - V1026",
+      "produit": "Dispositions Générales Moto & Scooter - V1026",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2026/10/DG-APRIL_Moto-Moto_et_Scooter-V1026.pdf"
     },
@@ -1163,7 +1004,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto Verte - Juin2019",
+      "produit": "Dispositions Générales Quad & Moto Verte - Juin2019",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2021/12/DG-APRIL_Moto-Quad_MotoVerte-Juin2019.pdf"
     },
@@ -1175,7 +1016,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo - Juin2019",
+      "produit": "Dispositions Générales Cyclo - Juin2019",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2021/12/DG-APRIL_Moto-Cyclo50-Juin2019.pdf"
     },
@@ -1187,7 +1028,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales E-Trottinette - Novembre2020",
+      "produit": "Dispositions Générales E-Trottinette - Novembre2020",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2020/11/DG-APRIL_Moto-eTrottinette-Novembre2020.pdf"
     },
@@ -1199,7 +1040,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo 50 - Novembre2020",
+      "produit": "Dispositions Générales Cyclo 50 - Novembre2020",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2021/08/DG-APRIL_Moto-Cyclo50-Novembre2020.pdf"
     },
@@ -1211,7 +1052,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto Verte - V0425",
+      "produit": "Dispositions Générales Quad & Moto Verte - V0425",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2025/05/DG-APRIL_Moto-Quad_MotoVerte-V0425.pdf"
     },
@@ -1223,7 +1064,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Moto et Scooter - Juin2019",
+      "produit": "Dispositions Générales Moto et Scooter - Juin2019",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2019/09/DG-APRIL_Moto-Moto_et_Scooter-Juin2019.pdf"
     },
@@ -1235,7 +1076,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto Verte - Mai2020",
+      "produit": "Dispositions Générales Quad & Moto Verte - Mai2020",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2020/05/DG-APRIL_Moto-Quad_MotoVerte-Mai2020.pdf"
     },
@@ -1247,7 +1088,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales V&eacute;lo - V1123",
+      "produit": "Dispositions Générales Vélo - V1123",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2023/11/DG-APRIL_Moto-Velo-V1123.pdf"
     },
@@ -1259,7 +1100,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Moto et Scooter - Decembre2020",
+      "produit": "Dispositions Générales Moto et Scooter - Decembre2020",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2021/08/DG-APRIL_Moto-Moto_et_Scooter-Decembre2020.pdf"
     },
@@ -1271,7 +1112,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo 50 - Avril2023",
+      "produit": "Dispositions Générales Cyclo 50 - Avril2023",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2023/03/DG-APRIL_Moto-Cyclo50-Avril2023.pdf"
     },
@@ -1283,7 +1124,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto verte - V0624",
+      "produit": "Dispositions Générales Quad & Moto verte - V0624",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2024/06/DG-APRIL_Moto-Quad_MotoVerte-V0624.pdf"
     },
@@ -1295,7 +1136,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Moto &amp; Scooter - V0425",
+      "produit": "Dispositions Générales Moto & Scooter - V0425",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2025/08/DG-APRIL_Moto-Moto_et_Scooter-V0425.pdf"
     },
@@ -1307,7 +1148,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Moto et Scooter - Mai2020",
+      "produit": "Dispositions Générales Moto et Scooter - Mai2020",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2020/05/DG-APRIL_Moto-Moto_et_Scooter-Mai2020.pdf"
     },
@@ -1319,7 +1160,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo 50 - Mars2022",
+      "produit": "Dispositions Générales Cyclo 50 - Mars2022",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2022/06/DG-APRIL_Moto-Cyclo50-Mars2022.pdf"
     },
@@ -1331,7 +1172,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Quad &amp; Moto Verte - Novembre2020",
+      "produit": "Dispositions Générales Quad & Moto Verte - Novembre2020",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2021/08/DG-APRIL_Moto-Quad_MotoVerte-Novembre2020.pdf"
     },
@@ -1343,7 +1184,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo - V0124",
+      "produit": "Dispositions Générales Cyclo - V0124",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2024/01/DG-APRIL_Moto-Cyclo50-V0124.pdf"
     },
@@ -1355,7 +1196,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Cyclo - V0624",
+      "produit": "Dispositions Générales Cyclo - V0624",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2024/06/DG-APRIL_Moto-Cyclo50-V0624.pdf"
     },
@@ -1367,7 +1208,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Moto &amp; Scooter - V0124",
+      "produit": "Dispositions Générales Moto & Scooter - V0124",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2024/01/DG-APRIL_Moto-Moto_et_Scooter-V0124.pdf"
     },
@@ -1379,7 +1220,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Quad et Moto verte - Avril2023",
+      "produit": "Dispositions Générales Quad et Moto verte - Avril2023",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2023/03/DG-APRIL_Moto-Quad_MotoVerte-Avril2023.pdf"
     },
@@ -1391,7 +1232,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Moto &amp; Scooter - V0624",
+      "produit": "Dispositions Générales Moto & Scooter - V0624",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2024/06/DG-APRIL_Moto-Moto_et_Scooter-V0624.pdf"
     },
@@ -1403,7 +1244,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales Moto et Scooter - Mars2022",
+      "produit": "Dispositions Générales Moto et Scooter - Mars2022",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2022/06/DG-APRIL_Moto-Moto_et_Scooter-Mars2022.pdf"
     },
@@ -1415,7 +1256,7 @@
       "decouvert_sur": "https://www.april-moto.com/documents-utiles/",
       "langue": "fr",
       "pays": "France",
-      "produit": "Dispositions G&eacute;n&eacute;rales V&eacute;lo - V0626",
+      "produit": "Dispositions Générales Vélo - V0626",
       "type": "moto",
       "url": "https://cdn.april-moto.com/wp-content/uploads/2026/06/DG-APRIL_Moto-Velo-V0626.pdf"
     },
@@ -1553,6 +1394,18 @@
     "pages": 2,
     "sha256": "494915d922bae0467f8d12c21cb1ff1104d5376169b214e70b9f90a0e78e0baf",
     "statut": "ok"
+  },
+  "fr_credit_mutuel_auto_79a9b0": {
+    "offre": {
+      "assureur": "Crédit Mutuel",
+      "decouvert_sur": "https://www.creditmutuel.fr/fr/guides-et-informations-reglementaires/IPID.html",
+      "langue": "fr",
+      "pays": "France",
+      "produit": "AUTOMOBILE",
+      "type": "auto",
+      "url": "https://www.creditmutuel.fr/fr/guides-et-informations-reglementaires/IPID.html"
+    },
+    "statut": "écarté : pas un document d'offre auto/moto"
   },
   "fr_direct_assurance_auto": {
     "collecte_le": "2026-10-21T12:42:37+00:00",
@@ -1982,6 +1835,34 @@
     "statut": "ok",
     "url": "https://www.quixa.it/wp-content/documents/SetInformativi/ed.25.05.2022_Auto_QP.pdf"
   },
+  "it_quixa_auto_393292": {
+    "collecte_le": "2026-10-21T13:02:34+00:00",
+    "offre": {
+      "assureur": "Quixa",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "Sicurauto",
+      "type": "auto",
+      "url": "https://www.quixa.it/wp-content/documents/SetInformativi/ed.19.12.24_Sicurauto.pdf"
+    },
+    "pages": 28,
+    "sha256": "4556bd23d0974953820dbf3b8500980e28c2f11a4511ae8ec76e4a1f1691f97f",
+    "statut": "ok"
+  },
+  "it_quixa_auto_7faafa": {
+    "collecte_le": "2026-10-21T13:02:31+00:00",
+    "offre": {
+      "assureur": "Quixa",
+      "langue": "it",
+      "pays": "Italie",
+      "produit": "Auto",
+      "type": "auto",
+      "url": "https://www.quixa.it/wp-content/documents/SetInformativi/ed.14.11.2023_Auto_QP.pdf"
+    },
+    "pages": 32,
+    "sha256": "84ae1bbb50423d5fe07859be87347e4f25dd2fdf56fbb31b8b913e533f544b0c",
+    "statut": "ok"
+  },
   "it_quixa_moto": {
     "collecte_le": "2026-10-21T12:43:14+00:00",
     "offre": {
@@ -2121,6 +2002,7 @@
     "statut": "lien en erreur (ConnectionError)"
   },
   "nl_interpolis_auto_f7cba4": {
+    "collecte_le": "2026-10-21T13:02:28+00:00",
     "offre": {
       "assureur": "Interpolis",
       "langue": "nl",
@@ -2129,7 +2011,9 @@
       "type": "auto",
       "url": "https://verzekeringskaarten.nl/interpolis/Interpolis-Autoverzekering-WA-AIEP-20"
     },
-    "statut": "lien en erreur (ValueError)"
+    "pages": 1,
+    "sha256": "e5733fb835ce3aaab858a8d9b5cdcd8c5339d1a390a8db54ad7dbbd043e26b97",
+    "statut": "ok"
   },
   "pt_allianz_portugal_moto_32f825": {
     "collecte_le": "2026-10-21T12:50:21+00:00",

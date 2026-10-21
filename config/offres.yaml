@@ -4,15 +4,25 @@
 # pour chaque produit (directive européenne sur la distribution d'assurances, règlement 2017/1469).
 # Même plan dans tous les pays : ce qui est assuré, pas assuré, restrictions, zone, obligations, paiement, durée, résiliation.
 #
-# Pour ajouter une offre : ajouter un bloc ci-dessous (url = lien direct vers le PDF), puis pousser.
-# La collecte se relance toute seule.
+# Pour ajouter une offre : ajouter une ligne ci-dessous (url = lien direct vers le PDF), puis pousser.
+# L'identifiant (id) est facultatif. La collecte se relance toute seule.
+# Seuls les documents qui ont bien le plan IPID et parlent d'un véhicule sont gardés (les autres sont écartés).
+
+# Pages d'assureurs qui listent leurs documents : le robot y cherche tout seul les PDF auto et moto.
+pages_a_explorer:
+  - {url: "https://www.pv.be/fr/ipid", pays: Belgique, assureur: P&V, langue: fr}
+  - {url: "https://www.vivium.be/fr/private-individuals/ipid", pays: Belgique, assureur: Vivium, langue: fr}
+  - {url: "https://www.april-moto.com/documents-utiles/", pays: France, assureur: APRIL Moto, langue: fr}
+  - {url: "https://www.if.fi/en/commercial/insurances/ipid-en", pays: Finlande, assureur: If, langue: en}
+  - {url: "https://www.mapfre.pt/seguros/particulares/documentos-informativos/", pays: Portugal, assureur: Mapfre, langue: pt}
+
 
 offres:
   # ---------------------------------------------------------------- France, auto
   - {id: fr_matmut_auto, pays: France, type: auto, assureur: Matmut, produit: Assurance automobile, langue: fr,
      url: "https://www.matmut.fr/services-en-ligne/doc/IPID/ipidauto4d.pdf"}
   - {id: fr_direct_assurance_auto, pays: France, type: auto, assureur: Direct Assurance, produit: Assurance automobile, langue: fr,
-     url: "https://directassurance.cdn.axa-contento-118412.eu/directassurance/aed9dfb5-3d46-4669-82ac-273c5d8372af_fiche-ipid-auto-032025.pdf"}
+     url: "https://directassurance.cdn.prismic.io/directassurance/aYnxBN0YXLCxVnsa_fiche-ipid-auto-022026.pdf"}
   - {id: fr_sg_auto, pays: France, type: auto, assureur: SG (Sogessur), produit: Assurance automobile, langue: fr,
      url: "https://particuliers.sg.fr/static/Particuliers/Home/Assurances/nos-offres/assurance-vehicule/assurance-auto/Ipid_assurance_automobile.pdf"}
   - {id: fr_caisse_epargne_auto, pays: France, type: auto, assureur: Caisse d'Epargne, produit: Assurance automobile, langue: fr,
@@ -63,7 +73,7 @@ offres:
   - {id: it_verti_auto, pays: Italie, type: auto, assureur: Verti, produit: RC auto, langue: it,
      url: "https://www.santanderconsumer.it/sites/default/files/2022-08/SET%20INFORMATIVO_SANTANDER%20RCauto_Verti%20ed.2022.pdf"}
   - {id: it_quixa_moto, pays: Italie, type: moto, assureur: Quixa, produit: Assicurazione moto, langue: it,
-     url: "https://www.quixa.it/wp-content/documents/SetInformativi/ed.15.01.2026_Moto.pdf"}
+     url: "https://www.quixa.it/wp-content/documents/SetInformativi/ed.16.07.2026_Moto.pdf"}
   - {id: it_ca_honda_moto, pays: Italie, type: moto, assureur: Crédit Agricole Assicurazioni, produit: Honda Safe 2.0 moto, langue: it,
      url: "https://www.ca-assicurazioni.it/media/filer_public/ad/0f/ad0f0423-1f71-4134-8ae3-77ddf53707ce/202601_honda_safe_20_moto.pdf"}
 
@@ -85,3 +95,91 @@ offres:
      url: "https://www.santandermapfreseguros.es/obtener-documento?entidad=015&sector=200&producto=43&subtipo=5&timestamp=1728604800046"}
   - {id: es_lam_todo_riesgo, pays: Espagne, type: auto, assureur: LAM Seguros, produit: Todo riesgo, langue: es,
      url: "https://lam-seguros.com/wp-content/uploads/2025/09/seguro-de-coche-a-todo-riesgo.pdf"}
+
+  # ---------------------------------------------------------------- ajouts : France, auto
+  - {pays: France, type: auto, assureur: MAAF, produit: Assurance véhicule, langue: fr, url: "https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11001.PDF"}
+  - {pays: France, type: auto, assureur: Macif, produit: Auto professionnel, langue: fr, url: "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_auto_pro.pdf"}
+  - {pays: France, type: auto, assureur: AXA France, produit: Assurance automobile, langue: fr, url: "https://www.axa.fr/content/dam/axa-fr-convergence/auto/ipid/972723-1121-Dipa-NDA.pdf"}
+  - {pays: France, type: auto, assureur: AXA France, produit: Mon Auto, langue: fr, url: "https://media.axa.fr/content/dam/axa-fr/image/particuliers/auto/documents-informations/auto/pdf-mon-auto-dipa.pdf"}
+  - {pays: France, type: auto, assureur: AXA France, produit: Auto Prestige, langue: fr, url: "https://www.tea-cerede.com/wp-content/uploads/2023/03/IPID-Prestige-AXA.pdf"}
+  - {pays: France, type: auto, assureur: Luko (Allianz Direct), produit: Assurance automobile, langue: fr, url: "https://www.fr.luko.eu/dam/documents/motor/dfcar202606/IPID.pdf"}
+  - {pays: France, type: auto, assureur: Crédit Mutuel, produit: Assurance automobile, langue: fr, url: "https://www.creditmutuel.fr/fr/guides-et-informations-reglementaires/IPID.html?refipid=AA1AFRFR001"}
+  - {pays: France, type: auto, assureur: Allianz France, produit: Auto malussé, langue: fr, url: "https://www.best-assurances.com/app/uploads/IPAC_IPID_ALLIANZ_MALUS.pdf"}
+  - {pays: France, type: auto, assureur: Allianz France, produit: Assurance automobile, langue: fr, url: "https://espaceclient.allianz.fr/pdf/tarification/DG/auto/AUTO-MA/COM21405-V0721.pdf"}
+  - {pays: France, type: auto, assureur: BNP Paribas, produit: Assurance auto, langue: fr, url: "https://m-service.bnpparibas.net/rsc/contrib/document/particuliers/produits/assurance/Document_information_sur_le_produit_Assurance_Auto_BNP_Paribas.pdf"}
+  - {pays: France, type: auto, assureur: MAIF, produit: Auto VAM, langue: fr, url: "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-auto-vam.pdf"}
+  - {pays: France, type: auto, assureur: Club Auto MMA, produit: Assurance véhicule, langue: fr, url: "https://www.clubauto-mma.com/libs/pdf/ipid.pdf"}
+  - {pays: France, type: auto, assureur: Club Auto MACSF, produit: Assurance véhicule, langue: fr, url: "https://www.clubauto-macsf.com/libs/pdf/ipid.pdf"}
+  - {pays: France, type: auto, assureur: Wakam (Solly Azar), produit: Auto, langue: fr, url: "https://www.sollyazar.com/sites/particulier/files/media_fichier/dg-ipid-wakam-auto-moto.pdf"}
+  - {pays: France, type: auto, assureur: Wakam, produit: Auto DOM, langue: fr, url: "https://www.best-assurances.com/app/uploads/wakam-ipid-auto.pdf"}
+
+  # ---------------------------------------------------------------- ajouts : France, moto
+  - {pays: France, type: moto, assureur: Macif, produit: Deux-roues, langue: fr, url: "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_deux_roues.pdf"}
+  - {pays: France, type: moto, assureur: Macif, produit: Moto professionnel, langue: fr, url: "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_Moto_Pro.pdf"}
+  - {pays: France, type: moto, assureur: Mutuelle des Motards, produit: Multirisque moto scooter cyclo, langue: fr, url: "https://www.mutuelledesmotards.fr/sites/default/files/documentinformation-produit/MUT003.pdf"}
+  - {pays: France, type: moto, assureur: BNP Paribas, produit: Deux-roues, langue: fr, url: "https://mabanque.bnpparibas/content/dam/mabanque/rsc/contrib/pdf/ipid-deux-roues.pdf"}
+  - {pays: France, type: moto, assureur: Wakam (Solly Azar), produit: Cyclo, langue: fr, url: "https://www.sollyazar.com/sites/particulier/files/media_fichier/dg-ipid-wakam-cyclo.pdf"}
+
+  # ---------------------------------------------------------------- ajouts : Belgique
+  - {pays: Belgique, type: auto, assureur: Argenta, produit: Autoverzekering, langue: nl, url: "https://www.argenta.be/content/dam/argenta/documenten/verzekeringen/ipid/IPID%20Autoverzekering.pdf"}
+  - {pays: Belgique, type: auto, assureur: Baloise, produit: Mobility Safe 1, langue: nl, url: "https://www.baloise.be/dam/baloise-be/prive/documents/nl/IPID/B9000.MOT.02.26.Fiche-ipid-Mobility_Safe_1_Personenwagens-en-Lichte-vrachtwagens_NL.pdf"}
+  - {pays: Belgique, type: auto, assureur: Ethias, produit: Motorrijtuigenverzekering, langue: nl, url: "https://www.mijnvergelijker.be/insurance/downloads/ethias/car-ipid-nl.pdf"}
+  - {pays: Belgique, type: auto, assureur: AXA Belgium, produit: Comfort Auto, langue: nl, url: "https://cdn.website.axa.be/nl-be/-/media/axa-documents/library-public/ipid/3/8/c/d/a/Comfort%20Auto%20(Personenwagen,%20Mobilhome,%20Minibus)%20-%20IPID%20Fiches.pdf?rev=39a27ef263c344f98695978d4af045eb"}
+  - {pays: Belgique, type: auto, assureur: Polisa, produit: Motorvoertuigenverzekering, langue: nl, url: "https://polisa.be/wp-content/uploads/2025/10/IPID-polisa-NL-FR-v3-auto-20230607.pdf"}
+  - {pays: Belgique, type: auto, assureur: Arval, produit: Autoverzekering, langue: nl, url: "https://www.arval.be/sites/default/files/inline-files/IPID%20BA.pdf"}
+  - {pays: Belgique, type: auto, assureur: Hyundai Insurance, produit: Autoverzekering, langue: nl, url: "https://www.hyundai.com/content/dam/hyundai/downloads/be/nl/pdf/NL_Hy_IPID_Insurance.pdf"}
+  - {pays: Belgique, type: auto, assureur: MINI CarPlan, produit: Assurance auto, langue: fr, url: "https://mini.be/content/dam/MINI/marketBE/mini_be/fr_be/documents/standalone/21MAY102_220627_IPID_CarPlan_Auto_BMW_FR1.pdf.asset.1670859198169.pdf"}
+  - {pays: Belgique, type: auto, assureur: Toyota Insurance, produit: AND-E, langue: fr, url: "https://fr.toyota.be/content/dam/toyota/nmsc/belgium/local-assets/assurance/and-e/IPID%20AND-E%20FR_new.pdf"}
+  - {pays: Belgique, type: moto, assureur: ING Belgique, produit: Motor- en bromfietsverzekering, langue: nl, url: "https://assets.ing.com/m/445285b944971a8d/original/ING-motorbike-and-moped-insurance-IPID-NL.pdf"}
+
+  # ---------------------------------------------------------------- ajouts : Italie
+  - {pays: Italie, type: auto, assureur: UnipolSai, produit: Contratto base RCA autovetture, langue: it, url: "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/a599b493-f541-4aa9-88f2-1745285d89f4"}
+  - {pays: Italie, type: auto, assureur: UnipolSai, produit: RCA autovetture, langue: it, url: "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/345a4c27-b163-491c-b3b9-bdfb511ba345"}
+  - {pays: Italie, type: auto, assureur: UnipolSai, produit: Km&Servizi, langue: it, url: "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/981646c6-9a11-422a-a2e4-0daa88ab0086"}
+  - {pays: Italie, type: auto, assureur: UnipolSai, produit: Auto, langue: it, url: "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/ddae4130-7d3b-453b-bc75-419f18e04bee"}
+  - {pays: Italie, type: auto, assureur: Allianz Italia, produit: RC auto bonus malus, langue: it, url: "https://www.allianz.it/content/dam/onemarketing/azit/allianz-it/le-soluzioni-per-te/mobilita/set_informativi/01_SI_BM_ed_RCA_01_07_2024_e_ARD_01_02_2024.pdf"}
+  - {pays: Italie, type: moto, assureur: Allianz Italia, produit: Moto e ciclomotori, langue: it, url: "https://www.allianz.it/content/dam/onemarketing/azit/allianz-it/le-soluzioni-per-te/mobilita/set_informativi/03_moto_ciclo_ed_RCA_01_06_2025_e_ARD_01_12_2024.pdf"}
+  - {pays: Italie, type: moto, assureur: Quixa, produit: Moto Protetta, langue: it, url: "https://quixa.it/wp-content/documents/SetInformativi/ed.01.04.2025_Moto_Protetta.pdf"}
+  - {pays: Italie, type: moto, assureur: Quixa, produit: Contratto base moto, langue: it, url: "https://www.quixa.it/wp-content/documents/SetInformativi/ed.25.06.2025_Moto_ContrattoBase.pdf"}
+  - {pays: Italie, type: moto, assureur: Verti, produit: Motociclo e ciclomotore, langue: it, url: "https://www.verti.it/media/SET-INFORMATIVO-MOTOCICLO-E-CICLOMOTORE-05-07-2025.pdf"}
+  - {pays: Italie, type: moto, assureur: Linear, produit: Moto, langue: it, url: "https://www.linear.it/extra/pdf/set_informativo_moto_06-2026.pdf"}
+  - {pays: Italie, type: moto, assureur: Linear Next, produit: Moto, langue: it, url: "https://www.linearnext.it/extra/pdf/set_informativo_linearnext_moto_05-2026.pdf"}
+
+  # ---------------------------------------------------------------- ajouts : Allemagne et Autriche
+  - {pays: Allemagne, type: auto, assureur: WGV, produit: Kfz-Versicherung, langue: de, url: "https://www.wgv.de/docs/vertragsunterlagen/kfz.pdf"}
+  - {pays: Allemagne, type: auto, assureur: DEVK, produit: Kfz-Versicherung, langue: de, url: "https://medien.devk.de/assets/content/download/produkte/fahrzeuge/devk-kfz-kundeninfo-42032-2025-10.pdf?versionId=FiDTjzLry8dEKYCKm2GJ_IEL.8RgfzaD"}
+  - {pays: Allemagne, type: auto, assureur: DEVK, produit: Kfz-Versicherung 42100, langue: de, url: "https://medien.devk.de/assets/content/download/produkte/fahrzeuge/devk-kfz-kundeninfo-42100-002-2026-01.pdf?versionId=LkXzChFI7DAYe2i0tQFn52Y9M1Z0Kx_H"}
+  - {pays: Allemagne, type: auto, assureur: Gothaer, produit: Kraftfahrtversicherung, langue: de, url: "https://www.gothaer.de/StreamingServlet/app/dvz/DocumentDownload/216446?scope=gothaer_scope"}
+  - {pays: Allemagne, type: auto, assureur: Herzenssache, produit: Kfz-Versicherung, langue: de, url: "https://herzenssache.eu/wp-content/uploads/2026/01/Produktinformationen-und-Versicherungsbedingungen-01.01.2026.pdf"}
+  - {pays: Allemagne, type: auto, assureur: Allianz, produit: Kfz-Versicherung 2006, langue: de, url: "https://goa-eportale.allianz.de/IPI/D-2/IPID-2006Z0.pdf.open.pdf"}
+  - {pays: Allemagne, type: auto, assureur: Allianz, produit: Kfz-Versicherung 2008, langue: de, url: "https://goa-eportale.allianz.de/IPI/D-2/IPID-2008Z0.pdf.open.pdf"}
+  - {pays: Autriche, type: auto, assureur: Allianz Österreich, produit: Mein Kfz Paket MAX, langue: de, url: "https://www.allianz.at/content/dam/onemarketing/cee/azat/privat_pdf/Mein-Kfz-Paket-MAX.pdf"}
+
+  # ---------------------------------------------------------------- ajouts : Espagne
+  - {pays: Espagne, type: auto, assureur: AXA España, produit: Coche 360, langue: es, url: "https://servicios.axa.es/documents/776357/53007345/Documento_de_informaci%C3%B3n_sobre_el_producto_Coche+360_castellano.pdf/a5c3418a-4ff5-512f-d70f-2e83ce26f69b?t=1766059561113"}
+  - {pays: Espagne, type: auto, assureur: AXA España, produit: MotorElige, langue: es, url: "https://calcular-seguro.axa.es/documents/776357/19370091/Documento_informacion_producto_MotorElige_8972.pdf/a64cddaf-81e9-195e-d252-a2230ef983e9?t=1669128995936"}
+  - {pays: Espagne, type: auto, assureur: Allianz España, produit: Auto Plus terceros, langue: es, url: "https://www.allianz.es/content/dam/onemarketing/iberolatam/allianz-es/legal/pdf/productos/seguros-auto/auto-plus-terceros.pdf"}
+  - {pays: Espagne, type: moto, assureur: Allianz España, produit: Moto con franquicia, langue: es, url: "https://www.allianz.es/content/dam/onemarketing/iberolatam/allianz-es/legal/pdf/productos/seguros-moto/ipid-moto-seguro-franquicia.pdf"}
+  - {pays: Espagne, type: auto, assureur: Allianz Direct, produit: Seguro de coche, langue: es, url: "https://www.allianzdirect.es/dam/documents/IPID-seguro-de-coche.pdf"}
+  - {pays: Espagne, type: auto, assureur: Generali España, produit: Seguro autos, langue: es, url: "https://www.generalion.es/documents/13959/21879141/IPID+AUTO/4551add2-0622-057d-799b-3c6d9e38d028"}
+  - {pays: Espagne, type: auto, assureur: BBVA Allianz, produit: Auto profesional, langue: es, url: "https://www.bbva.es/content/dam/public-web/bbvaes/documents/productos/seguros/ipid/IPID-BBVA-Allianz-Auto-Profesional.pdf"}
+
+  # ---------------------------------------------------------------- Portugal
+  - {pays: Portugal, type: auto, assureur: CTT Seguros, produit: Auto Plano 3, langue: pt, url: "https://www.ctt.pt/application/themes/pdfs/IPID_+AUTO_Plano%203.pdf"}
+  - {pays: Portugal, type: auto, assureur: CTT Seguros, produit: Seguro automóvel, langue: pt, url: "https://www.ctt.pt/application/themes/pdfs/particulares/dinheiro-e-seguros/ipc-dds-automovel.pdf"}
+  - {pays: Portugal, type: auto, assureur: Victoria Seguros, produit: Auto RC, langue: pt, url: "https://www.victoria-seguros.pt/cdu-services/IPID_REALRC_AUTO_MKT"}
+  - {pays: Portugal, type: auto, assureur: Novo Banco, produit: Seguro auto, langue: pt, url: "https://www.novobanco.pt/content/dam/novobancopublicsites/docs/pdfs/seguros/seguro-auto/Documento%20de%20Informacao%20sobre%20o%20Produto%20Seguro%20Auto.pdf.coredownload.inline.pdf"}
+  - {pays: Portugal, type: auto, assureur: Cofidis, produit: Auto Protec, langue: pt, url: "https://campanhas-cofidis.pt/seguros/seguro-automovel/A1827_IPID_Protec_jun22.pdf"}
+  - {pays: Portugal, type: moto, assureur: Mapfre Portugal, produit: MAPFRE Auto Moto, langue: pt, url: "https://www.mapfre.pt/media/DIPS_410_MAPFREAuto_Moto_16062026.pdf"}
+  - {pays: Portugal, type: moto, assureur: Generali Tranquilidade, produit: Auto 2 rodas, langue: pt, url: "https://generalitranquilidade.pt/-/media/files/moto-bicicleta-trotinete/ficha-produto-dds-auto-2-rodas.pdf"}
+  - {pays: Portugal, type: moto, assureur: Allianz Portugal, produit: Moto, langue: pt, url: "https://www.allianz.pt/content/dam/onemarketing/iberolatam/allianz-pt/seguros-/moto/docs/DISPS_Moto_2022.pdf"}
+
+  # ---------------------------------------------------------------- Irlande
+  - {pays: Irlande, type: auto, assureur: AIG Ireland, produit: Direct motor, langue: en, url: "https://www.aig.ie/content/dam/aig/emea/ireland/documents/ipids/post-brexit-ipids/ie-direct-motor-ipid-12-2018-min.pdf"}
+  - {pays: Irlande, type: auto, assureur: Aviva Ireland, produit: Motorcare, langue: en, url: "https://static.aviva.io/content/dam/aviva-public/ie/pdfs/motorcare-ipid.pdf"}
+  - {pays: Irlande, type: auto, assureur: Outsurance, produit: Car insurance, langue: en, url: "https://www.outsurance.ie/globalassets/documents/outsurance-dac/outsurance-car-ipid_202403.pdf"}
+  - {pays: Irlande, type: auto, assureur: Allianz Ireland, produit: Car insurance, langue: en, url: "https://www.allianz.ie/content/dam/onemarketing/azie/allianz-ireland/en_us/documents/documents---car-insurance/DMR-Full-IPID-Pre-July-2025.pdf"}
+
+  # ---------------------------------------------------------------- Pays-Bas
+  - {pays: Pays-Bas, type: moto, assureur: a.s.r., produit: Bromfietsverzekering WA, langue: nl, url: "https://kuiperverzekeringen.nl/storage/app/media/verzekeringkaarten/asr-2024/ASR-Verzekeringskaart-Bromfietsverzekering-WA-versie-6.pdf"}
+  - {pays: Pays-Bas, type: auto, assureur: Interpolis, produit: Autoverzekering WA, langue: nl, url: "https://verzekeringskaarten.nl/interpolis/Interpolis-Autoverzekering-WA-AIEP-20"}

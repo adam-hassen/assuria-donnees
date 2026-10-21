@@ -20,6 +20,7 @@ import sys
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urljoin, urlparse
 
 import pandas as pd
 import requests
@@ -63,25 +64,34 @@ def motif(phrase: str) -> str:
 # Les 9 rubriques du modèle européen d'IPID, dans l'ordre, pour chaque langue
 RUBRIQUES = {
     "description": ["de quel type d'assurance s'agit-il", "che tipo di assicurazione", "um welche art der versicherung",
-                    "um welche art von versicherung", "en que consiste este tipo de seguro", "what is this type of insurance"],
+                    "um welche art von versicherung", "en que consiste este tipo de seguro", "what is this type of insurance",
+                    "welk soort verzekering is dit", "om welk type verzekering gaat het", "qual e o tipo de seguro",
+                    "que tipo de seguro e este"],
     "garanties": ["qu'est-ce qui est assure", "qu est ce qui est assure", "che cosa e assicurato", "was ist versichert",
-                  "que se asegura", "what is insured"],
+                  "que se asegura", "what is insured", "wat is verzekerd", "o que esta seguro",
+                  "que riscos sao segurados", "o que e que esta seguro"],
     "non_assure": ["qu'est-ce qui n'est pas assure", "qu est ce qui n est pas assure", "che cosa non e assicurato",
-                   "was ist nicht versichert", "que no esta asegurado", "what is not insured"],
+                   "was ist nicht versichert", "que no esta asegurado", "what is not insured", "wat is niet verzekerd",
+                   "o que nao esta seguro", "que riscos nao sao segurados"],
     "restrictions": ["y a t il des exclusions", "y a t il des restrictions", "ya t il des exclusions", "ya t il des restrictions",
                      "ci sono limiti di copertura", "gibt es deckungsbeschrankungen", "gibt es deckungseinschrankungen",
-                     "existen restricciones", "are there any restrictions"],
+                     "existen restricciones", "are there any restrictions", "zijn er dekkingsbeperkingen",
+                     "zijn er beperkingen", "ha exclusoes", "existem restricoes", "ha restricoes"],
     "zone": ["ou suis-je couvert", "dove vale la copertura", "wo bin ich versichert", "donde estoy cubierto",
-             "where am i covered"],
+             "where am i covered", "waar ben ik gedekt", "waar ben ik verzekerd", "onde estou coberto"],
     "obligations": ["quelles sont mes obligations", "che obblighi ho", "welche verpflichtungen habe ich",
-                    "cuales son mis obligaciones", "what are my obligations"],
+                    "cuales son mis obligaciones", "what are my obligations", "wat zijn mijn verplichtingen",
+                    "quais sao as minhas obrigacoes"],
     "paiement": ["quand et comment effectuer", "quand et comment dois-je", "quand et comment payer", "quand et comment regler",
                  "quando e come devo pagare", "wann und wie zahle ich", "cuando y como tengo que efectuar",
-                 "when and how do i pay"],
+                 "when and how do i pay", "wanneer en hoe betaal ik", "wanneer en hoe moet ik betalen",
+                 "quando e como devo pagar", "quando e como devo efetuar"],
     "duree": ["quand commence la couverture", "quando comincia la copertura", "wann beginnt und endet",
-              "cuando comienza y finaliza", "when does the cover start"],
+              "cuando comienza y finaliza", "when does the cover start", "wanneer begint en eindigt",
+              "quando comeca e acaba", "quando comeca e termina"],
     "resiliation": ["comment puis-je resilier", "comment resilier", "come posso disdire", "wie kann ich den vertrag kundigen",
-                    "wie kann ich meinen vertrag kundigen", "como puedo rescindir", "how do i cancel"],
+                    "wie kann ich meinen vertrag kundigen", "como puedo rescindir", "how do i cancel", "hoe zeg ik", "hoe kan ik mijn",
+                    "como posso rescindir", "como posso resolver", "como posso cancelar"],
 }
 RUBRIQUES_RE = {k: re.compile("|".join(motif(p) for p in v)) for k, v in RUBRIQUES.items()}
 
@@ -89,23 +99,32 @@ RUBRIQUES_RE = {k: re.compile("|".join(motif(p) for p in v)) for k, v in RUBRIQU
 GARANTIES = {
     "responsabilite_civile": ["responsabilite civile", r"\brc\b", "causes a un tiers", "causes aux tiers", "cause a un tiers",
                               "dommages aux tiers", "a autrui", "responsabilita civile", "danni a terzi", "r.c. auto",
-                              "haftpflicht", "responsabilidad civil", r"\bterceros\b"],
-    "vol": [r"\bvol\b", "furto", "diebstahl", "entwendung", r"\brobo\b"],
-    "incendie": ["incendie", "incendio", r"\bbrand\b"],
-    "bris_de_glace": ["bris de glace", "glaces", "cristalli", "glasbruch", "lunas", "cristales"],
+                              "haftpflicht", "responsabilidad civil", r"\bterceros\b", "aansprakelijkheid", r"\bwa\b",
+                              "responsabilidade civil", "third party", "liability"],
+    "vol": [r"\bvol\b", "furto", "diebstahl", "entwendung", r"\brobo\b", "diefstal", "roubo", "theft"],
+    "incendie": ["incendie", "incendio", r"\bbrand\b", r"\bfire\b"],
+    "bris_de_glace": ["bris de glace", "glaces", "cristalli", "glasbruch", "lunas", "cristales", "glasbreuk", "ruitbreuk", "quebra de vidros",
+                      "windscreen", "windshield"],
     "dommages_vehicule": ["tous accidents", "tous risques", "dommages collision", "dommages au vehicule", "dommages du vehicule",
-                          "kasko", "collisione", "todo riesgo", "danos propios"],
+                          "kasko", "collisione", "todo riesgo", "danos propios", "omnium", "allrisk", "all risk",
+                          "danos proprios", "choque", "comprehensive", "accidental damage", "own damage"],
     "catastrophes_naturelles": ["catastrophe", "evenements climatiques", "tempete", "eventi naturali", "eventi atmosferici",
-                                "naturgefahren", "elementar", "fenomenos", "consorcio"],
-    "assistance": ["assistance", "assistenza", "schutzbrief", "pannenhilfe", "asistencia"],
+                                "naturgefahren", "elementar", "fenomenos", "consorcio", "natuurrampen", "storm",
+                                "fenomenos da natureza", "natural", "flood"],
+    "assistance": ["assistance", "assistenza", "schutzbrief", "pannenhilfe", "asistencia", "bijstand", "pechhulp",
+                   "assistencia", "breakdown", "roadside"],
     "protection_conducteur": ["corporels du conducteur", "garantie du conducteur", "protection du conducteur",
                               "securite du conducteur", "individuelle conducteur", "infortuni", "insassenunfall",
-                              "fahrerschutz", "accidentes del conductor", "accidentes personales"],
+                              "fahrerschutz", "accidentes del conductor", "accidentes personales", "bestuurder",
+                              "ocupantes", "condutor", "personal accident"],
     "protection_juridique": ["protection juridique", "defense juridique", "defense et recours", "defense recours",
-                             "tutela legale", "rechtsschutz", "defensa juridica", "reclamacion de danos"],
-    "equipements": ["equipement", "casque", "abbigliamento", r"\bcasco\b", r"\bhelm\b", "bekleidung", "equipamiento"],
+                             "tutela legale", "rechtsschutz", "defensa juridica", "reclamacion de danos",
+                             "rechtsbijstand", "protecao juridica", "legal expenses", "legal protection"],
+    "equipements": ["equipement", "casque", "abbigliamento", r"\bcasco\b", r"\bhelm\b", "bekleidung", "equipamiento", "kleding", "capacete", "helmet"],
     "vehicule_remplacement": ["vehicule de remplacement", "vehicule de pret", "auto sostitutiva", "veicolo sostitutivo",
-                              "ersatzfahrzeug", "mietwagen", "vehiculo de sustitucion"],
+                              "ersatzfahrzeug", "mietwagen", "vehiculo de sustitucion", "vervangwagen",
+                              "vervangend vervoer", "veiculo de substituicao", "courtesy car", "replacement vehicle",
+                              "replacement car"],
 }
 GARANTIES_RE = {k: re.compile("|".join(v)) for k, v in GARANTIES.items()}
 
@@ -123,9 +142,15 @@ def cite(garantie: str, norm: str, norm_compact: str) -> bool:
         elif mot in norm or (len(compact(mot)) >= 6 and compact(mot) in norm_compact):
             return True
     return False
-FRANCHISE_RE = re.compile(r"franchise|franchigia|scoperto|selbstbeteiligung|selbstbehalt|franquicia")
+FRANCHISE_RE = re.compile(r"franchise|franchigia|scoperto|selbstbeteiligung|selbstbehalt|franquicia|eigen risico|vrijstelling|"
+                          r"franquia|excess")
 MONTANT_RE = re.compile(r"(?:(\d{1,3}(?:[ .  ]\d{3})*|\d+)(?:,\d{1,2})?\s?(?:€|eur\b|euro))|(?:€\s?(\d{1,3}(?:[ .]\d{3})*|\d+))")
-MENSUEL_RE = re.compile(r"mensuel|mensualit|mensile|monatlich|mensual|fraccionad|rateizz")
+MENSUEL_RE = re.compile(r"mensuel|mensualit|mensile|monatlich|mensual|fraccionad|rateizz|maandelijks|mensal|monthly|instal")
+VEHICULE_RE = re.compile(r"vehicule|automobile|\bauto|voiture|moto|scooter|cyclo|deux.roues|veicolo|autovettur|ciclomotor|kfz|"
+                         r"fahrzeug|kraftrad|motorrad|moped|vehiculo|coche|automovel|veiculo|voertuig|motorrijtuig|bromfiets|"
+                         r"\bcar\b|motor|motorcycle|motorbike")
+MOTO_RE = re.compile(r"moto|scooter|cyclo|deux.roues|2.roues|2r\b|ciclomot|kraftrad|motorrad|moped|bromfiets|motorbike|"
+                     r"motorcycle|2.rodas|duas rodas")
 
 
 def nettoyer(texte: str) -> str:
@@ -191,9 +216,49 @@ def sauver_pdf(contenu: bytes, lecteur: PdfReader, chemin: Path) -> None:
         w.write(f)
 
 
-def collecter(offre: dict, manifest: dict) -> bool:
+CODES_PAYS = {"France": "fr", "Belgique": "be", "Italie": "it", "Allemagne": "de", "Autriche": "at", "Espagne": "es",
+              "Portugal": "pt", "Irlande": "ie", "Pays-Bas": "nl", "Finlande": "fi", "Luxembourg": "lu"}
+
+
+def identifiant(o: dict) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "_", normaliser(o["assureur"])).strip("_")[:25]
+    return f"{CODES_PAYS.get(o['pays'], 'xx')}_{slug}_{o['type']}_{hashlib.sha1(o['url'].encode()).hexdigest()[:6]}"
+
+
+def decouvrir(page: dict) -> list[dict]:
+    """Parcourt une page d'assureur et renvoie les liens vers des documents auto ou moto (PDF / IPID)."""
+    try:
+        r = requests.get(page["url"], headers=NAVIGATEUR, timeout=60)
+        r.raise_for_status()
+    except Exception as e:
+        log(f"page {page['url']} : inaccessible ({e.__class__.__name__})")
+        return []
+    trouves = {}
+    for lien, texte in re.findall(r"<a[^>]+href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", r.text, flags=re.S | re.I):
+        url = urljoin(r.url, lien.strip())
+        texte = re.sub(r"<[^>]+>|\s+", " ", texte).strip()
+        cle = normaliser(url + " " + texte)
+        if not re.search(r"\.pdf|ipid|dipa|\bdip\b|informatie|informacion|informacao", cle):
+            continue
+        if not VEHICULE_RE.search(cle) or url in trouves:
+            continue
+        nom = texte or Path(urlparse(url).path).stem
+        trouves[url] = {"pays": page["pays"], "assureur": page["assureur"], "langue": page["langue"], "url": url,
+                        "type": "moto" if MOTO_RE.search(cle) else "auto", "produit": nom[:80], "decouvert_sur": page["url"]}
+    log(f"page {page['url']} : {len(trouves)} document(s) auto/moto trouvé(s)")
+    return list(trouves.values())[:40]
+
+
+def est_une_offre(texte: str) -> bool:
+    """Garde-fou : le document doit avoir le plan IPID et parler d'un véhicule."""
+    rubriques = sum(v is not None for v in decouper(texte).values())
+    return rubriques >= 4 and bool(VEHICULE_RE.search(normaliser(texte[:6000])))
+
+
+def collecter(offre: dict, manifest: dict, empreintes: dict) -> bool:
     oid, chemin = offre["id"], RAW / f"{offre['id']}.pdf"
     ancien = manifest.get(oid, {})
+    meta = {k: offre[k] for k in ("pays", "type", "assureur", "produit", "langue", "url", "decouvert_sur") if k in offre}
     try:
         contenu = telecharger(offre["url"])
     except Exception as e:
@@ -201,17 +266,29 @@ def collecter(offre: dict, manifest: dict) -> bool:
         if chemin.exists():
             statut += ", dernière version gardée"
         log(f"{oid} : {statut}")
-        manifest[oid] = {**ancien, "url": offre["url"], "statut": statut}
+        manifest[oid] = {**ancien, "offre": meta, "statut": statut}
         return False
     empreinte = hashlib.sha256(contenu).hexdigest()
-    if ancien.get("sha256") == empreinte and chemin.exists():
-        manifest[oid] = {**ancien, "url": offre["url"], "statut": "ok"}
-        log(f"{oid} : inchangé")
+    if empreinte in empreintes and empreintes[empreinte] != oid:
+        manifest[oid] = {"offre": meta, "statut": f"doublon de {empreintes[empreinte]}"}
+        chemin.unlink(missing_ok=True)
         return False
-    _, nb_pages, lecteur = lire_pdf(contenu)
+    empreintes[empreinte] = oid
+    if ancien.get("sha256") == empreinte and chemin.exists():
+        manifest[oid] = {**ancien, "offre": meta, "statut": "ok"}
+        return False
+    try:
+        texte, nb_pages, lecteur = lire_pdf(contenu)
+    except Exception as e:
+        manifest[oid] = {"offre": meta, "statut": f"PDF illisible ({e.__class__.__name__})"}
+        return False
+    if not est_une_offre(texte):
+        manifest[oid] = {"offre": meta, "statut": "écarté : pas un document d'offre auto/moto"}
+        chemin.unlink(missing_ok=True)
+        log(f"{oid} : écarté")
+        return False
     sauver_pdf(contenu, lecteur, chemin)
-    manifest[oid] = {"url": offre["url"], "sha256": empreinte, "pages": nb_pages, "statut": "ok",
-                     "collecte_le": maintenant()}
+    manifest[oid] = {"offre": meta, "sha256": empreinte, "pages": nb_pages, "statut": "ok", "collecte_le": maintenant()}
     log(f"{oid} : NOUVELLE VERSION ({nb_pages} pages)")
     return True
 
@@ -221,12 +298,13 @@ def maintenant() -> str:
 
 
 # ------------------------------------------------------------------ table finale
-def construire_table(offres: list[dict], manifest: dict) -> pd.DataFrame:
+def construire_table(manifest: dict) -> pd.DataFrame:
     lignes = []
-    for o in offres:
-        chemin = RAW / f"{o['id']}.pdf"
-        if not chemin.exists():
+    for oid, m in sorted(manifest.items()):
+        chemin = RAW / f"{oid}.pdf"
+        if not chemin.exists() or "offre" not in m:
             continue
+        o = {**m["offre"], "id": oid}
         texte, _, _ = lire_pdf(chemin.read_bytes())
         r = decouper(texte)
         # Si la rubrique est vide (titres empilés en haut de page), on cherche dans tout le document sauf les exclusions
@@ -236,7 +314,6 @@ def construire_table(offres: list[dict], manifest: dict) -> pd.DataFrame:
             assure = normaliser(texte.replace(r["non_assure"] or "\x00", " "))
         tout = " ".join(v for v in r.values() if v)
         franchises = montants_franchise(tout)
-        m = manifest.get(o["id"], {})
         ligne = {
             "id_offre": o["id"], "pays": o["pays"], "type": o["type"], "assureur": o["assureur"], "produit": o["produit"],
             "langue": o["langue"],
@@ -248,7 +325,7 @@ def construire_table(offres: list[dict], manifest: dict) -> pd.DataFrame:
             **r,
             "rubriques_trouvees": sum(v is not None for v in r.values()),
             "prix": None,  # pas publié dans l'IPID : dépend d'un devis personnalisé
-            "url_source": o["url"], "fichier_pdf": f"data/raw/offres/{o['id']}.pdf",
+            "url_source": o["url"], "fichier_pdf": f"data/raw/offres/{oid}.pdf",
             "collecte_le": m.get("collecte_le"), "statut_lien": m.get("statut"),
         }
         lignes.append(ligne)
@@ -292,7 +369,9 @@ def ecrire_readme(df: pd.DataFrame, offres: list[dict], manifest: dict) -> None:
          "d'assurances ([règlement 2017/1469](https://eur-lex.europa.eu/eli/reg_impl/2017/1469/oj)). "
          "Il a le même plan dans tous les pays et toutes les langues, ce qui permet de comparer les offres entre elles.", "",
          "La liste des documents suivis est dans `config/offres.yaml` du dépôt "
-         "[assuria-donnees](https://github.com/adam-hassen/assuria-donnees). Pour ajouter une offre, il suffit d'y ajouter son lien.", ""]
+         "[assuria-donnees](https://github.com/adam-hassen/assuria-donnees). Pour ajouter une offre, il suffit d'y ajouter son lien. "
+         "Un robot parcourt aussi les pages « documents » de certains assureurs (`pages_a_explorer`) pour trouver tout seul "
+         "les nouveaux documents. Un garde-fou ne garde que les documents qui ont le plan IPID et parlent d'un véhicule.", ""]
     if len(df):
         l += ["## Offres par pays", "", "| Pays | Auto | Moto | Total |", "| --- | --- | --- | --- |"]
         for p, g in df.groupby("pays"):
@@ -304,9 +383,11 @@ def ecrire_readme(df: pd.DataFrame, offres: list[dict], manifest: dict) -> None:
               "| --- | --- | --- | --- | --- |"]
         for _, r in df.sort_values(["pays", "type", "assureur"]).iterrows():
             l.append(f"| {r['pays']} | {r['type']} | [{r['assureur']}]({r['url_source']}) | {r['produit']} | {r['rubriques_trouvees']}/9 |")
-    erreurs = [(k, v) for k, v in manifest.items() if v.get("statut", "ok") != "ok"]
+    erreurs = [(k, v) for k, v in sorted(manifest.items()) if v.get("statut", "ok") != "ok"]
     if erreurs:
-        l += ["", "## Liens à vérifier", ""] + [f"- `{k}` : {v['statut']}" for k, v in erreurs]
+        l += ["", "## Documents non retenus", "",
+              "Liens morts, doublons, ou documents qui ne sont pas des offres auto/moto (écartés automatiquement).", ""]
+        l += [f"- `{k}` ({v.get('offre', {}).get('assureur', '')}) : {v['statut']}" for k, v in erreurs]
     l += ["", "## Colonnes", "", "| Colonne | Contenu |", "| --- | --- |"]
     l += [f"| `{c}` | {d} |" for c, d in DESCRIPTION_COLONNES]
     l += ["", "## Limites connues", "",
@@ -324,17 +405,32 @@ def ecrire_readme(df: pd.DataFrame, offres: list[dict], manifest: dict) -> None:
 def main() -> int:
     RAW.mkdir(parents=True, exist_ok=True)
     CLEAN.mkdir(parents=True, exist_ok=True)
-    offres = yaml.safe_load(CONFIG.read_text(encoding="utf-8"))["offres"]
-    manifest = json.loads(MANIFEST.read_text(encoding="utf-8")) if MANIFEST.exists() else {}
-    manifest = {k: v for k, v in manifest.items() if k in {o["id"] for o in offres}}
-    nouveautes = sum(collecter(o, manifest) for o in offres)
-    MANIFEST.write_text(json.dumps(manifest, indent=2, ensure_ascii=False, sort_keys=True), encoding="utf-8")
+    config = yaml.safe_load(CONFIG.read_text(encoding="utf-8"))
+    offres = config["offres"]
+    for page in config.get("pages_a_explorer", []):        # liens trouvés automatiquement
+        offres += decouvrir(page)
+    vus = set()
+    offres = [o for o in offres if not (o["url"] in vus or vus.add(o["url"]))]
+    for o in offres:
+        o.setdefault("id", identifiant(o))
 
-    df = construire_table(offres, manifest)
+    manifest = json.loads(MANIFEST.read_text(encoding="utf-8")) if MANIFEST.exists() else {}
+    ids = {o["id"] for o in offres}
+    # on garde les offres déjà découvertes même si leur page n'a pas répondu cette fois-ci
+    manifest = {k: v for k, v in manifest.items() if k in ids or (v.get("offre", {}).get("decouvert_sur"))}
+    empreintes = {v["sha256"]: k for k, v in manifest.items() if v.get("sha256") and v.get("statut", "").startswith(("ok", "lien"))}
+    nouveautes = sum(collecter(o, manifest, empreintes) for o in offres)
+    MANIFEST.write_text(json.dumps(manifest, indent=2, ensure_ascii=False, sort_keys=True), encoding="utf-8")
+    for pdf in RAW.glob("*.pdf"):                        # PDF d'offres retirées de la liste
+        if pdf.stem not in manifest:
+            pdf.unlink()
+
+    df = construire_table(manifest)
     df.to_parquet(CLEAN / "offres_europe.parquet", index=False)
     df.to_json(CLEAN / "offres_europe.json", orient="records", force_ascii=False, indent=2)
     ecrire_readme(df, offres, manifest)
-    log(f"Terminé : {len(df)} offres dans le fichier final, {nouveautes} nouvelle(s) version(s)")
+    log(f"Terminé : {len(df)} offres dans le fichier final sur {len(offres)} documents suivis, "
+        f"{nouveautes} nouvelle(s) version(s)")
     return 0
 
 

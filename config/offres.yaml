@@ -13,7 +13,6 @@ pages_a_explorer:
   - {url: "https://www.pv.be/fr/ipid", pays: Belgique, assureur: P&V, langue: fr}
   - {url: "https://www.vivium.be/fr/private-individuals/ipid", pays: Belgique, assureur: Vivium, langue: fr}
   - {url: "https://www.april-moto.com/documents-utiles/", pays: France, assureur: APRIL Moto, langue: fr}
-  - {url: "https://www.if.fi/en/commercial/insurances/ipid-en", pays: Finlande, assureur: If, langue: en}
   - {url: "https://www.mapfre.pt/seguros/particulares/documentos-informativos/", pays: Portugal, assureur: Mapfre, langue: pt}
 
 

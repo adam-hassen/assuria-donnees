@@ -13,6 +13,7 @@ Lancement :  python -m src.offres
 from __future__ import annotations
 
 import hashlib
+import html
 import io
 import json
 import re
@@ -149,6 +150,8 @@ MENSUEL_RE = re.compile(r"mensuel|mensualit|mensile|monatlich|mensual|fraccionad
 VEHICULE_RE = re.compile(r"vehicule|automobile|\bauto|voiture|moto|scooter|cyclo|deux.roues|veicolo|autovettur|ciclomotor|kfz|"
                          r"fahrzeug|kraftrad|motorrad|moped|vehiculo|coche|automovel|veiculo|voertuig|motorrijtuig|bromfiets|"
                          r"\bcar\b|motor|motorcycle|motorbike")
+HORS_SUJET_RE = re.compile(r"camion|remorque|caravane|mobilhome|mobil.home|camping.car|tracteur|agricole|autocarr|"
+                          r"construction|corporate|entreprise|flotte|fleet|lkw|anhanger|wohnmobil|vrachtwagen|aanhangwagen")
 MOTO_RE = re.compile(r"moto|scooter|cyclo|deux.roues|2.roues|2r\b|ciclomot|kraftrad|motorrad|moped|bromfiets|motorbike|"
                      r"motorcycle|2.rodas|duas rodas")
 
@@ -225,6 +228,9 @@ def identifiant(o: dict) -> str:
     return f"{CODES_PAYS.get(o['pays'], 'xx')}_{slug}_{o['type']}_{hashlib.sha1(o['url'].encode()).hexdigest()[:6]}"
 
 
+PAGES_OK: set[str] = set()
+
+
 def decouvrir(page: dict) -> list[dict]:
     """Parcourt une page d'assureur et renvoie les liens vers des documents auto ou moto (PDF / IPID)."""
     try:
@@ -233,14 +239,15 @@ def decouvrir(page: dict) -> list[dict]:
     except Exception as e:
         log(f"page {page['url']} : inaccessible ({e.__class__.__name__})")
         return []
+    PAGES_OK.add(page["url"])
     trouves = {}
     for lien, texte in re.findall(r"<a[^>]+href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", r.text, flags=re.S | re.I):
         url = urljoin(r.url, lien.strip())
-        texte = re.sub(r"<[^>]+>|\s+", " ", texte).strip()
+        texte = html.unescape(re.sub(r"<[^>]+>|\s+", " ", texte)).strip()
         cle = normaliser(url + " " + texte)
         if not re.search(r"\.pdf|ipid|dipa|\bdip\b|informatie|informacion|informacao", cle):
             continue
-        if not VEHICULE_RE.search(cle) or url in trouves:
+        if not VEHICULE_RE.search(cle) or HORS_SUJET_RE.search(cle) or url in trouves:
             continue
         nom = texte or Path(urlparse(url).path).stem
         trouves[url] = {"pays": page["pays"], "assureur": page["assureur"], "langue": page["langue"], "url": url,
@@ -417,7 +424,9 @@ def main() -> int:
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8")) if MANIFEST.exists() else {}
     ids = {o["id"] for o in offres}
     # on garde les offres déjà découvertes même si leur page n'a pas répondu cette fois-ci
-    manifest = {k: v for k, v in manifest.items() if k in ids or (v.get("offre", {}).get("decouvert_sur"))}
+    pages_en_panne = {p["url"] for p in config.get("pages_a_explorer", [])} - PAGES_OK
+    manifest = {k: v for k, v in manifest.items()
+                if k in ids or v.get("offre", {}).get("decouvert_sur") in pages_en_panne}
     empreintes = {v["sha256"]: k for k, v in manifest.items() if v.get("sha256") and v.get("statut", "").startswith(("ok", "lien"))}
     nouveautes = sum(collecter(o, manifest, empreintes) for o in offres)
     MANIFEST.write_text(json.dumps(manifest, indent=2, ensure_ascii=False, sort_keys=True), encoding="utf-8")

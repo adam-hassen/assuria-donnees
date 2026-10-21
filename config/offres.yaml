@@ -35,8 +35,6 @@ offres:
      url: "https://www.amv.fr/docs/Docs/IPID_AMV_MOTO_EQ.pdf"}
   - {id: fr_amv_moto_gb, pays: France, type: moto, assureur: AMV, produit: Assurance moto, langue: fr,
      url: "https://www.amv.fr/docs/Docs/IPID_AMV_MOTO_GB.pdf"}
-  - {id: fr_bred_moto, pays: France, type: moto, assureur: BRED, produit: Assurance moto, langue: fr,
-     url: "https://www.bred.fr/medias/pdf/informations-reglementaires/ipid-assurance-moto.pdf"}
   - {id: fr_sollyazar_moto125, pays: France, type: moto, assureur: Solly Azar, produit: Moto 125 et quad, langue: fr,
      url: "https://www.sollyazar.com/sites/particulier/files/media_fichier/dg-ipid-gbike-moto125quad.pdf"}
   - {id: fr_sollyazar_scooter50, pays: France, type: moto, assureur: Solly Azar, produit: Cyclo et scooter 50, langue: fr,
@@ -45,26 +43,27 @@ offres:
      url: "https://www.sollyazar.com/sites/particulier/files/2023-07/moto_motopass_ipid_wakam.pdf"}
 
   # ---------------------------------------------------------------- Belgique, auto
-  - {id: be_baloise_auto, pays: Belgique, type: auto, assureur: Baloise, produit: Mobility Safe 1, langue: fr,
-     url: "https://www.baloise.be/dam/mybaloise-baloise-be/fr/non-vie-particuliers/Vehicules-automoteurs/IPID/IPID-Auto/B9001.MOT.02.26.Fiche-ipid-Mobility_Safe_1_Voitures-de-tourisme-et-Camionnettes_FR.pdf"}
-  - {id: be_ethias_auto, pays: Belgique, type: auto, assureur: Ethias, produit: Assurance auto, langue: fr,
-     url: "https://www.comparateur.be/insurance/downloads/ethias/car-ipid-fr.pdf"}
   - {id: be_hyundai_auto, pays: Belgique, type: auto, assureur: Hyundai Insurance, produit: Assurance auto, langue: fr,
      url: "https://www.hyundai.com/content/dam/hyundai/downloads/be/lu/pdf/FR_Hy_IPID_Insurance.pdf"}
-  - {id: be_bmw_carplan, pays: Belgique, type: auto, assureur: BMW CarPlan, produit: Assurance véhicules automoteurs, langue: fr,
-     url: "https://www.bmw.be/content/dam/bmw/marketBE/common/topics/bfs-insurances/pdf/ipid-carplan-assurance-vehicules-automoteurs.pdf.asset.1600960117295.pdf"}
+
+  - {id: be_pv_auto, pays: Belgique, type: auto, assureur: P&V, produit: P&V Auto, langue: fr,
+     url: "https://www.pv.be/documents/2579080/0/IPID_495_PV+Auto_FR_DEFweb.pdf/2b84f6f9-5aec-989a-3084-20350cfc497a"}
+  - {id: be_axa_confort_auto, pays: Belgique, type: auto, assureur: AXA Belgium, produit: Confort Auto, langue: fr,
+     url: "https://distributorportal.axa.be/fr-be/-/media/axa-documents/library-public/ipid/3/8/c/d/a/Confort%20Auto%20-%20Fiches%20IPID.pdf?rev=e72a16bb015743978fd0a703857733fe"}
+
+  # ---------------------------------------------------------------- Belgique, moto
+  - {id: be_argenta_moto, pays: Belgique, type: moto, assureur: Argenta, produit: Assurance moto, langue: fr,
+     url: "https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20moto.pdf"}
+  - {id: be_ing_moto, pays: Belgique, type: moto, assureur: ING Belgique, produit: Assurance moto et cyclomoteur, langue: fr,
+     url: "https://assets.ing.com/m/531a38da1f7d4826/original/ING-motorbike-and-moped-insurance-IPID-FR.pdf"}
 
   # ---------------------------------------------------------------- Italie
   - {id: it_quixa_auto, pays: Italie, type: auto, assureur: Quixa, produit: Assicurazione auto, langue: it,
      url: "https://www.quixa.it/wp-content/documents/SetInformativi/ed.25.05.2022_Auto_QP.pdf"}
-  - {id: it_linear_auto, pays: Italie, type: auto, assureur: Linear, produit: Assicurazione auto, langue: it,
-     url: "https://www.linear.it/extra/pdf/set_informativo_auto_05-2019.pdf"}
   - {id: it_verti_auto, pays: Italie, type: auto, assureur: Verti, produit: RC auto, langue: it,
      url: "https://www.santanderconsumer.it/sites/default/files/2022-08/SET%20INFORMATIVO_SANTANDER%20RCauto_Verti%20ed.2022.pdf"}
   - {id: it_quixa_moto, pays: Italie, type: moto, assureur: Quixa, produit: Assicurazione moto, langue: it,
      url: "https://www.quixa.it/wp-content/documents/SetInformativi/ed.15.01.2026_Moto.pdf"}
-  - {id: it_genertel_moto, pays: Italie, type: moto, assureur: Genertel, produit: Motorbike Protection, langue: it,
-     url: "https://www.genertel.it/assets/95d54cf8d591703842c28a8ce0bc9537/GT_DIP_CAAB_Motorbike_Protection.pdf"}
   - {id: it_ca_honda_moto, pays: Italie, type: moto, assureur: Crédit Agricole Assicurazioni, produit: Honda Safe 2.0 moto, langue: it,
      url: "https://www.ca-assicurazioni.it/media/filer_public/ad/0f/ad0f0423-1f71-4134-8ae3-77ddf53707ce/202601_honda_safe_20_moto.pdf"}
 
@@ -73,14 +72,11 @@ offres:
      url: "https://goa-eportale.allianz.de/IPI/D-2/IPID-2001Z0.pdf.open.pdf"}
   - {id: de_allianz_kfz_2002, pays: Allemagne, type: auto, assureur: Allianz, produit: Kfz-Versicherung, langue: de,
      url: "https://goa-eportale.allianz.de/IPI/D-2/IPID-2002Z0.pdf.open.pdf"}
-  - {id: de_provinzial_kfz, pays: Allemagne, type: auto, assureur: Provinzial, produit: Kfz-Versicherung, langue: de,
-     url: "https://www.provinzial-online.de/export/sites/wpv/_resources/download/privat_versicherungen/01.1_IPID_WP_PN_Kfz-IPID-Stand_9.2019.pdf"}
   - {id: de_arcd_kfz, pays: Allemagne, type: auto, assureur: ARCD, produit: Kfz-Versicherung, langue: de,
      url: "https://www.arcd.de/fileadmin/Dokumente/Versicherungen/Kfz-Versicherung/produktinformationsblatt-kfz.pdf"}
-  - {id: de_provinzial_moped, pays: Allemagne, type: moto, assureur: Provinzial, produit: Moped, langue: de,
-     url: "https://www.provinzial.de/export/sites/pvn/_resources/download/privat_versicherungen/584-17-PIB_Moped-IPID_Stand-3.2018.pdf"}
-  - {id: de_svsachsen_moped, pays: Allemagne, type: moto, assureur: Sparkassen-Versicherung Sachsen, produit: Moped, langue: de,
-     url: "https://www.sv-sachsen.de/export/sites/svsa/_micro/makler/_downloads/moped/IPID-Moped.pdf"}
+
+  - {id: de_allianz_moped, pays: Allemagne, type: moto, assureur: Allianz, produit: Mopedversicherung, langue: de,
+     url: "https://goa-eportale.allianz.de/IPI/D-2/IPID-2009Z0.pdf.open.pdf"}
 
   # ---------------------------------------------------------------- Espagne
   - {id: es_mutua_terceros, pays: Espagne, type: auto, assureur: Mutua Madrileña, produit: Terceros básico, langue: es,

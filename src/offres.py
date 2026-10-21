@@ -56,7 +56,8 @@ def normaliser(texte: str) -> str:
 def motif(phrase: str) -> str:
     """'qu'est-ce qui est assuré' -> regex tolérante à la ponctuation, aux espaces et aux retours à la ligne."""
     mots = re.findall(r"[a-z0-9]+", normaliser(phrase))
-    return r"[^a-z0-9]{0,4}".join(mots)
+    # " ?" entre les lettres : certains PDF espacent les lettres (« Q u'est-ce qui est assuré »)
+    return r"[^a-z0-9]{0,4}".join(" ?".join(re.escape(c) for c in m) for m in mots)
 
 
 # Les 9 rubriques du modèle européen d'IPID, dans l'ordre, pour chaque langue
@@ -86,8 +87,9 @@ RUBRIQUES_RE = {k: re.compile("|".join(motif(p) for p in v)) for k, v in RUBRIQU
 
 # Garanties repérées dans la rubrique « ce qui est assuré » (incluses ou en option)
 GARANTIES = {
-    "responsabilite_civile": ["responsabilite civile", "responsabilita civile", "r.c. auto", "rc auto", "haftpflicht",
-                              "responsabilidad civil"],
+    "responsabilite_civile": ["responsabilite civile", r"\brc\b", "causes a un tiers", "causes aux tiers", "cause a un tiers",
+                              "dommages aux tiers", "a autrui", "responsabilita civile", "danni a terzi", "r.c. auto",
+                              "haftpflicht", "responsabilidad civil", r"\bterceros\b"],
     "vol": [r"\bvol\b", "furto", "diebstahl", "entwendung", r"\brobo\b"],
     "incendie": ["incendie", "incendio", r"\bbrand\b"],
     "bris_de_glace": ["bris de glace", "glaces", "cristalli", "glasbruch", "lunas", "cristales"],
@@ -106,6 +108,21 @@ GARANTIES = {
                               "ersatzfahrzeug", "mietwagen", "vehiculo de sustitucion"],
 }
 GARANTIES_RE = {k: re.compile("|".join(v)) for k, v in GARANTIES.items()}
+
+
+def compact(texte: str) -> str:
+    return re.sub(r"[^a-z]", "", texte)
+
+
+def cite(garantie: str, norm: str, norm_compact: str) -> bool:
+    """Garantie citée ? Mots simples cherchés aussi sans espaces (PDF aux lettres espacées)."""
+    for mot in GARANTIES[garantie]:
+        if "\\b" in mot:
+            if re.search(mot, norm):
+                return True
+        elif mot in norm or (len(compact(mot)) >= 6 and compact(mot) in norm_compact):
+            return True
+    return False
 FRANCHISE_RE = re.compile(r"franchise|franchigia|scoperto|selbstbeteiligung|selbstbehalt|franquicia")
 MONTANT_RE = re.compile(r"(?:(\d{1,3}(?:[ .  ]\d{3})*|\d+)(?:,\d{1,2})?\s?(?:€|eur\b|euro))|(?:€\s?(\d{1,3}(?:[ .]\d{3})*|\d+))")
 MENSUEL_RE = re.compile(r"mensuel|mensualit|mensile|monatlich|mensual|fraccionad|rateizz")
@@ -117,14 +134,15 @@ def nettoyer(texte: str) -> str:
 
 
 def decouper(texte: str) -> dict[str, str | None]:
-    """Découpe le texte en rubriques : chaque titre est cherché après le précédent."""
+    """Découpe le texte en rubriques : première apparition de chaque titre, puis tri par position
+    (les PDF en deux colonnes ne donnent pas toujours les rubriques dans l'ordre du modèle)."""
     norm = normaliser(texte)
-    trouves, pos = [], 0
+    trouves = []
     for cle, rx in RUBRIQUES_RE.items():
-        m = rx.search(norm, pos)
+        m = rx.search(norm)
         if m:
             trouves.append((cle, m.start(), m.end()))
-            pos = m.end()
+    trouves.sort(key=lambda x: x[1])
     rubriques = {cle: None for cle in RUBRIQUES}
     for i, (cle, _, fin) in enumerate(trouves):
         suite = trouves[i + 1][1] if i + 1 < len(trouves) else min(len(texte), fin + 2500)
@@ -211,14 +229,18 @@ def construire_table(offres: list[dict], manifest: dict) -> pd.DataFrame:
             continue
         texte, _, _ = lire_pdf(chemin.read_bytes())
         r = decouper(texte)
-        assure = normaliser(r["garanties"] or "")
+        # Si la rubrique est vide (titres empilés en haut de page), on cherche dans tout le document sauf les exclusions
+        if r["garanties"] and len(r["garanties"]) >= 40:
+            assure = normaliser(r["garanties"])
+        else:
+            assure = normaliser(texte.replace(r["non_assure"] or "\x00", " "))
         tout = " ".join(v for v in r.values() if v)
         franchises = montants_franchise(tout)
         m = manifest.get(o["id"], {})
         ligne = {
             "id_offre": o["id"], "pays": o["pays"], "type": o["type"], "assureur": o["assureur"], "produit": o["produit"],
             "langue": o["langue"],
-            **{f"g_{g}": bool(rx.search(assure)) for g, rx in GARANTIES_RE.items()},
+            **{f"g_{g}": cite(g, assure, compact(assure)) for g in GARANTIES},
             "franchise_mentionnee": bool(FRANCHISE_RE.search(normaliser(tout))),
             "franchise_min_eur": min(franchises) if franchises else None,
             "franchise_max_eur": max(franchises) if franchises else None,

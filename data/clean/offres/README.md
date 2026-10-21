@@ -155,6 +155,7 @@ La liste des documents suivis est dans `config/offres.yaml` du dépôt [assuria-
 
 Liens morts, doublons, ou documents qui ne sont pas des offres auto/moto (écartés automatiquement).
 
+- `be_baloise_auto_407069` (Baloise) : lien en erreur (HTTPError), dernière version gardée
 - `be_ethias_auto_80ae6a` (Ethias) : lien en erreur (HTTPError)
 - `be_mini_carplan_auto_fc3337` (MINI CarPlan) : lien en erreur (ReadTimeout)
 - `be_polisa_auto_046a93` (Polisa) : lien en erreur (HTTPError)

@@ -263,7 +263,7 @@
     "url_source":"https:\/\/www.baloise.be\/dam\/baloise-be\/prive\/documents\/nl\/IPID\/B9000.MOT.02.26.Fiche-ipid-Mobility_Safe_1_Personenwagens-en-Lichte-vrachtwagens_NL.pdf",
     "fichier_source":"data\/raw\/offres\/be_baloise_auto_407069.pdf",
     "collecte_le":"2026-10-21T13:00:06+00:00",
-    "statut_lien":"ok"
+    "statut_lien":"lien en erreur (HTTPError), dernière version gardée"
   },
   {
     "id_offre":"be_hyundai_auto",

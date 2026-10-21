@@ -3,7 +3,7 @@
 Premier jeu de données du projet AssurIA (objectif 3 : prédiction du coût d'un sinistre).
 Ce fichier est **généré automatiquement** à chaque mise à jour des données.
 
-- **Mis à jour le** : 21/10/2026 12:30 (UTC)
+- **Mis à jour le** : 21/10/2026 12:41 (UTC)
 - **Sinistres** : 268 184 sinistres nettoyés (270 003 lignes brutes)
 - **Pays** : Belgique, Espagne, France, Italie, Norvège, Suède
 - **Variable à prédire** : `cout_moyen_eur`, coût moyen par sinistre en euros

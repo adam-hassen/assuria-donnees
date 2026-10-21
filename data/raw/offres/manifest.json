@@ -1,0 +1,220 @@
+{
+  "be_baloise_auto": {
+    "statut": "lien en erreur (HTTPError)",
+    "url": "https://www.baloise.be/dam/mybaloise-baloise-be/fr/non-vie-particuliers/Vehicules-automoteurs/IPID/IPID-Auto/B9001.MOT.02.26.Fiche-ipid-Mobility_Safe_1_Voitures-de-tourisme-et-Camionnettes_FR.pdf"
+  },
+  "be_bmw_carplan": {
+    "statut": "lien en erreur (ReadTimeout)",
+    "url": "https://www.bmw.be/content/dam/bmw/marketBE/common/topics/bfs-insurances/pdf/ipid-carplan-assurance-vehicules-automoteurs.pdf.asset.1600960117295.pdf"
+  },
+  "be_ethias_auto": {
+    "statut": "lien en erreur (HTTPError)",
+    "url": "https://www.comparateur.be/insurance/downloads/ethias/car-ipid-fr.pdf"
+  },
+  "be_hyundai_auto": {
+    "collecte_le": "2026-10-21T12:24:21+00:00",
+    "pages": 3,
+    "sha256": "6cb93fa16dfc23293b7a4d55a4546b23c1cd11297cb5dedf7ebdcd0c88eb934b",
+    "statut": "ok",
+    "url": "https://www.hyundai.com/content/dam/hyundai/downloads/be/lu/pdf/FR_Hy_IPID_Insurance.pdf"
+  },
+  "de_allianz_kfz_2002": {
+    "collecte_le": "2026-10-21T12:26:48+00:00",
+    "pages": 2,
+    "sha256": "ee5a053872b182dcebffae974bb6b3db3c522d9d379483f17b4ae847e531ba9f",
+    "statut": "ok",
+    "url": "https://goa-eportale.allianz.de/IPI/D-2/IPID-2002Z0.pdf.open.pdf"
+  },
+  "de_allianz_kfz_smart": {
+    "collecte_le": "2026-10-21T12:26:47+00:00",
+    "pages": 2,
+    "sha256": "0bb9ee7d2c5ac055ce073859446a8f534070d9630112ac975fa474e0e0684900",
+    "statut": "ok",
+    "url": "https://goa-eportale.allianz.de/IPI/D-2/IPID-2001Z0.pdf.open.pdf"
+  },
+  "de_arcd_kfz": {
+    "collecte_le": "2026-10-21T12:26:51+00:00",
+    "pages": 2,
+    "sha256": "f8f3d36f6a77a35c8d9a7ef4d75b132425ae53513dfd5e131449fec19b9b2048",
+    "statut": "ok",
+    "url": "https://www.arcd.de/fileadmin/Dokumente/Versicherungen/Kfz-Versicherung/produktinformationsblatt-kfz.pdf"
+  },
+  "de_provinzial_kfz": {
+    "statut": "lien en erreur (HTTPError)",
+    "url": "https://www.provinzial-online.de/export/sites/wpv/_resources/download/privat_versicherungen/01.1_IPID_WP_PN_Kfz-IPID-Stand_9.2019.pdf"
+  },
+  "de_provinzial_moped": {
+    "statut": "lien en erreur (HTTPError)",
+    "url": "https://www.provinzial.de/export/sites/pvn/_resources/download/privat_versicherungen/584-17-PIB_Moped-IPID_Stand-3.2018.pdf"
+  },
+  "de_svsachsen_moped": {
+    "statut": "lien en erreur (HTTPError)",
+    "url": "https://www.sv-sachsen.de/export/sites/svsa/_micro/makler/_downloads/moped/IPID-Moped.pdf"
+  },
+  "es_lam_todo_riesgo": {
+    "collecte_le": "2026-10-21T12:26:58+00:00",
+    "pages": 2,
+    "sha256": "064ed25daa941da4c1810cd527087145fd7877b9ca56a39e610f3f935d4c0648",
+    "statut": "ok",
+    "url": "https://lam-seguros.com/wp-content/uploads/2025/09/seguro-de-coche-a-todo-riesgo.pdf"
+  },
+  "es_mutua_terceros": {
+    "collecte_le": "2026-10-21T12:26:55+00:00",
+    "pages": 2,
+    "sha256": "59359eaf7a954e81f1228bede335241e422019c87631d94f2c4759f58133411f",
+    "statut": "ok",
+    "url": "https://www.mutua.es/digital/webcontent/1459158692600PID_Autos_Terceros+BC3A1sico_TCB.pdf"
+  },
+  "es_santander_mapfre_auto": {
+    "collecte_le": "2026-10-21T12:26:57+00:00",
+    "pages": 2,
+    "sha256": "2c7e775a23671315ea6545264d8e1a6ba06d6b45f0e379c48763e58adf682fe6",
+    "statut": "ok",
+    "url": "https://www.santandermapfreseguros.es/obtener-documento?entidad=015&sector=200&producto=43&subtipo=5&timestamp=1728604800046"
+  },
+  "fr_adep_auto": {
+    "collecte_le": "2026-10-21T12:22:55+00:00",
+    "pages": 6,
+    "sha256": "28669aee4e45990a50cd8627cd01fa83bde541e547cfc47b6bd52ff2b1a4154e",
+    "statut": "ok",
+    "url": "https://www.adep.com/cms/Paragraphes/an103431/ADEP%20Assurance%20IPID%20ADEP%20Auto.pdf"
+  },
+  "fr_amv_moto_eq": {
+    "collecte_le": "2026-10-21T12:24:11+00:00",
+    "pages": 2,
+    "sha256": "816760a41f29112922286ea100bc4d46b9a0d7518d86b459d1c061c40c3618e8",
+    "statut": "ok",
+    "url": "https://www.amv.fr/docs/Docs/IPID_AMV_MOTO_EQ.pdf"
+  },
+  "fr_amv_moto_gb": {
+    "collecte_le": "2026-10-21T12:24:13+00:00",
+    "pages": 2,
+    "sha256": "a5c9a238b58e221db2a8dd06222cec1fda05fd734756685b39fd2abe6ba4e2cb",
+    "statut": "ok",
+    "url": "https://www.amv.fr/docs/Docs/IPID_AMV_MOTO_GB.pdf"
+  },
+  "fr_assu2000_auto": {
+    "collecte_le": "2026-10-21T12:22:50+00:00",
+    "pages": 2,
+    "sha256": "07bec3c83376c5d4208ce572e6a0a74895412412f2c5b46b1b048363fd1a1f4f",
+    "statut": "ok",
+    "url": "https://www.assu2000.fr/sites/default/files/documents-legaux/A2_IPID_AUTO.pdf"
+  },
+  "fr_bred_moto": {
+    "statut": "lien en erreur (ValueError)",
+    "url": "https://www.bred.fr/medias/pdf/informations-reglementaires/ipid-assurance-moto.pdf"
+  },
+  "fr_caisse_epargne_auto": {
+    "collecte_le": "2026-10-21T12:22:47+00:00",
+    "pages": 2,
+    "sha256": "a22dcbb6814daae60b08f22790b1b6c4963aa7245384cb9767ed7683635f68ed",
+    "statut": "ok",
+    "url": "https://www.img.caisse-epargne.fr/app/uploads/sites/3/2021/10/08170442/2021-03-ipid-auto-part.pdf"
+  },
+  "fr_direct_assurance_auto": {
+    "collecte_le": "2026-10-21T12:22:44+00:00",
+    "pages": 3,
+    "sha256": "777b4cdff982129aee103c65c6b1641c8bffdfe8cdbba06adf442966a6005b6a",
+    "statut": "ok",
+    "url": "https://directassurance.cdn.axa-contento-118412.eu/directassurance/aed9dfb5-3d46-4669-82ac-273c5d8372af_fiche-ipid-auto-032025.pdf"
+  },
+  "fr_lolivier_auto": {
+    "collecte_le": "2026-10-21T12:22:54+00:00",
+    "pages": 2,
+    "sha256": "0b8d6a23b03e5f946e7e8cbd68fa10e2a626cacb9c3d9d725788d4f271b7a0fe",
+    "statut": "ok",
+    "url": "https://www.lolivier.fr/medias/uploads/2025/07/ipid-loa-tous-risques.pdf"
+  },
+  "fr_maif_moto": {
+    "collecte_le": "2026-10-21T12:22:57+00:00",
+    "pages": 2,
+    "sha256": "382364cab688792afc2091c55d5ec16308ae5ac04e04555cc09e6b739f6ec85b",
+    "statut": "ok",
+    "url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-moto-loisir.pdf"
+  },
+  "fr_matmut_2roues": {
+    "collecte_le": "2026-10-21T12:24:06+00:00",
+    "pages": 2,
+    "sha256": "49f0138c7b9c154cde250a86f3f99f4b3257b73a1cbe7c44b16e1cd7889abf11",
+    "statut": "ok",
+    "url": "https://www.matmut.fr/services-en-ligne/doc/IPID/IPID2R.pdf"
+  },
+  "fr_matmut_auto": {
+    "collecte_le": "2026-10-21T12:22:43+00:00",
+    "pages": 2,
+    "sha256": "9f6b41ef4c68c6b67adb58a3661ef0757db2418ebdb6d4fd5f93f8c5ab0fb95d",
+    "statut": "ok",
+    "url": "https://www.matmut.fr/services-en-ligne/doc/IPID/ipidauto4d.pdf"
+  },
+  "fr_probtp_auto": {
+    "collecte_le": "2026-10-21T12:22:50+00:00",
+    "pages": 2,
+    "sha256": "0c2663c72149afb5854681b4ca736c5c36220c2468cf5b7bffb47aa9a122394e",
+    "statut": "ok",
+    "url": "https://www.probtp.com/files/live/sites/probtp/files/media/pdf/ipid/ipid-assurance-auto.pdf"
+  },
+  "fr_sg_auto": {
+    "collecte_le": "2026-10-21T12:22:46+00:00",
+    "pages": 2,
+    "sha256": "871a6cef36292c7566661a03e05262cf121240d350b2da0cd110c34c535ffb27",
+    "statut": "ok",
+    "url": "https://particuliers.sg.fr/static/Particuliers/Home/Assurances/nos-offres/assurance-vehicule/assurance-auto/Ipid_assurance_automobile.pdf"
+  },
+  "fr_sollyazar_moto125": {
+    "collecte_le": "2026-10-21T12:24:15+00:00",
+    "pages": 34,
+    "sha256": "e6c81a8e90399d744bb7970fc0a836f5959584627ad95273fde371bcc80797bc",
+    "statut": "ok",
+    "url": "https://www.sollyazar.com/sites/particulier/files/media_fichier/dg-ipid-gbike-moto125quad.pdf"
+  },
+  "fr_sollyazar_motopass": {
+    "collecte_le": "2026-10-21T12:24:18+00:00",
+    "pages": 2,
+    "sha256": "68f4c15b292498b2d408d27c178a469e333aa8c4aec544bffe81d5e37843072f",
+    "statut": "ok",
+    "url": "https://www.sollyazar.com/sites/particulier/files/2023-07/moto_motopass_ipid_wakam.pdf"
+  },
+  "fr_sollyazar_scooter50": {
+    "collecte_le": "2026-10-21T12:24:17+00:00",
+    "pages": 20,
+    "sha256": "83858c954c2f595ccc26e44a3b1a933af078a5f0eda6c8f4ff5169f7148162be",
+    "statut": "ok",
+    "url": "https://www.sollyazar.com/sites/particulier/files/media_fichier/DG_IPID_CYCLO_ET_SCOOTER_50.pdf"
+  },
+  "it_ca_honda_moto": {
+    "collecte_le": "2026-10-21T12:26:45+00:00",
+    "pages": 45,
+    "sha256": "1a0945e8e456216748b6a037df435d000b0c88ad5f8d129cf9f399071b94bc19",
+    "statut": "ok",
+    "url": "https://www.ca-assicurazioni.it/media/filer_public/ad/0f/ad0f0423-1f71-4134-8ae3-77ddf53707ce/202601_honda_safe_20_moto.pdf"
+  },
+  "it_genertel_moto": {
+    "statut": "lien en erreur (HTTPError)",
+    "url": "https://www.genertel.it/assets/95d54cf8d591703842c28a8ce0bc9537/GT_DIP_CAAB_Motorbike_Protection.pdf"
+  },
+  "it_linear_auto": {
+    "statut": "lien en erreur (ChunkedEncodingError)",
+    "url": "https://www.linear.it/extra/pdf/set_informativo_auto_05-2019.pdf"
+  },
+  "it_quixa_auto": {
+    "collecte_le": "2026-10-21T12:25:56+00:00",
+    "pages": 32,
+    "sha256": "5f5e2cc238c8d400f5ec097e61d14f68b6a3fda18d0fbc64d81d4f1268126807",
+    "statut": "ok",
+    "url": "https://www.quixa.it/wp-content/documents/SetInformativi/ed.25.05.2022_Auto_QP.pdf"
+  },
+  "it_quixa_moto": {
+    "collecte_le": "2026-10-21T12:26:41+00:00",
+    "pages": 39,
+    "sha256": "e439e78435e23441cffa1179131852aa9d3cf2b93f3df62463adc16d509f589d",
+    "statut": "ok",
+    "url": "https://www.quixa.it/wp-content/documents/SetInformativi/ed.15.01.2026_Moto.pdf"
+  },
+  "it_verti_auto": {
+    "collecte_le": "2026-10-21T12:26:35+00:00",
+    "pages": 28,
+    "sha256": "ea1e443ff361b6266850534bbb3245a2abc84b79e51eae23bff1d2cf56fdd8dc",
+    "statut": "ok",
+    "url": "https://www.santanderconsumer.it/sites/default/files/2022-08/SET%20INFORMATIVO_SANTANDER%20RCauto_Verti%20ed.2022.pdf"
+  }
+}

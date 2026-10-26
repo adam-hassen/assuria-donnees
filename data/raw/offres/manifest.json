@@ -225,6 +225,7 @@
     "statut": "ok"
   },
   "be_polisa_auto_046a93": {
+    "collecte_le": "2026-10-26T11:29:59+00:00",
     "offre": {
       "assureur": "Polisa",
       "langue": "nl",
@@ -233,7 +234,9 @@
       "type": "auto",
       "url": "https://polisa.be/wp-content/uploads/2025/10/IPID-polisa-NL-FR-v3-auto-20230607.pdf"
     },
-    "statut": "lien en erreur (HTTPError)"
+    "pages": 4,
+    "sha256": "b531edf3076b77059bb074b3942763f515effc57bd6cd20e45eff62da7513868",
+    "statut": "ok"
   },
   "be_pv_auto": {
     "collecte_le": "2026-10-21T12:32:02+00:00",
@@ -1991,6 +1994,7 @@
     "statut": "ok"
   },
   "nl_a_s_r_moto_a95f2f": {
+    "collecte_le": "2026-10-26T11:32:43+00:00",
     "offre": {
       "assureur": "a.s.r.",
       "langue": "nl",
@@ -1999,7 +2003,9 @@
       "type": "moto",
       "url": "https://kuiperverzekeringen.nl/storage/app/media/verzekeringkaarten/asr-2024/ASR-Verzekeringskaart-Bromfietsverzekering-WA-versie-6.pdf"
     },
-    "statut": "lien en erreur (ConnectionError)"
+    "pages": 3,
+    "sha256": "3671a7b86ec5178e1de9eb2992e5a04a02a858a53eb4262e6d7df749609076b9",
+    "statut": "ok"
   },
   "nl_interpolis_auto_f7cba4": {
     "collecte_le": "2026-10-21T13:02:28+00:00",

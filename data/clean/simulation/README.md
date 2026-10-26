@@ -2,10 +2,10 @@
 
 Fichiers **générés automatiquement** par `src/simulateur.py` à chaque mise à jour des offres.
 
-- **Mis à jour le** : 21/10/2026
-- **Offres réelles avec un prix de base** : 102 offres, 264 couples offre x formule
-- **Profils générés** : 1 921 (dont 25 cas typiques nommés)
-- **Prix simulés** : 36 978 devis, dont 31 392 acceptés et 5 586 refusés
+- **Mis à jour le** : 26/10/2026
+- **Offres réelles avec un prix de base** : 104 offres, 268 couples offre x formule
+- **Profils générés** : 2 049 (dont 25 cas typiques nommés)
+- **Prix simulés** : 37 445 devis, dont 31 777 acceptés et 5 668 refusés
 
 ## Le principe
 
@@ -38,13 +38,13 @@ Comme un assureur : **prix = prix de base de l'offre x coefficients du profil**.
 
 | Cas (France) | Moyenne simulée | Moyenne publiée (LeLynx 2026) |
 | --- | --- | --- |
-| Auto, tous profils | 1 595 €/an | 663 €/an |
+| Auto, tous profils | 1 588 €/an | 663 €/an |
 | Auto, tiers | 552 €/an | 526 €/an |
-| Auto, tous risques | 1 798 €/an | 784 €/an |
-| Auto, moins de 3 ans de permis | 2 901 €/an | 1 231 €/an |
+| Auto, tous risques | 1 791 €/an | 784 €/an |
+| Auto, moins de 3 ans de permis | 2 849 €/an | 1 231 €/an |
 | Auto, 65 à 69 ans | 1 181 €/an | 434 €/an |
-| Auto, conducteur expérimenté (10 ans de permis ou plus) | 857 €/an | 645 €/an |
-| Moto, tous profils | 901 €/an | 634 €/an |
+| Auto, conducteur expérimenté (10 ans de permis ou plus) | 868 €/an | 645 €/an |
+| Moto, tous profils | 899 €/an | 634 €/an |
 
 Les profils sont générés pour couvrir tous les cas, pas pour reproduire la population réelle : les moyennes ne doivent être que du même ordre de grandeur. Les moyennes simulées sont plus hautes car les profils risqués (jeunes, voitures puissantes, malus, tous risques sur véhicule cher) y sont volontairement aussi nombreux que les autres.
 

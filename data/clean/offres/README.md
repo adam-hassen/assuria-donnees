@@ -3,8 +3,8 @@
 Deuxième jeu de données du projet AssurIA (objectif 1 : personnaliser les offres d'assurance).
 Ce fichier est **généré automatiquement** à chaque collecte.
 
-- **Dernière nouvelle version d'un document** : 2026-10-21
-- **Offres** : 102 offres collectées sur 158 suivies
+- **Dernière nouvelle version d'un document** : 2026-10-26
+- **Offres** : 104 offres collectées sur 158 suivies
 - **Pays** : Allemagne, Autriche, Belgique, Espagne, France, Irlande, Italie, Pays-Bas, Portugal
 - **Format** : Parquet (`offres_europe.parquet`) et JSON lisible (`offres_europe.json`)
 
@@ -20,12 +20,12 @@ La liste des documents suivis est dans `config/offres.yaml` du dépôt [assuria-
 | --- | --- | --- | --- |
 | Allemagne | 6 | 1 | 7 |
 | Autriche | 1 | 0 | 1 |
-| Belgique | 14 | 10 | 24 |
+| Belgique | 15 | 10 | 25 |
 | Espagne | 8 | 1 | 9 |
 | France | 21 | 10 | 31 |
 | Irlande | 4 | 0 | 4 |
 | Italie | 9 | 8 | 17 |
-| Pays-Bas | 1 | 0 | 1 |
+| Pays-Bas | 1 | 1 | 2 |
 | Portugal | 5 | 3 | 8 |
 
 ## Garanties citées
@@ -34,13 +34,13 @@ La liste des documents suivis est dans `config/offres.yaml` du dépôt [assuria-
 | --- | --- |
 | responsabilite civile | 95 % |
 | vol | 75 % |
-| incendie | 74 % |
+| incendie | 73 % |
 | bris de glace | 47 % |
-| dommages vehicule | 70 % |
-| catastrophes naturelles | 57 % |
-| assistance | 69 % |
-| protection conducteur | 65 % |
-| protection juridique | 66 % |
+| dommages vehicule | 69 % |
+| catastrophes naturelles | 56 % |
+| assistance | 68 % |
+| protection conducteur | 64 % |
+| protection juridique | 65 % |
 | equipements | 21 % |
 | vehicule remplacement | 30 % |
 
@@ -66,6 +66,7 @@ La liste des documents suivis est dans `config/offres.yaml` du dépôt [assuria-
 | Belgique | auto | [P&V](https://www.pv.be/documents/2579080/0/IPID_495_PV+Auto_FR_0101294_201811.pdf/fea71854-173a-c58d-def1-20006281cb2b) | Document d’information Assurance véhicule automoteur - P&V Auto - 010/1294 - nov | 9/9 |
 | Belgique | auto | [P&V](https://www.pv.be/documents/2579080/0/IPID_495_PV+Oldtimer_FR_DEFweb.pdf/05d27820-016a-bf96-5ae3-8945de9f12f2) | Document d’information Assurance véhicule automoteur - P&V Auto - Oldtimer - 010 | 9/9 |
 | Belgique | auto | [P&V](https://www.pv.be/documents/2579080/0/IPID_495_PV+Auto_FR_DEFweb.pdf/2b84f6f9-5aec-989a-3084-20350cfc497a) | P&V Auto | 9/9 |
+| Belgique | auto | [Polisa](https://polisa.be/wp-content/uploads/2025/10/IPID-polisa-NL-FR-v3-auto-20230607.pdf) | Motorvoertuigenverzekering | 8/9 |
 | Belgique | auto | [Vivium](https://www.vivium.be/documents/1091840/1198871/IPID_495_VIV+Auto_FR_DEFweb.pdf/131a7864-14f3-5f23-918b-1d1cbb74097a?t=1741252135635) | Document d’information Assurance véhicule automoteur - VIVIUM Auto - 8.933F - se | 9/9 |
 | Belgique | auto | [Vivium](https://www.vivium.be/documents/1091840/1198851/IPID_495_VIV+Oldtimer_FR_DEFweb.pdf/64ebca30-4312-bb00-4cb0-dde9db82fe1f?t=1741252155937) | Document d’information Assurance véhicule automoteur - VIVIUM Auto - Oldtimer -  | 9/9 |
 | Belgique | auto | [Vivium](https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Oldtimer_8932F_2025.pdf/5e81ad48-5ca7-30b9-9b57-f57358cc9f12?t=1741171338427) | Document d’information Assurance véhicule automoteur - VIVIUM Auto - Oldtimer -  | 9/9 |
@@ -142,6 +143,7 @@ La liste des documents suivis est dans `config/offres.yaml` du dépôt [assuria-
 | Italie | moto | [Quixa](https://quixa.it/wp-content/documents/SetInformativi/ed.01.04.2025_Moto_Protetta.pdf) | Moto Protetta | 9/9 |
 | Italie | moto | [Verti](https://www.verti.it/media/SET-INFORMATIVO-MOTOCICLO-E-CICLOMOTORE-05-07-2025.pdf) | Motociclo e ciclomotore | 9/9 |
 | Pays-Bas | auto | [Interpolis](https://verzekeringskaarten.nl/interpolis/Interpolis-Autoverzekering-WA-AIEP-20) | Autoverzekering WA | 9/9 |
+| Pays-Bas | moto | [a.s.r.](https://kuiperverzekeringen.nl/storage/app/media/verzekeringkaarten/asr-2024/ASR-Verzekeringskaart-Bromfietsverzekering-WA-versie-6.pdf) | Bromfietsverzekering WA | 9/9 |
 | Portugal | auto | [CTT Seguros](https://www.ctt.pt/application/themes/pdfs/particulares/dinheiro-e-seguros/ipc-dds-automovel.pdf) | Seguro automóvel | 8/9 |
 | Portugal | auto | [CTT Seguros](https://www.ctt.pt/application/themes/pdfs/IPID_+AUTO_Plano%203.pdf) | Auto Plano 3 | 8/9 |
 | Portugal | auto | [Cofidis](https://campanhas-cofidis.pt/seguros/seguro-automovel/A1827_IPID_Protec_jun22.pdf) | Auto Protec | 8/9 |
@@ -158,7 +160,6 @@ Liens morts, doublons, ou documents qui ne sont pas des offres auto/moto (écart
 - `be_baloise_auto_407069` (Baloise) : lien en erreur (HTTPError), dernière version gardée
 - `be_ethias_auto_80ae6a` (Ethias) : lien en erreur (HTTPError)
 - `be_mini_carplan_auto_fc3337` (MINI CarPlan) : lien en erreur (ReadTimeout)
-- `be_polisa_auto_046a93` (Polisa) : lien en erreur (HTTPError)
 - `be_toyota_insurance_auto_f3858f` (Toyota Insurance) : lien en erreur (HTTPError)
 - `be_vivium_auto_e1e0c5` (Vivium) : doublon de be_vivium_auto_1fa4e5
 - `de_devk_auto_4d9d31` (DEVK) : PDF illisible (DependencyError)
@@ -211,7 +212,6 @@ Liens morts, doublons, ou documents qui ne sont pas des offres auto/moto (écart
 - `fr_club_auto_macsf_auto_ff01ac` (Club Auto MACSF) : doublon de fr_club_auto_mma_auto_2d9ab9
 - `fr_credit_mutuel_auto_79a9b0` (Crédit Mutuel) : écarté : pas un document d'offre auto/moto
 - `fr_mutuelle_des_motards_moto_78df94` (Mutuelle des Motards) : PDF illisible (DependencyError)
-- `nl_a_s_r_moto_a95f2f` (a.s.r.) : lien en erreur (ConnectionError)
 
 ## Colonnes
 

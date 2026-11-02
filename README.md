@@ -16,6 +16,7 @@ config/offres.yaml           liste des offres d'assurance suivies (liens vers le
 src/offres.py                collecte les documents d'offres et construit le fichier des offres
 config/prix_base.yaml        prix de base (prix d'entrée publiés, références de marché) avec leurs sources
 src/simulateur.py            simulateur de prix, profils générés et devis simulés
+src/profils.py               base de profils d'assurés organisée comme un formulaire de devis
 src/collecte.py              télécharge les sources et détecte les nouvelles versions
 src/nettoyage.py             nettoie, harmonise et fusionne en un seul fichier
 dashboard/app.py             dashboard Streamlit (lit les données directement dans ce dépôt)
@@ -24,6 +25,7 @@ data/raw/manuel/             fichiers à déposer à la main (Espagne)
 data/raw/offres/              documents d'offres (PDF) + manifest.json
 data/clean/offres/           offres_europe.parquet / .json + README
 data/clean/simulation/       prix_base, coefficients, profils, devis_simules + README
+data/profils/                25 008 profils auto et moto (formulaire de devis) + dictionnaire des champs
 data/externe/                offres auto françaises structurées avec vrais prix, freMTPL2 complet (voir data/externe/README.md)
 data/clean/                  sinistres_europe.parquet (nettoyé), sinistres_bruts.parquet (brut + anomalies), rapports
 .github/workflows/           pipeline automatique (chaque lundi, ou à la demande)

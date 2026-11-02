@@ -1,0 +1,45 @@
+﻿champ;question_du_formulaire;type;valeurs_possibles
+id_profil;Identifiant;texte;A000001 (auto), M000001 (moto), REF_… (profil d'un vrai prix relevé)
+type_vehicule;Quel véhicule souhaitez-vous assurer ?;choix;auto, moto
+profil_reference;Profil de référence d'un vrai prix;choix;vide, bonus_experienced, malus, young_driver, low_mileage, electric_vehicle, cancelled, vtc_driver, age_17
+age;Quelle est votre date de naissance ? (âge);entier;14 à 90
+sexe;Civilité (information seulement : interdit pour le tarif dans l'UE);choix;homme, femme
+situation_familiale;Situation familiale;choix;celibataire, en_couple, marie_pacse, veuf_divorce
+enfants_a_charge;Nombre d'enfants à charge;entier;0 à 3
+profession;Profession;choix;salarie, fonctionnaire, independant, etudiant, retraite, sans_emploi, commercial_itinerant, chauffeur_vtc, agriculteur, profession_liberale
+commune, code_postal, departement, region;Où habitez-vous ?;texte;30 communes réelles, de Paris au rural
+type_zone;Type de zone (déduit de la commune);choix;rural, periurbain, urbain, grande_ville, metropole
+logement;Type de logement;choix;maison, appartement
+type_permis;Type de permis;choix;"B (auto) ; AM, B+formation, A1, A2, A (moto)"
+annees_permis, date_permis;Date d'obtention du permis;entier / AAAA-MM;0 à 73 ans
+conduite_accompagnee;Avez-vous suivi la conduite accompagnée ?;oui/non;
+pays_permis;Pays d'obtention du permis;choix;France, Union européenne, hors Union européenne
+suspension_ou_annulation_5_ans;Suspension ou annulation de permis ces 5 dernières années ?;oui/non;
+deja_assure;Avez-vous déjà été assuré en tant que conducteur principal ?;oui/non;
+assure_conducteur_secondaire_avant;Avez-vous été conducteur secondaire ?;oui/non;
+annees_assure_36_derniers_mois;Combien de mois assuré sur les 36 derniers mois ? (en années);entier;0 à 3
+annees_assure_total;Depuis combien d'années êtes-vous assuré ?;entier;
+coefficient_bonus_malus;Votre coefficient bonus-malus (relevé d'information);décimal;"0,50 à 3,50 ; calculé selon la règle officielle"
+sinistres_responsables_36_mois;Sinistres responsables ces 36 derniers mois;entier;0 à 3
+sinistres_non_responsables_36_mois;Sinistres non responsables ces 36 derniers mois;entier;0 à 2
+bris_de_glace_36_mois;Bris de glace ces 36 derniers mois;entier;0 à 2
+resiliation_assureur;Avez-vous été résilié par un assureur ?;choix;non, non_paiement, sinistres, fausse_declaration
+condamnation_alcool_stupefiants;Condamnation pour alcool ou stupéfiants ?;oui/non;
+marque_modele, categorie_vehicule;Marque et modèle du véhicule;texte;38 voitures et 17 motos réelles
+energie;Énergie;choix;essence, diesel, hybride, electrique
+puissance_ch, puissance_fiscale_cv, cylindree_cm3;Puissance (carte grise);entier;
+groupe_sra;Classe de prix SRA du véhicule (approximation);lettre;C à W
+prix_neuf_eur, valeur_actuelle_eur;Valeur du véhicule;€;valeur actuelle = prix neuf x 0,85 ^ âge
+age_vehicule, annee_mise_en_circulation;Date de première mise en circulation;entier;0 à 20 ans
+achete_neuf;Véhicule acheté neuf ?;oui/non;
+mode_acquisition;Mode d'achat;choix;comptant, credit, LOA_LLD
+dispositif_antivol;Dispositif antivol;choix;aucun, alarme, traceur_gps, antivol_u_ou_bloque_disque
+usage;Usage du véhicule;choix;"prive, prive_trajet_travail, professionnel, vtc (auto) ; loisirs (moto)"
+kilometrage_annuel;Kilométrage annuel;entier;2 000 à 60 000 km
+stationnement_nuit;Où stationne le véhicule la nuit ?;choix;garage_ferme, parking_prive, voie_publique
+conducteur_secondaire;Conducteur secondaire;choix;aucun, conjoint, enfant_jeune_conducteur, parent
+formule_souhaitee;Formule souhaitée;choix;tiers, tiers_plus, tous_risques
+franchise_souhaitee;Niveau de franchise;choix;basse, standard, haute
+option_assistance_0km, option_vehicule_remplacement, option_conducteur_renforcee, option_equipement_casque;Options souhaitées;oui/non;
+budget_mensuel_max_eur;Budget mensuel maximum;€;10 à 200
+paiement;Fréquence de paiement;choix;mensuel, annuel

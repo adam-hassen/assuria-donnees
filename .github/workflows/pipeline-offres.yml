@@ -35,6 +35,9 @@ jobs:
       - name: Prix de base, simulateur et profils
         run: python -m src.simulateur
 
+      - name: Documents et passages pour le RAG (objectif 2)
+        run: python -m src.documents_rag
+
       - name: Enregistrer les données mises à jour dans le dépôt
         run: |
           git config user.name "pipeline-donnees"

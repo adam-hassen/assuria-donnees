@@ -38,6 +38,10 @@ jobs:
         if: steps.collecte.outputs.nouveautes == 'true' || github.event_name != 'schedule'
         run: python -m src.nettoyage
 
+      - name: Sinistres détaillés (objectif 3)
+        if: steps.collecte.outputs.nouveautes == 'true' || github.event_name != 'schedule'
+        run: python -m src.sinistres_detailles
+
       - name: Enregistrer les données mises à jour dans le dépôt
         run: |
           git config user.name "pipeline-donnees"

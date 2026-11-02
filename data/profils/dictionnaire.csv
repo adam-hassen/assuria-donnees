@@ -7,25 +7,34 @@ sexe;Civilité (information seulement : interdit pour le tarif dans l'UE);choix;
 situation_familiale;Situation familiale;choix;celibataire, en_couple, marie_pacse, veuf_divorce
 enfants_a_charge;Nombre d'enfants à charge;entier;0 à 3
 profession;Profession;choix;salarie, fonctionnaire, independant, etudiant, retraite, sans_emploi, commercial_itinerant, chauffeur_vtc, agriculteur, profession_liberale
-commune, code_postal, departement, region;Où habitez-vous ?;texte;30 communes réelles, de Paris au rural
+pays_residence, code_pays;Dans quel pays habitez-vous ?;choix;France (FR), Allemagne (DE), Italie (IT), Espagne (ES), Royaume-Uni (GB), Pays-Bas (NL), Belgique (BE), Pologne (PL), Portugal (PT), Autriche (AT), Suisse (CH), Suède (SE), Irlande (IE), Grèce (GR), Roumanie (RO), Tchéquie (CZ), Norvège (NO), Danemark (DK), Finlande (FI), Luxembourg (LU)
+commune, code_postal, region;Où habitez-vous ?;texte;174 villes réelles, de la capitale au village
+departement;Département (France seulement);texte;vide hors France
+devise_locale, taux_eur_devise;Devise du pays et valeur d'une unité en euros;texte / décimal;"EUR, GBP, CHF, PLN, SEK, NOK, DKK, CZK, RON ; taux approximatifs 2026"
 type_zone;Type de zone (déduit de la commune);choix;rural, periurbain, urbain, grande_ville, metropole
 logement;Type de logement;choix;maison, appartement
 type_permis;Type de permis;choix;"B (auto) ; AM, B+formation, A1, A2, A (moto)"
 annees_permis, date_permis;Date d'obtention du permis;entier / AAAA-MM;0 à 73 ans
 conduite_accompagnee;Avez-vous suivi la conduite accompagnée ?;oui/non;
-pays_permis;Pays d'obtention du permis;choix;France, Union européenne, hors Union européenne
+pays_permis;Pays d'obtention du permis;choix;pays de résidence ou l'un de 60 pays d'Europe, d'Afrique, d'Asie, d'Amérique et d'Océanie
+statut_permis;Statut du permis;choix;meme_pays, UE_EEE (reconnu tel quel), hors_UE
+age_minimal_permis;Âge minimal du permis dans le pays d'obtention;entier;14 à 20 selon pays et catégorie
+permis_echange_ou_reconnu;Votre permis est-il échangé ou reconnu dans le pays ?;oui/non;toujours oui pour un permis UE
 suspension_ou_annulation_5_ans;Suspension ou annulation de permis ces 5 dernières années ?;oui/non;
 deja_assure;Avez-vous déjà été assuré en tant que conducteur principal ?;oui/non;
 assure_conducteur_secondaire_avant;Avez-vous été conducteur secondaire ?;oui/non;
 annees_assure_36_derniers_mois;Combien de mois assuré sur les 36 derniers mois ? (en années);entier;0 à 3
 annees_assure_total;Depuis combien d'années êtes-vous assuré ?;entier;
-coefficient_bonus_malus;Votre coefficient bonus-malus (relevé d'information);décimal;"0,50 à 3,50 ; calculé selon la règle officielle"
+coefficient_bonus_malus;Coefficient bonus-malus, équivalent de la règle française (pour comparer tous les pays);décimal;0,50 à 3,50
+systeme_bonus_malus_national;Système de bonus-malus du pays;choix;crm_france, sf_klasse (DE), classe_merito (IT), degre_bonus_malus (BE), stufe_autriche (AT), trede (NL), bonus_malus_roumanie (RO), bonus_norvege, bonus_finlande, no_claims_bonus (GB, IE), annees_sans_sinistre (autres)
+niveau_bonus_malus_national;Niveau dans le système du pays (tel qu'écrit sur le relevé);texte;"ex. CRM 0.68, classe 9, degré 6, SF 12, Stufe 4, trede 14, B3, bonus 60 %, 5 ans de no claims bonus ; règles simplifiées"
+annees_sans_sinistre;Années d'assurance sans sinistre responsable;entier;commun à tous les pays
 sinistres_responsables_36_mois;Sinistres responsables ces 36 derniers mois;entier;0 à 3
 sinistres_non_responsables_36_mois;Sinistres non responsables ces 36 derniers mois;entier;0 à 2
 bris_de_glace_36_mois;Bris de glace ces 36 derniers mois;entier;0 à 2
 resiliation_assureur;Avez-vous été résilié par un assureur ?;choix;non, non_paiement, sinistres, fausse_declaration
 condamnation_alcool_stupefiants;Condamnation pour alcool ou stupéfiants ?;oui/non;
-marque_modele, categorie_vehicule;Marque et modèle du véhicule;texte;38 voitures et 17 motos réelles
+marque_modele, categorie_vehicule;Marque et modèle du véhicule;texte;58 voitures et 27 motos réelles
 energie;Énergie;choix;essence, diesel, hybride, electrique
 puissance_ch, puissance_fiscale_cv, cylindree_cm3;Puissance (carte grise);entier;
 groupe_sra;Classe de prix SRA du véhicule (approximation);lettre;C à W
@@ -41,5 +50,6 @@ conducteur_secondaire;Conducteur secondaire;choix;aucun, conjoint, enfant_jeune_
 formule_souhaitee;Formule souhaitée;choix;tiers, tiers_plus, tous_risques
 franchise_souhaitee;Niveau de franchise;choix;basse, standard, haute
 option_assistance_0km, option_vehicule_remplacement, option_conducteur_renforcee, option_equipement_casque;Options souhaitées;oui/non;
-budget_mensuel_max_eur;Budget mensuel maximum;€;10 à 200
+budget_mensuel_max_eur, budget_mensuel_max_devise_locale;Budget mensuel maximum;€ / devise;10 à 200 €
+valeur_actuelle_devise_locale;Valeur du véhicule en devise locale;devise;
 paiement;Fréquence de paiement;choix;mensuel, annuel

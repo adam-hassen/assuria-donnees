@@ -1,6 +1,7 @@
 """
-Base de profils d'assurés auto et moto, organisée comme les formulaires de devis des assureurs français
-(conducteur, permis, antécédents, véhicule, usage, stationnement, couverture souhaitée).
+Base de profils d'assurés auto et moto dans 20 pays européens, avec des permis obtenus partout dans le monde,
+organisée comme les formulaires de devis des assureurs (conducteur, permis, antécédents, véhicule, usage,
+stationnement, couverture souhaitée).
 
 Les profils sont générés pour couvrir presque tous les cas possibles, avec des règles de cohérence
 (âge et permis, bonus-malus calculé selon la règle officielle, véhicule et permis moto, usage VTC…).
@@ -13,7 +14,7 @@ Sorties (data/profils/) :
   couverture.csv                  combien de profils pour chaque valeur de chaque champ
   README.md
 
-Lancement :  python -m src.profils        (NB_AUTO=20000 NB_MOTO=5000 par défaut)
+Lancement :  python -m src.profils        (NB_AUTO=80000 NB_MOTO=20000 par défaut)
 """
 from __future__ import annotations
 
@@ -25,11 +26,13 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from src.pays_referentiel import AUTOS_EUROPE, MOTOS_EUROPE, PAYS, PAYS_PERMIS_MONDE, VILLES
+
 SORTIE = Path("data/profils")
 GRAINE = 2026
 AUJOURDHUI = date(2026, 11, 1)
-NB_AUTO = int(os.environ.get("NB_AUTO", "20000"))
-NB_MOTO = int(os.environ.get("NB_MOTO", "5000"))
+NB_AUTO = int(os.environ.get("NB_AUTO", "80000"))
+NB_MOTO = int(os.environ.get("NB_MOTO", "20000"))
 
 # ------------------------------------------------------------------ référentiels
 # modèle, catégorie, énergie, puissance ch, puissance fiscale CV, prix neuf €, groupe SRA (classe de prix, A à Z simplifié)
@@ -53,7 +56,7 @@ AUTOS = [
     ("Volkswagen Golf GTI", "sportive", "essence", 245, 14, 45000, "P"), ("Renault Mégane RS", "sportive", "essence", 300, 17, 42000, "P"),
     ("BMW M3", "sportive", "essence", 510, 37, 95000, "U"), ("Porsche 911", "sportive", "essence", 385, 29, 125000, "W"),
     ("Mazda MX-5", "cabriolet", "essence", 132, 8, 32000, "J"), ("Toyota RAV4", "suv", "hybride", 218, 8, 42000, "K"),
-]
+] + AUTOS_EUROPE
 MOTOS = [  # modèle, catégorie, permis minimal, kW, cylindrée cm3, prix neuf €
     ("Peugeot Kisbee 50", "scooter_50", "AM", 2.5, 50, 1900), ("Yamaha Neo's 50", "scooter_50", "AM", 2.5, 50, 2300),
     ("Yamaha NMAX 125", "scooter_125", "B+formation", 9, 125, 3800), ("Honda PCX 125", "scooter_125", "B+formation", 9, 125, 3600),
@@ -64,7 +67,7 @@ MOTOS = [  # modèle, catégorie, permis minimal, kW, cylindrée cm3, prix neuf 
     ("Honda CBR1000RR-R", "sportive", "A", 160, 1000, 25000), ("Yamaha R1", "sportive", "A", 147, 998, 21000),
     ("BMW R 1250 RT", "gt", "A", 100, 1254, 24000), ("Yamaha TMAX 560", "maxi_scooter", "A2", 35, 562, 13000),
     ("Harley-Davidson Sportster S", "custom", "A", 89, 1252, 17000),
-]
+] + MOTOS_EUROPE
 # commune, code postal, département, région, type de zone
 COMMUNES = [
     ("Paris 15e", "75015", "75", "Île-de-France", "metropole"), ("Marseille", "13001", "13", "Provence-Alpes-Côte d'Azur", "metropole"),
@@ -102,22 +105,95 @@ def coefficient_bonus_malus(annees_assure: int, sinistres_resp: int, a_ete_assur
     return round(float(np.clip(crm, 0.50, 3.50)), 2)
 
 
+# ------------------------------------------------------------------ pays
+CODES = list(PAYS)
+POIDS_PAYS = np.array([PAYS[c][1] for c in CODES]); POIDS_PAYS = POIDS_PAYS / POIDS_PAYS.sum()
+POIDS_PERMIS = np.array([x[3] for x in PAYS_PERMIS_MONDE], float); POIDS_PERMIS /= POIDS_PERMIS.sum()
+LIEUX = {"FR": [(c[0], c[1], c[3], c[4], c[2]) for c in COMMUNES]}
+LIEUX.update({k: [(v[0], v[1], v[2], v[3], None) for v in vs] for k, vs in VILLES.items()})
+ZONES = ["rural", "periurbain", "urbain", "grande_ville", "metropole"]
+
+
+def tirer_pays(rng):
+    return CODES[rng.choice(len(CODES), p=POIDS_PAYS)]
+
+
+def lieu(rng, code, zone=None):
+    choix = [x for x in LIEUX[code] if zone is None or x[3] == zone] or LIEUX[code]
+    v = choix[rng.integers(len(choix))]
+    nom, devise, taux = PAYS[code][0], PAYS[code][2], PAYS[code][3]
+    return {"pays_residence": nom, "code_pays": code, "commune": v[0], "code_postal": v[1], "departement": v[4],
+            "region": v[2], "type_zone": v[3], "devise_locale": devise, "taux_eur_devise": taux}
+
+
+def permis_origine(rng, code, part_etranger=0.15):
+    """Pays où le permis a été obtenu : le pays de résidence le plus souvent, sinon un pays d'Europe ou du monde."""
+    if rng.random() >= part_etranger:
+        return PAYS[code][0], "meme_pays", PAYS[code][4]
+    while True:
+        nom, statut, age_min, _ = PAYS_PERMIS_MONDE[rng.choice(len(PAYS_PERMIS_MONDE), p=POIDS_PERMIS)]
+        if nom != PAYS[code][0]:
+            # pour un résident britannique ou suisse, un permis UE reste « UE_EEE » ; un permis britannique est hors UE
+            return nom, statut, age_min
+
+
+def bonus_malus_national(code, annees_sans_sinistre, sinistres, deja_assure, crm):
+    """Niveau dans le système national de bonus-malus (règles simplifiées, documentées dans le dictionnaire)."""
+    systeme = PAYS[code][7]
+    a, s = annees_sans_sinistre, sinistres
+    if not deja_assure:
+        a = 0
+    if systeme == "crm_france":
+        return systeme, f"CRM {crm:.2f}"
+    if systeme == "classe_merito":       # Italie : entrée en classe 14, -1 par an sans sinistre, +2 par sinistre, 1 à 18
+        return systeme, f"classe {int(np.clip(14 - a + 2 * s, 1, 18))}"
+    if systeme == "degre_bonus_malus":   # Belgique : entrée au degré 11, -1 par an, +5 par sinistre, 0 à 22
+        return systeme, f"degré {int(np.clip(11 - a + 5 * s, 0, 22))}"
+    if systeme == "stufe_autriche":      # Autriche : entrée Stufe 9, -1 par an, +3 par sinistre, 0 à 17
+        return systeme, f"Stufe {int(np.clip(9 - a + 3 * s, 0, 17))}"
+    if systeme == "sf_klasse":           # Allemagne : SF = années sans sinistre, un sinistre fait reculer d'environ 4 classes
+        sf = a - 4 * s
+        return systeme, "SF 0" if sf == 0 else ("M (malus)" if sf < 0 else f"SF {min(sf, 50)}")
+    if systeme == "trede":               # Pays-Bas : entrée trede 5, +1 par an, -5 par sinistre, 1 à 20
+        return systeme, f"trede {int(np.clip(5 + a - 5 * s, 1, 20))}"
+    if systeme == "bonus_malus_roumanie":  # Roumanie : B0 à l'entrée, B1..B8 en bonus, M1..M8 en malus
+        n = a - 2 * s
+        return systeme, "B0" if n == 0 else (f"B{min(n, 8)}" if n > 0 else f"M{min(-n, 8)}")
+    if systeme in ("bonus_norvege", "bonus_finlande"):  # réduction en % (Norvège jusqu'à 75 %, Finlande jusqu'à 80 %)
+        plafond = 75 if systeme == "bonus_norvege" else 80
+        return systeme, f"bonus {int(np.clip(20 + 10 * a - 30 * s, -50, plafond))} %"
+    if systeme == "no_claims_bonus":     # Royaume-Uni, Irlande : années de bonus sans sinistre
+        n = max(0, a - 2 * s)
+        return systeme, f"{n} an{'s' if n > 1 else ''} de no claims bonus"
+    n = max(0, a - 2 * s)
+    return systeme, f"{n} an{'s' if n > 1 else ''} sans sinistre"
+
+
 # ------------------------------------------------------------------ génération
 def tirer_age(rng, tranche):
     a, b = tranche
     return int(rng.integers(a, b + 1))
 
 
-def profil_auto(rng, i, age=None, vehicule=None, commune=None, **force):
-    age = age or tirer_age(rng, TRANCHES[rng.choice(len(TRANCHES), p=[.02, .08, .14, .12, .17, .15, .13, .1, .06, .03])])
-    aac = bool(force.get("conduite_accompagnee", age <= 22 and rng.random() < 0.4))
-    age_permis_min = 17
+def profil_auto(rng, i, age=None, vehicule=None, commune=None, pays=None, zone=None, **force):
+    code = pays or tirer_pays(rng)
+    loc = lieu(rng, code, zone)
+    if commune is not None:
+        loc = {**lieu(rng, "FR"), "commune": commune[0], "code_postal": commune[1], "departement": commune[2],
+               "region": commune[3], "type_zone": commune[4]}
+        code = "FR"
+    pays_permis, statut_permis, age_permis_min = permis_origine(rng, code)
+    if "pays_permis" in force:
+        pays_permis, statut_permis, age_permis_min = force.pop("pays_permis"), "meme_pays", PAYS[code][4]
+    tranches_possibles = [t for t in TRANCHES if t[1] >= age_permis_min]
+    p = np.array([.02, .08, .14, .12, .17, .15, .13, .1, .06, .03])[[TRANCHES.index(t) for t in tranches_possibles]]
+    age = age or tirer_age(rng, tranches_possibles[rng.choice(len(tranches_possibles), p=p / p.sum())])
+    age = max(age, age_permis_min)
+    aac = bool(force.get("conduite_accompagnee", age <= 22 and statut_permis == "meme_pays" and rng.random() < 0.4))
     max_permis = max(0, age - age_permis_min)
     annees_permis = int(force.get("annees_permis", min(max_permis, max(0, int(rng.normal(max_permis * 0.85, 2))))))
     if age <= 25 and "annees_permis" not in force:
         annees_permis = int(rng.integers(0, max_permis + 1))
-    pays_permis = force.get("pays_permis", rng.choice(["France", "France", "France", "France", "France", "France",
-                                                       "Union européenne", "hors Union européenne"]))
     jamais_assure = annees_permis == 0 or rng.random() < (0.25 if annees_permis <= 2 else 0.02)
     jamais_assure = bool(force.get("jamais_assure", jamais_assure))
     conducteur_secondaire_avant = bool(not jamais_assure and annees_permis <= 3 and rng.random() < 0.5)
@@ -152,9 +228,14 @@ def profil_auto(rng, i, age=None, vehicule=None, commune=None, **force):
     valeur = int(v[5] * 0.85 ** age_vehicule)
     acquisition = force.get("mode_acquisition", "LOA_LLD" if age_vehicule <= 3 and rng.random() < 0.45 else
                             rng.choice(["comptant", "comptant", "credit"]))
-    c = commune or COMMUNES[rng.integers(len(COMMUNES))]
     stationnement = force.get("stationnement_nuit", rng.choice(["garage_ferme", "parking_prive", "voie_publique"],
-                                                               p=[.35, .3, .35] if c[4] != "metropole" else [.15, .35, .5]))
+                                                               p=[.35, .3, .35] if loc["type_zone"] != "metropole" else [.15, .35, .5]))
+    if statut_permis == "hors_UE" and "jamais_assure" not in force and rng.random() < 0.5:
+        # beaucoup de conducteurs au permis étranger n'ont pas de relevé d'information dans leur nouveau pays
+        jamais_assure, annees_assure, sinistres_resp, crm, conducteur_secondaire_avant = True, 0, 0, 1.0, False
+    annees_sans = max(0, annees_assure - min(sinistres_resp, 3))
+    systeme, niveau = bonus_malus_national(code, annees_sans, sinistres_resp, not jamais_assure, crm)
+    budget = int(rng.choice([20, 30, 40, 50, 60, 80, 100, 150, 200]))
     formule = force.get("formule_souhaitee", "tous_risques" if (age_vehicule <= 4 or acquisition != "comptant" or v[5] > 40000)
                         else rng.choice(["tiers", "tiers_plus", "tous_risques"], p=[.45, .4, .15]))
     conducteur_sec = force.get("conducteur_secondaire", rng.choice(["aucun"] * 6 + ["conjoint", "enfant_jeune_conducteur", "parent"]))
@@ -164,16 +245,19 @@ def profil_auto(rng, i, age=None, vehicule=None, commune=None, **force):
         "age": age, "sexe": rng.choice(["homme", "femme"]), "situation_familiale": force.get("situation_familiale",
             rng.choice(["celibataire", "en_couple", "marie_pacse", "veuf_divorce"]) if age >= 22 else "celibataire"),
         "enfants_a_charge": int(rng.choice([0, 0, 1, 2, 3]) if 25 <= age <= 60 else 0),
-        "profession": profession, "commune": c[0], "code_postal": c[1], "departement": c[2], "region": c[3], "type_zone": c[4],
-        "logement": rng.choice(["maison", "appartement"], p=[.7, .3] if c[4] in ("rural", "periurbain") else [.25, .75]),
+        "profession": profession, **loc,
+        "logement": rng.choice(["maison", "appartement"], p=[.7, .3] if loc["type_zone"] in ("rural", "periurbain") else [.25, .75]),
         # permis
         "type_permis": "B", "annees_permis": annees_permis, "date_permis": f"{AUJOURDHUI.year - annees_permis}-{rng.integers(1, 13):02d}",
-        "conduite_accompagnee": aac, "pays_permis": pays_permis,
+        "conduite_accompagnee": aac, "pays_permis": pays_permis, "statut_permis": statut_permis,
+        "age_minimal_permis": age_permis_min,
+        "permis_echange_ou_reconnu": True if statut_permis != "hors_UE" else bool(rng.random() < 0.7),
         "suspension_ou_annulation_5_ans": bool(force.get("suspension_ou_annulation_5_ans", rng.random() < 0.02)),
         # antécédents d'assurance
         "deja_assure": not jamais_assure, "assure_conducteur_secondaire_avant": conducteur_secondaire_avant,
         "annees_assure_36_derniers_mois": min(annees_assure, 3), "annees_assure_total": annees_assure,
-        "coefficient_bonus_malus": crm, "sinistres_responsables_36_mois": sinistres_resp,
+        "coefficient_bonus_malus": crm, "systeme_bonus_malus_national": systeme, "niveau_bonus_malus_national": niveau,
+        "annees_sans_sinistre": annees_sans if not jamais_assure else 0, "sinistres_responsables_36_mois": sinistres_resp,
         "sinistres_non_responsables_36_mois": sinistres_non_resp, "bris_de_glace_36_mois": bris_glace,
         "resiliation_assureur": resiliation, "condamnation_alcool_stupefiants": bool(rng.random() < 0.01),
         # véhicule
@@ -188,18 +272,25 @@ def profil_auto(rng, i, age=None, vehicule=None, commune=None, **force):
         "formule_souhaitee": formule, "franchise_souhaitee": force.get("franchise_souhaitee", rng.choice(["basse", "standard", "standard", "haute"])),
         "option_assistance_0km": bool(rng.random() < 0.5), "option_vehicule_remplacement": bool(rng.random() < 0.35),
         "option_conducteur_renforcee": bool(rng.random() < 0.3),
-        "budget_mensuel_max_eur": int(rng.choice([20, 30, 40, 50, 60, 80, 100, 150, 200])),
+        "budget_mensuel_max_eur": budget,
+        "budget_mensuel_max_devise_locale": round(budget / loc["taux_eur_devise"]),
+        "valeur_actuelle_devise_locale": round(valeur / loc["taux_eur_devise"]),
         "paiement": rng.choice(["mensuel", "mensuel", "annuel"]),
     }
 
 
-def profil_moto(rng, i, age=None, moto=None, commune=None, **force):
+def profil_moto(rng, i, age=None, moto=None, commune=None, pays=None, **force):
+    code = pays or tirer_pays(rng)
+    loc = lieu(rng, code)
     m = moto or MOTOS[rng.integers(len(MOTOS))]
     permis_min = m[2]
-    age_min = {"AM": 14, "B+formation": 18, "A1": 16, "A2": 18, "A": 20}[permis_min]
+    if permis_min == "B+formation":  # 125 cm3 : règle propre à chaque pays
+        permis_min = PAYS[code][6]
+    age_b = PAYS[code][4] if PAYS[code][4] >= 18 else 18
+    age_min = {"AM": PAYS[code][5], "A1": 16, "A2": 18, "A": 20, "B": age_b}.get(permis_min, age_b)
     age = max(age or tirer_age(rng, TRANCHES[1 + rng.choice(9, p=[.1, .14, .14, .2, .16, .12, .08, .04, .02])]), age_min)
     if permis_min == "AM":
-        age = age if rng.random() < 0.5 else int(rng.integers(14, 18))
+        age = age if rng.random() < 0.5 else int(rng.integers(age_min, 18))
     annees_permis_moto = int(min(max(0, age - age_min), rng.choice([0, 1, 2, 3, 5, 8, 12, 20, 30])))
     if permis_min == "A" and annees_permis_moto < 2 and rng.random() < 0.5:
         permis_min_affiche = "A2 (moins de 2 ans) : moto non autorisée"
@@ -208,30 +299,36 @@ def profil_moto(rng, i, age=None, moto=None, commune=None, **force):
     sinistres_resp = int(rng.choice([0] * 14 + [1] * 4 + [2, 3]))
     deja = annees_permis_moto > 0 and rng.random() > 0.1
     annees_assure = annees_permis_moto if deja else 0
-    c = commune or COMMUNES[rng.integers(len(COMMUNES))]
+    pays_permis, statut_permis, _ = permis_origine(rng, code, 0.10)
+    annees_sans = max(0, annees_assure - min(sinistres_resp, 3)) if deja else 0
+    crm = coefficient_bonus_malus(annees_assure, sinistres_resp if deja else 0, deja)
+    systeme, niveau = bonus_malus_national(code, annees_sans, sinistres_resp if deja else 0, deja, crm)
     age_vehicule = int(rng.choice([0, 1, 2, 3, 5, 7, 10, 15]))
+    valeur = int(m[5] * 0.85 ** age_vehicule)
+    budget = int(rng.choice([10, 15, 20, 30, 40, 60, 80, 120]))
     return {
         "id_profil": f"M{i:06d}", "type_vehicule": "moto", "profil_reference": None,
         "age": age, "sexe": rng.choice(["homme", "homme", "homme", "femme"]),
         "situation_familiale": rng.choice(["celibataire", "en_couple", "marie_pacse"]) if age >= 22 else "celibataire",
         "enfants_a_charge": int(rng.choice([0, 0, 1, 2]) if 25 <= age <= 60 else 0),
         "profession": "etudiant" if age <= 22 else "retraite" if age >= 64 else rng.choice(["salarie", "fonctionnaire", "independant", "sans_emploi"]),
-        "commune": c[0], "code_postal": c[1], "departement": c[2], "region": c[3], "type_zone": c[4],
-        "logement": rng.choice(["maison", "appartement"]),
+        **loc, "logement": rng.choice(["maison", "appartement"]),
         "type_permis": permis_min_affiche, "annees_permis": annees_permis_moto,
         "date_permis": f"{AUJOURDHUI.year - annees_permis_moto}-{rng.integers(1, 13):02d}",
-        "conduite_accompagnee": False, "pays_permis": rng.choice(["France"] * 7 + ["Union européenne"]),
+        "conduite_accompagnee": False, "pays_permis": pays_permis, "statut_permis": statut_permis, "age_minimal_permis": age_min,
+        "permis_echange_ou_reconnu": True if statut_permis != "hors_UE" else bool(rng.random() < 0.7),
         "suspension_ou_annulation_5_ans": bool(rng.random() < 0.02),
         "deja_assure": deja, "assure_conducteur_secondaire_avant": False,
         "annees_assure_36_derniers_mois": min(annees_assure, 3), "annees_assure_total": annees_assure,
-        "coefficient_bonus_malus": coefficient_bonus_malus(annees_assure, sinistres_resp if deja else 0, deja),
+        "coefficient_bonus_malus": crm, "systeme_bonus_malus_national": systeme, "niveau_bonus_malus_national": niveau,
+        "annees_sans_sinistre": annees_sans,
         "sinistres_responsables_36_mois": sinistres_resp if deja else 0,
         "sinistres_non_responsables_36_mois": int(rng.choice([0] * 8 + [1, 2])), "bris_de_glace_36_mois": 0,
         "resiliation_assureur": rng.choice(["non"] * 40 + ["non_paiement", "sinistres"]),
         "condamnation_alcool_stupefiants": bool(rng.random() < 0.01),
-        "marque_modele": m[0], "categorie_vehicule": m[1], "energie": "essence", "puissance_ch": int(round(m[3] * 1.36)),
-        "puissance_fiscale_cv": None, "cylindree_cm3": m[4], "groupe_sra": None, "prix_neuf_eur": m[5], "age_vehicule": age_vehicule,
-        "annee_mise_en_circulation": AUJOURDHUI.year - age_vehicule, "valeur_actuelle_eur": int(m[5] * 0.85 ** age_vehicule),
+        "marque_modele": m[0], "categorie_vehicule": m[1], "energie": "electrique" if m[4] == 0 else "essence", "puissance_ch": int(round(m[3] * 1.36)),
+        "puissance_fiscale_cv": None, "cylindree_cm3": m[4] or None, "groupe_sra": None, "prix_neuf_eur": m[5], "age_vehicule": age_vehicule,
+        "annee_mise_en_circulation": AUJOURDHUI.year - age_vehicule, "valeur_actuelle_eur": valeur,
         "achete_neuf": age_vehicule == 0, "mode_acquisition": rng.choice(["comptant", "comptant", "credit"]),
         "dispositif_antivol": rng.choice(["aucun", "antivol_u_ou_bloque_disque", "alarme", "traceur_gps"]),
         "usage": rng.choice(["loisirs", "prive_trajet_travail", "prive_trajet_travail", "professionnel"]),
@@ -243,7 +340,9 @@ def profil_moto(rng, i, age=None, moto=None, commune=None, **force):
         "option_assistance_0km": bool(rng.random() < 0.5), "option_vehicule_remplacement": False,
         "option_conducteur_renforcee": bool(rng.random() < 0.4),
         "option_equipement_casque": bool(rng.random() < 0.5),
-        "budget_mensuel_max_eur": int(rng.choice([10, 15, 20, 30, 40, 60, 80, 120])),
+        "budget_mensuel_max_eur": budget,
+        "budget_mensuel_max_devise_locale": round(budget / loc["taux_eur_devise"]),
+        "valeur_actuelle_devise_locale": round(valeur / loc["taux_eur_devise"]),
         "paiement": rng.choice(["mensuel", "annuel"]),
     }
 
@@ -289,8 +388,14 @@ def verifier(df: pd.DataFrame) -> list[str]:
     """Règles de cohérence : renvoie la liste des problèmes trouvés (doit être vide)."""
     pb = []
     auto = df[df.type_vehicule == "auto"]
-    if (auto.annees_permis > auto.age - 17).any():
-        pb.append("permis auto obtenu avant 17 ans")
+    if (auto.annees_permis > auto.age - auto.age_minimal_permis).any():
+        pb.append("permis auto obtenu avant l'âge minimal du pays d'obtention")
+    if (df.age < df.age_minimal_permis).any():
+        pb.append("conducteur plus jeune que l'âge minimal du permis")
+    if df.code_pays.isna().any() or df.commune.isna().any():
+        pb.append("pays ou ville manquant")
+    if (df.annees_sans_sinistre > df.annees_assure_total).any():
+        pb.append("plus d'années sans sinistre que d'années d'assurance")
     if (df.coefficient_bonus_malus < 0.5).any() or (df.coefficient_bonus_malus > 3.5).any():
         pb.append("bonus-malus hors de 0,50 à 3,50")
     if ((~df.deja_assure) & (df.sinistres_responsables_36_mois > 0)).any():
@@ -312,19 +417,28 @@ def dictionnaire() -> pd.DataFrame:
         ("situation_familiale", "Situation familiale", "choix", "celibataire, en_couple, marie_pacse, veuf_divorce"),
         ("enfants_a_charge", "Nombre d'enfants à charge", "entier", "0 à 3"),
         ("profession", "Profession", "choix", ", ".join(PROFESSIONS)),
-        ("commune, code_postal, departement, region", "Où habitez-vous ?", "texte", "30 communes réelles, de Paris au rural"),
+        ("pays_residence, code_pays", "Dans quel pays habitez-vous ?", "choix", ", ".join(f"{v[0]} ({k})" for k, v in PAYS.items())),
+        ("commune, code_postal, region", "Où habitez-vous ?", "texte", f"{sum(len(v) for v in LIEUX.values())} villes réelles, de la capitale au village"),
+        ("departement", "Département (France seulement)", "texte", "vide hors France"),
+        ("devise_locale, taux_eur_devise", "Devise du pays et valeur d'une unité en euros", "texte / décimal", "EUR, GBP, CHF, PLN, SEK, NOK, DKK, CZK, RON ; taux approximatifs 2026"),
         ("type_zone", "Type de zone (déduit de la commune)", "choix", "rural, periurbain, urbain, grande_ville, metropole"),
         ("logement", "Type de logement", "choix", "maison, appartement"),
         ("type_permis", "Type de permis", "choix", "B (auto) ; AM, B+formation, A1, A2, A (moto)"),
         ("annees_permis, date_permis", "Date d'obtention du permis", "entier / AAAA-MM", "0 à 73 ans"),
         ("conduite_accompagnee", "Avez-vous suivi la conduite accompagnée ?", "oui/non", ""),
-        ("pays_permis", "Pays d'obtention du permis", "choix", "France, Union européenne, hors Union européenne"),
+        ("pays_permis", "Pays d'obtention du permis", "choix", f"pays de résidence ou l'un de {len(PAYS_PERMIS_MONDE)} pays d'Europe, d'Afrique, d'Asie, d'Amérique et d'Océanie"),
+        ("statut_permis", "Statut du permis", "choix", "meme_pays, UE_EEE (reconnu tel quel), hors_UE"),
+        ("age_minimal_permis", "Âge minimal du permis dans le pays d'obtention", "entier", "14 à 20 selon pays et catégorie"),
+        ("permis_echange_ou_reconnu", "Votre permis est-il échangé ou reconnu dans le pays ?", "oui/non", "toujours oui pour un permis UE"),
         ("suspension_ou_annulation_5_ans", "Suspension ou annulation de permis ces 5 dernières années ?", "oui/non", ""),
         ("deja_assure", "Avez-vous déjà été assuré en tant que conducteur principal ?", "oui/non", ""),
         ("assure_conducteur_secondaire_avant", "Avez-vous été conducteur secondaire ?", "oui/non", ""),
         ("annees_assure_36_derniers_mois", "Combien de mois assuré sur les 36 derniers mois ? (en années)", "entier", "0 à 3"),
         ("annees_assure_total", "Depuis combien d'années êtes-vous assuré ?", "entier", ""),
-        ("coefficient_bonus_malus", "Votre coefficient bonus-malus (relevé d'information)", "décimal", "0,50 à 3,50 ; calculé selon la règle officielle"),
+        ("coefficient_bonus_malus", "Coefficient bonus-malus, équivalent de la règle française (pour comparer tous les pays)", "décimal", "0,50 à 3,50"),
+        ("systeme_bonus_malus_national", "Système de bonus-malus du pays", "choix", "crm_france, sf_klasse (DE), classe_merito (IT), degre_bonus_malus (BE), stufe_autriche (AT), trede (NL), bonus_malus_roumanie (RO), bonus_norvege, bonus_finlande, no_claims_bonus (GB, IE), annees_sans_sinistre (autres)"),
+        ("niveau_bonus_malus_national", "Niveau dans le système du pays (tel qu'écrit sur le relevé)", "texte", "ex. CRM 0.68, classe 9, degré 6, SF 12, Stufe 4, trede 14, B3, bonus 60 %, 5 ans de no claims bonus ; règles simplifiées"),
+        ("annees_sans_sinistre", "Années d'assurance sans sinistre responsable", "entier", "commun à tous les pays"),
         ("sinistres_responsables_36_mois", "Sinistres responsables ces 36 derniers mois", "entier", "0 à 3"),
         ("sinistres_non_responsables_36_mois", "Sinistres non responsables ces 36 derniers mois", "entier", "0 à 2"),
         ("bris_de_glace_36_mois", "Bris de glace ces 36 derniers mois", "entier", "0 à 2"),
@@ -346,14 +460,15 @@ def dictionnaire() -> pd.DataFrame:
         ("formule_souhaitee", "Formule souhaitée", "choix", "tiers, tiers_plus, tous_risques"),
         ("franchise_souhaitee", "Niveau de franchise", "choix", "basse, standard, haute"),
         ("option_assistance_0km, option_vehicule_remplacement, option_conducteur_renforcee, option_equipement_casque", "Options souhaitées", "oui/non", ""),
-        ("budget_mensuel_max_eur", "Budget mensuel maximum", "€", "10 à 200"),
+        ("budget_mensuel_max_eur, budget_mensuel_max_devise_locale", "Budget mensuel maximum", "€ / devise", "10 à 200 €"),
+        ("valeur_actuelle_devise_locale", "Valeur du véhicule en devise locale", "devise", ""),
         ("paiement", "Fréquence de paiement", "choix", "mensuel, annuel"),
     ]
     return pd.DataFrame(d, columns=["champ", "question_du_formulaire", "type", "valeurs_possibles"])
 
 
 def couverture(df: pd.DataFrame) -> pd.DataFrame:
-    champs = ["type_vehicule", "type_zone", "profession", "pays_permis", "resiliation_assureur", "categorie_vehicule", "energie",
+    champs = ["type_vehicule", "pays_residence", "statut_permis", "pays_permis", "systeme_bonus_malus_national", "devise_locale", "type_zone", "profession", "resiliation_assureur", "categorie_vehicule", "energie",
               "usage", "stationnement_nuit", "formule_souhaitee", "franchise_souhaitee", "conducteur_secondaire", "mode_acquisition"]
     lignes = []
     tr = pd.cut(df.age, [13, 17, 20, 25, 30, 40, 50, 60, 70, 80, 95], labels=["14-17", "18-20", "21-25", "26-30", "31-40",
@@ -375,33 +490,40 @@ def couverture(df: pd.DataFrame) -> pd.DataFrame:
 
 def ecrire_readme(df, couv, problemes):
     n = lambda x: f"{x:,}".replace(",", " ")
-    l = ["# Base de profils d'assurés auto et moto", "",
-         "Profils fictifs mais **réalistes**, organisés comme les formulaires de devis des assureurs français, pour estimer "
+    l = ["# Base de profils d'assurés auto et moto (Europe, permis du monde entier)", "",
+         "Profils fictifs mais **réalistes**, organisés comme les formulaires de devis des assureurs, pour estimer "
          "le prix de chaque offre selon le profil (objectif 1). Générés par `src/profils.py` (graine fixe : la base est "
          "toujours la même).", "",
          f"- **Profils** : {n(len(df))} ({n((df.type_vehicule == 'auto').sum())} auto, {n((df.type_vehicule == 'moto').sum())} moto)",
          f"- **Profils de référence des vrais prix** : {df.profil_reference.notna().sum()} (identifiants `REF_…`), reproduits "
          "d'après `data/externe/offres_auto_france/auto_prices.csv` pour caler le simulateur",
+         f"- **Pays de résidence** : {df.code_pays.nunique()} ({', '.join(f'{k} {n(v)}' for k, v in df.pays_residence.value_counts().items())})",
+         f"- **Villes réelles** : {df.commune.nunique()}",
+         f"- **Pays d'obtention du permis** : {df.pays_permis.nunique()} ({n((df.statut_permis == 'meme_pays').sum())} dans le pays, "
+         f"{n((df.statut_permis == 'UE_EEE').sum())} UE/EEE, {n((df.statut_permis == 'hors_UE').sum())} hors UE)",
          f"- **Champs** : {df.shape[1]}, dans l'ordre d'un formulaire de devis",
          f"- **Contrôles de cohérence** : {'aucun problème' if not problemes else ', '.join(problemes)}", "",
          "## Organisation", "", "| Bloc du formulaire | Champs |", "| --- | --- |",
-         "| Conducteur | âge, sexe, situation familiale, enfants, profession, commune, code postal, type de zone, logement |",
-         "| Permis | type, ancienneté, date, conduite accompagnée, pays, suspension ou annulation |",
-         "| Antécédents | déjà assuré, années assuré, bonus-malus, sinistres responsables et non responsables, bris de glace, résiliation, condamnation |",
+         "| Conducteur | âge, sexe, situation familiale, enfants, profession, pays, ville, code postal, région, type de zone, devise, logement |",
+         "| Permis | type, ancienneté, date, conduite accompagnée, pays d'obtention, statut (même pays, UE, hors UE), échange, suspension |",
+         "| Antécédents | déjà assuré, années assuré, bonus-malus (équivalent français et système du pays), années sans sinistre, sinistres, bris de glace, résiliation, condamnation |",
          "| Véhicule | marque et modèle réels, catégorie, énergie, puissance, classe de prix, valeur, âge, achat, antivol |",
          "| Usage | usage, kilométrage, stationnement la nuit, conducteur secondaire |",
          "| Couverture souhaitée | formule, franchise, options, budget, paiement |", "",
          "Le détail de chaque champ (question du formulaire, valeurs possibles) est dans `dictionnaire.csv`.", "",
          "## Règles de cohérence", "",
-         "- Permis B à partir de 17 ans ; permis moto selon la catégorie (AM 14 ans, A1 16 ans, A2 18 ans, A 20 ans).",
-         "- Bonus-malus calculé selon la règle officielle : 1,00 au départ, x 0,95 par année sans sinistre responsable, "
-         "x 1,25 par sinistre responsable, entre 0,50 et 3,50.",
+         "- Permis B à l'âge minimal du pays d'obtention (16 aux États-Unis, 17 en France, Allemagne, Royaume-Uni…, 18 ailleurs) ; "
+         "permis moto selon la catégorie (AM selon le pays, A1 16 ans, A2 18 ans, A 20 ans) ; 125 cm3 avec permis B selon la règle du pays.",
+         "- Bonus-malus : coefficient selon la règle française pour tous (1,00 au départ, x 0,95 par an sans sinistre, x 1,25 par sinistre, "
+         "0,50 à 3,50), pour comparer, et niveau dans le système du pays (classe di merito, SF-Klasse, degré belge, Stufe, trede…, règles simplifiées).",
+         "- Permis hors UE : souvent sans relevé d'assurance dans le nouveau pays (jamais assuré ici), permis pas toujours échangé.",
+         "- Taux de change approximatifs (2026) : montants donnés en euros et en devise locale.",
          "- Pas de sinistre sans avoir été assuré ; pas plus d'années d'assurance que d'années de permis.",
          "- Profession, usage et kilométrage liés (VTC : usage vtc et 60 000 km/an ; retraité : usage privé…).",
          "- Formule souhaitée liée au véhicule (récent, cher ou en location : tous risques).",
          "- Valeur actuelle = prix neuf x 0,85 par année d'âge. Le sexe est gardé pour information mais ne doit pas servir au prix (interdit dans l'UE).", "",
          "## Couverture (extrait)", "", "| Champ | Valeur | Profils |", "| --- | --- | --- |"]
-    for _, r in couv[couv.champ.isin(["tranche_age", "annees_permis", "coefficient_bonus_malus", "type_zone",
+    for _, r in couv[couv.champ.isin(["pays_residence", "statut_permis", "tranche_age", "annees_permis", "coefficient_bonus_malus", "type_zone",
                                       "categorie_vehicule", "formule_souhaitee"])].iterrows():
         l.append(f"| {r.champ} | {r.valeur} | {n(int(r.nb_profils))} |")
     l += ["", "Toutes les valeurs de tous les champs : `couverture.csv`.", "",
@@ -414,24 +536,34 @@ def main() -> int:
     SORTIE.mkdir(parents=True, exist_ok=True)
     rng = np.random.default_rng(GRAINE)
     profils = profils_reference()
-    # 1) couverture garantie : chaque tranche d'âge x chaque catégorie de véhicule x chaque type de zone
+    # 1) couverture garantie : chaque pays x chaque tranche d'âge x chaque catégorie de véhicule (zone tournante)
     cats_auto = sorted({v[1] for v in AUTOS})
-    zones = sorted({c[4] for c in COMMUNES})
     i = 0
-    for tr in TRANCHES[1:]:
-        for cat in cats_auto:
-            for z in zones:
+    for code in CODES:
+        for tr in TRANCHES[1:]:
+            for k, cat in enumerate(cats_auto):
                 v = [x for x in AUTOS if x[1] == cat]
-                c = [x for x in COMMUNES if x[4] == z]
-                profils.append(profil_auto(rng, i, age=tirer_age(rng, tr), vehicule=v[rng.integers(len(v))], commune=c[rng.integers(len(c))]))
+                profils.append(profil_auto(rng, i, age=tirer_age(rng, tr), vehicule=v[rng.integers(len(v))], pays=code,
+                                           zone=ZONES[(k + i) % len(ZONES)]))
                 i += 1
-    # 2) le reste au hasard, avec les proportions réalistes
+        # chaque pays x chaque type de zone
+        for z in ZONES:
+            for _ in range(5):
+                profils.append(profil_auto(rng, i, pays=code, zone=z))
+                i += 1
+    # 2) le reste au hasard, avec le poids réel de chaque pays
     while i < NB_AUTO:
         profils.append(profil_auto(rng, i))
         i += 1
-    for j in range(NB_MOTO):
-        m = MOTOS[j % len(MOTOS)] if j < len(MOTOS) * 20 else None
-        profils.append(profil_moto(rng, j, moto=m))
+    # motos : chaque pays x chaque modèle, puis au hasard
+    j = 0
+    for code in CODES:
+        for m in MOTOS:
+            profils.append(profil_moto(rng, j, moto=m, pays=code))
+            j += 1
+    while j < NB_MOTO:
+        profils.append(profil_moto(rng, j))
+        j += 1
     df = pd.DataFrame(profils)
     df.insert(1, "type_vehicule", df.pop("type_vehicule"))
     problemes = verifier(df)

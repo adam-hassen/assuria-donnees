@@ -5,7 +5,7 @@ Elles ne sont pas produites par le pipeline automatique : elles se mettent à jo
 
 ## `offres_auto_france/` : offres d'assurance auto françaises structurées (objectif 1)
 
-14 produits réels de 12 assureurs (L'olivier, Luko by Allianz Direct, Macif, MAAF, MAIF, Matmut, BNP Paribas,
+13 produits réels de 11 assureurs (L'olivier, Luko by Allianz Direct, Macif, MAAF, MAIF, Matmut, BNP Paribas,
 Direct Assurance, Suravenir, L'Équité, Pacifica…), extraits de leurs documents officiels (IPID), et des **vrais prix**
 relevés sur un comparateur (Selectra) et sur les sites des assureurs, pour des profils décrits.
 

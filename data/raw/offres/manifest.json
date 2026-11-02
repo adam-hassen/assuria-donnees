@@ -570,7 +570,7 @@
     },
     "pages": 44,
     "sha256": "ee7664ea9d3d489192b2d0a32d683dfd5eecb589394438e7785338cb2b453d9d",
-    "statut": "ok"
+    "statut": "lien en erreur (HTTPError), dernière version gardée"
   },
   "es_allianz_direct_auto_6c05a9": {
     "collecte_le": "2026-10-21T12:50:03+00:00",
@@ -1306,7 +1306,7 @@
     },
     "pages": 2,
     "sha256": "abee3214d497ec6acc885030f0f508b1978f9c4b5ad6b22e43c4094f7ab63282",
-    "statut": "ok"
+    "statut": "lien en erreur (HTTPError), dernière version gardée"
   },
   "fr_axa_france_auto_8d8bbd": {
     "collecte_le": "2026-10-21T12:46:30+00:00",
@@ -1725,7 +1725,7 @@
     "statut": "ok"
   },
   "ie_aviva_ireland_auto_7c8477": {
-    "collecte_le": "2026-10-21T12:50:23+00:00",
+    "collecte_le": "2026-11-02T13:51:08+00:00",
     "offre": {
       "assureur": "Aviva Ireland",
       "langue": "en",
@@ -1735,7 +1735,7 @@
       "url": "https://static.aviva.io/content/dam/aviva-public/ie/pdfs/motorcare-ipid.pdf"
     },
     "pages": 2,
-    "sha256": "4233556039a62b40e5999b9fcfc67b10ae340005a9846b56f28f87d0793af748",
+    "sha256": "020e58327ad63f0fcdd840613b91122d1d3bf1b9eb17e98494199598b07a9835",
     "statut": "ok"
   },
   "ie_outsurance_auto_94d850": {

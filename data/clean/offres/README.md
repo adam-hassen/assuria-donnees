@@ -3,7 +3,7 @@
 Deuxième jeu de données du projet AssurIA (objectif 1 : personnaliser les offres d'assurance).
 Ce fichier est **généré automatiquement** à chaque collecte.
 
-- **Dernière nouvelle version d'un document** : 2026-10-26
+- **Dernière nouvelle version d'un document** : 2026-11-02
 - **Offres** : 104 offres collectées sur 158 suivies
 - **Pays** : Allemagne, Autriche, Belgique, Espagne, France, Irlande, Italie, Pays-Bas, Portugal
 - **Format** : Parquet (`offres_europe.parquet`) et JSON lisible (`offres_europe.json`)
@@ -166,6 +166,7 @@ Liens morts, doublons, ou documents qui ne sont pas des offres auto/moto (écart
 - `de_devk_auto_c61eb9` (DEVK) : PDF illisible (DependencyError)
 - `de_gothaer_auto_96a53b` (Gothaer) : écarté : pas un document d'offre auto/moto
 - `de_herzenssache_auto_f96060` (Herzenssache) : lien en erreur (HTTPError)
+- `de_wgv_auto_e0d2b0` (WGV) : lien en erreur (HTTPError), dernière version gardée
 - `es_bbva_allianz_auto_505d45` (BBVA Allianz) : lien en erreur (HTTPError)
 - `fr_april_moto_moto_062108` (APRIL Moto) : écarté : pas un document d'offre auto/moto
 - `fr_april_moto_moto_088fad` (APRIL Moto) : écarté : pas un document d'offre auto/moto
@@ -207,6 +208,7 @@ Liens morts, doublons, ou documents qui ne sont pas des offres auto/moto (écart
 - `fr_april_moto_moto_ecf993` (APRIL Moto) : écarté : pas un document d'offre auto/moto
 - `fr_april_moto_moto_ed48df` (APRIL Moto) : écarté : pas un document d'offre auto/moto
 - `fr_april_moto_moto_ee1f34` (APRIL Moto) : écarté : pas un document d'offre auto/moto
+- `fr_axa_france_auto_8682b5` (AXA France) : lien en erreur (HTTPError), dernière version gardée
 - `fr_bnp_paribas_auto_94c14d` (BNP Paribas) : lien en erreur (HTTPError)
 - `fr_bnp_paribas_moto_5385c9` (BNP Paribas) : lien en erreur (HTTPError)
 - `fr_club_auto_macsf_auto_ff01ac` (Club Auto MACSF) : doublon de fr_club_auto_mma_auto_2d9ab9

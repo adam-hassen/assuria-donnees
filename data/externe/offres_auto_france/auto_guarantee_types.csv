@@ -1,0 +1,26 @@
+code,label_fr,family,market_guarantee
+rc,Responsabilité civile,responsabilite,rc
+defense_recours,Défense pénale et recours suite à accident,juridique,
+protection_juridique,Protection juridique / renseignements juridiques,juridique,
+conducteur,Garantie du conducteur (dommages corporels),conducteur,conducteur
+conducteur_renforce,Garantie du conducteur renforcée,conducteur,conducteur
+assistance,Assistance au véhicule et aux personnes,assistance,
+assistance_0km,Assistance panne 0 km,assistance,
+vehicule_remplacement,Véhicule de remplacement / de prêt,assistance,
+bris_de_glace,Bris de glace,dommages_vehicule,bris_de_glace
+vol,Vol et tentative de vol,dommages_vehicule,vol
+incendie,"Incendie, explosion",dommages_vehicule,incendie
+evenements_climatiques,"Tempête, grêle, événements climatiques",dommages_vehicule,
+cat_nat,Catastrophes naturelles,dommages_vehicule,
+cat_tech,Catastrophes technologiques,dommages_vehicule,
+attentats,Attentats et actes de terrorisme,dommages_vehicule,
+vandalisme,Vandalisme,dommages_vehicule,
+dommages_collision,Dommages collision,dommages_vehicule,dommages
+dommages_tous_accidents,Dommages tous accidents,dommages_vehicule,dommages
+contenu,"Contenu, effets personnels, objets transportés",complements,
+accessoires,Accessoires et aménagements,complements,
+valeur_majoree,Indemnisation majorée / valeur d'achat,complements,
+perte_financiere_leasing,Perte financière LOA/LLD,complements,
+panne_mecanique,Panne mécanique,complements,
+rachat_franchise,Rachat de franchise,complements,
+autre,Autre service ou extension,complements,

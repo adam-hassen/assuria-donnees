@@ -1,0 +1,105 @@
+product_id,kind,text
+lolivier_tiers_essentiel,exclusion,Conduite sans permis valide
+lolivier_tiers_essentiel,exclusion,"Épreuves, compétitions, circuits"
+lolivier_tiers_essentiel,exclusion,Alcool ou stupéfiants (hors RC)
+lolivier_tiers_essentiel,exclusion,"Panne mécanique, usure, défaut d'entretien"
+lolivier_tiers_essentiel,restriction,Garantie du conducteur versée si déficit fonctionnel permanent > 10 %
+lolivier_tiers_essentiel,restriction,Indemnité conducteur réduite de 25 % sans ceinture
+lolivier_tiers_essentiel,restriction,Assistance panne limitée à 2 pannes par an (contrats après le 24/01/2025)
+lolivier_tous_risques,exclusion,Conduite sans permis valide
+lolivier_tous_risques,exclusion,"Épreuves, compétitions, circuits"
+lolivier_tous_risques,exclusion,Alcool ou stupéfiants (hors RC)
+lolivier_tous_risques,exclusion,"Panne mécanique, usure, défaut d'entretien"
+lolivier_tous_risques,restriction,Garanties dommages limitées à la valeur de remplacement
+lolivier_tous_risques,restriction,Garantie du conducteur versée si déficit fonctionnel permanent > 10 %
+lolivier_tous_risques,restriction,Assistance panne limitée à 2 pannes par an (contrats après le 24/01/2025)
+luko_allianz_direct,exclusion,Conducteur sans l'âge requis ou sans permis
+luko_allianz_direct,exclusion,Faute intentionnelle ou dolosive
+luko_allianz_direct,exclusion,"Épreuves, courses et compétitions"
+luko_allianz_direct,exclusion,Ivresse ou stupéfiants
+luko_allianz_direct,exclusion,Éléments optiques et clignotants arrière en bris des glaces
+luko_allianz_direct,restriction,Protection du conducteur : seuil de déficit fonctionnel permanent de 9 %
+luko_allianz_direct,restriction,"Protection juridique : seuil de 230 € à l'amiable, 500 € au contentieux"
+luko_allianz_direct,restriction,Vétusté sur appareils électriques et électroniques
+macif_auto,exclusion,Faute intentionnelle ou dolosive
+macif_auto,exclusion,"Épreuves, courses, compétitions"
+macif_auto,exclusion,Transport de matières dangereuses
+macif_auto,exclusion,"Guerre, émeutes (sauf attentats)"
+macif_auto,exclusion,Dommages au véhicule en cas d'ivresse ou stupéfiants
+macif_auto,exclusion,Conducteur sans l'âge ou le permis requis
+macif_auto,restriction,Mesures de sécurité exigées pour le vol
+macif_auto,restriction,Recours judiciaires au-delà de 762 € de préjudice
+macif_auto,restriction,Voiturettes et usages professionnels des indépendants exclus
+maaf_auto,exclusion,Faute intentionnelle ou dolosive
+maaf_auto,exclusion,"Épreuves, courses ou compétitions"
+maaf_auto,exclusion,Ivresse ou stupéfiants
+maaf_auto,exclusion,Conducteur sans permis valide
+maaf_auto,exclusion,"Usages professionnels, transport à titre onéreux (hors covoiturage), location par un tiers"
+maaf_auto,restriction,Véhicule de prêt sous condition de délais
+maaf_auto,restriction,Frais de retour anticipé : carence de 6 mois
+maif_vam,exclusion,"Épreuves, courses, compétitions"
+maif_vam,exclusion,"Conducteur sans l'âge, le permis ou les certificats requis"
+maif_vam,exclusion,Alcool ou stupéfiants
+maif_vam,exclusion,Vétusté seule
+maif_vam,exclusion,Faute intentionnelle ou dolosive
+maif_vam,exclusion,Travaux d'entretien sur le véhicule
+maif_vam,restriction,Franchise au choix pour les dommages matériels
+maif_vam,restriction,Franchise réglementaire catastrophes naturelles 380 €
+maif_vam,restriction,Protection juridique : pas d'intervention judiciaire sous 625 €
+matmut_auto_4d,exclusion,Faute intentionnelle ou dolosive
+matmut_auto_4d,exclusion,Conducteur sans l'âge ou les certificats requis
+matmut_auto_4d,exclusion,Transport de matières dangereuses
+matmut_auto_4d,exclusion,"Épreuves, courses, compétitions"
+matmut_auto_4d,exclusion,Guerre civile ou étrangère
+matmut_auto_4d,exclusion,Alcool ou stupéfiants (sauf RC)
+matmut_auto_4d,restriction,Garanties du conducteur : seuil d'incapacité permanente 10 %
+matmut_auto_4d,restriction,"Protection juridique : seuils 150 € amiable, 760 € tribunaux, 3 000 € Conseil d'État / Cassation"
+matmut_4r_essentiel,exclusion,Dommages causés intentionnellement
+matmut_4r_essentiel,exclusion,Conducteur sans l'âge ou les certificats requis
+matmut_4r_essentiel,exclusion,Transport de matières dangereuses
+matmut_4r_essentiel,exclusion,"Épreuves, courses, compétitions"
+matmut_4r_essentiel,exclusion,Guerre civile ou étrangère
+matmut_4r_essentiel,exclusion,Ivresse ou stupéfiants (sauf RC)
+matmut_4r_essentiel,restriction,"Protection juridique : seuils 150 € amiable, 760 € tribunaux, 3 000 € Conseil d'État / Cassation"
+bnp_paribas_auto,exclusion,Faute intentionnelle ou dolosive
+bnp_paribas_auto,exclusion,Conducteur sans l'âge ou les certificats requis
+bnp_paribas_auto,exclusion,"Épreuves, courses, compétitions"
+bnp_paribas_auto,exclusion,Alcool au-delà du taux légal ou stupéfiants
+bnp_paribas_auto,exclusion,Vol sans les moyens de prévention requis
+bnp_paribas_auto,exclusion,Réparations en cas de panne
+bnp_paribas_auto,restriction,"Protection juridique : seuils 150 € amiable, 760 € tribunaux, 3 000 € Conseil d'État / Cassation"
+direct_assurance_auto,exclusion,Conducteur sans l'âge ou le permis requis
+direct_assurance_auto,exclusion,"Épreuves, courses, compétitions"
+direct_assurance_auto,exclusion,Transport de matières dangereuses
+direct_assurance_auto,exclusion,Fait intentionnel
+direct_assurance_auto,exclusion,"Défaut d'entretien, usure, vice propre"
+direct_assurance_auto,exclusion,Ivresse ou stupéfiants
+direct_assurance_auto,exclusion,"Vols commis par la famille, escroquerie"
+direct_assurance_auto,restriction,Carence de 30 jours pour l'assistance 0 km en cas de panne
+direct_assurance_auto,restriction,Franchise supplémentaire en cas de prêt occasionnel du véhicule
+suravenir_auto,exclusion,Conducteur sans l'âge ou le permis requis
+suravenir_auto,exclusion,Véhicule modifié pour augmenter puissance ou vitesse
+suravenir_auto,exclusion,"Épreuves, courses, compétitions"
+suravenir_auto,exclusion,Faute intentionnelle
+suravenir_auto,exclusion,Location à titre onéreux
+suravenir_auto,exclusion,Délit de fuite ou refus d'obtempérer
+suravenir_auto,exclusion,Ivresse ou stupéfiants
+suravenir_auto,restriction,Indemnité vol réduite de 50 % si les clés et doubles ne sont pas remis
+suravenir_auto,restriction,Indemnité conducteur réduite de 25 % sans ceinture (lien de causalité)
+suravenir_auto,restriction,Indemnité dommages réduite de 50 % si contrôle technique non conforme (lien de causalité)
+lequite_rag571,exclusion,Conducteur sans l'âge ou le permis requis
+lequite_rag571,exclusion,"Épreuves, courses, compétitions"
+lequite_rag571,exclusion,Transport de matières dangereuses
+lequite_rag571,exclusion,Fait intentionnel
+lequite_rag571,exclusion,Vols commis par la famille
+lequite_rag571,exclusion,"Défaut d'entretien, usure, vice propre"
+lequite_rag571,exclusion,Ivresse ou stupéfiants
+lequite_rag571,restriction,Indemnité vol réduite de 50 % si clés laissées dans le véhicule ou véhicule non clos
+pacifica_auto,exclusion,Dommages causés intentionnellement
+pacifica_auto,exclusion,Vols par escroquerie ou abus de confiance
+pacifica_auto,exclusion,Défaut d'entretien
+pacifica_auto,exclusion,Amendes
+pacifica_auto,exclusion,"Alcool, stupéfiants ou refus de dépistage"
+pacifica_auto,exclusion,Conducteur sans l'âge ou le permis requis
+pacifica_auto,restriction,Vol non garanti si tous les accès ne sont pas verrouillés
+pacifica_auto,restriction,Contenu professionnel couvert seulement si le véhicule est garé dans un garage clos la nuit

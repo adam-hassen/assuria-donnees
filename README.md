@@ -24,6 +24,7 @@ data/raw/manuel/             fichiers à déposer à la main (Espagne)
 data/raw/offres/              documents d'offres (PDF) + manifest.json
 data/clean/offres/           offres_europe.parquet / .json + README
 data/clean/simulation/       prix_base, coefficients, profils, devis_simules + README
+data/externe/                offres auto françaises structurées avec vrais prix, freMTPL2 complet (voir data/externe/README.md)
 data/clean/                  sinistres_europe.parquet (nettoyé), sinistres_bruts.parquet (brut + anomalies), rapports
 .github/workflows/           pipeline automatique (chaque lundi, ou à la demande)
 ```

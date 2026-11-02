@@ -1,0 +1,21 @@
+brand,level,price_from_eur_month,cheapest_formula,product_id,price_type,profile_key,source_url
+Direct Assurance,tiers,13.79,Tiers,direct_assurance_auto,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/direct-assurance/assurance-auto
+Direct Assurance,tiers_plus,18.36,Tiers maxi,direct_assurance_auto,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/direct-assurance/assurance-auto
+Direct Assurance,tous_risques,29.22,Tous risques,direct_assurance_auto,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/direct-assurance/assurance-auto
+Generali,tiers,18.76,Tiers,,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/generali/assurance-auto
+Generali,tiers_plus,20.53,Tiers étendu,,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/generali/assurance-auto
+Generali,tous_risques,25.73,Tous Risques,,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/generali/assurance-auto
+L'olivier Assurance,tiers,19.00,Tiers Essentiel,lolivier_tiers_essentiel,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/olivier-assurance/assurance-auto
+L'olivier Assurance,tiers_plus,26.00,Tiers Confort,,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/olivier-assurance/assurance-auto
+L'olivier Assurance,tous_risques,29.00,Tous risques,lolivier_tous_risques,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/olivier-assurance/assurance-auto
+Luko by Allianz Direct,tiers,18.24,Tiers,luko_allianz_direct,advertised_from,insurer_example,https://fr.luko.eu/assurance-auto
+Luko by Allianz Direct,tiers_plus,20.93,Tiers Étendu,luko_allianz_direct,advertised_from,insurer_example,https://fr.luko.eu/assurance-auto
+Luko by Allianz Direct,tous_risques,26.35,Tous Risques,luko_allianz_direct,advertised_from,insurer_example,https://fr.luko.eu/assurance-auto
+MAAF,tiers,31.02,Tiers Essentiel+,maaf_auto,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/maaf/assurance-auto
+MAAF,tous_risques,28.36,Tous risques Eco,maaf_auto,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/maaf/assurance-auto
+Macif,tiers,22.92,Economique,macif_auto,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/macif/assurance-auto
+Macif,tiers_plus,25.39,Elargie,macif_auto,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/macif/assurance-auto
+Macif,tous_risques,38.19,Protectrice,macif_auto,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/macif/assurance-auto
+Matmut,tiers,18.31,Tiers,matmut_auto_4d,advertised_from,insurer_example,https://www.matmut.fr/assurance/auto/formule/au-tiers
+Matmut,tiers_plus,26.77,Tiers Vol Incendie,matmut_auto_4d,comparator_profile,bonus_experienced,https://selectra.info/assurance/assureurs/matmut/assurance-auto
+Matmut,tous_risques,19.98,Tous Risques,matmut_auto_4d,advertised_from,insurer_example,https://www.matmut.fr/assurance/auto/formule/tous-risques

@@ -1,0 +1,40 @@
+product_id,brand,product_name,formula,level,rank,available,options_to_add,not_offered
+bnp_paribas_auto,BNP Paribas,Assurance Auto BNP Paribas,,tiers,1,t,{},{}
+bnp_paribas_auto,BNP Paribas,Assurance Auto BNP Paribas,,tiers_plus,2,t,"{bris_de_glace,incendie,vol}",{}
+bnp_paribas_auto,BNP Paribas,Assurance Auto BNP Paribas,,tous_risques,3,t,"{bris_de_glace,dommages_tous_accidents,incendie,vol}",{}
+direct_assurance_auto,Direct Assurance,Assurance Auto et Auto connectée Direct Assurance,,tiers,1,t,{},{}
+direct_assurance_auto,Direct Assurance,Assurance Auto et Auto connectée Direct Assurance,,tiers_plus,2,t,"{bris_de_glace,incendie,vol}",{}
+direct_assurance_auto,Direct Assurance,Assurance Auto et Auto connectée Direct Assurance,,tous_risques,3,t,"{bris_de_glace,dommages_tous_accidents,incendie,vol}",{}
+lequite_rag571,L'Équité (groupe Generali),AUTOMOBILE RAG 571,,tiers,1,t,{},{}
+lequite_rag571,L'Équité (groupe Generali),AUTOMOBILE RAG 571,,tiers_plus,2,t,"{bris_de_glace,incendie,vol}",{}
+lequite_rag571,L'Équité (groupe Generali),AUTOMOBILE RAG 571,,tous_risques,3,t,"{bris_de_glace,dommages_tous_accidents,incendie,vol}",{}
+lolivier_tiers_essentiel,L'olivier Assurance,Tiers Essentiel,tiers,tiers,1,t,{},{}
+lolivier_tiers_essentiel,L'olivier Assurance,Tiers Essentiel,tiers,tiers_plus,2,f,{},"{bris_de_glace,incendie,vol}"
+lolivier_tiers_essentiel,L'olivier Assurance,Tiers Essentiel,tiers,tous_risques,3,f,{},"{bris_de_glace,dommages_tous_accidents,incendie,vol}"
+lolivier_tous_risques,L'olivier Assurance,Tous risques,tous_risques,tiers,1,t,{},{}
+lolivier_tous_risques,L'olivier Assurance,Tous risques,tous_risques,tiers_plus,2,t,{},{}
+lolivier_tous_risques,L'olivier Assurance,Tous risques,tous_risques,tous_risques,3,t,{},{}
+luko_allianz_direct,Luko by Allianz Direct,Assurance automobile,,tiers,1,t,{},{}
+luko_allianz_direct,Luko by Allianz Direct,Assurance automobile,,tiers_plus,2,t,"{bris_de_glace,incendie,vol}",{}
+luko_allianz_direct,Luko by Allianz Direct,Assurance automobile,,tous_risques,3,t,"{bris_de_glace,dommages_tous_accidents,incendie,vol}",{}
+maaf_auto,MAAF,Assurance Véhicule (Auto),,tiers,1,t,{},{}
+maaf_auto,MAAF,Assurance Véhicule (Auto),,tiers_plus,2,t,"{bris_de_glace,incendie,vol}",{}
+maaf_auto,MAAF,Assurance Véhicule (Auto),,tous_risques,3,t,"{bris_de_glace,dommages_tous_accidents,incendie,vol}",{}
+macif_auto,Macif,Contrat Macif Auto,,tiers,1,t,{},{}
+macif_auto,Macif,Contrat Macif Auto,,tiers_plus,2,t,"{bris_de_glace,incendie,vol}",{}
+macif_auto,Macif,Contrat Macif Auto,,tous_risques,3,t,"{bris_de_glace,dommages_tous_accidents,incendie,vol}",{}
+maif_vam,MAIF,Assurance Auto-Moto Vam,,tiers,1,t,{},{}
+maif_vam,MAIF,Assurance Auto-Moto Vam,,tiers_plus,2,t,"{bris_de_glace,incendie,vol}",{}
+maif_vam,MAIF,Assurance Auto-Moto Vam,,tous_risques,3,t,"{bris_de_glace,dommages_tous_accidents,incendie,vol}",{}
+matmut_4r_essentiel,Matmut,Contrat « Multirisques 4 Roues Essentiel »,,tiers,1,t,{},{}
+matmut_4r_essentiel,Matmut,Contrat « Multirisques 4 Roues Essentiel »,,tiers_plus,2,t,"{bris_de_glace,incendie,vol}",{}
+matmut_4r_essentiel,Matmut,Contrat « Multirisques 4 Roues Essentiel »,,tous_risques,3,t,"{bris_de_glace,dommages_tous_accidents,incendie,vol}",{}
+matmut_auto_4d,Matmut,Contrat Multirisques « Auto 4D »,,tiers,1,t,{},{}
+matmut_auto_4d,Matmut,Contrat Multirisques « Auto 4D »,,tiers_plus,2,t,"{bris_de_glace,incendie,vol}",{}
+matmut_auto_4d,Matmut,Contrat Multirisques « Auto 4D »,,tous_risques,3,t,"{bris_de_glace,dommages_tous_accidents,incendie,vol}",{}
+pacifica_auto,Crédit Agricole / LCL (Pacifica),Assurance automobile,,tiers,1,t,{},{}
+pacifica_auto,Crédit Agricole / LCL (Pacifica),Assurance automobile,,tiers_plus,2,t,"{bris_de_glace,incendie,vol}",{}
+pacifica_auto,Crédit Agricole / LCL (Pacifica),Assurance automobile,,tous_risques,3,t,"{bris_de_glace,dommages_tous_accidents,incendie,vol}",{}
+suravenir_auto,Suravenir Assurances (Crédit Mutuel Arkéa),Assurance auto du particulier,,tiers,1,t,{},{}
+suravenir_auto,Suravenir Assurances (Crédit Mutuel Arkéa),Assurance auto du particulier,,tiers_plus,2,t,"{bris_de_glace,incendie,vol}",{}
+suravenir_auto,Suravenir Assurances (Crédit Mutuel Arkéa),Assurance auto du particulier,,tous_risques,3,t,"{bris_de_glace,dommages_tous_accidents,incendie,vol}",{}

@@ -1,0 +1,30 @@
+﻿colonne;origine;sens
+id_sinistre, id_contrat;réel;Identifiants du sinistre et du contrat (freMTPL2)
+jeu;découpage;entrainement (70 %), validation (15 %), test (15 %), par contrat, fixe pour comparer les modèles
+age_conducteur;réel;Âge du conducteur
+bonus_malus;réel;Bonus-malus x 100 (50 = bonus maximal)
+age_vehicule;réel;Âge du véhicule (ans)
+puissance_vehicule;réel;Puissance (classe 4 à 15)
+marque_vehicule;réel;Marque (codée B1 à B14)
+carburant;réel;Regular (essence) ou Diesel
+zone;réel;Type de zone, de A (rural) à F (très dense)
+densite_population;réel;Habitants par km² de la commune
+region;réel;Région (anciennes régions)
+exposition;réel;Durée du contrat sur l'année
+nb_sinistres_contrat;réel;Nombre de sinistres déclarés sur le contrat
+type_sinistre;généré;materiel ou corporel (responsabilité civile)
+circonstance;généré;Comment l'accident s'est produit (collision arrière, refus de priorité, piéton…)
+lieu;généré;agglomeration, route, autoroute, voie_rapide, parking
+responsabilite;généré;totale ou partagee
+nb_vehicules;généré;Véhicules impliqués
+tiers_identifie;généré;Le tiers est connu (constat possible)
+nb_blesses;généré;Nombre de blessés
+gravite_decrite;généré;Gravité décrite dans la déclaration, liée au coût réel
+mois, jour_semaine, heure;généré;Moment de l'accident
+meteo;généré;sec, pluie, brouillard, neige_verglas
+delai_declaration_jours;généré;Jours entre l'accident et la déclaration
+description_declaration;généré;Déclaration de sinistre en texte libre, comme l'écrirait l'assuré (sans le montant)
+forfait_convention_irsa;déduit du réel;Montant forfaitaire de la convention d'indemnisation entre assureurs
+cout_sinistre_eur;réel;**Variable à prédire** : coût du sinistre (€)
+log_cout;réel;Logarithme du coût
+sinistre_grave;réel;Coût au-dessus du 95e centile (4 765 €)

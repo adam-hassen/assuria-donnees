@@ -82,7 +82,6 @@ concerne sa puissance.
  Les frais engagés sans l’accord préalable de l’assistance. 
  Les amendes, leurs majorations et accessoires. 
  
- 
  Y a-t-il des exclusions à la 
 couverture ? 
  
@@ -1254,24 +1253,18 @@ Assistance
 Médiation Civile ou Pénale, Commission
 400 euros
 par intervention
-• Intervention amiable 150 euros
-par intervention
-• Toutes autres interventions 200 euros 
-par affaire
+• Intervention amiable 150 euros par intervention
+• Toutes autres interventions 200 euros par affaire
 Procédures devant toutes les juridictions
-• Référé ou requête ou autre ordonnance 500 euros
-par décision
+• Référé ou requête ou autre ordonnance 500 euros par décision
 Première Instance
 • Tribunal de police, Juge ou Tribunal pour 
 Enfants
 650 euros
 par affaire
-• Procureur de la République 200 euros
-par intervention
-• Tribunal Correctionnel 650 euros
-par affaire
-• Juridiction de l’Exécution 500 euros
-par affaire
+• Procureur de la République 200 euros par intervention
+• Tribunal Correctionnel 650 euros par affaire
+• Juridiction de l’Exécution 500 euros par affaire
 • Tribunal Judiciaire statuant au fond avec 
 représentation obligatoire par avocat
 500 euros
@@ -1283,12 +1276,9 @@ d’Instance
 650 euros
 par affaire
 Cour d’Appel 700 euros
-Cour de Cassation et Conseil d’État 1.500 euros
-par affaire
-Tout autre juridiction 650 euros
-par affaire
-Transaction amiable 500 euros
-par affaire
+Cour de Cassation et Conseil d’État 1.500 euros par affaire
+Tout autre juridiction 650 euros par affaire
+Transaction amiable 500 euros par affaire
 > En cas de sinistre 
 Déclaration du sinistre* 
 Pour permettre à la Compagnie d’intervenir efficacement, l’Assuré* 
@@ -1608,10 +1598,9 @@ Le contrat peut être résilié dans les cas et conditions fixés dans le
 tableau ci-après :
 Les articles cités dans le présent tableau font référence au Code 
 des assurances.
-Qui peut résilier ? Les circonstances Les délais de préavis La date de prise d’effet de la résiliation
+Qui peut résilier ? Les circonstances Les délais de préavis - La date de prise d’effet de la résiliation
 Vous ou Nous À l’échéance anniversaire du contrat (article L113-12) Deux mois.
-Vous ou Nous Cession du véhicule assuré* (article L121-11) La résiliation prend effet 10 jours après notification 
-à l’autre partie.
+Vous ou Nous Cession du véhicule assuré* (article L121-11) La résiliation prend effet 10 jours après notification à l’autre partie.
 Vous ou Nous
 En cas de survenance de l’un des événements suivants :
 • Changement de domicile ;
@@ -1636,8 +1625,7 @@ laquelle le risque n’a pas couru, période calculée
 à compter de la date d’effet de la résiliation.
 Il ne peut être prévu le paiement d’une indemnité 
 à la Compagnie dans les cas de résiliation ci-contre.
-Vous ou Nous En cas de modification à la hausse des franchises 
-ou à la baisse des plafonds de garanties
+Vous ou Nous En cas de modification à la hausse des franchises ou à la baisse des plafonds de garanties
 L’Assuré* a 30 jours pour retourner l’avenant signé. 
 À défaut, l’absence de retour équivaut à un refus de 
 la modification proposée, le contrat continue à courir 
@@ -1650,31 +1638,17 @@ activités professionnelles, peuvent être résiliés à tout
 moment. (article L113-15-2)
 La résiliation doit être notifiée par votre futur assureur 
 muni d’un mandat de votre part.
-Vous En cas de diminution du risque si nous ne réduisons 
-pas la prime (article L113-4)
-Voir Article 13 « Déclarations concernant le risque 
-et ses modifications ».
-La résiliation prend effet 30 jours après la dénonciation.
-Vous En cas de résiliation par nous d’un autre de vos 
-contrats après sinistre (article R113-10)
-Dans le mois qui suit la notification de résiliation du 
-contrat sinistré.
-La résiliation prend effet un mois après votre courrier.
-Vous En cas de modification du tarif d’assurance appliqué 
-à votre contrat, entraînant une majoration de cotisation.
-Voir Article 14.2 « Modification du tarif d’assurance 
-autre que celle résultant de la clause de réduction- 
-majoration (bonus/malus) ».
+Vous En cas de diminution du risque si nous ne réduisons pas la prime (article L113-4) Voir Article 13 « Déclarations concernant le risque et ses modifications ». La résiliation prend effet 30 jours après la dénonciation.
+Vous En cas de résiliation par nous d’un autre de vos contrats après sinistre (article R113-10) Dans le mois qui suit la notification de résiliation du contrat sinistré. La résiliation prend effet un mois après votre courrier.
+Vous En cas de modification du tarif d’assurance appliqué à votre contrat, entraînant une majoration de cotisation. Voir Article 14.2 « Modification du tarif d’assurance autre que celle résultant de la clause de réduction- majoration (bonus/malus) ».
 Nous Non-paiement de vos cotisations (article L113-3) Voir Article 14 « Paiement des cotisations* ».
-Nous Aggravation de risque (article L113-4) Voir Article 13 « Déclarations concernant le risque 
-et ses modifications ».
+Nous Aggravation de risque (article L113-4) Voir Article 13 « Déclarations concernant le risque et ses modifications ».
 Nous
 Omission ou déclaration inexacte sans mauvaise foi 
 de votre part, à la souscription ou en cours de contrat 
 (article L113-9)
 10 jours après l’envoi de notre lettre recommandée.
-Nous Après sinistre*, dans les conditions réglementaires 
-autorisées (articles R113-10 et A211-1-2*) À effet de la date mentionnée dans notre courrier.
+Nous Après sinistre*, dans les conditions réglementaires autorisées (articles R113-10 et A211-1-2*) À effet de la date mentionnée dans notre courrier.
 Titre IV - Formation et durée du contrat
 
 ===== page 19 =====
@@ -1755,21 +1729,13 @@ notification de la résiliation à l’héritier.
 Résiliation par l’héritier : à tout moment avant 
 la reconduction du contrat. La résiliation prend effet 
 dès que nous avons reçu notification de la résiliation.
-De plein droit En cas de perte totale du véhicule assuré*, résultant 
-d’un événement non garanti (article L121-9)
-Le contrat est résilié de plein droit et nous vous 
-restituons la part de prime relative à période 
-postérieure à la résiliation.
+De plein droit En cas de perte totale du véhicule assuré*, résultant d’un événement non garanti (article L121-9) Le contrat est résilié de plein droit et nous vous restituons la part de prime relative à période postérieure à la résiliation.
 De plein droit Cession du véhicule assuré* (article L121-11)
 Le contrat non remis en vigueur et non résilié par l’un 
 d’entre nous est résilié de plein droit à l’expiration d’un 
 délai de six mois à compter de la cession du véhicule 
 assuré*.
-De plein droit En cas de retrait total de l’agrément de la Compagnie 
-(article L326-12)
-Les garanties accordées par la Compagnie cessent de 
-plein droit 40 jours après la publication de la décision 
-de retrait.
+De plein droit En cas de retrait total de l’agrément de la Compagnie (article L326-12) Les garanties accordées par la Compagnie cessent de plein droit 40 jours après la publication de la décision de retrait.
 De plein droit En cas de réquisition du véhicule assuré* (article L160-6) Les dispositions législatives en vigueur s’appliquent.
 De plein droit Deux ans après la suspension du contrat. Voir article11 ci-après.
 L’administrateur 

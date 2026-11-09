@@ -157,16 +157,19 @@ La liste des documents suivis est dans `config/offres.yaml` du dépôt [assuria-
 
 Liens morts, doublons, ou documents qui ne sont pas des offres auto/moto (écartés automatiquement).
 
-- `be_baloise_auto_407069` (Baloise) : lien en erreur (HTTPError), dernière version gardée
 - `be_ethias_auto_80ae6a` (Ethias) : lien en erreur (HTTPError)
 - `be_mini_carplan_auto_fc3337` (MINI CarPlan) : lien en erreur (ReadTimeout)
 - `be_toyota_insurance_auto_f3858f` (Toyota Insurance) : lien en erreur (HTTPError)
 - `be_vivium_auto_e1e0c5` (Vivium) : doublon de be_vivium_auto_1fa4e5
+- `de_allianz_auto_57f941` (Allianz) : lien en erreur (HTTPError), dernière version gardée
+- `de_allianz_auto_ec2ba1` (Allianz) : lien en erreur (HTTPError), dernière version gardée
+- `de_allianz_kfz_2002` (Allianz) : lien en erreur (HTTPError), dernière version gardée
+- `de_allianz_kfz_smart` (Allianz) : lien en erreur (HTTPError), dernière version gardée
+- `de_allianz_moped` (Allianz) : lien en erreur (HTTPError), dernière version gardée
 - `de_devk_auto_4d9d31` (DEVK) : PDF illisible (DependencyError)
 - `de_devk_auto_c61eb9` (DEVK) : PDF illisible (DependencyError)
 - `de_gothaer_auto_96a53b` (Gothaer) : écarté : pas un document d'offre auto/moto
 - `de_herzenssache_auto_f96060` (Herzenssache) : lien en erreur (HTTPError)
-- `de_wgv_auto_e0d2b0` (WGV) : lien en erreur (HTTPError), dernière version gardée
 - `es_bbva_allianz_auto_505d45` (BBVA Allianz) : lien en erreur (HTTPError)
 - `fr_april_moto_moto_062108` (APRIL Moto) : écarté : pas un document d'offre auto/moto
 - `fr_april_moto_moto_088fad` (APRIL Moto) : écarté : pas un document d'offre auto/moto
@@ -208,7 +211,6 @@ Liens morts, doublons, ou documents qui ne sont pas des offres auto/moto (écart
 - `fr_april_moto_moto_ecf993` (APRIL Moto) : écarté : pas un document d'offre auto/moto
 - `fr_april_moto_moto_ed48df` (APRIL Moto) : écarté : pas un document d'offre auto/moto
 - `fr_april_moto_moto_ee1f34` (APRIL Moto) : écarté : pas un document d'offre auto/moto
-- `fr_axa_france_auto_8682b5` (AXA France) : lien en erreur (HTTPError), dernière version gardée
 - `fr_bnp_paribas_auto_94c14d` (BNP Paribas) : lien en erreur (HTTPError)
 - `fr_bnp_paribas_moto_5385c9` (BNP Paribas) : lien en erreur (HTTPError)
 - `fr_club_auto_macsf_auto_ff01ac` (Club Auto MACSF) : doublon de fr_club_auto_mma_auto_2d9ab9

@@ -3,7 +3,7 @@
 Base de connaissances du conseiller qui répond aux questions sur un contrat (garanties, exclusions, franchises, obligations) en citant le passage exact. Générée par `src/documents_rag.py` à partir des documents collectés.
 
 - **Documents** : 104 fiches d'information (IPID, format européen), 9 pays, 1 475 pages, langues : de, en, es, fr, it, nl, pt
-- **Passages** : 8 456 (environ 800 caractères, coupés aux fins de phrase), chacun avec l'offre et la page
+- **Passages** : 8 471 (environ 800 caractères, coupés aux fins de phrase), chacun avec l'offre et la page
 - **Conditions des offres françaises structurées** : 104 exclusions et restrictions
 
 ## Fichiers

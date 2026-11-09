@@ -1,6 +1,5 @@
 ===== page 1 =====
-Document d’information ASSURANCE AUTOMOBILE DIPA_FR_AUTO 20260815 
-Classification : Interne 
+Document d’information ASSURANCE AUTOMOBILE DIPA_FR_AUTO 20260815 Classification : Interne 
  
 Ce document d’information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte vos 
 besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et 
@@ -111,8 +110,7 @@ Vous devez vous référer aux conditions contractuelles du
 produit pour en connaître le contenu précis ».
 
 ===== page 2 =====
-Document d’information ASSURANCE AUTOMOBILE DIPA_FR_AUTO 20260815 
-Classification : Interne 
+Document d’information ASSURANCE AUTOMOBILE DIPA_FR_AUTO 20260815 Classification : Interne 
  
  
  

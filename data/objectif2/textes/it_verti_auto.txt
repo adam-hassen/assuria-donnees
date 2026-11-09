@@ -1737,16 +1737,7 @@ di
 merito 
 Classe di collocazione in base ai sinistri 
 osservati 
- 0 
-Sinistri 
-1 
-Sinistro 
-2 
-Sinistri 
-3 
-Sinistri 
-4 o più 
-Sinistri 
+ 0 Sinistri 1 Sinistro 2 Sinistri 3 Sinistri 4 o più Sinistri 
 01 1 3 6 9 12 
 02 1 4 7 10 13 
 03 2 5 8 11 14 

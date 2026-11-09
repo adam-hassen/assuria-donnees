@@ -19,7 +19,7 @@ Qu’est-ce qui est assuré?
  
 Les véhicules assurés sont : 
  
-Les véhicules neuf ou d’occasion de moins de 3,5 
+Les véhicules neuf ou d’occasion d e moins de 3,5 
 tonnes de poids t otal autorisé en charge d’un 
 kilométrage maximum de 50 000 km et d’une 
 valeur à neuf inférieure de 80 000 €. 
@@ -101,7 +101,7 @@ Sous peine de nullité du contrat d’assurance ou de non garantie, l’assuré 
 les justificatifs demandés ; 
 • En cours de contrat : Nous déclarer les circonstances nouvelles qui modifient les informations qui sont posées et 
 fournir les justificatifs demandés. Respecter précisément les opérations d’entretien préconisées par le constructeur et 
-être en mesure d’en justifier. Payer la prime sous peine de résiliation pour non-paiement ; 
+être en mesure d’en justifier. Payer la prime sous peine de résiliation pour non- paiement ; 
 • En cas de sinistre : Déclarer le sinistre dès que vous en avez connaissance en s’adressant au plateau de gestion de 
 Covea Affinity. 
  

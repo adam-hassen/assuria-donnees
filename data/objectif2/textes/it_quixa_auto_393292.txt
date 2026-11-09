@@ -564,8 +564,7 @@ GOLD
 GOLD PLUS
 PLATINUM
 Il programma GOLD prevede:
-✔
-Fu
+✔ Fu
 rto,
 ✔ Inc
 endio,
@@ -585,8 +584,7 @@ conducente, Tutela Legale, garanzie accessorie).
 È possibile abbinare a tutti i pacchetti la garanzia Rimborso Franchigie e Bonus Riacquisto
 Le garanzie accessorie sopra richiamate comprendono le seguenti 
 prestazioni:
-✔
-Spese per animali domestic
+✔ Spese per animali domestic
 i trasportati
 ✔ Riac
 quisto beni ed oggetti nel veicolo
@@ -626,28 +624,24 @@ destinazione d’uso diverso da
 proprio o promiscuo e veicoli a noleggio.
 Per tutte le garanzie previste, l’assicurazione non 
 comprende:
-✘
- i danni 
+✘ i danni 
 alle ruote (cerchioni, coperture ed eventuali camere d’aria);
 ✘ danni det
 erminati o agevolati da dolo o colpa grave dell’assicurato o dalle persone da lui incaricate 
 alla guida, riparazione o custodia del veicolo assicurato, o delle persone con lui conviventi o dei suoi 
 dipendenti;
-✘
- i danni 
+✘ i danni 
 derivanti da appropriazione indebita 
 (art.646 del Codice Penale);
 ✘ i danni 
 avvenuti durante la partecipazione con il 
 veicolo a gare automobilistiche e relative prove e 
 allenamenti;
-✘
- i danni 
+✘ i danni 
 verificatisi in conseguenza di guerra, eruzioni vulcaniche, terremoti, occupazioni militari, 
 requisizioni, invasioni sviluppo di energia nucleare 
 o di radioattività;
-✘
- i danni 
+✘ i danni 
 causati in conseguenza di traino attivo o 
 passivo, di manovre a spinta o a mano;
 ✘ i danni 
@@ -891,8 +885,7 @@ SOCCORSO STRADALE TOP
 La garanzia copre un massimo di due sinistri durante ciascun anno di validità della copertura.
 Non sono rimborsate le spese per interventi non autorizzati preventivamente dalla Centrale Operativa.
 Il soccorso non verrà effettuato in caso di:
-✘
- circolazione 
+✘ circolazione 
 del veicolo al di fuori della rete stradale pubblica o ad essa equivalente (percorsi fuoristrada o zone non raggiungibili da un mezzo 
 di soccorso ordinario);
 ✘ uso improprio 
@@ -921,8 +914,7 @@ All’impresa
 assicuratrice
 Potrai presentare eventuali reclami al rapporto contrattuale o alla gestione del sinistro all’Ufficio Reclami di QUIXA
 Assicurazioni S.p.A. con le seguenti modalità:
-1)
- tramite e
+1) tramite e
 -mail all’indirizzo reclami@quixa.it
 2) tramite posta 
 all’indirizzo Corso Como 17, 20154 – Milano
@@ -1016,8 +1008,7 @@ Art. 1.4 CLAUSOLA DI RIPENSAMENTO
 È possibile recedere dalla polizza entro 14 giorni dalla data di firma del Modulo di Adesione. Per recedere è necessario scrivere una e-mail alla Contraente per il tramite dell’agenzia all’indirizzo assicurazioni@sicuramente.uno
 In assenza di sinistro, il ripensamento comporta l’estinzione della polizza a partire dalle ore 24:00 del giorno di spedizione della raccomandata e il 
 diritto di ottenere da QUIXA, la restituzione del premio totale, al netto delle imposte. Se si è verificato un sinistro:
-1)
- non è possibile receder
+1) non è possibile receder
 e dalla polizza, se la durata della stessa è fino a 12 mesi;
 2) è possibile r
 ecedere dalla polizza, se la durata della stessa è superiore a 12 mesi, ma QUIXA trattiene il premio relativo all’annualità in cui si è verificato il sinistro.
@@ -1066,8 +1057,7 @@ GOLD
 GOLD PLUS
 PLATINUM
 l programma GOLD prevede:
-✔
- Fu
+✔ Fu
 rto,
 ✔ Inc
 endio,
@@ -1133,8 +1123,7 @@ La garanzia furto è prestata con uno scoperto del 15% con un minimo di 600 € 
 scoperto del 10% con un minimo di 350 € in caso di riparazione presso centri convenzionati.
 In caso di danno totale e riacquisto presso lo stesso Concessionario, si applicano scoperti e minimi previsti per i centri convenzionati.
 In caso di danno totale e mancato riacquisto presso lo stesso Concessionario, si applicano scoperti e minimi previsti per i centri non convenzionati.
-Art.
- 2.4 COSA COMPRENDE LA GARANZIA EVENTI NATURALI?
+Art. 2.4 COSA COMPRENDE LA GARANZIA EVENTI NATURALI?
 Sono indennizzati i danni materiali e diretti arrecati al Veicolo compresi pezzi di ricambio, optional e accessori non di serie stabilmente fissati sul 
 mezzo da grandine, slavine, valanghe, caduta accidentale della neve, frane e smottamento, trombe d’aria, uragani, alluvioni, inondazioni, caduta dei 
 meteoriti. Esse valgono anche quando il veicolo non si trova in circolazione.
@@ -1279,8 +1268,7 @@ Art. 3.1.2 Invalidità permanente
 Per invalidità permanente si intende l’incapacità fisica definitiva e irrimediabile dell’assicurato a svolgere, in tutto o in parte, un qualsiasi lavoro proficuo, indipendentemente dalla professione esercitata.
 L’indennizzo per il caso di invalidità permanente è dovuto qualora l’invalidità stessa si verifichi entro 2 anni dal giorno dell’infortunio.
 Di seguito sono indicati i criteri di indennizzabilità:
-a)
- 
+a) 
  Se l’infor
 tunio ha come conseguenza l’invalidità totale, permanente e definitiva, QUIXA corrisponde la somma assicurata.
 b) 
@@ -1304,8 +1292,7 @@ Il diritto all’indennizzo per invalidità permanente è di carattere personale
 Tuttavia, se l’assicurato muore per causa indipendente dall’infortunio dopo che l’indennizzo sia stato liquidato o comunque offerto in misura determinata, QUIXA paga agli eredi l’importo liquidato o offerto secondo le norme della successione testamentaria o legittima.
 Art. 3.2 CI SONO DELLE ESCLUSIONI/LIMITAZIONI?
 Sono esclusi dalla garanzia gli infortuni subiti dal conducente:
-a)
- 
+a) 
  se il conduc
 ente ha la patente scaduta da oltre 180 giorni;
 b) 
@@ -1886,8 +1873,7 @@ Le garanzie di cui al precedente Art. 6.3 - “Casi assicurati”, valgono altre
 veicolo pubblico o privato diverso da quello identificato in polizza, siano coinvolti in incidenti stradali.
 Art. 5.5 ESCLUSIONI
 Le garanzie non sono valide:
-a)
- 
+a) 
  in mater
 ia fiscale, tributaria ed amministrativa, salvo quanto espressamente previsto;
 b) 
@@ -1904,14 +1890,12 @@ conducente non è abilitato alla guida del veicolo oppure se il veicolo è usato
 diversi da quelli indicati sulla carta di circolazione o non è coperto da regolare assicurazione obbligatoria R.C.A., salvo che l’assicurato, occupato alle 
 altrui dipendenze in qualità di autista ed alla guida del veicolo in tale veste, dimostri di non essere a conoscenza dell’omissione degli obblighi di cui al
 Codice delle Assicurazioni Private (D.Lgs. n. 209/2005);
-f)
- 
+f) 
  nei casi 
 di violazione degli artt. 186 (guida sotto l’influenza dell’alcool), 187 (guida sotto l’influenza di sostanze stupefacenti) o 189 (comportamento in 
 caso di incidente) di cui al Codice della Strada (D.Lgs. n. 285/1992), salvo il caso di proscioglimento o assoluzione con decisione passata in giudicato; sono 
 esclusi i casi di estinzione del reato per qualsiasi causa. L’Impresa rimborsa le spese di difesa sostenute quando la sentenza è passata in giudicato;
-g)
- 
+g) 
  per f
 atti derivanti da partecipazione a gare o competizioni sportive e relative prove, salvo che si tratti di gare di regolarità pura indette dall’ACI o 
 dalla FMI;
@@ -1946,8 +1930,7 @@ viene concordata con AXA Assistance.
 L’assicurato ha il diritto di scegliere liberamente il proprio legale nel caso di conflitto di interessi con l’Impresa e/o con AXA Assistance.
 Art. 5.8 FORNITURA DEI MEZZI DI PROVA E DEI DOCUMENTI OCCORRENTI ALLA PRESTAZIONE DELLA GARANZIA ASSICURATIVA
 Se l’assicurato richiede la copertura assicurativa deve:
-a)
- 
+a) 
  infor
 mare immediatamente AXA Assistance in modo completo e veritiero di tutti i particolari del sinistro nonché indicare i mezzi di prova e do cumenti e, su richiesta, metterli a disposizione;
 b) 
@@ -2048,8 +2031,7 @@ omprovante il luogo di residenza dell’assicurato (ad esempio la Carta d’Iden
 c) Rifer
 imenti (numero di telefono/cellulare, indirizzo mail, ecc.) dell’Assicurato.
 In caso di Danno Totale:
-a)
- Copia del libr
+a) Copia del libr
 etto di circolazione del veicolo colpito da danno totale (vedi Glossario);
 b) Copia della f
 attura di riacquisto presso la Rete Convenzionata;
@@ -2230,14 +2212,12 @@ a) Finalità assicurativa1
 Per svolgere adeguatamente l’attività assicurativa (assunzione e
 gestione dei rischi effettuati dall’impresa di assicurazione) e gestire il 
 rapporto assicurativo, QUIXA ha la necessità di trattare i dati personali a 
-lei riferiti (dati già acquisiti, forniti direttamente da lei o da altri soggetti
-2), 
+lei riferiti (dati già acquisiti, forniti direttamente da lei o da altri soggetti2), 
 anche mediante la consultazione di banche dati legittimamente 
 accessibili (es. sistemi di informazioni creditizie, utili per verificare il 
 possesso di requisiti specifici richiesti dalle compagnie per l’accesso ad 
 agevolazioni e vantaggi, quali la rateizzazione del premio) e dispositivi 
-tecnologici
-3 e/o dati ancora da acquisire, alcuni dei quali ci debbono 
+tecnologici3 e/o dati ancora da acquisire, alcuni dei quali ci debbono 
 essere forniti da lei o da terzi per obbligo di legge 4).
 Per questa finalità, QUIXA utilizzerà i suoi dati personali nell’ambito 
 delle seguenti attività, indicati a titolo esemplificativo e non esaustivo:
@@ -2293,8 +2273,7 @@ una polizza in scadenza.
 Per queste attività di trattamento non è richiesto il suo consenso, in 
 quanto tali operazioni sono strettamente necessarie per la fornitura di 
 servizi e/o prodotti assicurativi e/o prestazioni da parte di QUIXA e di 
-terzi a cui tali dati saranno comunicati
-5.
+terzi a cui tali dati saranno comunicati5.
 Si precisa che, nel caso in cui lei abbia sottoscritto un contratto 
 assicurativo che prevede l’utilizzo della cd. “black Box”, per il trattamento 
 dei dati telematici non è richiesto il suo consenso, poiché lo stesso è 
@@ -2304,8 +2283,7 @@ contratto comporta un processo decisionale automatizzato finalizzato
 alla determinazione dello sconto/premio applicabile (es. sulla base del 
 numero di KM percorsi rilevati attraverso la cd. Black Box). 
 Viceversa, il suo consenso esplicito è richiesto per il trattamento 
-delle categorie particolari di dati
-6, quali i dati relativi alla salute 
+delle categorie particolari di dati 6, quali i dati relativi alla salute 
 (di seguito indicati anche come “dati sensibili”). Il consenso che le 
 chiediamo riguarda quindi il trattamento degli eventuali dati sensibili 
 il cui utilizzo sarà inerente esclusivamente alla fornitura dei servizi, 
@@ -2320,8 +2298,7 @@ natura pubblica che operano - in Italia o all’estero - come autonomi
 titolari, soggetti tutti così costituenti la c.d. “catena assicurativa”, in parte 
 anche in funzione meramente organizzativa.
 Il consenso che le chiediamo riguarda pertanto anche gli specifici 
-trattamenti e le comunicazioni all’interno della “catena assicurativa”
-7 
+trattamenti e le comunicazioni all’interno della “catena assicurativa” 7 
 effettuati dai predetti soggetti.
 Precisiamo che senza i suoi dati personali e sensibili non saremo in 
 grado di fornirle le prestazioni, i servizi e/o i prodotti assicurativi citati. 

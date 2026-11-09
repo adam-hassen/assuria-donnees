@@ -7,7 +7,7 @@ alleghiamo i seguenti documenti:
 per i prodotti assicurativi R.C. Auto)
 - CONDIZIONI DI ASSICURAZIONE comprensive di Glossario (redatte in conformità
 alle Linee guida del Tavolo tecnico sulla semplificazione dei contratti)
-- INFORMATIVA PRIVACY
+- INFORMA TIVA PRIVACY
 UNIPOLSAI KM&SERVIZI
 Autovetture
 Assicurazione per la Responsabilità Civile Autoveicoli
@@ -233,8 +233,7 @@ proporzione al minor premio pagato e sino alla concorrenza di € 3.000,00
 - verso il contraente e/o assicurato se, al momento del sinistro, alla guida del 
 veicolo si trovi una persona con caratteristiche diverse da quelle dichiarate. 
 OPZIONI CON SCONTO SUL PREMIO
-Guida Esperta Se è pattuita l’opzione tariffaria R.C.A. “Guida Esperta” , UnipolSai riconosce 
-uno sconto del 5% sul premio della garanzia R.C.A.
+Guida Esperta Se è pattuita l’opzione tariffaria R.C.A. “Guida Esperta” , UnipolSai riconosce uno sconto del 5% sul premio della garanzia R.C.A.
 
 ===== page 9 =====
 Pagina 3 di 28
@@ -1027,8 +1026,7 @@ esclusioni e rivalse
 dolo e/o attività illecita compiute dall’assicurato. 
 Non sono previste ipotesi di rivalsa.
  Che cosa NON è assicurato? 
-Rischi esclusi Non vi sono informazioni ulteriori rispetto a quelle fornite nel DIP Danni nella 
-Sezione “Che cosa non è assicurato?” .
+Rischi esclusi Non vi sono informazioni ulteriori rispetto a quelle fornite nel DIP Danni nella Sezione “Che cosa non è assicurato?” .
  Ci sono limiti di copertura? 
 Non vi sono informazioni ulteriori rispetto a quelle fornite nel DIP Danni nella Sezione “Ci sono 
 limiti di copertura?” .
@@ -4302,8 +4300,7 @@ I limiti/sottolimiti all’Indennizzo, Franchigie, Scoperti/minimi non indennizz
 alla diversa tipologia del Veicolo assicurato. Qualora la T ariffa preveda la possibilità di poter scegliere 
 diverse soluzioni, nelle successive tabelle saranno indicati solo i rispettivi valori “minimi e massimi” .
 Corpi Veicoli Terrestri
-Garanzia Limiti/Sottolimiti Franchigie Scoperti/minimi 
-non indennizzabili
+Garanzia Limiti/Sottolimiti Franchigie Scoperti/minimi non indennizzabili
 Incendio
 - Indennizzo Valore Assicurato;
 - Spese per recupero box fino a 
@@ -4356,8 +4353,7 @@ fino a € 500/Sinistro;
 
 ===== page 107 =====
 69 di 173
-Garanzia Limiti/Sottolimiti Franchigie Scoperti/minimi 
-non indennizzabili
+Garanzia Limiti/Sottolimiti Franchigie Scoperti/minimi non indennizzabili
 C.V .T. Extra
 - Spese “Immatricolazione o voltura” fino 
 alla concorrenza di € 400,00;
@@ -4396,8 +4392,7 @@ patente” (garanzia operante solo per
 
 ===== page 108 =====
 70 di 173
-Garanzia Limiti/Sottolimiti Franchigie Scoperti/minimi 
-non indennizzabili
+Garanzia Limiti/Sottolimiti Franchigie Scoperti/minimi non indennizzabili
 SalvaPremio
 - Indennizzo ultimo Premio annuo lordo 
 della garanzia R.C. Auto;
@@ -4463,7 +4458,7 @@ SEZIONE CORPI VEICOLI TERRESTRI (CVT)
 
 ===== page 109 =====
 71 di 173
-Garanzia Limiti/Sottolimiti Franchigie Scoperti/minimi non indennizzabili
+Garanzia Limiti/Sottolimiti Franchigie Scoperti/minimi non inden- nizzabili
 Opzione 
 Tariffaria CVT 
 “Riparazione 
@@ -4552,7 +4547,7 @@ SEZIONE CORPI VEICOLI TERRESTRI (CVT)
 
 ===== page 110 =====
 72 di 173 SEZIONE CORPI VEICOLI TERRESTRI (CVT)
-Garanzia Limiti/Sottolimiti Franchigie Scoperti/minimi non indennizzabili
+Garanzia Limiti/Sottolimiti Franchigie Scoperti/minimi non indenniz- zabili
 Danno Parziale
 30% Degrado d’uso per 
 ruote (cerchi e pneumatici) 
@@ -5761,8 +5756,7 @@ SEZIONE INFORTUNI DEL CONDUCENTE
 ===== page 136 =====
 98 di 173
 Percentuali di Invalidità permanente accertata Entità dell’Indennizzo
-inferiore o uguale al 49% percentuale accertata applicata 
-sulla Somma assicurata
+inferiore o uguale al 49% percentuale accertata applicata sulla Somma assicurata
 dal 50% al 95% Somma assicurata
 superiore al 95% doppio della Somma assicurata
 La garanzia è prestata anche se l’Invalidità permanente si verifica successivamente alla scadenza 
@@ -5926,8 +5920,7 @@ alcuna forma di tutela per i suoi danni fisici, ossia quando ha torto;
 SINTESI DEI LIMITI DI INDENNIZZO
 Infortuni
 Garanzia Limiti e sottolimiti di Indennizzo Franchigie e Scoperti
-Morte Somma assicurata indicata in 
-Polizza --Stato comatoso 
+Morte Somma assicurata indicata in Polizza --Stato comatoso 
 irreversibile
 Somma assicurata per Morte 
 indicata in Polizza --Invalidità 
@@ -8968,8 +8961,7 @@ Unibox di cui occorre indicare
 la tipologia di dispositivo 
 installato
 UnipolSai 
-Call Center Sinistri di Gruppo Numero Verde: 800 993 388
-Dall’estero: +39 051 2817000
+Call Center Sinistri di Gruppo Numero Verde: 800 993 388 Dall’estero: +39 051 2817000
 Denunciare un Sinistro CRISTALLI 
 UnipolGlass
 per riparazione presso centro convenzionato
@@ -9043,8 +9035,7 @@ autofficine e carrozzerie
 convenzionate UnipolService 
 e del “Network specializzato 
 grandine UnipolService”
-UnipolService www.unipolservice.it
-Numero Verde 800 272 272
+UnipolService www.unipolservice.it Numero Verde 800 272 272
 UnipolSai
 Call Center Sinistri di Gruppo
 www.unipolsai.it

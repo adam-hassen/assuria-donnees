@@ -399,22 +399,14 @@ GAP-Deckung  —
 Allgefahrenversicherung für den Akku 
 (bei Elektro- oder Hybridfahrzeugen)  —
 Teilkasko
-Wildschaden 
-alle Tiere
-
-Haarwild nach dem Bundesjagdgesetz
+Wildschaden  alle Tiere  Haarwild nach dem Bundesjagdgesetz
 Naturgewalten 
 
 nur bei Sturm, Hagel, Blitzschlag, 
 Überspannungs schäden durch Blitzschlag, 
 Überschwemmung
-Kurzschlussschäden an der Verkabelung 
-einschließlich Folgeschäden 
-
-einschließlich Folgeschäden 
-bis 3.000 EUR
-Schäden durch Tierbiss 
-einschließlich Folgeschäden —
+Kurzschlussschäden an der Verkabelung  einschließlich Folgeschäden  einschließlich Folgeschäden bis 3.000 EUR
+Schäden durch Tierbiss  einschließlich Folgeschäden —
 Neupreisentschädigung für Pkw, Lkw bis 
 3,5 t Gesamtmasse, Krafträder, Leichtkrafträder/-roller und Campingfahrzeuge
 
@@ -2395,7 +2387,7 @@ Arbeitgeber) Anspruch auf Ersatz Ihres Schadens oder
 Anspruch auf deckungsgleiche (kongruente) Leistungen 
 haben.
  Ausnahme: Soweit Sie einen solchen Anspruch nicht erfolgversprechend durchsetzen können, leisten wir den noch, wenn nachfolgende Voraussetzungen vorliegen: 
- − Sie haben den Anspruch in Textform geltend gemacht. 
+ − Sie haben den Anspruch in T extform geltend gemacht. 
  − Sie haben weitere zur Durchsetzung Ihres Anspruchs 
 erforderliche Anstrengungen unternommen, die Ihnen 
 billigerweise zumutbar waren. 

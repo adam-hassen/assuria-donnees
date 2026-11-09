@@ -2,7 +2,7 @@
 
 Fichiers **générés automatiquement** par `src/simulateur.py` à chaque mise à jour des offres.
 
-- **Mis à jour le** : 02/11/2026
+- **Mis à jour le** : 09/11/2026
 - **Offres réelles avec un prix de base** : 104 offres, 268 couples offre x formule
 - **Profils générés** : 2 049 (dont 25 cas typiques nommés)
 - **Prix simulés** : 37 445 devis, dont 31 777 acceptés et 5 668 refusés

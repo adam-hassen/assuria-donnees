@@ -268,8 +268,7 @@ età inferiore ai 26 anni abbia utilizzato il veicolo per un comprovato stato di
 necessità; la circolazione del veicolo sia conseguente a fatto doloso di terzi 
 penalmente rilevante.
 OPZIONI CON SCONTO SUL PREMIO
-Guida Esperta Se scelta l’opzione tariffaria R.C.A. “Guida Esperta” , UnipolSai riconosce uno 
-sconto del 5% sul premio della garanzia R.C.A.
+Guida Esperta Se scelta l’opzione tariffaria R.C.A. “Guida Esperta” , UnipolSai riconosce uno sconto del 5% sul premio della garanzia R.C.A.
 Riparazione Diretta
 Se scelta l’opzione tariffaria R.C.A. “Riparazione Diretta” (operante per i sinistri 
 rientranti nella procedura del Risarcimento Diretto in cui l’ Assicurato non sia 
@@ -731,10 +730,10 @@ CONTRA TTO MEDESIMO.
 ===== page 21 =====
 CONDIZIONI DI ASSICURAZIONE 
 COMPRENSIVE DI GLOSSARIO
-Documento redatto in conformità alle Linee guida del Tavolo tecnico sulla semplificazione dei contratti.
+Documento redatto in conformità alle Linee guida del T avolo tecnico sulla semplificazione dei contratti.
 UNIPOLSAI UNICA - Veicoli
 Assicurazione R.C.A. Autovetture 
-Mo dello SI / 09080 / 001 / 00000 / U – Ed. 01/11/2023
+Modello SI / 09080 / 001 / 00000 / U – Ed. 01/11/2023
 
 ===== page 22 =====
 Pagina 16 di 81
@@ -1881,8 +1880,7 @@ sullo stato del rischio in corso di validità e applicando i criteri della segue
 corrispondenza:
 TABELLA DI CORRISPONDENZA
 (ai sensi dell’ Art. 4, comma 2 del Provvedimento IVASS 72/2018)
-CLASSE UNIVERSALE (CU) CLASSE DI MERITO 
-INTERNA UNIPOLSAI
+CLASSE UNIVERSALE (CU) CLASSE DI MERITO INTERNA UNIPOLSAI
 1 (provenienza da CU 1) 0
 1 (provenienza da CU 2) 1
 2 2
@@ -3887,8 +3885,7 @@ Vendita:
 sulla Polizza 
 su www.unipolsai.it
 sulla APP UnipolSai
-UnipolSai Numero telefonico: 
-848 800 074
+UnipolSai Numero telefonico: 848 800 074
 Usufruire del diritto 
 di Recesso in caso di 
 Vendita a distanza

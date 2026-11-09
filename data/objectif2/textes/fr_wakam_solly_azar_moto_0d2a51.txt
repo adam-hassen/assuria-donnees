@@ -69,7 +69,6 @@ ou marchandises transportés
 subi un retrait d’immatriculation ou ayant subi une 
 transformation modifiant ses performances 
  
- 
  Y a-t-il des exclusions à la 
 couverture ? 
  
@@ -449,8 +448,7 @@ Vandalisme
 Dommages causés volontairement par un tiers sans autre 
 motif que l’intention de détruire ou détériorer.
 Véhicule
-Véhicule terrestre à moteur de moins de 50 cm
-3, commercialisés et homologués pour circuler en France : le véhicule 
+Véhicule terrestre à moteur de moins de 50 cm 3, commercialisés et homologués pour circuler en France : le véhicule 
 est composé du modèle désigné aux dispositions particulières et des éléments prévus au catalogue du constructeur 
 et montés en série par ce dernier. Toute remorque ou semi-remorque construite en vue d’être attelée au véhicule 
 assuré.

@@ -217,7 +217,7 @@ INCENDIO E FURTO Copre i danni materiali e diretti subiti dal Veicolo assicurato
 è prestato nei limiti del Valore commerciale del Veicolo indicato in Polizza. 
 INFORTUNI DEL 
 CONDUCENTE 
-Copre gli Infortuni che causano la morte o l’Invalidità permanente del Conducente, avvenuti durante la 
+Copre gli Infortuni che causano la morte o l’ Invalidità permanente del Conducente, avvenuti durante la 
 Circolazione del Veicolo assicurato. L’Indennizzo è prestato entro il Massimale di € 50.000 per Sinistro e 
 senza limite di anno. 
 TUTELA LEGALE Copre le spese legali, in sede stragiudiziale e giudiziale per la tutela civile dell’Assicurato o la sua difesa penale 
@@ -300,7 +300,7 @@ LIMITAZIONI OPERANTI PER LA GARANZIA ASSISTENZA STRADALE: Le prestazioni non son
 ! gare automobilistiche e motociclistiche (incluse relative prove e allenamenti), uso improprio del Veicolo o difetto di manutenzione 
 del Veicolo, stato di guerra, rivoluzione, sommosse o movimenti popolari, saccheggi, atti di terrorismo o Vandalismo, scioperi, 
 terremoti, fenomeni atmosferici aventi caratteristiche di calamità naturale, fenomeni di trasmutazione del nucleo dell’atomo, radiazioni 
-provocate dall’accelerazione artificiale di particelle atomiche (fissione e fusione nucleare, isotopi radioattivi, macchine acceleratrici, 
+provocate dall’accelerazione artificiale di particelle atomiche (fissione e fusione nucleare, isot opi radioattivi, macchine acceleratrici, 
 raggi X, etc.), ! dolo dell’Assicurato, compreso il suicidio o tentato suicidio, ! guida del Veicolo in stato di ebbrezza o sotto l’effetto di 
 sostanze stupefacenti o psicotrope; 
 ! Vandalismo o atti vandalici di massa e qualsiasi sconvolgimento della natura che coinvolga una pluralità di veicoli, eventi di carattere 
@@ -311,7 +311,7 @@ richiedere misure restrittive da parte delle autorità competenti (nazionali o i
 ! prestazioni da erogarsi in Paesi che si trovano in stato di belligeranza dichiarata o di fatto; ! qualsiasi perdita, danno, responsabilità, 
 richiesta, costo o spesa di qualsiasi natura, direttamente o indirettamente causati da una o più delle seguenti circostanze: eventi per 
 i quali l’Assicuratore è tenuto a prestazioni di qualsiasi natura che possano esporlo a sanzioni, divieti o restrizioni in base alle 
-risoluzioni delle Nazioni Unite o a sanzioni commerciali o economiche, dell’Unione Europea, Regno Unito o Stati Uniti d’America, da 
+risoluzioni delle Nazioni Unite o a sanzioni commerciali o economiche, dell’Unione Europea, Regno Unito o Stati Uniti d’Ameri ca, da 
 qualsiasi altra disposizione vi gente, eventi verificatisi in Paesi non raccomandati dal Ministero degli Affari Esteri Italiano, 
 dall’Organizzazione Mondiale della Sanità (OMS) o altri organismi simili, o soggetti a embargo dal Consiglio di Sicurezza delle Nazioni 
 Unite o da altre organizzazioni internazionali, eventi verificati in eventuali conflitti o interventi nazionali o internazionali. 
@@ -380,14 +380,13 @@ Arbitrato: in caso di discordanza sull’entità del danno, la liquidazione può
 nominati rispettivamente da Verti e dall’Assicurato. I periti, in caso di disaccordo, ne eleggono un terzo e le 
 decisioni sono prese a maggioranza di voti. Se una delle Parti non procede alla nomina del proprio perito o se i 
 periti non si accordano sulla nomina del terzo, la scelta sarà delegata al Presidente del Tribunale ove risiede 
-l’Assicurato. I periti decidono inappellabilmente senza alcuna formalità giudiziaria e la loro decisione è presa a 
+l’Assicurato. I periti decidono inappellabilmente senza alc una formalità giudiziaria e la loro decisione è presa a 
 maggioranza di voti con dispensa da ogni formalità di Legge, ed è vincolante per le Parti. Ciascuna delle Parti 
 sostiene le spese del proprio perito; la spesa del terzo perito è a carico di Verti e dell’Assicurato, in parti uguali, 
 esclusa ogni solidarietà. 
 Procedura FIN -NET: in caso di liti transfrontaliere, puoi presentare reclamo direttamente al sistema estero 
 competente nel quale ha sede la Compagnia di assicurazione che ha stipulato il Contratto: consulta il sito: 
-http://www.ec.europa.eu/fin-net
- Puoi attivare la procedura FIN -NET direttamente dal sito 
+http://www.ec.europa.eu/fin-net Puoi attivare la procedura FIN -NET direttamente dal sito 
 http://www.ec.europa.eu/fin-net o rivolgendoti all’IVASS, la quale provvederà a sua volta all’inoltro alla Compagnia 
 estera competente, dandone notizia al reclamante. 
  
@@ -2791,8 +2790,7 @@ SETINFOMOTO&CICLO_Ed. 05 luglio 2025
 TABELLA 1: ANIA
 MENOMAZIONI
 % Invalidità permanente
-Arto dominante == Arto non 
-dominante
+Arto dominante == Arto non dominante
 Perdita della facoltà visiva di un occhio == 25 ==
 Cecità completa bilaterale == 100 ==
 Sordità completa monolaterale == 10 ==
@@ -4541,8 +4539,7 @@ Allegato 4 – Sintesi Massimali, Scoperti e Franchigie
 42 di 42 
 SETINFOMOTO&CICLO_Ed. 05 luglio 2025
 Allegato 4 – Sintesi Massimali, Scoperti e Franchigie
-GARANZIA MASSIMALE/ SOMMA ASSICURATA SCOPERTO e Minimo/
-FRANCHIGIA
+GARANZIA MASSIMALE/ SOMMA ASSICURATA SCOPERTO e Minimo/ FRANCHIGIA
 RESPONSABILITÁ CIVILE AUTO € 6,5 milioni per danni a persone e € 2 milioni per danni a Cose
 € 7 milioni per danni a persone e € 2,5 milioni per danni a Cose
 € 8 milioni per danni a persone e € 3 milioni per danni a Cose
@@ -5057,7 +5054,7 @@ Gli estremi identificativi e di iscrizione dell’I mpresa possono essere verifi
 SEZIONE IV 
 Informazioni sull’attività di distribuzione e consulenza 
 L’Impresa vende direttamente il prodotto assicurativo (senza avvalersi di intermediari), non fornisce consulenza ai sensi 
-dell’art. 119-ter, comma 3, del decreto legislativo n. 209/2005 (Codice delle Assicurazioni Private), né una 
+dell’art. 119- ter, comma 3, del decreto legislativo n. 209/2005 (Codice delle Assicurazioni Private), né una 
 raccomandazione personalizzata contenente i motivi per cui un particolare contratto è ritenuto più indicato a soddisfare 
 le richieste e le esigenze del Contraente. 
 Nell’ambito dell’attività di distribuzione sono adottati presidi idonei a prevenire e identificare i conflitti di interesse e 
@@ -5129,8 +5126,7 @@ del proprio perito; la spesa del terzo perito è a carico di Verti e dell’Assi
 solidarietà. 
 Procedura FIN -NET: in caso di liti transfrontaliere, puoi presentare reclamo direttamente al sistema estero 
 competente nel quale ha sede la Compagnia di assicurazione che ha stipulato il Contratto: consulta il sito: 
-http://www.ec.europa.eu/fin-net
- Puoi attivare la procedura FIN -NET direttamente dal sito 
+http://www.ec.europa.eu/fin-net Puoi attivare la procedura FIN -NET direttamente dal sito 
 http://www.ec.europa.eu/fin-net o rivolgendoti all’IVASS, la quale provvederà a sua volta all’inoltro alla Compagnia 
 estera competente, dandone notizia al reclamante oppure 
 c. l’informativa sugli strumenti di tutela del contraente, di cui alle lettere a. e b., è fornita attraverso la consegna del 

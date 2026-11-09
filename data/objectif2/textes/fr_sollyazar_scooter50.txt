@@ -627,8 +627,7 @@ dommageable survient entre la prise d’effet initiale de la garantie
 et sa date de résiliation ou d’expiration, quelle que soit la date des 
 autres éléments constitutifs du sinistre.
  
-En cas de vol du véhicule assuré, la garantie 
-Responsabilité civile, 
+En cas de vol du véhicule assuré, la garantie Responsabilité civile, 
 pour les accidents dans lesquels le véhicule volé est impliqué, cessera 
 de produire ses effets :
 Soit à l’expiration d’un délai de 30 jours à compter de la déclaration 
@@ -851,8 +850,7 @@ anormale d’un agent naturel lorsque celui-ci est reconnu comme
 Catastrophe Naturelle par arrêté interministériel publié au Journal 
 Officiel.
 Cette garantie s’applique sous réserve que l’assuré ait souscrit au 
-moins l’une des garanties 
-Incendie-Explosion-Tempêtes-Forces de 
+moins l’une des garanties Incendie-Explosion-Tempêtes-Forces de 
 la nature, Attentats, Vol, et s’exerce dans les mêmes conditions et 
 limites que celles prévues par ces garanties.
 En cas de modification de ces dispositions par arrêté interministériel, 
@@ -1107,8 +1105,7 @@ de l’entreprise funéraire, à concurrence de la somme indiquée aux
 dispositions particulières et dans la limite du plafond de la garantie.
 2 - En cas de blessures
 Incapacité permanente partielle ou totale.
-Incapacité temporaire de travail dès le 1
-er jour d’interruption du 
+Incapacité temporaire de travail dès le 1 er jour d’interruption du 
 travail. Les frais médicaux, chirurgicaux et pharmaceutiques.
 Les souffrances physiques (Pretium Doloris). Le préjudice esthétique.
 Le coût de l’assistance d’une tierce personne après consolidation 
@@ -1360,8 +1357,7 @@ diligente par le président du Tribunal de Grande Instance du domicile
 de l’assuré avec dispense de serment et de toutes autres formalités.
 Chaque partie conservera à sa charge les honoraires et frais relatifs 
 à l’intervention de l’expert qu’elle aura désigné, ceux nécessités par 
-l’intervention éventuelle d’un 3
-ème expert étant partagé par moitié 
+l’intervention éventuelle d’un 3 ème expert étant partagé par moitié 
 entre elles.
 3 - Le bénéficiaire de l’indemnisation
 En cas de blessures : le règlement est versé à la victime elle-même.
@@ -1619,8 +1615,7 @@ Les modalités de la résiliation
 Si vous en prenez l’initiative : vous devez nous en informer selon 
 les modalités prévues à l’article L.113-14 du Code des Assurances, 
 notamment en adressant une lettre recommandée
-- soit au Service production 
-SOLLY AZAR, 60 rue de la chaussée 
+- soit au Service production SOLLY AZAR, 60 rue de la chaussée 
 d’Antin 75439 Paris cedex 09 dans les délais prévus en fonction 
 du motif de résiliation qui la transmettra à l’assureur, Celle-ci sera 
 effective à réception par l’assureur.
@@ -1645,8 +1640,7 @@ entièrement acquise à l’assureur.
 LE RÈGLEMENT DES SINISTRES
 ARTICLE 41 : DECLARATION DES SINISTRES 
 Les délais à respecter
-Vous devez déclarer le sinistre à votre service Sinistre : 
-SOLLY AZAR, 
+Vous devez déclarer le sinistre à votre service Sinistre : SOLLY AZAR, 
 60 rue de la chaussée d’Antin 75439 Paris cedex 09, soit par écrit 
 (de préférence par lettre recommandée), soit verbalement contre 
 récépissé, préciser les références de votre contrat et l’existence 
@@ -1824,12 +1818,10 @@ Autorité de Contrôle Prudentiel et de Résolution
 61 rue Taitbout 
 75436 Paris Cedex 09
 4� Communication des informations
-Vous pouvez demander au 
-Groupe Solly Azar service communication 
+Vous pouvez demander au Groupe Solly Azar service communication 
 60 rue de la Chaussée d’Antin 75439 Paris Cedex 09 ou à l’assureur 
 communication et rectification de toute information vous concernant 
-qui figurerait sur tout fichier à l’usage des assureurs, de
- Groupe Solly 
+qui figurerait sur tout fichier à l’usage des assureurs, de Groupe Solly 
 Azar, des réassureurs ou des organismes professionnels (loi française 
 78-17 du 6 janvier 1978 modifiée relative à l’informatique, aux Fichiers 
 et aux Libertés et par la loi luxembourgeoise sur la protection des 

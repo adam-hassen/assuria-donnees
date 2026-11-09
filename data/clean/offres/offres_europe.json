@@ -263,7 +263,7 @@
     "url_source":"https:\/\/www.baloise.be\/dam\/baloise-be\/prive\/documents\/nl\/IPID\/B9000.MOT.02.26.Fiche-ipid-Mobility_Safe_1_Personenwagens-en-Lichte-vrachtwagens_NL.pdf",
     "fichier_source":"data\/raw\/offres\/be_baloise_auto_407069.pdf",
     "collecte_le":"2026-10-21T13:00:06+00:00",
-    "statut_lien":"lien en erreur (HTTPError), dernière version gardée"
+    "statut_lien":"ok"
   },
   {
     "id_offre":"be_hyundai_auto",
@@ -1023,7 +1023,7 @@
     "url_source":"https:\/\/goa-eportale.allianz.de\/IPI\/D-2\/IPID-2006Z0.pdf.open.pdf",
     "fichier_source":"data\/raw\/offres\/de_allianz_auto_57f941.pdf",
     "collecte_le":"2026-10-21T12:49:52+00:00",
-    "statut_lien":"ok"
+    "statut_lien":"lien en erreur (HTTPError), dernière version gardée"
   },
   {
     "id_offre":"de_allianz_auto_ec2ba1",
@@ -1061,7 +1061,7 @@
     "url_source":"https:\/\/goa-eportale.allianz.de\/IPI\/D-2\/IPID-2008Z0.pdf.open.pdf",
     "fichier_source":"data\/raw\/offres\/de_allianz_auto_ec2ba1.pdf",
     "collecte_le":"2026-10-21T12:49:52+00:00",
-    "statut_lien":"ok"
+    "statut_lien":"lien en erreur (HTTPError), dernière version gardée"
   },
   {
     "id_offre":"de_allianz_kfz_2002",
@@ -1099,7 +1099,7 @@
     "url_source":"https:\/\/goa-eportale.allianz.de\/IPI\/D-2\/IPID-2002Z0.pdf.open.pdf",
     "fichier_source":"data\/raw\/offres\/de_allianz_kfz_2002.pdf",
     "collecte_le":"2026-10-21T12:26:48+00:00",
-    "statut_lien":"ok"
+    "statut_lien":"lien en erreur (HTTPError), dernière version gardée"
   },
   {
     "id_offre":"de_allianz_kfz_smart",
@@ -1137,7 +1137,7 @@
     "url_source":"https:\/\/goa-eportale.allianz.de\/IPI\/D-2\/IPID-2001Z0.pdf.open.pdf",
     "fichier_source":"data\/raw\/offres\/de_allianz_kfz_smart.pdf",
     "collecte_le":"2026-10-21T12:26:47+00:00",
-    "statut_lien":"ok"
+    "statut_lien":"lien en erreur (HTTPError), dernière version gardée"
   },
   {
     "id_offre":"de_allianz_moped",
@@ -1175,7 +1175,7 @@
     "url_source":"https:\/\/goa-eportale.allianz.de\/IPI\/D-2\/IPID-2009Z0.pdf.open.pdf",
     "fichier_source":"data\/raw\/offres\/de_allianz_moped.pdf",
     "collecte_le":"2026-10-21T12:32:18+00:00",
-    "statut_lien":"ok"
+    "statut_lien":"lien en erreur (HTTPError), dernière version gardée"
   },
   {
     "id_offre":"de_arcd_kfz",
@@ -1251,7 +1251,7 @@
     "url_source":"https:\/\/www.wgv.de\/docs\/vertragsunterlagen\/kfz.pdf",
     "fichier_source":"data\/raw\/offres\/de_wgv_auto_e0d2b0.pdf",
     "collecte_le":"2026-10-21T12:49:43+00:00",
-    "statut_lien":"lien en erreur (HTTPError), dernière version gardée"
+    "statut_lien":"ok"
   },
   {
     "id_offre":"es_allianz_direct_auto_6c05a9",
@@ -1897,7 +1897,7 @@
     "url_source":"https:\/\/www.axa.fr\/content\/dam\/axa-fr-convergence\/auto\/ipid\/972723-1121-Dipa-NDA.pdf",
     "fichier_source":"data\/raw\/offres\/fr_axa_france_auto_8682b5.pdf",
     "collecte_le":"2026-10-21T12:46:28+00:00",
-    "statut_lien":"lien en erreur (HTTPError), dernière version gardée"
+    "statut_lien":"ok"
   },
   {
     "id_offre":"fr_axa_france_auto_8d8bbd",

@@ -17,7 +17,12 @@ des dommages matériels ou corporels causés par son véhicule à des tiers (res
 également des garanties optionnelles couvrant les dommages subis par le véhicule assuré, les dommages corporels du conducteur ou encore des 
 services d'assistance aux véhicules et aux personnes. 
  
- Qu’est ce qui est assuré ? Les garanties précédées d'une coche verte  sont systématiquement prévues au contrat. 
+ 
+Qu’est ce qui est assuré ? 
+ 
+Les garanties précédées d'une coche verte  sont systématiquement 
+prévues au contrat. 
+ 
 GARANTIES DE BASE 
  
  Responsabilité civile : 
@@ -61,13 +66,16 @@ votre famille, en voyage, ensemble ou séparément.
  
 La description exhaustive de chaque garantie figure dans les 
 Dispositions Générales du contrat. 
- Qu’est ce qui n’est pas assuré ? 
+ 
+Qu’est ce qui n’est pas assuré ? 
+ 
  Le transport rémunéré de personnes. 
  Le transport rémunéré de marchandises. 
  La location du véhicule assuré. 
  Les véhicules immatriculés à l'étranger. 
  
- Y-a-t-il des exclusions à la couverture ? 
+ 
+Y-a-t-il des exclusions à la couverture ? 
  
  
 PRINCIPALES EXCLUSIONS : 
@@ -100,13 +108,18 @@ sinistre occasionné par un conducteur non désigné au contrat.
 
 ===== page 2 =====
 IPID_AMV_MOTO_GB_0426_08 2/2 
- Où suis-je couvert(e) ? 
+ 
+ 
+Où suis-je couvert(e) ? 
  
  En France métropolitaine et dans les Départements - Régions et Collectivités d'Outre-Mer. 
  Dans les pays mentionnés sur l'attestation d'assurance dont les lettres indicatives ne sont pas rayées. 
  Dans les territoires et principautés suivants : Andorre, Gibraltar, Iles Anglo-Normandes, Iles Féroé, Ile de Man, Liechtenstein, Monaco, SaintMarin et le Saint-Siège (Vatican). 
  
- Quelles sont mes obligations ? 
+ 
+ 
+Quelles sont mes obligations ? 
+ 
 Sous peine de nullité du contrat d’assurance ou de non garantie, vous devez : 
  A la souscription du contrat : 
 - Répondre exactement aux questions posées et fournir tous les justificatifs demandés. 
@@ -118,12 +131,15 @@ En cours de contrat :
 En cas de sinistre : 
 - Déclarer le sinistre le plus rapidement possible et au plus tard dans les délais précisés aux Dispositions Générales. 
  
- Quand et comment effectuer les paiements ? 
+ 
+Quand et comment effectuer les paiements ? 
+ 
 Les paiements doivent être effectués lors de la souscription et à l'échéance annuelle du contrat. 
 Le règlement peut être effectué annuellement, semestriellement ou mensuellement, par chèque, carte bancaire ou prélèvement automatique. 
  
  
- Quand commence la couverture et quand prend-elle fin ? 
+ 
+Quand commence la couverture et quand prend-elle fin ? 
  
 Les garanties du contrat prennent effet aux date et heure indiquées aux Dispositions Particulières. 
 Le contrat est conclu pour une durée d'un an et se renouvelle automatiquement d’année en année à sa date d’échéance. 
@@ -131,7 +147,8 @@ La couverture prend fin au jour de la résiliation du contrat par l'une des part
 par lettre ou sur support durable, soit par déclaration contre récépissé auprès de l’assureur ou de son représentant. 
  
  
- Comment puis-je résilier le contrat ? 
+ 
+Comment puis-je résilier le contrat ? 
  
 Vous pouvez résilier votre contrat par courrier ou par mail via Mon Espace AMV sur www.amv.fr dans les cas et conditions prévus aux 
 Dispositions Générales : 

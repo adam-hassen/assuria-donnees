@@ -1430,11 +1430,9 @@ inoltre, le cose danneggiate devono essere conservate al fine di permettere la v
 La copertura è prestata fino a un massimo di 500 euro, per Sinistro e per anno assicurativo.
 ART. 7.2 - DANNO BAULETTO - BORSE LATERALI
 Crédit Agricole Assicurazioni rimborsa i danni al bauletto e/o alle borse/ ai bauletti laterali, in caso di:
-•
-Furto o tentato Furto
+• Furto o tentato Furto
 e/o
-•
-collisione con un altro veicolo identificato e immatricolato con targa, avvenuta durante la Circolazione, per la sola
+• collisione con un altro veicolo identificato e immatricolato con targa, avvenuta durante la Circolazione, per la sola
 quota di responsabilità dell’Assicurato nel Sinistro.
 Tale garanzia opera per gli Accessori non di Serie con il limite per Sinistro e per anno assicurativo di:
 • euro 75 per danni al bauletto posteriore;
@@ -1465,7 +1463,7 @@ Condizioni di Assicurazione
 Oggetto del Contratto
 nuovamente un veicolo a marca HONDA presso la Rete Ufficiale entro 90 giorni dall’evento.
 La concessione della predetta agevolazione è subordinata alla consegna a Crédit Agricole Assicurazioni:
-della fattura di acquisto del Veicolo oggetto di riparazione,
+- della fattura di acquisto del Veicolo oggetto di riparazione,
 - delle fatture relative alle riparazioni eseguite nei 12 mesi antecedenti la Perdita Totale e
 - della fattura di riacquisto di un veicolo presso la Rete Ufficiale,
 entro il limite temporale di 90 giorni dalla data di denuncia del Sinistro.
@@ -1483,14 +1481,12 @@ di non fare ricorso all’Ufficio Centrale Italiano (UCI) o al Fondo di Garanzia
 materiali e diretti subiti dal Veicolo. 
 ART. 7.5.1 - SOMMA ASSICURATA
 La Somma Assicurata è pari al Valore a Nuovo del Veicolo 
-•
-fino a 24 mesi dalla data di Prima Immatricolazione se viene scelta la Linea Base e
+• fino a 24 mesi dalla data di Prima Immatricolazione se viene scelta la Linea Base e
 • fino a 36 mesi dalla data di Prima Immatricolazione se viene scelta la Linea Plus,
 in caso di riacquisto di un veicolo a marca Honda presso la Rete Ufficiale e/o riparazione del Veicolo presso le
 Officine Convenzionate.
 In caso di:
-•
-non riacquisto di un veicolo a marca Honda presso la Rete Ufficiale e/o
+• non riacquisto di un veicolo a marca Honda presso la Rete Ufficiale e/o
 • non riparazione del Veicolo presso le Officine Convenzionate, e
 • comunque, oltre il ventiquattresimo (24esimo) o trentaseiesimo (36esimo) mese, a seconda della linea scelta,
 dalla data di Prima Immatricolazione, la Somma Assicurata è pari al Valore Commerciale del Veicolo.
@@ -1515,8 +1511,7 @@ Oggetto del Contratto Meccanismo di funzionamento della Franchigia, dello Scoper
 Collisione con Veicoli non assicurati 
 1° esempio – Caso di riacquisto di un veicolo presso la Rete Ufficiale o riparazione presso le Officine 
 Convenzionate – zona 1
-•
- Linea sottoscritta: Base
+• Linea sottoscritta: Base
 • Mesi di vetustà del Veicolo dalla data di Prima immatricolazione: 12
 • Somma assicurata euro 6.000 (Valore a Nuovo Veicolo)
 • Danno periziato euro 1.500, con riacquisto di un veicolo presso la Rete Ufficiale
@@ -1525,8 +1520,7 @@ Franchigia di euro 250
 • Indennizzo: euro 1.500- euro 250 = euro 1.250.
 2° esempio – Caso di riacquisto di un veicolo presso la Rete Ufficiale o riparazione presso le Officine
 Convenzionate – zona 1
-•
- Linea sottoscritta: Base
+• Linea sottoscritta: Base
 • Mesi di vetustà del Veicolo dalla data di Prima immatricolazione: 26
 • Somma assicurata euro 3.000 (Valore a Nuovo Veicolo), ma viene applicato euro 1.000 (Valore
 commerciale)
@@ -1658,26 +1652,22 @@ radioattività;
 c) determinati od agevolati da dolo o colpa grave dell’Ader ente, dell’Assicurato, delle persone con loro
 coabitanti, dei loro dipendenti o delle persone da loro incaricate alla guida, riparazione o custodia del
 Veicolo assicurato nonché dei trasportati;
-d)
-causati da bruciature verificatesi in assenza di Incendio, nonché quelli agli impianti elettrici dovuti a
+d) causati da bruciature verificatesi in assenza di Incendio, nonché quelli agli impianti elettrici dovuti a
 fenomeno elettrico comunque manifestatosi;
 e) consistenti in rigature, segnature, screpolature, scheggiature e danni similari dei cristalli del Veicolo;
 f) verificatisi durante la partecipazione del Veicolo a gare o competizioni sportive, alle relative prove ufficiali,
 prove libere e allenamenti e alle verifiche preliminari e finali previste nel regolamento particolare di gara;
 non sono inoltre compresi i danni verificatisi dalla circolazione del Veicolo in piste o circuiti privati o fuori
 strada o su strada non aperta al pubblico;
-g)
-ad apparecchi audiofonovisivi e ai navigatori satellitari non stabilmente fissati al Veicolo e i danni causati
+g) ad apparecchi audiofonovisivi e ai navigatori satellitari non stabilmente fissati al Veicolo e i danni causati
 a parti del Veicolo per la loro asportazione;
 h) derivanti da negligente custodia del Veicolo.
 ART. 9.2 – ESCLUSIONI – GARANZIE COMPLEMENTARI
 La garanzia Kasko Abbigliamento non è operante:
-a)
-riguardo al casco, se quest’ultimo non è omologato come previsto dalle normative vigenti.
+a) riguardo al casco, se quest’ultimo non è omologato come previsto dalle normative vigenti.
 ART. 9.3 – ESCLUSIONI VALIDE PER LE GARANZIE COLLISIONE E KASKO TOTALE
 Relativamente alle garanzie Collisione e Kasko Totale, l’Assicurazione non opera inoltre:
-a)
-se il Conducente non è abilitato alla guida a norma delle disposizioni in vigore;
+a) se il Conducente non è abilitato alla guida a norma delle disposizioni in vigore;
 b) per i danni subiti a causa di traino attivo o passivo, di manovre a spinta o a mano o di Circolazione fuori
 dalla sede stradale;
 c) per i danni alle ruote-cerchioni, coperture e camere d’aria – se verificatisi non congiuntamente ad altro

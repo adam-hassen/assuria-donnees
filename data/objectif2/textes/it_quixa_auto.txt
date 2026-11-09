@@ -746,8 +746,7 @@ TABELLA D1 - Tabella delle regole evolutive Quixa Point
 ag 1
 5 di 16
 TABELLA D2 - Tabella delle regole evolutive QUIXA 
-con opzione quixaBOX
- Pag 15 di 16
+con opzione quixaBOX Pag 15 di 16
 TABELLA DI VALORIZZAZIONE DEL GRADO DI
 INVALIDITÀ PERMANENTE
  Pag 
@@ -831,15 +830,13 @@ gli ascendenti e discendenti del conducente e
 del proprietario del veicolo, dell’usufruttuario,
 dell’acquirente con patto di riservato dominio, del
 locatario di veicolo in leasing, per i danni a cose;
-✘
- i 
+✘ i 
 parenti ed affini entro il terzo grado del conducente
 e del proprietario del veicolo, dell’usufruttuario,
 dell’acquirente con patto di riservato dominio, del
 locatario per veicolo in leasing, se conviventi o a loro
 carico, per i danni a cose;
-✘
- se 
+✘ se 
 l’assicurato è una società, i soci a responsabilità
 illimitata e, se conviventi o a loro carico, i relativi coniugi 
 non legalmente separati, i conviventi, gli ascendenti e
@@ -1286,8 +1283,7 @@ Limitazioni,
 esclusioni e rivalse
 Nel caso di controversie tra assicurati con la stessa polizza, la garanzia viene prestata unicamente a favore del contraente.
 Le garanzie non sono valide:
-a)
-in 
+a) in 
 materia fiscale, tributaria ed amministrativa;
 b)
  per 
@@ -1462,8 +1458,7 @@ In caso tu abbia sottoscritto la garanzia Infortuni al Conducente, Quixa Point p
 entro il termine di 15 giorni dalla data dell’atto di liquidazione amichevole o del verbale di perizia definitivo.
 Premio Puoi effettuare il pagamento del premio, comprensivo di imposta e del contributo sanitario nazionale attraverso le 
 modalità descritte nel DIP Base.
-Rimborso
-Se trasferisci la proprietà della tua auto (la vendi, la cedi in conto vendita) oppure la rottami, la demolisci o la esporti definitivamente all’estero) e decidi di non sostituirla con un altro veicolo, Quixa Point, ti restituirà la parte di premio pagata e non 
+Rimborso Se trasferisci la proprietà della tua auto (la vendi, la cedi in conto vendita) oppure la rottami, la demolisci o la esporti definitivamente all’estero) e decidi di non sostituirla con un altro veicolo, Quixa Point, ti restituirà la parte di premio pagata e non 
 goduta 
 al netto dell’imposta e del contributo al servizio sanitario nazionale.
 Anche nel caso in cui la tua auto ti sia stata rubata oppure se ci ripensi entro 15 giorni dalla data di decorrenza della polizza 
@@ -1488,8 +1483,7 @@ sito www.giustizia.it . (Legge 9/8/2013, n. 98).
 La Mediazione è obbligatoria e condizione di procedibilità per esercitare in giudizio un’azione civile nei confronti 
 dell’Impresa, attinente ai contratti assicurativi (ad esclusione delle controversie relative al risarcimento del danno da 
 circolazione di veicoli e natanti).
-Negoziazione
- assistita Tr
+Negoziazione assistita Tr
 amite richiesta del proprio avvocato all’Impresa.
 La Negoziazione Assistita è obbligatoria e condizione di procedibilità per esercitare in giudizio un’azione civile nei 
 confronti dell’Impresa, attinente alle controversie relative al risarcimento del danno da circolazione di veicoli e natanti 
@@ -1842,7 +1836,6 @@ eicolo utilizzato per le esercitazioni alla guida per conseguire
 la patente nel caso in cui la circolazione avvenga senza osservare le 
 disposizioni vigenti;
 l2) 
- 
  nel 
 caso in cui il veicolo venga posto in circolazione in violazione 
 delle disposizioni vigenti previste dal Codice della Strada.
@@ -2972,8 +2965,7 @@ dell’assicurato di adire le vie giudiziarie, la decisione può essere demandat
 Ciascuna delle parti contribuisce alla metà delle spese arbitrali, quale 
 che sia l’esito dell’arbitrato. AXA Assistance avverte l’assicurato del suo 
 diritto di avvalersi di tale procedura.
-Art. 6.10
- RECUPERO DI SOMME
+Art. 6.10 RECUPERO DI SOMME
 Spettano integralmente all’assicurato i risarcimenti ottenuti ed in genere 
 le somme recuperate o comunque corrisposte dalla controparte a titolo 
 di capitale ed interessi.
@@ -3777,9 +3769,7 @@ da -8 in poi 0,84700 -- -- 0,00% 0,00
 0 14
  TABELLA C 
 Corrispondenza tra classe CU e classe interna Quixa Point 
-CLASSE CU CLASSE QUIXA 
-POINT CLASSE CU CLASSE QUIXA 
-POINT
+CLASSE CU CLASSE QUIXA POINT CLASSE CU CLASSE QUIXA POINT
 1 -8 6 6
 1 -7 7 7
 1 -6 8 8
@@ -4156,8 +4146,7 @@ Il Consenso che chiediamo di esprimere all’interessato è facoltativo. In
 mancanza di tale consenso, non vi sono effetti sull’erogazione dei servizi 
 assicurativi. La Base Giuridica del Trattamento per le attività di profilazione ivi menzionate e descritte è la manifestazione del Consenso dell’interessato al Trattamento dei propri Dati Personali per tale specifica finalità.
 4. Modalità di utilizzo dei Dati Personali 
-I Dati Personali dell’interessato sono trattati
-12 da QUIXA – nella propria
+I Dati Personali dell’interessato sono trattati 12 da QUIXA – nella propria
 qualità 
 di Titolare del Trattamento – solo con modalità strettamente
 necessarie per fornire le prestazioni, i servizi e/o i prodotti assicurativi
@@ -4178,15 +4167,13 @@ Informativa; lo stesso avviene presso i soggetti già indicati nella presente
 Informativa a cui i Dati Personali possono venire comunicati.
 In particolare, secondo il particolare rapporto assicurativo, i Dati possono 
 essere comunicati a taluni dei seguenti soggetti:
-i.
- A
+i. A
 ssicuratori, Coassicuratori e Riassicuratori; Agenti, Subagenti,
 Mediatori di Assicurazione e di Riassicurazione, Produttori ed altri
 canali di acquisizione e gestione di contratti di assicurazione;
 Banche; Legali; Periti; Medici; Autofficine; Centri di Demolizione di
 Autoveicoli;
-ii.
- società di ser
+ii. società di ser
 vizi per il quietanzamento; società di servizi a cui siano 
 affidati la gestione, la liquidazione ed il pagamento dei sinistri, tra
 cui centrale operativa di assistenza, società di consulenza, cliniche
@@ -4201,15 +4188,13 @@ per il pagamento dei premi. Si precisa che il Titolare fornirà alle
 società che gestiscono sistemi di informazione creditizie e sistemi
 di informazione commerciale per rischi commerciali esclusivamente i Dati Personali necessari per la consultazione dei Dati di tali
 sistemi;
-iii.
- società del 
+iii. società del 
 Gruppo a cui appartiene la Compagnia (controllanti,
 controllate o collegate, anche indirettamente, ai sensi delle vigenti
 disposizioni di legge) anche per finalità amministrativo-contabili
 e Cassa Assistenza Assicurazioni AXA per finalità assistenziali e di
 servizio;
-iv.
- società Partner
+iv. società Partner
 , autonome Titolari del Trattamento:
 a. se 
 applicabile al singolo prodotto, per la fornitura di garanzie e
@@ -4221,8 +4206,7 @@ strumentali a future evoluzioni della Compagnia (ad esempio
 negli ambiti di sofisticazione della tariffazione, ottimizzazione
 della gestione dei sinistri e studio di nuove offerte commerciali
 sulla base dei comportamenti dei clienti);
-v.
- ANIA 
+v. ANIA 
 (Associazione Nazionale fra le Imprese Assicuratrici); organismi associativi e consortili propri del settore assicurativo; IVASS 
 (Istituto per la Vigilanza sulle Assicurazioni); nonché altri soggetti, 
 quali: UIC (Ufficio Italiano dei Cambi); Casellario Centrale Infortuni; 
@@ -4281,8 +4265,7 @@ Per l’esercizio dei diritti previsti in capo a tali Soggetti, l’Interessato
 può rivolgersi a QUIXA Assicurazioni S.p.A., c.a. Data Protection Officer 
 (D.P.O.), Casella Postale n.427 – 20123 Milano (MI) – E-mail: centrocompetenzaprivacy@quixa.it. Inoltre, l’Interessato potrà proporre reclamo 
 all’Autorità di Controllo in materia di Protezione dei Dati Personali – in 
-Italia, il 
-Garante per la Protezione dei Dati Personali: Piazza Venezia n. 
+Italia, il Garante per la Protezione dei Dati Personali: Piazza Venezia n. 
 11 – 00187, Roma; (+39) 06696771; protocollo@pec.gpdp.it.
 Per qualsiasi eventuale ulteriore informazione, si invita a visitare l’apposita sezione Privacy del sito web della Compagnia.
 

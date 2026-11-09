@@ -189,8 +189,7 @@ patentato da almeno 3. E’ prevista la rivalsa
 - verso il Contraente e/o l’ Assicurato se, al momento del sinistro, alla guida del veicolo si 
 trovi una persona con caratteristiche diverse da quelle dichiarate.
 OPZIONI CON SCONTO SUL PREMIO
-Guida Esperta Se è pattuita la relativa condizione aggiuntiva R.C.A., UnipolSai riconosce uno sconto del 
-5% sul premio della garanzia R.C.A..
+Guida Esperta Se è pattuita la relativa condizione aggiuntiva R.C.A., UnipolSai riconosce uno sconto del 5% sul premio della garanzia R.C.A..
 OPZIONI CON PAGAMENTO DI UN PREMIO AGGIUNTIVO
 Aumento dei Massimali 
 minimi di legge
@@ -212,8 +211,7 @@ entro la data indicata in polizza.
 Quali coperture posso aggiungere alla R.C. Auto pagando un premio aggiuntivo?
 In aggiunta alla garanzia R.C.A. obbligatoria non sono previste ulteriori garanzie.
  Che cosa NON è assicurato?
-Rischi esclusi Non vi sono informazioni ulteriori rispetto a quelle fornite nel DIP Danni nella Sezione “Che 
-cosa non è assicurato?” .
+Rischi esclusi Non vi sono informazioni ulteriori rispetto a quelle fornite nel DIP Danni nella Sezione “Che cosa non è assicurato?” .
  Ci sono limiti di copertura?
 Non vi sono informazioni ulteriori rispetto a quelle fornite nel DIP Danni.
 
@@ -480,9 +478,9 @@ Nel testo che segue si intendono:
 • per «Codice»: il codice delle assicurazioni private di cui al decreto legislativo 7 settembre 2005, n. 209 e 
 successive modificazioni;
 • per «Codice della strada»: il decreto legislativo 30 aprile 1992, n. 285, e successive modificazioni;
-• per « r.c. auto»: assicurazione obbligatoria della responsabilita’ civile derivante dalla circolazione dei 
+• per « r.c. auto »: assicurazione obbligatoria della responsabilita’ civile derivante dalla circolazione dei 
 veicoli a motore;
-• per « Impresa»: UnipolSai Assicurazioni S.p.A., vale a dire la Compagnia di Assicurazioni che presta le 
+• per «Impresa»: UnipolSai Assicurazioni S.p.A., vale a dire la Compagnia di Assicurazioni che presta le 
 garanzie stabilite nel contratto;
 • per «Contratto Base»: il contratto r.c. auto offerto dall’Impresa ai sensi dell’articolo 22 del decreto-legge 
 18 ottobre 2012, n. 179, presso i «punti vendita» dell’Impresa stessa ovvero, disponibile sul sito internet 
@@ -496,7 +494,7 @@ di copertura pari ai Massimali minimi di legge vigenti al momento della stipulaz
 condizioni di assicurazione sono predefinite dal Ministero dello sviluppo economico ai sensi del predetto 
 articolo 22, ferma la libera determinazione del premio del contratto da parte dell’Impresa;
 • per «Contraente»: colui che stipula il contratto di assicurazione con l’Impresa;
-• per « Assicurato»: il soggetto, anche diverso dal Contraente, la cui responsabilita’ civile e’ coperta dal 
+• per «Assicurato»: il soggetto, anche diverso dal Contraente, la cui responsabilita’ civile e’ coperta dal 
 contratto; il conducente, chiunque esso sia, il proprietario del veicolo, il locatario in caso di veicolo in 
 leasing o l’usufruttuario o l’acquirente con patto di riservato dominio (articolo 2054 del Codice Civile e 
 articolo 91 del Codice della strada di cui al decreto legislativo 30 aprile 1992, n. 285);
@@ -511,7 +509,7 @@ indicati, le cui sigle non siano barrate, l’assicurazione r.c. auto prestata c
 cui puo’ accedere una molteplicita’ di veicoli, persone e animali quali, a titolo di esempio, le stazioni 
 di servizio, i parcheggi dei supermercati, i cantieri aperti al pubblico, i parcheggi dei terminal o delle 
 imprese di logistica;
-• per « Aree private»: le aree di proprieta’ di soggetti pubblici o privati cui possono accedere soltanto i 
+• per «Aree private»: le aree di proprieta’ di soggetti pubblici o privati cui possono accedere soltanto i 
 veicoli autorizzati, quali, a titolo di esempio, cantieri recintati, garage e cortili;
 DEFINIZIONI
 

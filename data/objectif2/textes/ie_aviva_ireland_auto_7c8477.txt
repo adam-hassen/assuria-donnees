@@ -36,9 +36,6 @@ passengers from the car;
 cost of protecting and removing your car to our 
 nearest repairer if, as a result of any loss or damage 
 insured, you cannot drive the car;
- ✓ Radio, hi-fi, car-phone or CB equipment – for 
-loss or damage insured up to €650, or 5% of the 
-current market value of the car, whichever is less;
  ✓ Personal belongings – up to €500 for any one 
 event, for loss or damage as a result of fire or theft 
 (or if you have comprehensive cover that happens 
@@ -49,8 +46,6 @@ or if you have comprehensive cover and your car
 is damaged (in a single incident) and the cost of 
 damages is more than 50% of the value of the car 
 when new;
- ✓ Legal expenses cover – (this cover is underwritten 
-by ARAG Legal Protection Limited).
 Comprehensive is all of the above, plus:
  ✓ Accidental damage – loss of or damage to the 
 insured car caused by accidental means;
@@ -58,19 +53,20 @@ insured car caused by accidental means;
  ✓ Medical Expenses – for accidental bodily injury 
 suffered in direct connection with the car up to 
 €200 for each person.
-What is insured? Continued...
 Optional covers/extra: 
 Unless otherwise stated, you must pay an extra 
 premium for each: 
- ■ Policy Excess options – the standard excess is €300 
-(this is the amount you will have to pay towards the 
-cost of a claim). You can choose to increase (for a 
-premium reduction) or decrease this excess amount;
- ■ Windscreen cover – optional with third party, fire 
+• Policy Excess options – You can choose the 
+amount you pay towards a claim (known as an 
+What is insured? Continued...
+excess). Available options are €125, €300, or €600. 
+Depending on the excess selected, your premium 
+may increase or decrease.
+• Windscreen cover – optional with third party, fire 
 and theft cover;
- ■ No claim discount protection options such as: 
+• No claim discount protection options such as: 
 step-back and/or protected no-claim discount; 
- ■ JourneyWise accident cover – provides personal 
+• JourneyWise accident cover – provides personal 
 accident cover in certain circumstances.
 You do not have to purchase the optional covers and/
 or extra in order to purchase the main product.
@@ -98,14 +94,17 @@ market value of the insured car at the time of the loss;
 learner permit holder who does not comply with 
 the requirement to be accompanied at all times by 
 a full driving licence holder while driving; 
- 7 Loss of or damage to the insured car where any 
-person entitled to drive the car is at the time of 
-the accident, giving rise to the claim, above the 
-legal limit for alcohol/drug level under Road Traffic 
-legislation or is convicted of or has a prosecution 
-pending for an offence under the Road Traffic Acts 
-involving alcohol or drugs arising from the accident 
-or the occasion giving rise to the claim;
+ 7 Loss of or damage to the car where the driver was 
+over the legal alcohol or drug limit at the time of 
+the accident, or is charged with or convicted of 
+a drink or drug driving offence arising from the 
+incident that led to the claim.
+ 7 Loss of or damage to the insured car caused by 
+incorrectly fuelling the car, use of contaminated 
+fuel or substandard parts;
+ 7 Any modifications unless they form part of the 
+manufacturer’s standard specification or are 
+optional extras we have agreed to cover;
 
 ===== page 2 =====
 Where am I covered?
@@ -133,14 +132,8 @@ and terms of the policy. If by law we have to make a payment that we would not o
 recovery of that outlay incurred from you and/or the driver of the vehicle.
 Are there any restrictions on cover?
 What is not insured? Continued...
- 7 Loss of or damage to the insured car caused by incorrectly fuelling the car, use of contaminated fuel or substandard parts;
- 7 Any modifications unless they form part of the manufacturer’s standard specification or are optional extras we have 
-agreed to cover;
- 7 Any loss of or damage to the car, which does not arise from an accidental, sudden or unforeseen cause.
-7
+ 7 Any loss of or damage to the car, which does not arise from an accidental, sudden or unforeseen cause.7
  ! Your excess, which is shown in your schedule (a separate document, which gives details of the cover you have);
- ! An additional policy excess of €2,500 applies where you do not tell us if any driver, insured under the policy has received 
-penalty points on his/her driving licence;
  ! If you have windscreen damage cover and choose not to use our aligned windscreen repairers for the replacement or 
 repair a limit of €225 for any single event applies;
  ! In the event of loss of or damage to your car, which results in a claim under your policy, we do not provide a courtesy car 
@@ -164,4 +157,4 @@ month period and any further specified period, when you renew, that we agree to 
 When and how do I pay?
 In order to proceed with the policy cover you can pay your premium annually or in monthly instalments. Payment can be 
 made by direct debit or credit/debit card.
-EMPAG14532 11.2023
+EMPAG14532 11.2026

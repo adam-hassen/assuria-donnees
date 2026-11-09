@@ -97,7 +97,7 @@
     },
     "pages": 3,
     "sha256": "479d89e37592881cfa01d4879b1d20d4b4891c1e73d5acc1a287caa5b9528fed",
-    "statut": "lien en erreur (HTTPError), dernière version gardée"
+    "statut": "ok"
   },
   "be_ethias_auto_80ae6a": {
     "offre": {
@@ -438,7 +438,7 @@
     },
     "pages": 2,
     "sha256": "6bc728af13fa1158899dbc1de717e0d1dc47eb6c08da899dd2c63e8244a6bd78",
-    "statut": "ok"
+    "statut": "lien en erreur (HTTPError), dernière version gardée"
   },
   "de_allianz_auto_ec2ba1": {
     "collecte_le": "2026-10-21T12:49:52+00:00",
@@ -452,7 +452,7 @@
     },
     "pages": 2,
     "sha256": "429788ab6dea781170b12932c6b7ac65363eb75ac00b881eaf079f027f6837bd",
-    "statut": "ok"
+    "statut": "lien en erreur (HTTPError), dernière version gardée"
   },
   "de_allianz_kfz_2002": {
     "collecte_le": "2026-10-21T12:26:48+00:00",
@@ -466,7 +466,7 @@
     },
     "pages": 2,
     "sha256": "ee5a053872b182dcebffae974bb6b3db3c522d9d379483f17b4ae847e531ba9f",
-    "statut": "ok",
+    "statut": "lien en erreur (HTTPError), dernière version gardée",
     "url": "https://goa-eportale.allianz.de/IPI/D-2/IPID-2002Z0.pdf.open.pdf"
   },
   "de_allianz_kfz_smart": {
@@ -481,7 +481,7 @@
     },
     "pages": 2,
     "sha256": "0bb9ee7d2c5ac055ce073859446a8f534070d9630112ac975fa474e0e0684900",
-    "statut": "ok",
+    "statut": "lien en erreur (HTTPError), dernière version gardée",
     "url": "https://goa-eportale.allianz.de/IPI/D-2/IPID-2001Z0.pdf.open.pdf"
   },
   "de_allianz_moped": {
@@ -496,7 +496,7 @@
     },
     "pages": 2,
     "sha256": "dcd44724cf21bac3d946172bc15183f68e65ec36e83edd5d05ea5f5be1bae05e",
-    "statut": "ok",
+    "statut": "lien en erreur (HTTPError), dernière version gardée",
     "url": "https://goa-eportale.allianz.de/IPI/D-2/IPID-2009Z0.pdf.open.pdf"
   },
   "de_arcd_kfz": {
@@ -570,7 +570,7 @@
     },
     "pages": 44,
     "sha256": "ee7664ea9d3d489192b2d0a32d683dfd5eecb589394438e7785338cb2b453d9d",
-    "statut": "lien en erreur (HTTPError), dernière version gardée"
+    "statut": "ok"
   },
   "es_allianz_direct_auto_6c05a9": {
     "collecte_le": "2026-10-21T12:50:03+00:00",
@@ -1306,7 +1306,7 @@
     },
     "pages": 2,
     "sha256": "abee3214d497ec6acc885030f0f508b1978f9c4b5ad6b22e43c4094f7ab63282",
-    "statut": "lien en erreur (HTTPError), dernière version gardée"
+    "statut": "ok"
   },
   "fr_axa_france_auto_8d8bbd": {
     "collecte_le": "2026-10-21T12:46:30+00:00",

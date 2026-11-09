@@ -322,7 +322,7 @@ Con riferimento all’ultimo bilancio d’esercizio 2022 redatto ai sensi dei pr
 - la parte del patrimonio netto relativa al capitale sociale, pari a 403 milioni di euro; 
 - la parte del patrimonio netto relativa alle riserve patrimoniali, pari a 1.164 milioni di euro. 
  
-Si rinvia alla “Relazione sulla solvibilità e sulla condizione finanziaria dell’impresa (SFCR)”, disponibile sul sito internet della Società 
+Si rinvia alla “Relazione sulla solvibilità e sulla condizione finanziaria dell’impresa (SFCR)” , disponibile sul sito internet della Società 
 www.allianz.it. e si riportano di seguito gli importi: 
 - del Requisito Patrimoniale di Solvibilità (SCR), pari a 2.201 milioni di euro; 
 - del Requisito Patrimoniale minimo (MCR), pari a 990 milioni di euro; 
@@ -339,7 +339,8 @@ L’ampiezza dell’impegno dell’Impresa è rapportata ai massimali e alle som
 Quali opzioni/personalizzazioni è possibile attivare? 
  
 Massimali Possono essere concordati massimali più elevati di quelli minimi previsti dalla legge dietro 
-versamento di relativo sovrappremio. Garanzie estese L’assicurazione si intende automaticamente estesa alle seguenti casistiche: 
+versamento di relativo sovrappremio. 
+Garanzie estese L’assicurazione si intende automaticamente estesa alle seguenti casistiche: 
 - responsabilità civile dei trasportati; 
 - responsabilità civile per fatto di figli minori; 
 - soccorso vittime della strada; 
@@ -356,7 +357,7 @@ gestione della ricarica del “Battery Pack” (veicoli a trazione elettrica e H
 Tipo di guida Il contratto può essere personalizzato in forza delle caratteristiche personali del potenziale 
 conducente optando per: 
 - Guida libera: alla guida del veicolo è ammesso qualsiasi conducente, purché abilitato. 
-- Guida esperta (opzione con sconto premio): salvo il proprietario, la guida del veicolo è 
+- Guida esperta (opzione con sconto premio ): salvo il proprietario, la guida del veicolo è 
 consentita solo a conducenti di almeno 26 anni compiuti. Il mancato rispetto di tale obbligo 
 contrattuale prevede un’azione di rivalsa fino a € 5.000. 
  
@@ -467,7 +468,7 @@ pregiudizi.
 ===== page 5 =====
 Pagina 3 di 16 Set Informativo AZ SI000 ATVT RCAARD AFOARD mod.30 
  AZ DIPAG ATVT RCAARD AFOARD 20240701 0000 
-In caso di danno parziale, l’indennizzo è pari alla differenza tra il valore a nuovo delle 
+In caso di danno parziale , l’indennizzo è pari alla differenza tra il valore a nuovo delle 
 componenti eventualmente sostituite e il minor valore eventualmente riconosciuto sulle stesse 
 - in sede di risarcimento - in ragione dell’applicazione del degrado d’uso. 
  
@@ -484,7 +485,7 @@ di proroga/rinnovo della polizza.
  
 PROTEZIONE VALORE 
 Garanzie di base La clausola “Protezione valore” è acquistabile quale estensione delle garanzie Incendio, 
-Furto, Garanzie speciali, Kasko completa, Kasko limitata a collisione e Imprevisti da 
+Furto, Garanzie speciali , Kasko completa , Kasko limitata a collisione e Imprevisti da 
 circolazione (limitatamente al caso di “Urto o collisione con animali” e solo se selezionato il 
 massimale “valore commerciale – opzione b”). 
  
@@ -560,12 +561,12 @@ purché l’incendio non si sia sviluppato direttamente dal veicolo.
  
 Furto: in caso di furto o rapina tentati o consumati copre, con gli scoperti previsti dal contratto, 
 la perdita totale o parziale del veicolo, compresi i danni derivanti dal furto o dalla rapina. Ad 
-esclusione della formula “Furto totale”, la garanzia offre tutela anche verso i danni subiti 
+esclusione della formula “Furto totale” , la garanzia offre tutela anche verso i danni subiti 
 dal veicolo assicurato a seguito di: 
  - atti vandalici a seguito di furto o rapina del veicolo, con ritrovamento dello stesso; 
  - furto di cose non assicurate che si trovino all’interno del veicolo. 
  
-“Estensione Lithium” - Incendio e Furto: limitatamente alle autovetture uso privato con 
+“Estensione Lithium” - Incendio e Furto : limitatamente alle autovetture uso privato con 
 alimentazione esclusivamente elettrica (“Battery electric vehicle” - BEV) o ibrida plug in – 
 PHEV, sono compresi - con il limite di € 600 e per non più di un sinistro avvenuto nella 
 stessa annualità assicurativa - i danni conseguenti a sinistro indennizzabile subito dalle 
@@ -574,8 +575,9 @@ nonché quelli subiti dalle apparecchiature di ricarica fisse (colonnina) se di 
 dell’Assicurato. 
 Sono coperti da garanzia i danni da incendio conseguenti a variazione anomala di corrente 
 (corto circuito), esclusi quelli subiti dal “Battery Pack” (pacco batterie) durante le 
-operazioni di installazione e rimozione o quando questo si trovi separato dal veicolo. 
- Ulteriori garanzie con premio 
+operazioni di installazione e rimozione o quando questo si trovi separato dal veicolo . 
+ 
+Ulteriori garanzie con premio 
 aggiuntivo 
 Incendio: la clausola “Estensione ai danni da incendio conseguente ad atti di 
 danneggiamento volontario (c.d. atti vandalici)” estende la copertura incendio anche per i 
@@ -594,17 +596,17 @@ In occasione di ciascuna scadenza annua, l’Impresa – verificati i prerequisi
 concedibilità - si riserva di proporre nuovamente la clausola “Accordo valore a nuovo” in sede 
 di proroga/rinnovo della polizza. 
  
-Incendio e Furto – “Clausola Accordo valore costante”: in caso di danno totale, la 
+Incendio e Furto – “Clausola Accordo valore costante” : in caso di danno totale, la 
 liquidazione considera il valore assegnato al veicolo in base alla valutazione della rivista 
 “Quattroruote Professional” determinato all’inizio del periodo assicurativo corrente e non quello 
 del mese di accadimento del sinistro. 
  
-Incendio e Furto – “Protezione valore”: in caso di danno totale l’Impresa procede alla 
+Incendio e Furto – “Protezione valore ”: in caso di danno totale l’Impresa procede alla 
 liquidazione applicando il “valore a nuovo” del veicolo o il “valore assicurato” (risultanti dai 
 documenti assicurativi) a seconda dell’età maturata dal veicolo al momento del sinistro (per il 
 dettaglio si rinvia alla sezione dedicata). 
  
-Limitazioni, esclusioni e rivalse Scoperti: in funzione della garanzia prescelta sono previsti diversi livelli di scoperto. Di seguito, 
+Limitazioni, esclusioni e rivalse Scoperti : in funzione della garanzia prescelta sono previsti diversi livelli di scoperto. Di seguito, 
 a titolo esemplificativo, un esempio di calcolo per garanzia furto totale e parziale autovetture: 
 - ammontare del danno € 800 
 - scoperto contrattuale 10% del danno (€ 80) con il minimo di € 100 
@@ -660,7 +662,7 @@ nonché collisione con altri veicoli (identificati o meno) o con animali; includ
 copertura per danni da roditori e altri animali con il massimale di € 1.500 (formula Kasko 
 completa). 
  
-“Estensione Lithium” - Kasko limitata a collisione e kasko completa: limitatamente alle 
+“Estensione Lithium” - Kasko limitata a collisione e kasko completa : limitatamente alle 
 autovetture uso privato con alimentazione esclusivamente elettrica (“Battery electric vehicle” - 
 BEV) o ibrida plug in – PHEV, sono compresi - con il limite di € 600 e per non più di un 
 sinistro avvenuto nella stessa annualità assicurativa - i danni conseguenti a sinistro 
@@ -704,7 +706,7 @@ procede alla liquidazione applicando il “valore a nuovo” del veicolo o il �
 sinistro (per il dettaglio si rinvia alla sezione dedicata). 
  
 Limitazioni, esclusioni e rivalse Scoperti 
-Le formule “Kasko collisione a primo rischio assoluto”, “Kasko limitata collisione” e 
+Le formule “ Kasko collisione a primo rischio assoluto ”, “ Kasko limitata collisione ” e 
 “Kasko completa” operano con le franchigie e l’eventuale scoperto previsto dal contratto. 
 La formula “Kasko collisione a primo rischio assoluto” in particolare garantisce i danni fino 
 ad un ammontare predeterminato dall’Impresa (€ 3.000). 
@@ -736,7 +738,7 @@ Esempio B)
 assorbita) = € 2.800 
  
 3. di ammontare SUPERIORE al limite massimo di indennizzo (massimale) e 
-SUPERIORE al valore commerciale del veicolo detratto il valore del relitto, la franchigia 
+SUPERIORE al valore commerciale del veic olo detratto il valore del relitto, la franchigia 
 verrà detratta dall’importo costituente il valore commerciale del veicolo come sopra 
 individuato. 
 Il danno liquidabile non potrà superare il massimale convenuto in polizza. Esempio: 
@@ -833,7 +835,7 @@ radiazioni provocate dall'accelerazione artificiale di particelle atomiche);
 IMPREVISTI DA CIRCOLAZIONE (opzionale) 
 Garanzie di base Prevede l’indennizzo dei danni materiali diretti subiti dal veicolo per: 
 - urto o collisione con animali; 
-- urto o collisione con monopattini, velocipedi e pedoni; 
+- urto o collisione con monopattini, velocipedi e pedoni ; 
 - danni causati da roditori e altri animali; 
 - urto o collisione con veicoli non identificati se il sinistro in garanzia è stato ritenuto 
 totalmente risarcibile ed effettivamente risarcito dalla gestione (CONSAP - Concessionaria 
@@ -850,7 +852,7 @@ animali): limitatamente alle autovetture uso privato con alimentazione esclusiva
 ===== page 10 =====
 Pagina 8 di 16 Set Informativo AZ SI000 ATVT RCAARD AFOARD mod.30 
  AZ DIPAG ATVT RCAARD AFOARD 20240701 0000 
-In relazione agli eventi assicurati dalla copertura “Urto o collisione con animali”, sono 
+In relazione agli eventi assicurati dalla copertura “Urto o collisione con animali” , sono 
 compresi - con il limite di € 600 e per non più di un sinistro avvenuto nella stessa 
 annualità assicurativa - i danni conseguenti a sinistro indennizzabile subiti dalle 
 apparecchiature di ricarica mobili in dotazione al veicolo (cavo di ricarica e carica batteria). 
@@ -1128,13 +1130,13 @@ professionista, veicolo sostitutivo, autonoleggio (sconti e agevolazioni).
 La garanzia offre, inoltre, servizi di assistenza all’estero, assistenza per furto del veicolo ed 
 assistenza sanitaria. 
  
-“Assistenza Auto” – assistenza alla mobilità: intervento su strada, soccorso stradale, 
+“Assistenza Auto” – assistenza alla mobilità : intervento su strada, soccorso stradale, 
 recupero eccezionale – rimessa in carreggiata, taxi, spese di soggiorno, veicolo sostitutivo, 
 rientro al domicilio o proseguimento del viaggio, recupero del veicolo riparato, 
 trasporto/rimpatrio del veicolo, abbandono legale – spese di custodia e demolizione, invio pezzi 
 di ricambio all’estero, smontaggio e montaggio catene da neve; assistenza per furto totale 
 del veicolo: veicolo sostitutivo e taxi per furto totale del veicolo, spese di soggiorno, disbrigo 
-pratiche furto; assistenza per infortunio conseguente ad incidente stradale: invio di un 
+pratiche furto; assistenza per infortunio conseguente ad incidente stradale : invio di un 
 autista professionista, rimborso spese di emergenza, rimpatrio/rientro sanitario, assistenza in 
 caso di ricovero o decesso all’estero. 
  
@@ -1296,7 +1298,7 @@ Non vi sono informazioni ulteriori rispetto a quelle fornite nel DIP Danni
  
  Che obblighi ho? Quali obblighi ha l’Impresa? 
  
-Cosa fare in caso di sinistro? Denuncia di sinistro: 
+Cosa fare in caso di sinistro? Denuncia di sinistro : 
 Il contraente o l’assicurato deve contattare immediatamente il servizio telefonico al numero 
 verde 800 68 68 68; a tutti gli effetti la chiamata ha validità di denuncia di sinistro. In alternativa 
 può dare avviso scritto all’agenzia alla quale è assegnato il contratto oppure all’Impresa, entro 
@@ -1330,7 +1332,7 @@ In caso di incidente avvenuto:
 con raccomandata AR all’Ufficio Centrale Italiano (UCI), Corso Sempione, 39 – 20145 
 Milano; 
 - all’estero causato da un veicolo immatricolato ed assicurato in uno degli stati dello 
-Spazio Economico Europeo, per il risarcimento dei danni subiti ci si può rivolgere al 
+Spazio Economico Europeo , per il risarcimento dei danni subiti ci si può rivolgere al 
 rappresentante nominato in Italia dall’impresa di assicurazione del responsabile del sinistro; 
 - con veicolo non assicurato o non identificato, la richiesta deve essere rivolta all’Impresa 
 designata dal Fondo di Garanzia per le Vittime della Strada istituito presso la Consap s.p.a. 
@@ -1369,8 +1371,8 @@ per conto di tutto il sistema CARD) la richiesta di conoscere l’importo eventu
 rimborsare. La risposta viene comunicata direttamente all’ indirizzo indicato dall’assicurato 
 assieme alle altre indicazioni utili che consentono di valutare se sia o meno conveniente 
 rimborsare il sinistro. 
-Allianz S.p.A. fornisce assistenza (vedi sezione “ANNULLAMENTO MALUS MEDIANTE 
-RIMBORSO DEL SINISTRO” della formula tariffaria B/M autovetture) per formare per conto 
+Allianz S.p.A. fornisce assistenza ( vedi sezione “ANNULLAMENTO MALUS MEDIANTE 
+RIMBORSO DEL SINISTRO” della formula tariffaria B/M autovetture ) per formare per conto 
 e nell’esclusivo interesse del Contraente/Assicurato – contestualmente informato sull’avvio della 
 procedura - la richiesta di conoscere l’importo da rimborsare. 
  
@@ -2678,8 +2680,7 @@ procedere con:
 previo accordo con l’assicurato e senza alcun costo aggiuntivo per quest’ultimo; 
 - tale servizio potrà essere attivato anche nel caso in cui il veicolo, a seguito del sinistro, non sia in grado di raggiungere autonomamente 
 la struttura convenzionata; 
-- il servizio sarà erogato nei termini e con le modalità consultabili all’indirizzo https://geolocator.allianz.it/ricerca/carrozzeria- amica
-. 
+- il servizio sarà erogato nei termini e con le modalità consultabili all’indirizzo https://geolocator.allianz.it/ricerca/carrozzeria- amica. 
 Nel caso in cui il servizio di “presa e resa veicolo” non sia fornito nel territorio in cui lo si richiede, o risulti anche solo temporaneamente 
 indisponibile, l’Assicurato avrà la facoltà di riparare il veicolo presso una struttura non convenzionata di sua libera scelta. In questa ipotesi 
 non sarà prevista l’attribuzione di alcuna penale a carico dell’assicurato (per il dettaglio vedasi il punto successivo). 
@@ -3471,8 +3472,7 @@ Nel caso di furto totale senza ritrovamento del veicolo, l’assicurato – a pr
 Inoltre, i seguenti documenti andranno consegnati all’Impresa che, terminati gli accertamenti, li restituirà trattenendone copia: 
 − originale del certificato cronologico del P.R.A. con annotazione della perdita di possesso; 
 − originale del certificato di proprietà con annotata la perdita di possesso, in formato cartaceo o digitale (codice di accesso personalizzato che 
-consenta la visione del Certificato di Proprietà digitale sul sito www.aci.it
-), 
+consenta la visione del Certificato di Proprietà digitale sul sito www.aci.it), 
 oppure 
 − originale del documento unico di circolazione. 
  
@@ -5285,8 +5285,7 @@ veicolo assicurato e dei trasportati.
 Articolo 3 – OBBLIGHI DELL’ASSICURATO E TERMINE DI PAGAMENTO DELL’INDENNIZZO 
 L’assicurato è tenuto a denunciare il fatto all’Impresa che, verificata l’operatività della garanzia, ricevuta la necessaria documentazione e 
 compiuti i debiti accertamenti, entro 30 giorni determina l’indennizzo dovuto e lo trasmette all’Assicurato, oppure lo informa delle eventuali 
-circostanze che ne impediscono il pagamento
- 
+circostanze che ne impediscono il pagamento 
  
 Urto o collisione con veicoli non identificati: 
 art. 283 lettera “a” Codice delle Assicurazioni Private 
@@ -5715,8 +5714,7 @@ consenta la visione del Certificato di Proprietà digitale (sito www.aci.it);
 SEZIONE C - ASSISTENZA PER INFORTUNIO CONSEGUENTE A INCIDENTE STRADALE 
  
 PERSONE ASSICURATE: l e prestazioni riportate nella presente sezione sono erogate in favore del conducente e degli eventuali trasportati del 
-veicolo assicurato che, a seguito di incidente stradale, abbiano subito un infortunio.
- 
+veicolo assicurato che, a seguito di incidente stradale, abbiano subito un infortunio. 
  
 INVIO DI UN AUTISTA PROFESSIONISTA 
 La garanzia opera a seguito di infortunio conseguente ad incidente stradale avvenuto fuori dal Comune di residenza. 
@@ -6116,8 +6114,7 @@ consenta la visione del Certificato di Proprietà digitale (sito www.aci.it);
 SEZIONE C - ASSISTENZA PER INFORTUNIO CONSEGUENTE A INCIDENTE STRADALE 
  
 PERSONE ASSICURATE: le prestazioni riportate nella presente sezione sono erogate in favore del conducente del veicolo assicurato e degli eventuali 
-trasportati a titolo gratuito che, a seguito di incidente stradale, abbiano subito un infortunio.
- 
+trasportati a titolo gratuito che, a seguito di incidente stradale, abbiano subito un infortunio. 
  
 INVIO DI UN AUTISTA PROFESSIONISTA 
 La garanzia opera a seguito di infortunio conseguente ad incidente stradale avvenuto fuori dal Comune di residenza. 
@@ -6839,10 +6836,7 @@ Tabella per la liquidazione dell'indennità di invalidità permanente
 L'indennità per invalidità p ermanente parziale - fermi i criteri di franchigia operanti - verrà calcolata sulla somma assicurata per invalidità 
 permanente totale, in proporzione al grado di invalidità che va accertato facendo riferimento ai valori sotto elencati. 
  
-Perdita totale, anatomica o funzionale, di: Destro 
-% 
-% Sinistro 
-% 
+Perdita totale, anatomica o funzionale, di: Destro % % Sinistro % 
 un arto superiore 70 60 
 una mano o un avambraccio 60 50 
 un pollice 18 16 

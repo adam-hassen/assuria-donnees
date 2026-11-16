@@ -209,7 +209,7 @@ CAA_AGCVTMhf.DIP_202601
  
  
  Come posso disdire la polizza? 
-Entro 60 giorni dalla conclusione del Contratto di Assicurazione l’Aderente ha il diritto di recedere dal Contratto di Assicurazione 
+Entro 60 giorni dalla conclusione del Contratto di Assicurazione l’Aderente ha i l diritto di recedere dal Contratto di Assicurazione 
 inviando richiesta scritta tramite lettera raccomandata A.R. a Crédit Agricole Assicurazioni S.p.A. tramite Agos Ducato S.p.A. - Ufficio 
 Assicurazioni – Viale Fulvio Testi 280 – 20126 Milano o direttamente a Crédit Agricole Assicurazioni S.p.A. presso la sede legale di 
 Corso di Porta Vigentina 9 – 20122 Milano, nel solo caso in cui l’Aderente abbia chiuso i rapporti con Agos Ducato S.p.A. . Anche in 
@@ -222,7 +222,7 @@ Assicurazioni (i) continua a fornire le coperture assicurative indicate nel Modu
 richiesta dell’Aderente, risolve il Contratto di Assicurazione e restituisce all’Aderente, per il tramite di Agos Ducato, la parte di 
 Premio pagato e non goduto. 
  Quando comincia la copertura e quando finisce? 
-La polizza ha durata annuale/pluriennale da 1 a 5 anni , a scelta dell’Aderente. Sono presenti vincoli in relazione alla durata che è 
+La polizza ha durata annuale/pluriennale da 1 a 5 anni , a scelta dell’Aderente . Sono presenti vincoli in relazione alla durata che è 
 possibile selezionare legati alla vetustà del veicolo rispetto alla data della sua Prima Immatricolazione. 
 L’assicurazione ha effetto all’ora e nel giorno indicato nel Modulo di Adesione a condizione che il premio sia stato pagato. 
 La copertura assicurativa si conclude alla scadenza del periodo contrattuale scelto dall’Aderente. Non sono previsti il tacito rinnovo 
@@ -252,7 +252,7 @@ Il presente DIP Aggiuntivo danni è stato realizzato in data 01/2026 ed è l’u
 Scopo 
 Il presente documento contiene informazioni aggiuntive e complementari rispetto a quelle contenute nel 
 documento informativo precontrattuale per i prodotti assicurativi danni (DIP Danni), per aiutare il potenziale 
-Aderente a capire più nel dettaglio le car atteristiche del prodotto, con particolare riguardo alle coperture 
+Aderente a capire più nel dettaglio le caratteristiche del prodotto, con particolare riguardo alle coperture 
 assicurative, alle limitazioni, alle esclusioni, ai costi nonché alla situazione patrimoniale dell’impresa. 
 L’Aderente deve prendere visione delle condizioni di assicurazione prima della sottoscrizione del contratto. 
 Società 
@@ -262,8 +262,8 @@ Crédit Agricole Assicurazioni S.p.A. è una società per azioni appartenente al
 S.A.; Crédit Agricole Assicurazioni S.p.A., è iscritta all’ Albo delle Imprese di Assicurazione n. 1.00166 ed autorizzata all’ 
 esercizio delle assicurazioni con Provvedimento ISVAP n. 2599 del 28 marzo 2008. 
 Con riferimento all’ultimo bilancio d’esercizio approvato, l’ammontare del patrimonio netto è pari ad 41,733 milioni di Euro 
-ed il risultato economico di periodo è pari ad 5,159 milioni di Euro. Con riferimento alla situazione di solvibilità, l’indic e di 
-solvibilità (solvency ratio) è pari al 166,7%, come risultante dalla relazione sulla solvibilità e sulla condizione finanziari a 
+ed il risultato economico di periodo è pari ad 5,159 milioni di Euro. Con riferimento alla situazione di solvibilità, l’indice di 
+solvibilità (solvency ratio) è pari al 166,7%, come risultante dalla relazione sulla solvibilità e sulla condizione finanziaria 
 dell’impresa (SFCR) disponibile sul sito internet dell’impresa www.ca-assicurazioni.it/istituzionale/Bilanci-e-SFCR/ 
 Al contratto si applica la legge italiana. 
 Prodotto 
@@ -355,7 +355,7 @@ CAA_AGCVTMhf.DIPAaas_202601
 Il prodotto è rivolto ai Clienti (persone fisiche e persone giuridiche) che: (i) in caso di persona fisica hanno età uguale o 
 maggiore di 18 anni; (ii) acquistano presso i concessionari Honda convenzionati con Agos Ducato S.p.A., un veicolo di 
 marca Honda nuovo o usato con non più di 5 anni dalla data di prima immatricolazione, iscritto al P.R.A. o analogo registro 
-italiano, immatricolato ciclomotore o motoveicolo, ad uso proprio o privato ; (iii) sono Clienti di Agos Ducato in quanto 
+italiano, immatricolato ciclomotore o motoveicolo, ad uso proprio o privato; (iii) sono Clienti di Agos Ducato in quanto 
 sottoscrittori di un finanziamento da quest’ultima erogato. Il finanziamento deve essere erogato sia per l’acquisto del Veicolo 
 sia per il pagamento della polizza assicurativa; (iv) desiderano proteggere il Veicolo dai rischi differenti da quelli derivanti 
 dalla Responsabilità Civile Auto. 
@@ -365,7 +365,7 @@ al 50,00%. È altresì dovuta una quota media del 3,00% al Broker di riferimento
 COME POSSO PRESENTARE I RECLAMI E RISOLVERE LE CONTROVERSIE? 
 All’impresa assicuratrice Eventuali reclami riguardanti il rapporto contrattuale e/o la gestione dei sinistri potranno 
 essere presentati per iscritto a: Crédit Agricole Assicurazioni S.p.A. – Ufficio Reclami Corso 
-di Porta Vigentina 9 – 20122 Milano, e -mail: reclami@ca-assicurazioni.it, pec: info.caassicurazioni@legalmail.it, Fax: 02 88 21 83 313. La funzione aziendali incaricata della 
+di Porta Vigentina 9 – 20122 Milano, e-mail: reclami@ca-assicurazioni.it, pec: info.caassicurazioni@legalmail.it, Fax: 02 88 21 83 313. La funzione aziendali incaricata della 
 gestione dei reclami è l’Ufficio Reclami, che è tenuto a fornire riscontro entro 45 giorni dalla 
 data di ricevimento degli stessi. 
 All’IVASS In caso di esito insoddisfacente o risposta tardiva, è possibile rivolgersi all’IVASS, Via del 
@@ -826,7 +826,7 @@ Il Veicolo è esclusivamente:
 • a marca HONDA;
 • quello identificato nel Modulo di Adesione e nella Welcome Letter inviata a ciascun Aderente entro 30 giorni 
 dalla stipula del Contratto di Assicurazione;
-• iscritto al P .R.A. o analogo registro italiano;
+• iscritto al P.R.A. o analogo registro italiano;
 • il ciclomotore o il motoveicolo immatricolato ad uso proprio o privato.
 Rientrano tra i veicoli assicurabili i ciclomotori e motoveicoli ad uso proprio:
 • a due e tre ruote simmetriche rispetto all’asse longitudinale mediano, 
@@ -855,7 +855,7 @@ Non sono assicurabili:
 Sono da considerare veicoli nuovi anche i veicoli definiti a Km “0” se acquistati dall’Assicurato entro 6 mesi dalla 
 data di Prima Immatricolazione considerando che tali veicoli possono avere uno o più trasferimenti di proprietà 
 fra casa automobilistica, concessionaria ufficiale, rete di secondo livello della casa automobilistica, nonché i 
-veicoli definiti d’ “Importazione” che vengono immatricolati al P .R.A. per la prima volta in Italia e possono essere 
+veicoli definiti d’ “Importazione” che vengono immatricolati al P.R.A. per la prima volta in Italia e possono essere 
 assoggettati ai trasferimenti di proprietà sopra citati, se acquistati dall’Assicurato entro 6 mesi dalla data di Prima 
 Immatricolazione all’Estero.
 
@@ -1070,7 +1070,7 @@ Sono compresi anche i danni materiali e diretti arrecati al Veicolo, al fine di 
 non assicurati riposti a bordo del Veicolo stesso, nonché i danni materiali e diretti subiti dal Veicolo durante la 
 Circolazione, avvenuta dopo il Furto, contro la volontà del proprietario e prima del ritrovamento del Veicolo stesso.
 La garanzia Furto è operante per gli Accessori di Serie fino ad un massimo di euro 1.000 per Sinistro e per 
-annualità assicurativa. L’esistenza e il valore di tali accessori devono essere comprovati da apposita fattura.
+annualità assicurativa. L ’esistenza e il valore di tali accessori devono essere comprovati da apposita fattura.
 In caso di Sinistro, Crédit Agricole Assicurazioni indennizza l’Assicurato nel limite della Somma Assicurata, 
 fatta salva la deduzione dello Scoperto e della relativa Franchigia (non indennizzabili).
 ART 2.2 - SOMMA ASSICURATA
@@ -1771,7 +1771,7 @@ Nel caso di cessazione di rischio a causa di distruzione o esportazione definiti
 32/di...
 Condizioni di Assicurazione32 di 39
 HONDA SAFE 2.0 - MOTO
-attestazione del P .R.A. certificante la restituzione della carta di circolazione e della targa di immatricolazione. Si 
+attestazione del P.R.A. certificante la restituzione della carta di circolazione e della targa di immatricolazione. Si 
 intende equiparata alla distruzione del Veicolo la cessazione della circolazione prevista e disciplinata dal menzionato 
 Art. 103 del Codice della Strada (es. ritiro d’ufficio tramite gli organi di polizia di targhe e dei documenti di circolazione 
 trascorsi 180 giorni dalla rimozione del Veicolo ed il Veicolo stesso non sia stato reclamato dall’intestatario) e 
@@ -1941,8 +1941,8 @@ ricevuta tutta la documentazione necessaria in relazione al Sinistro.
 In caso di Furto totale senza ritrovamento, Crédit Agricole Assicurazioni provvede al pagamento dell’Indennizzo se 
 l’Assicurato, a richiesta di Crédit Agricole Assicurazioni, ha prodotto:
 • certificato di proprietà e l’estratto giuridico originario (ex estratto cronologico generale) con l’annotazione della 
-perdita di possesso rilasciati dal P .R.A. o dichiarazione di perdita di possesso in caso di Veicolo non iscritto al 
-P .R.A.;
+perdita di possesso rilasciati dal P.R.A. o dichiarazione di perdita di possesso in caso di Veicolo non iscritto al 
+P.R.A.;
 • libretto di circolazione se disponibile;
 • la serie completa delle chiavi in dotazione del Veicolo assicurato (comprese quelle di eventuali antifurto).
 • Crédit Agricole Assicurazioni, sia in caso di Furto parziale o totale che di Rapina, ha facoltà, prima di pagare 
@@ -1951,7 +1951,7 @@ l’Indennizzo, dirichiedere inoltre:
 ritrovamento del Veicolo l’eventuale vendita dello stesso, fermo restando, in ogni caso, quanto disposto a favore 
 dell’Assicurato dal successivo Art. 33;
 • in caso di esistenza di ipoteca o fermo amministrativo sul Veicolo, l’attestato di cancellazione emesso dal 
-P .R.A., oppure, in caso di vincolo gravante sul mezzo, l’autorizzazione scritta della Vincolataria al pagamento (in 
+P.R.A., oppure, in caso di vincolo gravante sul mezzo, l’autorizzazione scritta della Vincolataria al pagamento (in 
 difetto l’Indennizzo verrà corrisposto direttamente alla Vincolataria);
 • il certificato di chiusura istruttoria nel caso sia stata aperta una procedura giudiziaria sulla causa del Sinistro.
 L’Assicurato che esagera dolosamente l’ammontare del danno dichiara distrutti o sottratti beni che non 

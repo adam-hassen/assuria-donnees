@@ -201,7 +201,7 @@ controversie
 aderente alla 
 rete FIN-NET
 Presentando ricorso:
-all’Arbitro Assicurativo tramite il portale disponibile sul sito internet dello stesso ( www.arbitroassicurativo.org) 
+all’Arbitro Assicurativo tramite il portale disponibile sul sito internet dello stesso (www.arbitroassicurativo.org) 
 dove è possibile consultare i requisiti di ammissibilità, le altre informazioni relative alla presentazione del ricorso 
 stesso e ogni altra indicazione utile
 •
@@ -1244,7 +1244,7 @@ Condizioni di Assicurazione
 CAPITOLO 7 IL SINISTRO
 Art. 7.1 NORME COMUNI
 Art. 7.1.1 Cosa devo fare in caso di sinistro?
-In caso di sinistro, devi comunicare l’evento al Servizio Sinistri di QUIXA [14] via e-mail all’indirizzo di posta elettronica 
+In caso di sinistro, devi comunicare l’evento al Servizio Sinistri di QUIXA[14] via e-mail all’indirizzo di posta elettronica 
 infosinistri@quixa.it , entro 3 giorni dalla data del sinistro o da quando ne sei venuto a conoscenza.
 La denuncia scritta dovrà essere completa della documentazione richiesta a seconda della tipologia di sinistro. Si rinvia agli artt. 7.2 e 
 7.3 per le norme che disciplinano la liquidazione del danno.
@@ -1308,7 +1308,7 @@ Se ci sono i presupposti per l’applicazione della procedura di risarcimento di
 raccomandata a/r, la richiesta di risarcimento dei danni subiti direttamente all’impresa di assicurazione del responsabile[19]
 Devi usare l’apposito modulo disponibile sul sito www.quixa.it nella sezione “modulistica”.
 Art. 7.2.3 Come può ottenere il risarcimento del danno il passeggero trasportato?
-Se il sinistro comporta lesioni ai passeggeri del veicolo assicurato, il danneggiato [20] deve inviare la richiesta di risarcimento 
+Se il sinistro comporta lesioni ai passeggeri del veicolo assicurato, il danneggiato[20] deve inviare la richiesta di risarcimento 
 direttamente al Servizio Sinistri QUIXA, con raccomandata a/r.
 Art. 7.2.4 Come rimborsare il sinistro per evitare il malus?
 In caso di incidente con colpa, puoi evitare l’applicazione del malus e l’indicazione del sinistro nell’attestato di rischio, rimborsando la 

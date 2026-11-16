@@ -97,7 +97,7 @@
     },
     "pages": 3,
     "sha256": "479d89e37592881cfa01d4879b1d20d4b4891c1e73d5acc1a287caa5b9528fed",
-    "statut": "ok"
+    "statut": "lien en erreur (HTTPError), dernière version gardée"
   },
   "be_ethias_auto_80ae6a": {
     "offre": {
@@ -665,7 +665,7 @@
     },
     "pages": 2,
     "sha256": "554988ed618cec096816abd128a089141759e4ec98688bb46594f34367f6f217",
-    "statut": "ok"
+    "statut": "lien en erreur (HTTPError), dernière version gardée"
   },
   "es_lam_todo_riesgo": {
     "collecte_le": "2026-10-21T12:26:58+00:00",

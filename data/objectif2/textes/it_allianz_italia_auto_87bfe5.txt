@@ -88,7 +88,7 @@ noleggio con conducente o veicoli ad uso pubblico
  Carico e scarico con operazioni manuali 
  Responsabilità civile ricarica elettrica (BEV e PHEV) 
  
-L’Impresa risarcisce i danni fin o all’importo indicato in 
+L’Impresa risarcisce i danni fino all’importo indicato in 
 polizza (c.d. massimale); per legge, il massimale 
 minimo per sinistro è di euro 6.450.000 per danni alla 
 persona e di euro 1.300.000 per danni alle cose 
@@ -322,7 +322,7 @@ Con riferimento all’ultimo bilancio d’esercizio 2022 redatto ai sensi dei pr
 - la parte del patrimonio netto relativa al capitale sociale, pari a 403 milioni di euro; 
 - la parte del patrimonio netto relativa alle riserve patrimoniali, pari a 1.164 milioni di euro. 
  
-Si rinvia alla “Relazione sulla solvibilità e sulla condizione finanziaria dell’impresa (SFCR)” , disponibile sul sito internet della Società 
+Si rinvia alla “Relazione sulla solvibilità e sulla condizione finanziaria dell’impresa (SFCR)”, disponibile sul sito internet della Società 
 www.allianz.it. e si riportano di seguito gli importi: 
 - del Requisito Patrimoniale di Solvibilità (SCR), pari a 2.201 milioni di euro; 
 - del Requisito Patrimoniale minimo (MCR), pari a 990 milioni di euro; 
@@ -357,7 +357,7 @@ gestione della ricarica del “Battery Pack” (veicoli a trazione elettrica e H
 Tipo di guida Il contratto può essere personalizzato in forza delle caratteristiche personali del potenziale 
 conducente optando per: 
 - Guida libera: alla guida del veicolo è ammesso qualsiasi conducente, purché abilitato. 
-- Guida esperta (opzione con sconto premio ): salvo il proprietario, la guida del veicolo è 
+- Guida esperta (opzione con sconto premio): salvo il proprietario, la guida del veicolo è 
 consentita solo a conducenti di almeno 26 anni compiuti. Il mancato rispetto di tale obbligo 
 contrattuale prevede un’azione di rivalsa fino a € 5.000. 
  
@@ -468,7 +468,7 @@ pregiudizi.
 ===== page 5 =====
 Pagina 3 di 16 Set Informativo AZ SI000 ATVT RCAARD AFOARD mod.30 
  AZ DIPAG ATVT RCAARD AFOARD 20240701 0000 
-In caso di danno parziale , l’indennizzo è pari alla differenza tra il valore a nuovo delle 
+In caso di danno parziale, l’indennizzo è pari alla differenza tra il valore a nuovo delle 
 componenti eventualmente sostituite e il minor valore eventualmente riconosciuto sulle stesse 
 - in sede di risarcimento - in ragione dell’applicazione del degrado d’uso. 
  
@@ -485,7 +485,7 @@ di proroga/rinnovo della polizza.
  
 PROTEZIONE VALORE 
 Garanzie di base La clausola “Protezione valore” è acquistabile quale estensione delle garanzie Incendio, 
-Furto, Garanzie speciali , Kasko completa , Kasko limitata a collisione e Imprevisti da 
+Furto, Garanzie speciali, Kasko completa, Kasko limitata a collisione e Imprevisti da 
 circolazione (limitatamente al caso di “Urto o collisione con animali” e solo se selezionato il 
 massimale “valore commerciale – opzione b”). 
  
@@ -544,7 +544,7 @@ INCENDIO E FURTO (opzionale)
 ===== page 6 =====
 Pagina 4 di 16 Set Informativo AZ SI000 ATVT RCAARD AFOARD mod.30 
  AZ DIPAG ATVT RCAARD AFOARD 20240701 0000 
-Garanzie di base Incendio : copre i danni subiti dal veicolo assicurato – escluse le cose trasportate – a seguito 
+Garanzie di base Incendio: copre i danni subiti dal veicolo assicurato – escluse le cose trasportate – a seguito 
 di suo incendio totale o parziale e a seguito di esplosione o di scoppio compresi quelli prodotti 
 dall'impianto di alimentazione, anche se azionato da gas liquido. Sono oggetto di copertura 
 anche i danni derivanti da incendio, esplosione o scoppio del “Battery Pack” (pacco batterie) 
@@ -561,12 +561,12 @@ purché l’incendio non si sia sviluppato direttamente dal veicolo.
  
 Furto: in caso di furto o rapina tentati o consumati copre, con gli scoperti previsti dal contratto, 
 la perdita totale o parziale del veicolo, compresi i danni derivanti dal furto o dalla rapina. Ad 
-esclusione della formula “Furto totale” , la garanzia offre tutela anche verso i danni subiti 
+esclusione della formula “Furto totale”, la garanzia offre tutela anche verso i danni subiti 
 dal veicolo assicurato a seguito di: 
  - atti vandalici a seguito di furto o rapina del veicolo, con ritrovamento dello stesso; 
  - furto di cose non assicurate che si trovino all’interno del veicolo. 
  
-“Estensione Lithium” - Incendio e Furto : limitatamente alle autovetture uso privato con 
+“Estensione Lithium” - Incendio e Furto: limitatamente alle autovetture uso privato con 
 alimentazione esclusivamente elettrica (“Battery electric vehicle” - BEV) o ibrida plug in – 
 PHEV, sono compresi - con il limite di € 600 e per non più di un sinistro avvenuto nella 
 stessa annualità assicurativa - i danni conseguenti a sinistro indennizzabile subito dalle 
@@ -575,7 +575,7 @@ nonché quelli subiti dalle apparecchiature di ricarica fisse (colonnina) se di 
 dell’Assicurato. 
 Sono coperti da garanzia i danni da incendio conseguenti a variazione anomala di corrente 
 (corto circuito), esclusi quelli subiti dal “Battery Pack” (pacco batterie) durante le 
-operazioni di installazione e rimozione o quando questo si trovi separato dal veicolo . 
+operazioni di installazione e rimozione o quando questo si trovi separato dal veicolo. 
  
 Ulteriori garanzie con premio 
 aggiuntivo 
@@ -596,17 +596,17 @@ In occasione di ciascuna scadenza annua, l’Impresa – verificati i prerequisi
 concedibilità - si riserva di proporre nuovamente la clausola “Accordo valore a nuovo” in sede 
 di proroga/rinnovo della polizza. 
  
-Incendio e Furto – “Clausola Accordo valore costante” : in caso di danno totale, la 
+Incendio e Furto – “Clausola Accordo valore costante”: in caso di danno totale, la 
 liquidazione considera il valore assegnato al veicolo in base alla valutazione della rivista 
 “Quattroruote Professional” determinato all’inizio del periodo assicurativo corrente e non quello 
 del mese di accadimento del sinistro. 
  
-Incendio e Furto – “Protezione valore ”: in caso di danno totale l’Impresa procede alla 
+Incendio e Furto – “Protezione valore”: in caso di danno totale l’Impresa procede alla 
 liquidazione applicando il “valore a nuovo” del veicolo o il “valore assicurato” (risultanti dai 
 documenti assicurativi) a seconda dell’età maturata dal veicolo al momento del sinistro (per il 
 dettaglio si rinvia alla sezione dedicata). 
  
-Limitazioni, esclusioni e rivalse Scoperti : in funzione della garanzia prescelta sono previsti diversi livelli di scoperto. Di seguito, 
+Limitazioni, esclusioni e rivalse Scoperti: in funzione della garanzia prescelta sono previsti diversi livelli di scoperto. Di seguito, 
 a titolo esemplificativo, un esempio di calcolo per garanzia furto totale e parziale autovetture: 
 - ammontare del danno € 800 
 - scoperto contrattuale 10% del danno (€ 80) con il minimo di € 100 
@@ -662,7 +662,7 @@ nonché collisione con altri veicoli (identificati o meno) o con animali; includ
 copertura per danni da roditori e altri animali con il massimale di € 1.500 (formula Kasko 
 completa). 
  
-“Estensione Lithium” - Kasko limitata a collisione e kasko completa : limitatamente alle 
+“Estensione Lithium” - Kasko limitata a collisione e kasko completa: limitatamente alle 
 autovetture uso privato con alimentazione esclusivamente elettrica (“Battery electric vehicle” - 
 BEV) o ibrida plug in – PHEV, sono compresi - con il limite di € 600 e per non più di un 
 sinistro avvenuto nella stessa annualità assicurativa - i danni conseguenti a sinistro 
@@ -706,7 +706,7 @@ procede alla liquidazione applicando il “valore a nuovo” del veicolo o il �
 sinistro (per il dettaglio si rinvia alla sezione dedicata). 
  
 Limitazioni, esclusioni e rivalse Scoperti 
-Le formule “ Kasko collisione a primo rischio assoluto ”, “ Kasko limitata collisione ” e 
+Le formule “Kasko collisione a primo rischio assoluto”, “Kasko limitata collisione” e 
 “Kasko completa” operano con le franchigie e l’eventuale scoperto previsto dal contratto. 
 La formula “Kasko collisione a primo rischio assoluto” in particolare garantisce i danni fino 
 ad un ammontare predeterminato dall’Impresa (€ 3.000). 
@@ -738,7 +738,7 @@ Esempio B)
 assorbita) = € 2.800 
  
 3. di ammontare SUPERIORE al limite massimo di indennizzo (massimale) e 
-SUPERIORE al valore commerciale del veic olo detratto il valore del relitto, la franchigia 
+SUPERIORE al valore commerciale del veicolo detratto il valore del relitto, la franchigia 
 verrà detratta dall’importo costituente il valore commerciale del veicolo come sopra 
 individuato. 
 Il danno liquidabile non potrà superare il massimale convenuto in polizza. Esempio: 
@@ -835,7 +835,7 @@ radiazioni provocate dall'accelerazione artificiale di particelle atomiche);
 IMPREVISTI DA CIRCOLAZIONE (opzionale) 
 Garanzie di base Prevede l’indennizzo dei danni materiali diretti subiti dal veicolo per: 
 - urto o collisione con animali; 
-- urto o collisione con monopattini, velocipedi e pedoni ; 
+- urto o collisione con monopattini, velocipedi e pedoni; 
 - danni causati da roditori e altri animali; 
 - urto o collisione con veicoli non identificati se il sinistro in garanzia è stato ritenuto 
 totalmente risarcibile ed effettivamente risarcito dalla gestione (CONSAP - Concessionaria 
@@ -852,7 +852,7 @@ animali): limitatamente alle autovetture uso privato con alimentazione esclusiva
 ===== page 10 =====
 Pagina 8 di 16 Set Informativo AZ SI000 ATVT RCAARD AFOARD mod.30 
  AZ DIPAG ATVT RCAARD AFOARD 20240701 0000 
-In relazione agli eventi assicurati dalla copertura “Urto o collisione con animali” , sono 
+In relazione agli eventi assicurati dalla copertura “Urto o collisione con animali”, sono 
 compresi - con il limite di € 600 e per non più di un sinistro avvenuto nella stessa 
 annualità assicurativa - i danni conseguenti a sinistro indennizzabile subiti dalle 
 apparecchiature di ricarica mobili in dotazione al veicolo (cavo di ricarica e carica batteria). 
@@ -1130,13 +1130,13 @@ professionista, veicolo sostitutivo, autonoleggio (sconti e agevolazioni).
 La garanzia offre, inoltre, servizi di assistenza all’estero, assistenza per furto del veicolo ed 
 assistenza sanitaria. 
  
-“Assistenza Auto” – assistenza alla mobilità : intervento su strada, soccorso stradale, 
+“Assistenza Auto” – assistenza alla mobilità: intervento su strada, soccorso stradale, 
 recupero eccezionale – rimessa in carreggiata, taxi, spese di soggiorno, veicolo sostitutivo, 
 rientro al domicilio o proseguimento del viaggio, recupero del veicolo riparato, 
 trasporto/rimpatrio del veicolo, abbandono legale – spese di custodia e demolizione, invio pezzi 
 di ricambio all’estero, smontaggio e montaggio catene da neve; assistenza per furto totale 
 del veicolo: veicolo sostitutivo e taxi per furto totale del veicolo, spese di soggiorno, disbrigo 
-pratiche furto; assistenza per infortunio conseguente ad incidente stradale : invio di un 
+pratiche furto; assistenza per infortunio conseguente ad incidente stradale: invio di un 
 autista professionista, rimborso spese di emergenza, rimpatrio/rientro sanitario, assistenza in 
 caso di ricovero o decesso all’estero. 
  
@@ -1298,7 +1298,7 @@ Non vi sono informazioni ulteriori rispetto a quelle fornite nel DIP Danni
  
  Che obblighi ho? Quali obblighi ha l’Impresa? 
  
-Cosa fare in caso di sinistro? Denuncia di sinistro : 
+Cosa fare in caso di sinistro? Denuncia di sinistro: 
 Il contraente o l’assicurato deve contattare immediatamente il servizio telefonico al numero 
 verde 800 68 68 68; a tutti gli effetti la chiamata ha validità di denuncia di sinistro. In alternativa 
 può dare avviso scritto all’agenzia alla quale è assegnato il contratto oppure all’Impresa, entro 
@@ -1332,7 +1332,7 @@ In caso di incidente avvenuto:
 con raccomandata AR all’Ufficio Centrale Italiano (UCI), Corso Sempione, 39 – 20145 
 Milano; 
 - all’estero causato da un veicolo immatricolato ed assicurato in uno degli stati dello 
-Spazio Economico Europeo , per il risarcimento dei danni subiti ci si può rivolgere al 
+Spazio Economico Europeo, per il risarcimento dei danni subiti ci si può rivolgere al 
 rappresentante nominato in Italia dall’impresa di assicurazione del responsabile del sinistro; 
 - con veicolo non assicurato o non identificato, la richiesta deve essere rivolta all’Impresa 
 designata dal Fondo di Garanzia per le Vittime della Strada istituito presso la Consap s.p.a. 
@@ -1346,7 +1346,7 @@ verbali di autorità intervenute, certificati di proprietà, fatture o ricevute 
 medica, ecc. 
  
 Assistenza diretta/in convenzione 
-- “ Carrozzeria Amica”: per la riparazione del veicolo a seguito di sinistro R.C.A. per il quale 
+- “Carrozzeria Amica”: per la riparazione del veicolo a seguito di sinistro R.C.A. per il quale 
 sia stata compilata e firmata dalle parti la constatazione amichevole o per sinistri kasko, 
 incendio e furto, atti vandalici ed eventi naturali, l’assicurato può rivolgersi direttamente ad 
 una delle carrozzerie fiduciarie appartenenti al circuito “Carrozzeria Amica”. 
@@ -1371,8 +1371,8 @@ per conto di tutto il sistema CARD) la richiesta di conoscere l’importo eventu
 rimborsare. La risposta viene comunicata direttamente all’ indirizzo indicato dall’assicurato 
 assieme alle altre indicazioni utili che consentono di valutare se sia o meno conveniente 
 rimborsare il sinistro. 
-Allianz S.p.A. fornisce assistenza ( vedi sezione “ANNULLAMENTO MALUS MEDIANTE 
-RIMBORSO DEL SINISTRO” della formula tariffaria B/M autovetture ) per formare per conto 
+Allianz S.p.A. fornisce assistenza (vedi sezione “ANNULLAMENTO MALUS MEDIANTE 
+RIMBORSO DEL SINISTRO” della formula tariffaria B/M autovetture) per formare per conto 
 e nell’esclusivo interesse del Contraente/Assicurato – contestualmente informato sull’avvio della 
 procedura - la richiesta di conoscere l’importo da rimborsare. 
  
@@ -1882,7 +1882,7 @@ Le imposte e gli altri oneri fiscali relativi all'assicurazione, sono a carico d
  
 Articolo 1.2 – DOCUMENTI ASSICURATIVI E DUPLICATO 
 I documenti assicurativi sono: il contratto, il certificato di assicurazione ed il Certificato Internazionale di Assicurazione (ex Carta Verde). 
-L’Impresa fornisce, senza oneri a carico del contraente , il duplicato di certificato ed il Certificato Internazionale di Assicurazione nei seguenti 
+L’Impresa fornisce, senza oneri a carico del contraente, il duplicato di certificato ed il Certificato Internazionale di Assicurazione nei seguenti 
 casi e con le modalità indicate: 
 › smarrimento, sottrazione o distruzione: il contraente autocertifica il motivo della richiesta; 
 › altri casi (ad esempio deterioramento): il contraente restituisce i documenti non più utilizzabili. 
@@ -2191,7 +2191,7 @@ Repubblica di San Marino o Città del Vaticano;
 - c’è stato urto; 
 - le imprese coinvolte nel sinistro sono aderenti alla Convenzione Card; 
 - l’assicurato non sia responsabile del sinistro (o lo sia solo in parte). 
-La procedura di risarcimento diretto è applicabile anche se, oltre ai 2 conducenti, nei veicoli erano presenti altre persone (terzi traspo rtati) 
+La procedura di risarcimento diretto è applicabile anche se, oltre ai 2 conducenti, nei veicoli erano presenti altre persone (terzi trasportati) 
 che hanno subìto lesioni anche gravi (oltre i 9 punti di invalidità). 
 La procedura, invece, non si applica in caso di danni fisici subìti da passanti.
 
@@ -2218,7 +2218,7 @@ documentazione inoltrata dal danneggiato o gli atti giudiziari, l’Impresa ha d
 per il pregiudizio che ne sia derivato. La denuncia del sinistro è sempre obbligatoria. 
  
 Articolo 1.11 - GESTIONE DELLE VERTENZE 
-L'Impresa assume, fino a quando ne ha interesse, a nome dell'assicurato, la gestione stragiudiziale e giudiziale delle verten ze in qualunque sede 
+L'Impresa assume, fino a quando ne ha interesse, a nome dell'assicurato, la gestione stragiudiziale e giudiziale delle vertenze in qualunque sede 
 nella quale si discuta del risarcimento del danno, designando, ove occorra, legali o tecnici. Ha inoltre facoltà di provvedere alla difesa 
 dell'assicurato in sede penale, sino alla tacitazione dei danneggiati. 
 L'Impresa non rimborsa le spese incontrate dall'assicurato per i legali o tecnici che non siano designati dalla stessa né risponde di multe, 
@@ -2289,8 +2289,8 @@ di autorizzazione, in caso di accesso alle aree di movimento, manovra e sosta de
  
  Carico e scarico con operazioni manuali 
 (valida per autovetture e veicoli trasporto cose) 
-L’Impresa assicura, nei limiti dei massimali previsti per la garanzia R.C. Auto , la responsabilità civile del contraente e, se persona diversa, 
-dell’assicurato o del conducente per danni involontariamente cagionati a terzi nel corso di operazioni di carico e scarico pu rché non eseguite 
+L’Impresa assicura, nei limiti dei massimali previsti per la garanzia R.C. Auto, la responsabilità civile del contraente e, se persona diversa, 
+dell’assicurato o del conducente per danni involontariamente cagionati a terzi nel corso di operazioni di carico e scarico purché non eseguite 
 con mezzi o dispositivi meccanici. 
 La garanzia non opera in caso di danni a: 
 › persone che prendono parte alle operazioni di carico e scarico; 
@@ -2366,7 +2366,7 @@ Articolo 3.2 – AZIONE DI RIVALSA DERIVANTE DA PATTI SPECIALI
 Condizioni di assicurazione - AZ CGA 012/AZ1 Set informativo AZ SI000 ATVT RCAARD AFOARD mod.30 
 Pagina 11 di 70 
 Se operante la condizione “Guida esperta” (vedi “Conducente alla guida” della sezione 5 “Condizioni valide se espressamente richiamate in 
-contratto”) ed accertato che, al momento del sinistro, alla guida del veicolo vi era persona dalle caratteristiche diverse da quelle previst e da 
+contratto”) ed accertato che, al momento del sinistro, alla guida del veicolo vi era persona dalle caratteristiche diverse da quelle previste da 
 questa garanzia, l’Impresa ha diritto di promuovere azione di rivalsa fino a € 5.000. 
 L’importo oggetto dell’azione di rivalsa, prevista dalla predetta forma di garanzia, è da intendersi richiesto in conseguenza dell’inosservanza 
 di un preciso obbligo contrattuale assunto dall’assicurato a fronte della concessione di uno sconto premio. 
@@ -2386,7 +2386,7 @@ Se operante la clausola “Assicurazione su telaio” (vedi sezione 5 “Condizi
 circolazione su strada ad uso pubblico (vedi “Glossario” alla voce “Strade rientranti nell’accezione di area ad uso pubblico”); 
  
 - per carrelli elevatori, trasportatori o trattori, la garanzia R.C. Auto non è valida ed operante: 
-› se non autorizzati, in caso di circolazione su strada ad uso pubblico ( vedi “Glossario” alla voce “Strade rientranti nell’accezione di 
+› se non autorizzati, in caso di circolazione su strada ad uso pubblico (vedi “Glossario” alla voce “Strade rientranti nell’accezione di 
 area ad uso pubblico”); 
 › se autorizzati, in caso di circolazione su strada ad uso pubblico (vedi “Glossario” alla voce “Strade rientranti nell’accezione di area 
 ad uso pubblico”) diversa e/o non compresa fra quelle che il veicolo è autorizzato a percorrere, e/o in caso di mancato rispetto 
@@ -2475,7 +2475,7 @@ esportazione definitiva del veicolo” del presente articolo 4.2 “Conservazion
  
 - contratti con garanzia R.C. Auto e garanzie Auto Rischi Diversi: l’assicurato, entro i cinque anni di validità dell’attestazione dello stato 
 di rischio, può mantenere la classe di merito precedentemente maturata unicamente mediante emissione di contratto nuovo. 
-Mediante risoluzione del contratto originario ed esclusiva mente con contestuale emissione di contratto nuovo, p uò usufruire del 
+Mediante risoluzione del contratto originario ed esclusiva mente con contestuale emissione di contratto nuovo, può usufruire del 
 mantenimento della classe di merito maturata anche: 
 - il familiare convivente del proprietario originario; 
 in caso di società: 
@@ -2504,7 +2504,7 @@ In questo caso è necessario acquisire:
 Questo istituto può essere utilizzato solo dal contraente/proprietario del contratto originario. 
  
 → DECESSO DEL PROPRIETARIO 
-Mediante emissione di contratto nuovo e limitatamente ai soli assicurati Allianz, l ’Impresa - a richiesta di tutti gli eredi che devono provare 
+Mediante emissione di contratto nuovo e limitatamente ai soli assicurati Allianz, l’Impresa - a richiesta di tutti gli eredi che devono provare 
 il loro titolo - ricevuti in restituzione i documenti assicurativi, procede come segue: 
 - risolve il contratto stipulato con Allianz, di cui il defunto era intestatario e restituisce agli eredi il premio residuo dal giorno di decorrenza 
 del nuovo contratto; 
@@ -2535,7 +2535,7 @@ Articolo 4.3 – UTILIZZO DELL’ATTESTAZIONE SULLO STATO DEL RISCHIO PER ULTERI
 comma 4 bis Codice Assicurazioni Private) 
 Nei casi che seguono, a richiesta del contraente, l’attestazione sullo stato del rischio di un veicolo già assicurato può essere utilizzata per trasferirne 
 la classe conseguita sia su una polizza di nuova stipulazione relativa ad un ulteriore veicolo acquistato dalla persona fisica già titolare di polizza 
-assicurativa o da un familiare stabilmente convivente anche se emesse a copertura di altro veicolo, sia su una polizza in rin novo-proroga annuale. 
+assicurativa o da un familiare stabilmente convivente anche se emesse a copertura di altro veicolo, sia su una polizza in rinnovo-proroga annuale. 
 In entrambi i predetti casi (polizza nuova e/o in rinnovo-proroga): 
 → il trasferimento/acquisizione della classe opera anche fra veicoli di diversa tipologia, ad esempio da motociclo su autovettura e viceversa; 
 → per l’attivazione di questo istituto anche al familiare stabilmente convivente con il proprietario del veicolo già assicurato, è necessario 
@@ -2680,7 +2680,7 @@ procedere con:
 previo accordo con l’assicurato e senza alcun costo aggiuntivo per quest’ultimo; 
 - tale servizio potrà essere attivato anche nel caso in cui il veicolo, a seguito del sinistro, non sia in grado di raggiungere autonomamente 
 la struttura convenzionata; 
-- il servizio sarà erogato nei termini e con le modalità consultabili all’indirizzo https://geolocator.allianz.it/ricerca/carrozzeria- amica. 
+- il servizio sarà erogato nei termini e con le modalità consultabili all’indirizzo https://geolocator.allianz.it/ricerca/carrozzeria-amica. 
 Nel caso in cui il servizio di “presa e resa veicolo” non sia fornito nel territorio in cui lo si richiede, o risulti anche solo temporaneamente 
 indisponibile, l’Assicurato avrà la facoltà di riparare il veicolo presso una struttura non convenzionata di sua libera scelta. In questa ipotesi 
 non sarà prevista l’attribuzione di alcuna penale a carico dell’assicurato (per il dettaglio vedasi il punto successivo). 
@@ -2763,7 +2763,7 @@ presso la Stanza di Compensazione di CONSAP (Concessionaria per i Servizi Assicu
 A questo fine, per tutte le comunicazioni da e verso Consap finalizzate all’istruzione ed alla definizione della pratica di r imborso, il 
 contraente/assicurato acconsente ad eleggere il proprio domicilio presso Allianz. 
  
-d. La sottoscrizione di “Ultra 4R – Bonus Malus versione con franchigia fissa ” ha effetto sulle Condizioni di Assicurazione in relazione all’istituto 
+d. La sottoscrizione di “Ultra 4R – Bonus Malus versione con franchigia fissa” ha effetto sulle Condizioni di Assicurazione in relazione all’istituto 
 della cessione del contratto, che non opera. 
  
 Per quanto qui non previsto faranno fede le Condizioni di assicurazione se ed in quanto applicabili. 
@@ -3015,7 +3015,7 @@ interna”.
 2. Se la data di decorrenza della polizza è successiva ai 30 giorni dalla data di prima immatricolazione o di voltura del veicolo 
  
 2.1 Con dichiarazione di non circolazione 
-Attribuzione della classe universale (CU) e della classe interna applicando le medesime regole di assegnazione di cui al prece dente punto 
+Attribuzione della classe universale (CU) e della classe interna applicando le medesime regole di assegnazione di cui al precedente punto 
 1. “Data decorrenza polizza ENTRO 30 giorni dalla data di prima immatricolazione o di voltura del veicolo”. 
  
 B. Senza dichiarazione di non circolazione 
@@ -3037,12 +3037,12 @@ l’anno in corso (senza “NA”, “ND” o sinistri penalizzati).
 Veicolo con provenienza Allianz o altra impresa che a rinnovo acquisisce la classe universale (CU): 
  
 a) da Attestazione dello stato del rischio rilasciata da Allianz per un veicolo della stessa tipologia, intestato al medesimo proprietario 
-→ se l’Attestazione dello stato del rischio riporta una classe di assegnazione interna riferibile a un prodotto bonus -malus autovetture 
+→ se l’Attestazione dello stato del rischio riporta una classe di assegnazione interna riferibile a un prodotto bonus-malus autovetture 
 antecedente all’edizione 02/2024 
 → attribuzione della classe universale (CU) risultante dall’Attestazione dello stato del rischio; 
 → determinazione della classe interna in base alla precedente Tabella 2 “ Corrispondenza Classe Universale (CU) e classe di merito 
 interna”. 
-→ se l’Attestazione dello stato del rischio riporta una classe di assegnazione interna riferibile a un prodotto bonus -malus autovetture 
+→ se l’Attestazione dello stato del rischio riporta una classe di assegnazione interna riferibile a un prodotto bonus-malus autovetture 
 edizione 02/2024 o successiva 
 → attribuzione della classe universale (CU) risultante dall’Attestazione dello stato del rischio; 
 → attribuzione della classe interna risultante dall’Attestazione dello stato del rischio. 
@@ -3089,13 +3089,13 @@ precedente e del nuovo veicolo e copia dell’atto di vendita, demolizione ecc.
  
 1. Veicolo già assicurato con Attestazione dello stato del rischio rilasciata da Allianz 
  
-→ se l’Attestazione dello stato del rischio riporta una classe di assegnazione interna riferibile a un prodotto bonus -malus autovetture 
+→ se l’Attestazione dello stato del rischio riporta una classe di assegnazione interna riferibile a un prodotto bonus-malus autovetture 
 antecedente all’edizione 02/2024 o ad altro prodotto diverso dalla bonus-malus autovetture: 
 → attribuzione della classe universale (CU) risultante dall’Attestazione dello stato del rischio; 
 → determinazione della classe interna in base alla precedente Tabella 2 “Corrispondenza Classe Universale (CU) e classe di merito 
 interna”. 
  
-→ se l’Attestazione dello stato del rischio riporta una classe di assegnazione interna riferibile a un prodotto bonus -malus autovetture 
+→ se l’Attestazione dello stato del rischio riporta una classe di assegnazione interna riferibile a un prodotto bonus-malus autovetture 
 edizione 02/2024 o successiva: 
 → attribuzione della classe universale (CU) risultante dall’Attestazione dello stato del rischio; 
 → attribuzione della classe interna risultante dall’Attestazione dello stato del rischio. 
@@ -3105,7 +3105,7 @@ Le predette disposizioni si applicano anche se il veicolo originario è stato:
 oppure se il contratto da cui l’Attestazione dello stato del rischio deriva è stato 
 › sospeso e mai riattivato, 
 e il contraente assicura altro veicolo di sua proprietà e della stessa tipologia di quello originario. 
-In questo caso vanno acquisiti l’Attestazione dello stato del rischio, la documentazione – carta di circolazione o certificat o di proprietà – del 
+In questo caso vanno acquisiti l’Attestazione dello stato del rischio, la documentazione – carta di circolazione o certificato di proprietà – del 
 precedente e del nuovo veicolo e copia dell’atto di vendita, demolizione ecc.
 
 ===== page 38 =====
@@ -3507,9 +3507,9 @@ al momento del sinistro, viene effettuata dal personale addetto alla liquidazion
 al mese di accadimento dell’evento. Se “Due Ruote” Edizione Edidomus non riporta la quotazione del veicolo, la stima del suo valore 
 commerciale al momento del sinistro, viene effettuata dal personale addetto alla liquidazione sulla base dei listini Eurotax Due Ruote. 
 b) Danno parziale: l’ammontare del danno è dato dal costo della riparazione. Se la riparazione comporta la sostituzione di parti del veicolo 
-danneggiate e/o sottratte, nel calcolarne il costo si tiene conto del deprezzamento di dette parti dovuto al loro degrado d’u so. Rimane salvo 
+danneggiate e/o sottratte, nel calcolarne il costo si tiene conto del deprezzamento di dette parti dovuto al loro degrado d’uso. Rimane salvo 
 quanto più sotto specificato per le autovetture ed i veicoli ad uso promiscuo. 
-L’ammontare del danno così determinato non può superare il valore commerciale del veicolo al momento del sinistro al netto de l valore del 
+L’ammontare del danno così determinato non può superare il valore commerciale del veicolo al momento del sinistro al netto del valore del 
 relitto. 
 Non sono indennizzabili le spese per modifiche, aggiunte o migliorie apportate al veicolo in occasione della riparazione, le spese di 
 deposito, i danni da mancato godimento o uso, altri pregiudizi. 
@@ -3653,7 +3653,7 @@ assicurazione;
 → periodi successivi: durano 12 mesi a partire dalla scadenza del periodo precedente. 
 Per i contratti composti da una frazione di anno più un anno intero (ad esempio dal 30/6/2020 al 31/12/2021) valgono le seguenti disposizioni: 
 – la frazione di anno (ovvero dal 30/6/2020 al 31/12/2020) costituisce il periodo iniziale della copertura assicurativa; 
-– le regole relative al cambiamento di classe operano al termine dell'intero periodo di assicurazione (quindi al 31/12/202 1). 
+– le regole relative al cambiamento di classe operano al termine dell'intero periodo di assicurazione (quindi al 31/12/2021). 
  
 La sostituzione del contratto per i casi di vendita, consegna in conto vendita, demolizione, distruzione, esportazione non interrompe il periodo di 
 osservazione in corso e permette di mantenere la scadenza annuale del contratto sostituito, a meno che non cambi il proprietario assicurato (o il 
@@ -3791,7 +3791,7 @@ automatico almeno un mese prima del termine di validità del contratto. L’aggi
 contraente in occasione della scadenza annua, come previsto dal successivo ar ticolo 7 “Adeguamento del valore assicurato a richiesta del 
 contraente”. 
 Nel caso in cui il contraente non comunichi l’aggiornamento del valore assicurato, l’Impresa provvede a calcolare il premio relativo alla garanzia 
-Kasko sulla base dell’ultimo valore assicurato. Rimane salvo quanto previsto dall’articolo 9 “Determinazione dell’ammontare del danno” . 
+Kasko sulla base dell’ultimo valore assicurato. Rimane salvo quanto previsto dall’articolo 9 “Determinazione dell’ammontare del danno”. 
 Il meccanismo di adeguamento automatico sarà operante solo se richiamato in polizza. 
  
 Articolo 7 – ADEGUAMENTO DEL VALORE ASSICURATO A RICHIESTA DEL CONTRAENTE 
@@ -3827,7 +3827,7 @@ Qualora “Quattroruote Professional” non riporti la quotazione del veicolo, s
 assicurabili avevano al momento del sinistro. 
 Nei primi 6 mesi dalla data di prima immatricolazione (in Italia o all’estero) del veicolo, l’ammontare del danno viene considerato come se il 
 veicolo fosse nuovo, nei limiti del capitale assicurato, cioè senza tenere conto del degrado d’uso dello stesso o delle sue parti; 
-− in caso di danno parziale , non si considera il degrado d’uso nei primi 5 anni dalla data di prima immatricolazione (in Italia o all’estero) del 
+− in caso di danno parziale, non si considera il degrado d’uso nei primi 5 anni dalla data di prima immatricolazione (in Italia o all’estero) del 
 veicolo, per tutte le parti dello stesso . Sono esclusi gli pneumatici e – in caso il veicolo ne sia dotato - l’impianto di scarico e le batterie 
 di avviamento. Per questi componenti l’inapplicabilità del degrado d’uso è limitata ai primi 6 mesi. 
  
@@ -3916,7 +3916,7 @@ assicurazione;
  
 Per i contratti composti da una frazione di anno più un anno intero (ad esempio dal 30/6/2020 al 31/12/2021) valgono le seguenti disposizioni: 
 – la frazione di anno (ovvero dal 30/6/2020 al 31/12/2020) costituisce il periodo iniziale della copertura assicurativa; 
-– le regole relative al cambiamento di classe operano al termine dell'intero periodo di assicurazione (quindi al 31/12/202 1). 
+– le regole relative al cambiamento di classe operano al termine dell'intero periodo di assicurazione (quindi al 31/12/2021). 
  
 La sostituzione del contratto per i casi di vendita, consegna in conto vendita, demolizione, distruzione, esportazione non interrompe il periodo di 
 osservazione in corso e permette di mantenere la scadenza annuale del contratto sostituito, a meno che non cambi il proprietario assicurato (o il 
@@ -3935,7 +3935,7 @@ che sia soggetto all’obbligo di assicurazione per la Responsabilità Civile Au
 Se compresi nel valore del veicolo sono inclusi nella garanzia: 
 − gli optional e gli accessori, ovvero le dotazioni stabilmente fissate al veicolo fornite ed installate, con o senza maggiorazione al prezzo di 
 listino, dalla casa costruttrice o da altre ditte in un momento successivo all’acquisto. Se i predetti optional/accessori determinano un aumento del 
-prezzo di listino e/o del valore veicolo devono essere dichiarati a parte con indicazione del relativo valore, pena la loro non indennizzabilità ; 
+prezzo di listino e/o del valore veicolo devono essere dichiarati a parte con indicazione del relativo valore, pena la loro non indennizzabilità; 
 − gli apparecchi audio-fono-visivi: 
  
 1. AD INSTALLAZIONE FISSA DI SERIE : se compresi nel valore assicurato sono indennizzabili i danni come sopra descritti e subiti da 
@@ -4016,7 +4016,7 @@ automatico almeno un mese prima del termine di validità del contratto. L’aggi
 contraente in occasione della scadenza annua, come previsto dal successivo articolo 8 “Adeguamento del valore assicurato a richiesta del 
 contraente”. 
 Nel caso in cui il contraente non comunichi l’aggiornamento del valore assicurato, l’Impresa provvede a calcolare il premio relativo alla gar anzia 
-Kasko sulla base dell’ultimo valore assicurato. Rimane salvo quanto previsto dall’articolo 10 “Determinazione dell’ammontare del danno” . 
+Kasko sulla base dell’ultimo valore assicurato. Rimane salvo quanto previsto dall’articolo 10 “Determinazione dell’ammontare del danno”. 
 Il meccanismo di adeguamento automatico sarà operante solo se richiamato in polizza. 
  
 Articolo 8 – ADEGUAMENTO DEL VALORE ASSICURATO A RICHIESTA DEL CONTRAENTE 
@@ -4058,7 +4058,7 @@ Qualora “Quattroruote Professional” non riporti la quotazione del veicolo, s
 assicurabili avevano al momento del sinistro. 
 Nei primi 6 mesi dalla data di prima immatricolazione (in Italia o all’estero) del veicolo, l’ammontare del danno viene considerato come se il 
 veicolo fosse nuovo, nei limiti del capitale assicurato, cioè senza tenere conto del degrado d’uso dello stesso o delle sue parti; 
-− in caso di danno parziale , non si considera il degrado d’uso nei primi 5 anni dalla data di prima immatricolazione (in Italia o all’estero) del 
+− in caso di danno parziale, non si considera il degrado d’uso nei primi 5 anni dalla data di prima immatricolazione (in Italia o all’estero) del 
 veicolo, per tutte le parti dello stesso. 
 Sono esclusi gli pneumatici e – in caso il veicolo ne sia dotato - l’impianto di scarico e le batterie di avviamento . Per questi componenti 
 l’inapplicabilità del degrado d’uso è limitata ai primi 6 mesi. 
@@ -4150,7 +4150,7 @@ assicurazione;
 → periodi successivi: durano 12 mesi a partire dalla scadenza del periodo precedente. 
 Per i contratti composti da una frazione di anno più un anno intero (ad esempio dal 30/6/2020 al 31/12/2021) valgono le seguenti disposizioni: 
 – la frazione di anno (ovvero dal 30/6/2020 al 31/12/2020) costituisce il periodo iniziale della copertura assicurativa; 
-– le regole relative al cambiamento di classe operano al termine dell'intero periodo di assicurazione (quindi al 31/12/202 1). 
+– le regole relative al cambiamento di classe operano al termine dell'intero periodo di assicurazione (quindi al 31/12/2021). 
  
 La sostituzione del contratto per i casi di vendita, consegna in conto vendita, demolizione, distruzione, esportazione non interrompe il periodo di 
 osservazione in corso e permette di mantenere la scadenza annuale del contratto sostituito, a meno che non cambi il proprietario assicurato (o il 
@@ -4174,7 +4174,7 @@ di:
 Se compresi nel valore del veicolo sono inclusi nella garanzia: 
 − gli optional e gli accessori, ovvero le dotazioni stabilmente fissate al veicolo fornite ed installate, con o senza maggiorazione al prezzo di 
 listino, dalla casa costruttrice o da altre ditte in un momento successivo all’acquisto. Se i predetti optional/accessori determinano un aumento del 
-prezzo di listino e/o del valore veicolo devono essere dichiarati a parte con indicazione del relativo valore, pena la loro non indennizzabilità ; 
+prezzo di listino e/o del valore veicolo devono essere dichiarati a parte con indicazione del relativo valore, pena la loro non indennizzabilità; 
 − gli apparecchi audio-fono-visivi: 
 1. AD INSTALLAZIONE FISSA DI SERIE : se compresi nel valore assicurato sono indennizzabili i danni come sopra descritti e subiti da 
 apparecchi audio-fono-visivi ad installazione fissa di serie quali apparecchi radio, televisori, lettori di CD/MP3/DVD, mangianastri, 
@@ -4253,7 +4253,7 @@ automatico almeno un mese prima del termine di validità del contratto. L’aggi
 contraente in occasione della scadenza annua, come previsto dal successivo articol o 8 “Adeguamento del valore assicurato a richiesta del 
 contraente”. 
 Nel caso in cui il contraente non comunichi l’aggiornamento del valore assicurato, l’Impresa provvede a calcolare il premio relativo alla garanzia 
-Kasko sulla base dell’ultimo valore assicurato. Rimane salvo quanto previsto dall’articolo 10 “Determinazione dell’ammontare del danno” . Il 
+Kasko sulla base dell’ultimo valore assicurato. Rimane salvo quanto previsto dall’articolo 10 “Determinazione dell’ammontare del danno”. Il 
 meccanismo di adeguamento automatico sarà operante solo se richiamato in polizza. 
  
 Articolo 8 – ADEGUAMENTO DEL VALORE ASSICURATO A RICHIESTA DEL CONTRAENTE 
@@ -4296,7 +4296,7 @@ Qualora “Quattroruote Professional” non riporti la quotazione del veicolo, s
 assicurabili avevano al momento del sinistro. 
 Nei primi 6 mesi dalla data di prima immatricolazione (in Italia o all’estero) del veicolo, l’ammontare del danno viene considerato come se il 
 veicolo fosse nuovo, nei limiti del capitale assicurato, cioè senza tenere conto del degrado d’uso dello stesso o delle sue parti; 
-− in caso di danno parziale , non si considera il degrado d’uso nei primi 5 anni dalla data di prima immatricolazione (in Italia o all’estero) del 
+− in caso di danno parziale, non si considera il degrado d’uso nei primi 5 anni dalla data di prima immatricolazione (in Italia o all’estero) del 
 veicolo, per tutte le parti dello stesso. 
 Sono esclusi gli pneumatici e – in caso il veicolo ne sia dotato - l’impianto di scarico e le batterie di avviamento . Per questi componenti 
 l’inapplicabilità del degrado d’uso è limitata ai primi 6 mesi. 
@@ -4363,7 +4363,7 @@ Non sono indennizzabili i costi relativi:
 sostituito. 
  
 b) Massimale 
-La garanzia opera con il limite massimo di indennizzo di € 450,00 per evento innalzabile ad € 600,00 , € 1.000,00 o € 2.000 per evento con 
+La garanzia opera con il limite massimo di indennizzo di € 450,00 per evento innalzabile ad € 600,00, € 1.000,00 o € 2.000 per evento con 
 versamento del relativo sovrappremio. Il limite massimo di indennizzo si intende per ogni evento, indipendentemente dal numero di cristalli 
 danneggiati e previa esibizione di fattura. 
  
@@ -4398,7 +4398,7 @@ centri specializzati nella riparazione di cristalli convenzionati con l’Impres
 Il personale incaricato provvede a: 
 − far compilare e sottoscrivere all’assicurato la denuncia di sinistro comprensiva della delega all’incasso; 
 − effettuare la sostituzione/riparazione richiesta; 
-− emettere fattura intestata al cliente, effettuarne fotocopia e consegnarla all’assicurato unitamente a copia della denuncia- delega. 
+− emettere fattura intestata al cliente, effettuarne fotocopia e consegnarla all’assicurato unitamente a copia della denuncia-delega. 
 La Direzione dell’Impresa provvede al pagamento del sinistro direttamente al riparatore convenzionato intervenuto, mentre rimane a carico 
 dell’assicurato la somma eccedente il massimale previsto dalla garanzia. 
 In ogni caso l’assicurato è libero di rivolgersi ad un proprio riparatore di fiducia diverso; in tal caso il sinistro deve essere denunciato presso l’agenzia 
@@ -4468,7 +4468,7 @@ incidente stradale, accaduto durante il periodo di validità della polizza, e da
 oppure danni materiali, anche ad uno solo dei veicoli coinvolti, tali da determinarne l’invio a revisione. 
  
 La penalizzazione che azzeri i punti disponibili sulla patente deve essere conseguenza diretta ed esclusiva di incidente stradale, accaduto durante 
-il periodo di validità della polizza, e dal quale siano derivate lesioni e/o morte di una o più persone oppure danni materiali, anch e ad uno solo dei 
+il periodo di validità della polizza, e dal quale siano derivate lesioni e/o morte di una o più persone oppure danni materiali, anche ad uno solo dei 
 veicoli coinvolti, tali da determinarne l’invio alla revisione. 
  
 In caso sia assicurata una persona fisica si considera beneficiario della garanzia il proprietario del mezzo assicurato e, in caso di più intestatari, il 
@@ -4483,7 +4483,7 @@ commessa alla guida di:
  
 In caso di furto, smarrimento, distruzione e deterioramento che interessi materialmente il documento patente si considerano assicurate le persone 
 sopra indicate. 
-In caso di furto, smarrimento, distruzione e deterioramento che interessi il libretto di circolazione o il certificato di pro prietà l’assicurazione vale 
+In caso di furto, smarrimento, distruzione e deterioramento che interessi il libretto di circolazione o il certificato di proprietà l’assicurazione vale 
 solo per il veicolo identificato in polizza. 
  
 Nel dettaglio le prestazioni prevedono: 
@@ -4630,7 +4630,7 @@ assicurato, provocati da:
 Se compresi nel valore del veicolo sono inclusi nella garanzia: 
 − gli optional e gli accessori, ovvero le dotazioni stabilmente fissate al veicolo fornite ed installate, con o senza maggiorazione al prezzo di 
 listino, dalla casa costruttrice o da altre ditte in un momento successivo all’acquisto. Se i predetti optional/accessori determinano un aumento del 
-prezzo di listino e/o del valore veicolo devono essere dichiarati a parte con indicazione del relativo valore, pena la loro non indennizzabilità ; 
+prezzo di listino e/o del valore veicolo devono essere dichiarati a parte con indicazione del relativo valore, pena la loro non indennizzabilità; 
 − gli apparecchi audio-fono-visivi: 
 1. AD INSTALLAZIONE FISSA DI SERIE : se compresi nel valore assicurato sono indennizzabili i danni come sopra descritti e subiti da 
 apparecchi audio-fono-visivi ad installazione fissa di serie quali apparecchi radio, televisori, lettori di CD/MP3/DVD, i mangianastri, 
@@ -4679,7 +4679,7 @@ Condizioni di assicurazione - AZ CGA 012/AZ1 Set informativo AZ SI000 ATVT RCAAR
 Pagina 39 di 70 
  
 Articolo 3 – SOTTOSCRIZIONE DI ASSICURAZIONI COMPLEMENTARI 
-L'assicurato deve comunicare all'Impresa l'esistenza di altre assicurazioni per i medesimi rischi ai quali si riferisce la pr esente copertura. Se non vi 
+L'assicurato deve comunicare all'Impresa l'esistenza di altre assicurazioni per i medesimi rischi ai quali si riferisce la presente copertura. Se non vi 
 provvede dolosamente perde il diritto all’indennizzo ai sensi dell’articolo 1910 secondo comma del codice civile. 
  
 Articolo 4 – ADEGUAMENTO AUTOMATICO DEL VALORE ASSICURATO 
@@ -4736,7 +4736,7 @@ all’estero, la denuncia deve essere reiterata all’Autorità di Polizia Giudi
 veicolo. 
 La Società è autorizzata: 
 - ad inviare le chiavi e/o i dispositivi di avviamento originali del veicolo, consegnati dal Cliente, alla casa costruttrice; 
-- ad acquisire gli esiti della verifica del contenuto della memoria interna ed ottenere la lista dei duplicati richiesti e prod otti. 
+- ad acquisire gli esiti della verifica del contenuto della memoria interna ed ottenere la lista dei duplicati richiesti e prodotti. 
 L’autorizzazione data alla Società viene sottoposta alla specifica approvazione scritta da parte dell’Assicurato nella sezione della polizza dedicata 
 alle clausole rilevanti ai sensi ed agli effetti degli articoli 1341 e 1342 del Codice Civile. 
  
@@ -4750,7 +4750,7 @@ Se “Quattroruote Professional” non riporta la quotazione del veicolo, la sti
 optional, accessori ed apparecchi audiofonovisivi al momento del sinistro, viene effettuata dal personale addetto alla liquidazione sulla base 
 dei listini Eurotax. 
 b) Danno parziale: l’ammontare del danno è dato dal costo della riparazione. Se la riparazione comporta la sostituzione di parti del veicolo 
-danneggiate e/o sottratte, nel calcolarne il costo si tiene conto del deprezzamento di dette parti dovuto al loro degrado d’u so. Rimane salvo 
+danneggiate e/o sottratte, nel calcolarne il costo si tiene conto del deprezzamento di dette parti dovuto al loro degrado d’uso. Rimane salvo 
 quanto più sotto specificato per le autovetture ed i veicoli ad uso promiscuo. 
 L’ammontare del danno così determinato non può superare il valore commerciale del veicolo al momento del sinistro al netto del valore del relitto. 
 Non sono indennizzabili le spese per modifiche, aggiunte o migliorie apportate al veicolo in occasione della riparazione, le spese di deposito, i 
@@ -4809,7 +4809,7 @@ La copertura non opera a seguito di:
  attività di hackeraggio o, in generale, di attacco informatico che abbia comportato danni derivanti dalla perdita di dati, alle 
 apparecchiature non stabilmente fissate al veicolo o subiti dalle schede SIM anche se inserite al servizio di apparecchi assicurati; 
  danni derivanti dalle attività di cui sopra avvenute per il tramite di piattaforme informatiche o strumentazioni o azioni di proprietà e/o 
-compiute da enti/soggetti che esercitano l’attività di fornitori di servizi di riparazione e/o fornitura o gestione di software , comprese le 
+compiute da enti/soggetti che esercitano l’attività di fornitori di servizi di riparazione e/o fornitura o gestione di software, comprese le 
 case costruttrici e i concessionari; 
  attività di hackeraggio o, in generale, di attacco informatico che abbia colpito indirettamente il veicolo; 
  manomissione degli impianti o del software operata dall’assicurato o da terzi con il consenso dell’assicurato. 
@@ -5069,7 +5069,7 @@ La liquidazione del danno avverrà in funzione del regime di gestione del sinist
 Convenzione CARD e, contestualmente, corrisponde all’assicurato, su diversa posizione di sinistro, quanto ulteriormente spettante in forza della 
 presente garanzia. 
 • Sinistro gestito in regime di RCA ordinaria : l’assicurato, definito il sinistro con l’impresa assicuratrice del civilmente responsabile, in caso di 
-sinistro indennizzabile , consegna la documentazione comprovante l’avvenuta liquidazione e la quota parte di responsabilità eventualmente 
+sinistro indennizzabile, consegna la documentazione comprovante l’avvenuta liquidazione e la quota parte di responsabilità eventualmente 
 addebitatagli (quietanza, CAI, verbale autorità intervenuta, perizia, fattura di riparazione), impegnandosi se r ichiesto a esercitare il diritto di 
 accesso agli atti di cui all’art. 146 Codice delle Assicurazioni nei confronti dell’impesa assicuratrice del responsabile civile. L’Impresa corrisponde 
 l’indennizzo all’assicurato se ed in quanto spettante secondo quanto previsto dalla presente garanzia. 
@@ -5349,7 +5349,7 @@ Operante per “Urto o collisione con animali” - opzione “b” (massimale pa
 In relazione agli eventi assicurati dalla copertura “Urto o collisione con animali” contenuta nella garanzia “Imprevisti da circolazione”, sono 
 compresi - con il limite di € 600 e per non più di un sinistro avvenuto nella stessa annualità assicurativa - i danni conseguenti a sinistro 
 indennizzabile subiti dalle apparecchiature di ricarica mobili in dotazione al veicolo (cavo di ricarica e carica batteria). 
-In relazione agli eventi assicurati dalla copertura “Danni causati da roditori e altri animali” contenuta nella garanzia “Imp revisti da circolazione”, 
+In relazione agli eventi assicurati dalla copertura “Danni causati da roditori e altri animali” contenuta nella garanzia “Imprevisti da circolazione”, 
 a parziale deroga dell’articolo denominato “Esclusioni”, sono compresi - entro il massimale indicato in p olizza - i danni conseguenti a sinistro 
 indennizzabile subiti dalla batteria di trazione. 
  
@@ -5357,7 +5357,7 @@ PROTEZIONE FRANCHIGIA E SCOPERTI
 Disponibile nell’ambito dell’offerta “Lithium” per autovetture uso privato con alimentazione esclusivamente elettrica (“Batte ry electric 
 vehicle” - BEV) o ibrida plug in – PHEV. 
  
-Valida solo quale estensione dell’operatività delle coperture “ Garanzie speciali”, “Kasko” (tutte le forme) ed “Imprevisti da circolazione” 
+Valida solo quale estensione dell’operatività delle coperture “Garanzie speciali”, “Kasko” (tutte le forme) ed “Imprevisti da circolazione” 
 quando espressamente richiamate in contratto. 
  
 A parziale modifica di quanto previsto dalle Condizioni di Assicurazione relativa alle garanzie: 
@@ -5572,7 +5572,7 @@ e per evento, inclusa la prima colazione.
 VEICOLO SOSTITUTIVO 
 A seguito di trasferimento secondo quanto normato nel paragrafo “SOCCORSO STRADALE”, la garanzia opera qualora il veicolo non sia riparabile in 
 giornata. La Centrale Operativa mette a disposizione dell’Assicurato, presso una stazione di noleggio convenzionata e in base alla sua disponibilità 
-un’autovettura sostitutiva di categoria equivalente, comunque non superiore alla “Categoria C ompact” e, laddove disponibile, ad alimentazione 
+un’autovettura sostitutiva di categoria equivalente, comunque non superiore alla “Categoria Compact” e, laddove disponibile, ad alimentazione 
 elettrica o ibrida. 
  
 Il veicolo sostitutivo viene assegnato fino al termine delle riparazioni e fino ad un massimo di sette giorni consecutivi; qualora il veicolo sia stato 
@@ -5797,7 +5797,7 @@ giustificativi in originale, del codice IBAN e del Codice Fiscale.
 Le spese sostenute e non preventivamente autorizzate dalla Centrale Operativa non saranno rimborsate. 
  
 ASSISTENZA AUTO 
-Le garanzie ed i servizi di assistenza di seguito precisati sono prestati dall’Impresa tramite la Centrale Operativa di AWP P &C S.A. Rappresentanza 
+Le garanzie ed i servizi di assistenza di seguito precisati sono prestati dall’Impresa tramite la Centrale Operativa di AWP P&C S.A. Rappresentanza 
 Generale per l’Italia in funzione 24 ore su 24 tutti i giorni dell’anno. 
 AVVERTENZA: nessun rimborso è previsto senza il preventivo contatto con la Centrale Operativa (per i dettagli si rinvia alla sezione “Istruzioni 
 per la richiesta di assistenza”). 
@@ -6161,7 +6161,7 @@ In caso di decesso, la Centrale Operativa provvede, con costi a carico della Soc
 ===== page 75 =====
 Condizioni di assicurazione - AZ CGA 012/AZ1 Set informativo AZ SI000 ATVT RCAARD AFOARD mod.30 
 Pagina 57 di 70 
-della salma (incluse le spese del feretro, in conformità con le norme internazionali) fino al luogo di sepoltura in Italia, Repubblica di San M arino o 
+della salma (incluse le spese del feretro, in conformità con le norme internazionali) fino al luogo di sepoltura in Italia, Repubblica di San Marino o 
 Città del Vaticano. 
  
 Sono escluse le spese relative alla cerimonia funebre ed all'inumazione. In alternativa, qualora l'Assicurato avesse espresso il desiderio di essere 
@@ -6289,7 +6289,7 @@ ELENCO “GUASTI COPERTI DA GARANZIA RAPID REPAIR”
  
 DESCRIZIONE TIPO DI INTERVENTO 
 BATTERIA DI AVVIAMENTO 
-In tutti i casi in cui non sia possibile far ripartire il veicolo con una ricarica sul posto, il veicolo sarà trainato presso un a officina 
+In tutti i casi in cui non sia possibile far ripartire il veicolo con una ricarica sul posto, il veicolo sarà trainato presso una officina 
 convenzionata e, se necessario, si procederà alla sostituzione della batteria di avviamento. 
 Sostituzione 
 DANNI A PNEUMATICI (anche RunFlat) 
@@ -6458,7 +6458,7 @@ scorie nucleari o da armamenti nucleari, o derivanti da fenomeni di trasmutazion
 esplosive, o da altre caratteristiche pericolose di apparecchiature nucleari o sue componenti; 
 f) materiali, sostanze, composti biologici e/o chimici, utilizzati allo scopo di recare danno alla vita umana o di diffondere il panico; 
 g) trombe d’aria, uragani, terremoti, eruzioni vulcaniche, inondazioni, alluvioni ed altri sconvolgimenti della natura; 
-h) inquinamento di qualsiasi natura, infiltrazioni, contaminazioni dell’aria, dell’acqua, del suolo, del sottosuolo, o qualsiasi danno ambiental e; 
+h) inquinamento di qualsiasi natura, infiltrazioni, contaminazioni dell’aria, dell’acqua, del suolo, del sottosuolo, o qualsiasi danno ambientale; 
 i) dolo o colpa grave dell’Assicurato o di persone delle quali deve rispondere; 
 j) abuso di alcolici e psicofarmaci e l'uso non terapeutico di stupefacenti e allucinogeni; 
 k) un viaggio intrapreso verso un territorio ove sia operativo un divieto o una limitazione (anche temporanei) emessi da un’Autorità pubblica 
@@ -7092,7 +7092,7 @@ S.p.A. il massimale convenuto, fermo il resto, verrà elevato ad € 30.000,00.
 Gli oneri di cui sopra sono: 
 - le spese per l'intervento di un legale entro il limite massimo stabilito dalla tariffa nazionale forense; 
 - le spese di un perito nominato dall’Autorità adita entro i limiti dalla stessa stabiliti; 
-- le spese di un perito nominato dall’assicurato previo consenso dell’Impresa entro i limiti massimi stabiliti dalle tariffe de gli Ordini professionali 
+- le spese di un perito nominato dall’assicurato previo consenso dell’Impresa entro i limiti massimi stabiliti dalle tariffe degli Ordini professionali 
 di appartenenza; 
 - le spese di giustizia nel processo penale ed il contributo unificato nel processo civile; 
 - le spese investigative per la ricerca e l’acquisizione di prove a difesa; 
@@ -7165,7 +7165,7 @@ non venga rinnovata;
 soccorso); 
 • partecipazione da parte del conducente a gare o competizioni sportive e alle relative prove ufficiali, salvo che si tratti di gare di pura 
 regolarità indette dall'ACI; 
-• controversie non espressamente richiamate tra le voci dell’ articolo 2 “Persone e rischi assicurati” della presente sezione “Sistema di 
+• controversie non espressamente richiamate tra le voci dell’articolo 2 “Persone e rischi assicurati” della presente sezione “Sistema di 
 coperture per la persona – Tutela Giudiziaria”. 
  
 Articolo 6 – VERIFICARSI DEL SINISTRO 

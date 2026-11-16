@@ -21,7 +21,7 @@ Coberturas facultativas dependentes da Fórmula
 (conjunto de coberturas pré-definida) subscrita: 
 Fórmula Essencial 
  Proteção dos ocupantes (incluindo o condutor) - 
-(Limites: M orte ou Invalidez Permanente (MIP) € 
+(Limites: Morte ou Invalidez Permanente (MIP) € 
 10.000 Despesas de Tratamento (DT) € 1.000) 
  Assistência em viagem 
 Fórmula Standard 
@@ -34,7 +34,7 @@ opcional) - (Limite: Valor venal do veículo seguro)
 CD’S (cobertura opcional) – (Limite: € 500 - 
 Depreciação de 1,5 % ao mês até 80 %) 
  Furto ou roubo Isolado de componentes (jantes, 
-pneus e farói s de nevoeiro) (cobertura opcional) 
+pneus e faróis de nevoeiro) (cobertura opcional) 
 – (Limite: € 750) 
  Incêndio e riscos catastróficos (cobertura opcional) 
 - (Limite: Valor venal do veículo seguro) 
@@ -69,7 +69,7 @@ Principais riscos excluídos da Garantia
 Obrigatória: 
  Excluem-se da garantia obrigatória do seguro os 
 danos corporais sofridos pelo condutor do veículo 
-seguro responsável pelo acidente, assim com o os 
+seguro responsável pelo acidente, assim como os 
 danos decorrentes daqueles; 
  Excluem-se igualmente da garantia obrigatória do 
 seguro quaisquer danos materiais causados ao 
@@ -78,14 +78,14 @@ Tomador do Seguro; ao Cônjuge, ascendentes,
 descendentes, ou adotados das pessoas referidas 
 anteriormente, assim como outros parentes ou 
 afins até ao 3.º grau (quando elas coabitem ou 
-vivam a seu cargo ); A passageiros, quando 
+vivam a seu cargo); A passageiros, quando 
 transportados em contravenção às regras relativas 
 ao transporte de passageiros constantes do 
 Código da Estrada; 
  Excluem-se igualmente da garantia obrigatória os 
 danos causados no próprio veículo seguro; os 
 danos causados nos bens transportados no 
-veículo s eguro, quer se verifiquem durante o 
+veículo seguro, quer se verifiquem durante o 
 transporte quer em operações de carga e 
 descarga; Quaisquer danos causados a terceiros 
 em consequência de operações de carga e 
@@ -133,44 +133,44 @@ Principais restrições
 ! Quando ocorram omissões ou inexatidões na 
 declaração de risco; 
 ! As coberturas facultativas contratadas poderão 
-estar sujeitas , em caso de sinistro, a franquias , 
-cujo montante fica a cargo do Tomador do Seguro , 
+estar sujeitas, em caso de sinistro, a franquias, 
+cujo montante fica a cargo do Tomador do Seguro, 
 encontrando-se as mesmas fixadas nas Condições 
 particulares; 
-! Poderá ser aplicado, em caso de sinistro , um 
+! Poderá ser aplicado, em caso de sinistro, um 
 período de carência a determinadas coberturas 
 facultativas; 
-! As coberturas estão sujeitas a os limites fixados 
+! As coberturas estão sujeitas aos limites fixados 
 nas Condições Particulares. 
  
 Onde estou coberto? 
  Na totalidade dos territórios dos países cujos serviços nacionais de seguros tenham aderido ao Acordo entre os 
 serviços nacionais de seguros, mais concretamente, os Estados membros da União Europeia, os demais países 
 membros do Espaço Económico Europeu (Islândia, Liechtenstein e Noruega), e ainda a Suíça, Ilhas Feroé, Ilhas 
-da Mancha, Gibraltar, Ilha de Man, República de São Marino, Estado do Vaticano e Andorra, bem como os o utros 
+da Mancha, Gibraltar, Ilha de Man, República de São Marino, Estado do Vaticano e Andorra, bem como os outros 
 países cujos serviços nacionais de seguros adiram ao mencionado Acordo e que venham a ser indicados no 
 contrato ou nos respetivos documentos probatórios; 
- No trajeto que ligue diretamente dois territórios onde o Acordo do Espaço Económico Europeu é ap licável, quando 
+ No trajeto que ligue diretamente dois territórios onde o Acordo do Espaço Económico Europeu é aplicável, quando 
 nele não exista serviço nacional de seguros; 
  O contrato pode ainda abranger a responsabilidade civil decorrente da circulação do veículo em outros territórios 
-para além dos mencionados nos pontos anteriores desde que seja garantida por um c ertificado internacional de 
+para além dos mencionados nos pontos anteriores desde que seja garantida por um certificado internacional de 
 seguro (“carta verde”) válido para a circulação nesses países; 
  As garantias de assistência a pessoas são válidas em todo o Mundo, salvo estipulação em contrário nas 
 Condições Particulares; 
- As garantias de assistência a veículo s e seus ocupantes, são válidas em Portugal, na Europa e nos países da 
+ As garantias de assistência a veículos e seus ocupantes, são válidas em Portugal, na Europa e nos países da 
 costa do Mediterrâneo, salvo estipulação em contrário nas Condições Particulares e/ou Condições Especiais. 
  
 Quais são as minhas obrigações? 
-− Declarar, antes da celebração do contrato, c om exatidão todas as circunstâncias que conheça e razoavelmente 
+− Declarar, antes da celebração do contrato, com exatidão todas as circunstâncias que conheça e razoavelmente 
 deva ter por significativas para a apreciação do risco pelo Segurador; 
 − Comunicar ao Segurador todas as circunstâncias que agravem o risco do contrato, no prazo de 14 dias a contar do 
 conhecimento do facto; 
 − Avisar o Segurador, por escrito, da alienação do veículo, nas 24 horas seguintes à mesma, devendo juntar o 
-certificado provisório do seguro, o certificado de responsabilidade civil ou o aviso -recibo e o certificado 
+certificado provisório do seguro, o certificado de responsabilidade civil ou o aviso-recibo e o certificado 
 internacional de seguro (“carta verde”); 
 − Em caso de sinistro coberto, comunicar tal facto, por escrito, ao Segurador, no mais curto prazo de tempo possível, 
 nunca superior a 8 dias a contar do dia da ocorrência ou do dia em que tenha conhecimento da mesma, 
-fornecendo todas as ind icações e provas documentais e ou testemunhais relevantes e tomar as medidas ao seu 
+fornecendo todas as indicações e provas documentais e ou testemunhais relevantes e tomar as medidas ao seu 
 alcance no sentido de evitar ou limitar as consequências do sinistro. 
  
 Quando e como devo pagar? 

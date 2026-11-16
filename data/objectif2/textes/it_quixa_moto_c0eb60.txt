@@ -63,21 +63,21 @@ L'assicurazione non è operante esclusivamente nelle seguenti ipotesi:
 ! se il conducente non è abilitato alla guida a norma delle disposizioni in vigore, sempreché, al 
 momento del verificarsi del sinistro, al conducente risulti già comunicato il totale esaurimento dei 
 punti della patente, ovvero l'abilitazione alla guida risulti scaduta da oltre sei mesi; 
-! in caso di veicolo utilizzato per esercitazione all a guida, durante la guida dell'allievo, 
+! in caso di veicolo utilizzato per esercitazione alla guida, durante la guida dell'allievo, 
 esclusivamente nel caso in cui al fianco di quest'ultimo non vi è una persona abilitata a svolgere 
 le funzioni di istruttore e sempreché' la presenza dell'istruttore sia prescritta dalla legge vigente; 
 ! per i danni subiti dai terzi trasportati, se il trasporto non è effettuato in conformità alle 
 disposizioni vigenti od alle indicazioni della carta di circolazione; 
 ! nel caso di veicolo guidato da persona in stato di ebbrezza o sotto l'influenza di sostanze 
-stupefacenti ovvero alla quale sia stata applicata la sanzione ai sensi degli artt. 186, 186 -bis e 
+stupefacenti ovvero alla quale sia stata applicata la sanzione ai sensi degli artt. 186, 186-bis e 
 187 del Codice della Strada. 
  
  
 ✓ L'assicurazione vale per il territorio della Repubblica italiana, della Città del Vaticano, della 
 Repubblica di S. Marino e degli Stati dell'Unione europea, nonché' per il territorio dell'Islanda, del 
 Liechtenstein, della Norvegia, del Principato di Monaco, della Svizzera, la Serbia e di Andorra. 
-L'assicurazione vale altre sì per il territorio degli altri Stati le cui sigle internazionali indicate sulla 
-Carta Verde non siano barrate. L'Impresa è tenuta a rilasciare la Carta Verde . 
+L'assicurazione vale altresì per il territorio degli altri Stati le cui sigle internazionali indicate sulla 
+Carta Verde non siano barrate. L'Impresa è tenuta a rilasciare la Carta Verde. 
  
  
 - Quando sottoscrivi il contratto, hai il dovere di fare dichiarazioni veritiere, esatte e complete sul 
@@ -88,18 +88,18 @@ l’esercizio, da parte dell’Impresa, del diritto di rivalsa totale o parziale
 pagati ai terzi danneggiati. 
  
  
-Il Premio deve essere pagato al rilascio della polizza . Puoi pagare il premio tramite: Carta di credito, My 
+Il Premio deve essere pagato al rilascio della polizza. Puoi pagare il premio tramite: Carta di credito, My 
 Bank, Amazon Pay, Postepay, Paypal (nel caso in cui il premio totale complessivo di imposta e SSN sia 
 inferiore o uguale a € 1450); Bonifico bancario (nel caso in cui il premio totale complessivo di imposta e 
 SSN sia superiore a € 1450); PUNTOLIS, Coop (nel caso in cui il premio totale complessivo di imposta e 
 SSN sia inferiore o uguale a € 1494); SisalPay (nel caso in cui il premio complessivo di imposta e SSN sia 
-inferiore o uguale a € 1497). Nel caso in cui sia espressamente richiesto, i l pagamento potrà essere 
+inferiore o uguale a € 1497). Nel caso in cui sia espressamente richiesto, il pagamento potrà essere 
 effettuato mediante finanziamento erogato da Findomestic 
  
  
 La copertura R.C. Auto dura un anno dalla data di decorrenza indicata in polizza, e termina alla scadenza 
 indicata in polizza senza necessità di disdetta. La copertura r.c.auto resta comunque attiva per i 15 giorni 
-successivi alla scadenza, a condizione ch e non sia stata stipulata un’altra polizza per la stessa auto con 
+successivi alla scadenza, a condizione che non sia stata stipulata un’altra polizza per la stessa auto con 
 altra impresa. Puoi sospendere temporaneamente l’assicurazione e prorogarla più volte per un massimo 
 di 10 mesi (11 per i veicoli di interesse storico e collezionistico), mediante una formale comunicazione a 
 QUIXA. In questo caso e per tutta la durata della sospensione il veicolo è privo di copertura assicurativa e 
@@ -130,7 +130,7 @@ Il patrimonio netto di QUIXA Assicurazioni S.p.A., riferito all’ultimo bilanci
 ammonta a € 99,6 milioni di cui € 107,6 milioni di capitale sociale interamente versato e € -8,0 milioni di 
 riserve patrimoniali negative, compreso il risultato di esercizio (in perdita). Il solvency ratio al 31 
 dicembre 2024, ovvero la misura sintetica del grado di solidità patrimoniale della Compagnia, calcolata 
-secondo i criteri e le modalità indicate dalla Direttiva 2009/138/CE del Parlamento Eur opeo e dal 
+secondo i criteri e le modalità indicate dalla Direttiva 2009/138/CE del Parlamento Europeo e dal 
 Regolamento delegato (UE) 2015/35, come rapporto tra Fondi propri ammissibili per la copertura del 
 Requisito patrimoniale di solvibilità ed il Requisito stesso, è pari al 176%. 
 Per informazioni patrimoniali sulla società (relazione sulla solvibilità e sulla condizione finanziaria 
@@ -235,7 +235,7 @@ richiesta di risarcimento per danni a persone e/o cose non sia superiore a
 aderenti all’accordo con l’Associazione Nazionale fra le Imprese Assicuratrici 
 (ANIA). Per attivare tale strumento occorre compilare l’apposito modulo, 
 reperibile sul sito dell’ANIA e sui siti delle Associazioni dei Consumatori 
-suddette, seguendo le istruzioni ivi fornite, ed in viarlo all’Associazione dei 
+suddette, seguendo le istruzioni ivi fornite, ed inviarlo all’Associazione dei 
 Consumatori prescelta. Tale sistema di risoluzione delle controversie è 
 facoltativo. 
 Arbitrato: l’ammontare del danno è definito direttamente da QUIXA, o da 
@@ -326,10 +326,10 @@ Contraente stipula il contratto di
 assicurazione r.c. auto; 
 ➢ per «Contratto Base»: il contratto r.c. auto 
 offerto dall'Impresa ai sensi dell'articolo 22 
-del decreto -legge 18 ottobre 2012, n. 179, 
+del decreto-legge 18 ottobre 2012, n. 179, 
 presso i «punti vendita» dell'Impresa stessa 
 ovvero, disponibile sul sito internet 
-mediante il modell o elettronico standard 
+mediante il modello elettronico standard 
 previsto dall'articolo 22, comma 6, del 
 decreto-legge 18ottobre 2012, n. 179, 
 convertito con modificazioni dalla legge 17 
@@ -340,7 +340,7 @@ all'art.133 del Codice, quali le autovetture, i
 motocicli ed i ciclomotori ad uso privato 
 dei Consumatori (come definiti 
 dall'articolo 3 del decreto legislativo 6 
-settembre 2005, n.206 e successiv e 
+settembre 2005, n.206 e successive 
 modificazioni, c.d. Codice del consumo), da 
 assicurarsi con formula tariffaria Bonus 
 Malus e con formula contrattuale «Guida 
@@ -384,7 +384,7 @@ pubblico»: le aree di proprietà di soggetti
 pubblici o privati cui puo' accedere una 
 molteplicità di veicoli, persone e animali 
 quali, a titolo di esempio, le stazioni di 
-servizio, i parcheggi dei su permercati, i 
+servizio, i parcheggi dei supermercati, i 
 cantieri aperti al pubblico, i parcheggi dei 
 terminal o delle imprese di logistica; 
 ➢ per «Aree private»: le aree di proprieta' di 
@@ -625,7 +625,7 @@ preavviso di almeno trenta giorni e a mantenere
 operante, non oltre il quindicesimo giorno 
 successivo alla scadenza del contratto, la 
 garanzia prestata con il precedente contratto 
-fino all'effetto della nuova polizza (art. 170 -bis 
+fino all'effetto della nuova polizza (art. 170-bis 
 del Codice). 
  Il premio è sempre interamente dovuto anche 
 se sia stato pattuito il frazionamento dello 
@@ -674,7 +674,7 @@ competente;
  b) sostituzione del contratto per altro veicolo 
 che rientri nella medesima classe, come indicata 
 dall'art. 47 del Codice della strada, di quello 
-precedentemente assicurato e di propriet à 
+precedentemente assicurato e di proprietà 
 dello stesso soggetto Assicurato (o da questo 
 locato in leasing), con eventuale conguaglio del 
 premio sulla base della tariffa applicata al 
@@ -845,7 +845,7 @@ impresa), l’Assicurato deve indirizzare la
 richiesta di rimborso CONSAP – Stanza di 
 compensazione via Yser, 14 – 00198 Roma; 
 telefono: 06.85796444; Fax: 06.85796546/547; 
-sito internet: www.consap.it; e -mail: 
+sito internet: www.consap.it; e-mail: 
 rimborsistanza@consap.it. 
 In alternativa, l’Assicurato può richiedere a 
 QUIXA di effettuare la richiesta in sua vece, fermo 
@@ -941,7 +941,7 @@ caso in cui il precedente contratto si riferisca a
 veicolo già assicurato con forma tariffaria 
 “franchigia”, il medesimo è assegnato alla classe 
 CU risultante dall’applicazione dei criteri 
-contenuti nella segu ente tabella. N.B. non sono 
+contenuti nella seguente tabella. N.B. non sono 
 considerati anni senza sinistri quelli per i quali la 
 tabella della sinistrosità pregressa riporta le sigle 
 N.A. (veicolo non assicurato). 
@@ -963,7 +963,7 @@ QUIXA tratta con cura i suoi dati personali, cioè le informazioni a lei riferit
 contatto, i dati di salute) che utilizza per lo svolgimento delle proprie attività e che possono essere forniti da lei o da 
 terzi, ovvero essere acquisiti consultando banche dati, elenchi e registri legittimamente accessibili. A conferma di 
 questo impegno e per dare esecuzione alle norme che tutelano il trattamento dei dati personali, forniamo qui di 
-seguito le informazioni essenziali che permettono di esercitare in modo agev ole e consapevole i diritti previsti dalla 
+seguito le informazioni essenziali che permettono di esercitare in modo agevole e consapevole i diritti previsti dalla 
 vigente normativa. 
  
 Qualora i dati forniti da lei o da terzi si riferiscano a soggetti minori di età sui quali lei esercita la responsabilità 
@@ -974,7 +974,7 @@ intendono riferite anche ai trattamenti su questi dati.
  
  Chi decide perché e come trattare i dati? 
  QUIXA Assicurazioni S.p.A., titolare del trattamento dei dati, con sede in Corso Como 17 - 20154 Milano (note 
-societarie complete su www.quixa.it), mail centrocompetenzaprivacy@quixa.it (di seguito anche " QUIXA", il 
+societarie complete su www.quixa.it), mail centrocompetenzaprivacy@quixa.it (di seguito anche "QUIXA", il 
 “Titolare” o la "Compagnia"). 
  
 Quali sono i dati di contatto del Responsabile della Protezione dei Dati – DPO 
@@ -1005,29 +1005,29 @@ protocollo@pec.gpdp.it
 a) Finalità assicurativa1 
 Per svolgere adeguatamente l’attività assicurativa (assunzione e gestione dei rischi effettuati dall’impresa di 
 assicurazione) e gestire il rapporto assicurativo, QUIXA ha la necessità di trattare i dati personali a lei riferiti 
-(dati già acquisiti, forniti direttamente da lei o da altri soggetti 2), anche mediante la consultazione di banche 
+(dati già acquisiti, forniti direttamente da lei o da altri soggetti2), anche mediante la consultazione di banche 
 dati legittimamente accessibili (es. sistemi di informazioni creditizie, utili per verificare il possesso di requisiti 
 specifici richiesti dalle compagnie per l'accesso ad agevolazioni e vantaggi, quali la rateizzazione del premio) 
-e dispositivi tecnologici 3 e/o dati ancora da acquisire, alcuni dei quali ci debbono essere forniti da lei o da 
+e dispositivi tecnologici3 e/o dati ancora da acquisire, alcuni dei quali ci debbono essere forniti da lei o da 
 terzi per obbligo di legge4). 
  
 Per questa finalità, QUIXA utilizzerà i suoi dati personali nell'ambito delle seguenti attività, indicati a titolo 
 esemplificativo e non esaustivo: 
 • quotazione, preventivi, predisposizione, stipulazione di polizze assicurative ed esecuzione degli obblighi 
 dalle stesse derivanti; raccolta dei premi; liquidazione dei sinistri; pagamento o esecuzione di altre 
-prestazioni; riassicurazione e coassicurazione, attività amministrativo -contabili; 
+prestazioni; riassicurazione e coassicurazione, attività amministrativo-contabili; 
 • prevenzione e individuazione delle frodi assicurative e relative azioni legali; esercizio o difesa di diritti 
 dell'assicurazione; 
 • attività statistiche, anche a fini di tariffazione – tra le quali attività di studio statistico sulla base clienti di 
 QUIXA – anche strumentali a future evoluzioni della Compagnia (quali, a titolo esemplificativo e non 
-esaustivo – negli ambiti di sofistica zione della tariffazione, ottimizzazione della gestione dei sinistri e 
+esaustivo – negli ambiti di sofisticazione della tariffazione, ottimizzazione della gestione dei sinistri e 
 studio di nuove offerte commerciali sulla base dei comportamenti dei clienti) utilizzando anche tutti i Dati 
 raccolti per il tramite della c.d. BlackBox o Scatola Nera (quali, ad titolo esemplificativo, le informazioni 
 sui movimenti e le localizzazioni del veicolo, la relativa ubicazione, i Dati di percorrenza, i Dati di 
 profilazione, la tipologia di percorso, le collisioni e/o incidenti, le accelerazioni e le decelerazioni, la 
 velocità, i comportamenti di guida) 
 • adempimento di altri specifici obblighi di legge (es. in materia di contrasto al riciclaggio e al finanziamento 
-del terrorismo, sanzioni ed embarghi internazionali) . Limitatamente a quanto previsto dalla normativa, 
+del terrorismo, sanzioni ed embarghi internazionali). Limitatamente a quanto previsto dalla normativa, 
 saranno trattati anche i dati giudiziari; 
 • analisi di nuovi mercati assicurativi o prodotti o servizi; 
 • gestione e controllo interno; 
@@ -1048,27 +1048,27 @@ finalizzato alla determinazione dello sconto/premio applicabile (es. sulla base 
  
 1 La "finalità assicurativa" richiede che i dati personali siano trattati necessariamente per l’assunzione e gestione dei rischi da parte dell’impresa di assicurazione che includono le 
 attività di: predisposizione, stipulazione di polizze assicurative ed esecuzione degli obblighi dalle stesse derivati; raccol ta dei premi; liquidazione dei sinistri, pagamento o 
-esecuzione di a ltre prestazioni; riassicurazione; coassicurazione; prevenzione e individuazione delle frodi assicurative e relative azioni l egali; esercizio o difesa di diritti 
-dell'assicurazione; adempimento di altri specifici obblighi di legge o contrattuali; analisi d i nuovi mercati assicurativi o prodotti o servizi; gestione e controllo interno; attività 
+esecuzione di altre prestazioni; riassicurazione; coassicurazione; prevenzione e individuazione delle frodi assicurative e relative azioni legali; esercizio o difesa di diritti 
+dell'assicurazione; adempimento di altri specifici obblighi di legge o contrattuali; analisi di nuovi mercati assicurativi o prodotti o servizi; gestione e controllo interno; attività 
 statistiche e utilizzo a fini tariffari. 
-2 Ad esempio: altri soggetti inerenti al rapporto che la riguarda (es. contraenti di assicurazioni in cui lei risulti assicurat o; coobbligati); altri operatori assicurativi (quali agenti, 
-broker di assicurazione, altre imprese di assicurazione); soggetti che , per soddisfare le sue richieste (es. quali una copertura assicurativa) forniscono informazioni creditizie e 
-commerciali; organismi associativi e consortili propri del settore assicurativo altri soggetti pubblici, banche dati di autor ità per finalità antiriciclaggio e/o antiterrorismo. 
+2 Ad esempio: altri soggetti inerenti al rapporto che la riguarda (es. contraenti di assicurazioni in cui lei risulti assicurato; coobbligati); altri operatori assicurativi (quali agenti, 
+broker di assicurazione, altre imprese di assicurazione); soggetti che, per soddisfare le sue richieste (es. quali una copertura assicurativa) forniscono informazioni creditizie e 
+commerciali; organismi associativi e consortili propri del settore assicurativo altri soggetti pubblici, banche dati di autorità per finalità antiriciclaggio e/o antiterrorismo. 
 3 Come, ad esempio, la black box o scatola nera installata in auto, intesa come un dispositivo fisico presente sull'autovettura che consente di raccogliere dati telematici, quali 
-informazioni riguardanti il veicolo (es. la geolocalizzazione, i dati di percorrenza, l’accelerazione e la decelerazione, i c hilometri percorsi, ecc.) e altri dispositivi, come i software 
-installati dall’interessato sul proprio device, capaci di raccogliere dati relativi al veicolo ed al dispositivo, in relazion e alle specifiche polizze auto o contratti di servizio. 
+informazioni riguardanti il veicolo (es. la geolocalizzazione, i dati di percorrenza, l’accelerazione e la decelerazione, i chilometri percorsi, ecc.) e altri dispositivi, come i software 
+installati dall’interessato sul proprio device, capaci di raccogliere dati relativi al veicolo ed al dispositivo, in relazione alle specifiche polizze auto o contratti di servizio. 
 4 Ad esempio, ai sensi della normativa contro il riciclaggio di denaro, in materia fiscale e antiterrorismo 
-5 I dati sono comunicati a taluni dei seguenti soggetti: società del Gruppo a cui appartiene AXA (controllanti, controllate e c ollegate, anche indirettamente, ai sensi delle vigenti 
-disposizioni di legge); assicuratori, coassicuratori; agenti, subagenti, med iatori di assicurazione e di riassicurazione, produttori ed altri canali di acquisizione e gestione di 
+5 I dati sono comunicati a taluni dei seguenti soggetti: società del Gruppo a cui appartiene AXA (controllanti, controllate e collegate, anche indirettamente, ai sensi delle vigenti 
+disposizioni di legge); assicuratori, coassicuratori; agenti, subagenti, mediatori di assicurazione e di riassicurazione, produttori ed altri canali di acquisizione e gestione di 
 contratti di assicurazione; banche, Società di Gestione del Risparmio, SIM.
 
 ===== page 18 =====
 rilevati attraverso la cd. Black Box). 
  
-Viceversa, il suo consenso esplicito è richiesto per il trattamento delle categorie particolari di dati 6, quali i 
+Viceversa, il suo consenso esplicito è richiesto per il trattamento delle categorie particolari di dati6, quali i 
 dati relativi alla salute (di seguito indicati anche come "dati sensibili"). Il consenso che le chiediamo riguarda 
 quindi il trattamento degli eventuali dati sensibili il cui utilizzo sarà inerente esclusivamente alla fornitura dei 
-servizi, e/o prodotti assicurativi e attività strettamente connesse (antifrode, contabili, ammini strative) e/o 
+servizi, e/o prodotti assicurativi e attività strettamente connesse (antifrode, contabili, amministrative) e/o 
 delle prestazioni citate il cui trattamento è ammesso dalla normativa vigente in materia di protezione dei dati 
 personali. Inoltre, esclusivamente per le finalità sopra indicate e sempre limitatamente a quanto di stretta 
 competenza in relazione allo specifico rapporto intercorrente tra lei e QUIXA, secondo i casi, i dati sensibili 
@@ -1085,8 +1085,8 @@ Potremo, inoltre, utilizzare i dati di contatto che abbiamo ricevuto per inviarl
 strumentali e utili alla gestione del rapporto assicurativo ed al suo miglioramento nel quadro dell’efficienza 
 dei servizi al cliente e della verifica della qualità degli stessi. Tenga peraltro conto che in mancanza dei suoi 
 dati di contatto non ci sarà possibile contattarla tempestivamente per fornirle informazioni utili in relazione 
-al rapporto contrattuale o altre comunicazioni di servizio. In tal i messaggi, un mezzo tecnico, denominato 
-pixel e inserito all’interno delle comunicazioni tramite posta elettronica (“e -mail”), avvisi di comunicazioni 
+al rapporto contrattuale o altre comunicazioni di servizio. In tali messaggi, un mezzo tecnico, denominato 
+pixel e inserito all’interno delle comunicazioni tramite posta elettronica (“e-mail”), avvisi di comunicazioni 
 (“push notification”) e indirizzamenti verso fonti collegate (“landing page”) accessibili dagli SMS, raccoglie le 
 informazioni relative ai dati di consegna, apertura (nel caso delle sole mail) e di selezione (“click”), 
 consentendoci in questo modo: i) di monitorare e verificare che il messaggio sia stato correttamente ricevuto; 
@@ -1094,9 +1094,9 @@ ii) di elaborare statistiche in maniera aggregata sulle attività di invio di me
  
 Evidenziamo, infine, che l'adesione a processi diretti di sottoscrizione di polizze assicurative (es. tramite sito 
 web o telefono) e/o di alcune fasi della gestione del rapporto precontrattuale (es. gestione di eventuali 
-richieste di deroghe assuntive) com porta un processo decisionale automatizzato , finalizzato alla gestione 
+richieste di deroghe assuntive) comporta un processo decisionale automatizzato, finalizzato alla gestione 
 automatica della richiesta di copertura assicurativa ed alla attribuzione automatica della tariffa più aderente 
-alle esigenze del singolo cliente. Ciò consente di velocizzare il process o di sottoscrizione della polizza e di 
+alle esigenze del singolo cliente. Ciò consente di velocizzare il processo di sottoscrizione della polizza e di 
 adottare decisioni coerenti con le concrete caratteristiche del singolo cliente e non solo sulla base delle analisi 
 statistiche generali. 
  
@@ -1113,15 +1113,15 @@ salute).
 il titolare del trattamento (es. in materia di contrasto al riciclaggio e al finanziamento del terrorismo, 
  
 6 Ai sensi del comma 1 dell'art. 9 del GDPR, si tratta di dati personali che rivelino l'origine razziale o etnica, le opinioni politiche, le convinzioni religiose o filosofiche, o 
-l'appartenenza sindacale, nonché trattare dati genetici, dati biometrici intes i a identificare in modo univoco una persona fisica, dati relativi alla salute o alla vita sessuale o 
+l'appartenenza sindacale, nonché trattare dati genetici, dati biometrici intesi a identificare in modo univoco una persona fisica, dati relativi alla salute o alla vita sessuale o 
 all'orientamento sessuale della persona. 
 7 La cd. catena assicurativa è il complesso tessuto di rapporti contrattuali tra le imprese di assicurazioni e numerosi soggett i (persone fisiche e giuridiche, operanti in Italia e 
-all'estero) con i quali cooperano nel gestire un medesimo rischio assicurativ o (es. società del Gruppo (controllanti, controllate e collegate, anche indirettamente); altri 
-assicuratori, coassicuratori; agenti, subagenti, mediatori di assicurazione e di riassicurazione, produttori ed altri canali di acquisizione e gestione di contra tti di assicurazione; 
-banche, Società di Gestione del Risparmio, SIM, legali; periti; medici; autofficine, enti pubblici o associazioni di categori a - Per maggiori dettagli vedi la sezione Modalità di uso 
+all'estero) con i quali cooperano nel gestire un medesimo rischio assicurativo (es. società del Gruppo (controllanti, controllate e collegate, anche indirettamente); altri 
+assicuratori, coassicuratori; agenti, subagenti, mediatori di assicurazione e di riassicurazione, produttori ed altri canali di acquisizione e gestione di contratti di assicurazione; 
+banche, Società di Gestione del Risparmio, SIM, legali; periti; medici; autofficine, enti pubblici o associazioni di categoria - Per maggiori dettagli vedi la sezione Modalità di uso 
 dei dati). Tale pluralità di rapporti è peculiare dell'attività assicurativa e necessario per la gestione dei servizi assicurativi che si articola fisiologicamente in una pluralità di "fasi" 
-(dalla c.d. fase assuntiva a quella liquidativa) che possono interessare i soggetti appartenenti alla catena assicur ativa, i quali devono necessariamente trattare i dati personali 
-di diversi interessati (contraente, assicurato, beneficiario e, a certe condizioni, terzo danneggiato), taluni dei quali poss ono non entrare direttamente in contatto con 
+(dalla c.d. fase assuntiva a quella liquidativa) che possono interessare i soggetti appartenenti alla catena assicurativa, i quali devono necessariamente trattare i dati personali 
+di diversi interessati (contraente, assicurato, beneficiario e, a certe condizioni, terzo danneggiato), taluni dei quali possono non entrare direttamente in contatto con 
 l'assicurazione in sede di conclusione del contratto
 
 ===== page 19 =====
@@ -1130,12 +1130,12 @@ sanzioni ed embarghi internazionali).
 a svolgere attività connesse a quella prettamente assicurativa (es. studio statistico anche a valle del 
 processo di anonimizzazione/pseudonimizzazione, studi attuariali, attività per individuare e gestire 
 comportamenti fraudolenti e illeciti, attività di controllo volte a prevenire il rischio di finanziamento del 
-terrorismo e/o di soggetti sottoposti a sanzioni/embarghi internazionali, mediante l’utiliz zo di apposite 
+terrorismo e/o di soggetti sottoposti a sanzioni/embarghi internazionali, mediante l’utilizzo di apposite 
 banche dati, e di invio di comunicazioni di servizio strumentali e utili al miglioramento della gestione del 
 rapporto assicurativo). Nel perseguire il legittimo interesse, la Compagnia ha avuto cura di verificare che 
-siano adeguatamente tute lati gli interessi o i suoi diritti e le libertà fondamentali. Per maggiori 
+siano adeguatamente tutelati gli interessi o i suoi diritti e le libertà fondamentali. Per maggiori 
 informazioni sul legittimo interesse dei dati personali, è sempre possibile contattare il Titolare, c.a. 
-Data Protection Officer (DPO), (si veda par. Quali sono i diritti dell’inte ressato e come possono essere 
+Data Protection Officer (DPO), (si veda par. Quali sono i diritti dell’interessato e come possono essere 
 esercitati?) o visitare la sezione del sito https://www.quixa.it/privacy dedicata al legittimo interesse. 
  
 b) Finalità commerciali e di marketing 
@@ -1154,7 +1154,7 @@ attività qui di seguito elencate:
 • proporle prodotti e servizi che possano essere di suo interesse; 
 • inviarle comunicazioni promozionali e farla partecipare ad iniziative di marketing (quali ad esempio 
 Programmi fedeltà, Concorsi o operazioni a Premio, Campagne Promozionali) mediante i canali di 
-comunicazione accessibili tramite i dati di recapito a lei r iferiti (quali posta, posta elettronica, APP, 
+comunicazione accessibili tramite i dati di recapito a lei riferiti (quali posta, posta elettronica, APP, 
 telefono, sms, social media, push notification ed altri servizi di messaggistica e di comunicazione 
 telematica); 
 • comunicarle novità e opportunità relative a prodotti e/o servizi sia di società appartenenti al Gruppo AXA 
@@ -1175,7 +1175,7 @@ collaboratori, i quali agiranno come responsabili ed incaricati nominati dal Tit
  
 Precisiamo inoltre che, in caso di suo consenso, potremo inviarle messaggi utilizzando sia strumenti 
 tradizionali (posta e telefono) sia strumenti automatici (posta elettronica, sms, push notification, social 
-media ed altri servizi di messaggistica e di co municazione telematica) e tramite l’area web riservata, l’app a 
+media ed altri servizi di messaggistica e di comunicazione telematica) e tramite l’area web riservata, l’app a 
 sua disposizione, fermo restando che lei ha in ogni momento la possibilità di limitare l’effetto del suo 
 consenso solo ad uno degli strumenti di comunicazione sopra indicati. 
  
@@ -1186,7 +1186,7 @@ S.p.A. fa parte – nonché a Soggetti Terzi intrattenenti specifici Accordi di 
 ===== page 20 =====
 il Titolare del Trattamento al fine di permettere a questi Soggetti (i quali agiranno in qualità di Titolari 
 Autonomi del Trattamento) la proposizione di offerte e vantaggi riservati. 
-Base giuridica del trattamento : per la finalità commerciale e di marketing sopra descritta la base giuridica 
+Base giuridica del trattamento: per la finalità commerciale e di marketing sopra descritta la base giuridica 
 che legittima il trattamento è la manifestazione del consenso dell’interessato al trattamento dei propri dati 
 personali per tale specifica finalità. Il consenso che le chiediamo è facoltativo. In mancanza o in caso di revoca, 
 non vi sono effetti sull’erogazione dei servizi assicurativi, ma non potrà conoscere le nostre offerte, né 
@@ -1214,7 +1214,7 @@ scelto, potremo utilizzare:
 informazioni pubbliche allo stesso riferibili (es. presenza di eventi negativi, quali protesti o fallimenti sul 
 soggetto valutato e sulle persone giuridiche ad esso collegate in base ai dati camerali quali carica sociale 
 o partecipazioni). Tali informazioni sono elaborate anche da un soggetto terzo (che opera come Titolare 
-autonomo o responsabile del trattamento dei dati sottesi al merito creditizio) per deter minare, tramite 
+autonomo o responsabile del trattamento dei dati sottesi al merito creditizio) per determinare, tramite 
 attività di profilazione, un indicatore di rischio creditizio dell’interessato. A seguito di ogni quotazione, 
 se l’interessato ha espresso il consenso alla profilazione, si verifica una chiamata alla banca dati del 
 soggetto terzo (processo automatizzato) che restituisce l’indicatore del rischio creditizio del cliente. A 
@@ -1228,7 +1228,7 @@ click consentendoci in questo modo:
 • di effettuare attività di comunicazione personalizzate in base all’interazione da lei avuta con il 
 messaggio ricevuto. 
  
-Base giuridica del trattamento : per le attività di profilazione, la base giuridica che legittima il trattamento è 
+Base giuridica del trattamento: per le attività di profilazione, la base giuridica che legittima il trattamento è 
 la manifestazione del consenso dell’interessato al trattamento dei propri dati personali per tale specifica 
 finalità. Il consenso che le chiediamo è facoltativo. In mancanza non vi sono effetti sull’erogazione dei servizi 
 assicurativi. 
@@ -1249,20 +1249,20 @@ gestione di contratti di assicurazione; banche, Società di Gestione del Risparm
 periti; medici; autofficine; centri di demolizione di autoveicoli; 
 • società di servizi per il quietanzamento; società di servizi a cui siano affidati la gestione, la 
 liquidazione ed il pagamento dei sinistri, tra cui centrale operativa di assistenza, società di 
-consulenza, strutture sanitarie convenzionate; società di serv izi informatici e telematici o di 
+consulenza, strutture sanitarie convenzionate; società di servizi informatici e telematici o di 
 archiviazione; società di servizi postali (per trasmissione, imbustamento, trasporto e 
 smistamento delle comunicazioni alla clientela); società di revisione e di consulenza; società 
-che gestiscono sistemi di informazioni c reditizie ai sensi del Codice deontologico di cui 
+che gestiscono sistemi di informazioni creditizie ai sensi del Codice deontologico di cui 
 all'allegato A.5 del Codice privacy; società di informazione commerciale per rischi finanziari 
 ai sensi del Codice deontologico di cui all'allegato A.7 del Codice privacy; società di servizi 
-per il controll o delle frodi ed il monitoraggio delle attività di distribuzione; società di 
+per il controllo delle frodi ed il monitoraggio delle attività di distribuzione; società di 
 recupero crediti; società che verificano l'accessibilità a finanziamenti per il pagamento dei 
-premi. Si precisa che il Titolare fornirà alle società che gestiscono sistemi di info rmazione 
+premi. Si precisa che il Titolare fornirà alle società che gestiscono sistemi di informazione 
 creditizie e sistemi di informazione commerciale per rischi commerciali esclusivamente i dati 
 personali necessari per la consultazione dei dati di tali sistemi; 
 • società del Gruppo a cui appartiene la nostra Compagnia (controllanti, controllate o 
 collegate, anche indirettamente, ai sensi delle vigenti disposizioni di legge, nonché ove 
-previsto alla Cassa Assistenza Assicurazioni AXA), per attività amministrativo -contabili o di 
+previsto alla Cassa Assistenza Assicurazioni AXA), per attività amministrativo-contabili o di 
 gestione del rapporto assicurativo; 
 • società partner, autonome titolari del trattamento: 
 o se applicabile al singolo prodotto, per la fornitura di garanzie e servizi connessi e 
@@ -1274,7 +1274,7 @@ ottimizzazione della gestione dei sinistri e studio di nuove offerte commerciali
 dei comportamenti dei clienti); 
 o ANIA (Associazione Nazionale fra le Imprese Assicuratrici); organismi associativi e 
 consortili propri del settore assicurativo IVASS (Istituto per la Vigilanza sulle 
-Assicurazioni); nonché altri soggetti, quali: Banca d’Italia; Casellario Centrale Infortun i; 
+Assicurazioni); nonché altri soggetti, quali: Banca d’Italia; Casellario Centrale Infortuni; 
 Ministero delle infrastrutture - Motorizzazione civile e dei trasporti in concessione; 
 CONSAP; Ministero del lavoro e della previdenza sociale; Enti gestori di assicurazioni 
 sociali obbligatorie, quali INPS, INPDAI, INPGI, ecc.; Ministero dell'economia e delle 
@@ -1283,10 +1283,10 @@ UU); altri soggetti o banche dati nei confronti dei quali la comunicazione dei d
 obbligatoria. 
 Per talune attività utilizziamo soggetti di nostra fiducia - operanti talvolta anche al di fuori 
 dell'Unione Europea (es. India, USA) - che svolgono per nostro conto compiti di natura tecnica, 
-organizzativa o gestionale; lo stesso fanno anche i soggetti gi à indicati nella presente informativa 
+organizzativa o gestionale; lo stesso fanno anche i soggetti già indicati nella presente informativa 
 a cui i dati vengono comunicati. In ogni caso il trasferimento dei dati fuori dall'Unione Europea 
 avverrà sulla base delle ipotesi previste dalla vigente normativa, tra cui l'utilizzo di regole aziendali 
-vincolanti (cd. BCR - Binding Corporate Rules : www.quixa.it/privacy) per i trasferimenti all'interno 
+vincolanti (cd. BCR - Binding Corporate Rules: www.quixa.it/privacy) per i trasferimenti all'interno 
 del Gruppo AXA, l'applicazione di clausole contrattuali standard definite dalla Commissione 
 Europea per trasferimenti verso società non appartenenti al Gruppo AXA o la verifica della presenza 
 di un giudizio di adeguatezza del sistema di protezione dei dati personali del Paese importatore dei 
@@ -1300,7 +1300,7 @@ effettuare le attività suddette e non verranno diffusi. Per maggiori informazio
 
 ===== page 22 =====
 internazionale dei dati personali, è sempre possibile contattare il Titolare, c.a. Data Protection 
-Officer (DPO), (si veda par. Quali sono i diritti dell’interessato e come possono essere esercitati? ) 
+Officer (DPO), (si veda par. Quali sono i diritti dell’interessato e come possono essere esercitati?) 
  
  
  Per quanto tempo i dati vengono conservati? 

@@ -40,7 +40,7 @@ Remboursement en valeur d’achat jusqu’à 24 ou 36 mois, puis en
 valeur à dire d’expert majorée suivant l’ancienneté du véhicule.
 Prise en charge des réparations suite à une panne mécanique, 
 électrique ou électronique garantie.
-7 DUL¿FDWLRQHQIRQFWLRQGXFRPSRUWHPHQWGHFRQGXLWH
+7DUL¿FDWLRQHQIRQFWLRQGXFRPSRUWHPHQWGHFRQGXLWH
 Les services d’assistance et de protection juridique :
 Dépannage en cas de panne dès le lieu de garage habituel.
 Véhicule de remplacement de 8 à 30 jours selon l’événement 
@@ -109,7 +109,7 @@ Quelles sont mes obligations ?
 Sous peine de nullité du contrat d’assurance ou de non-garantie :
 À la souscription du contrat :
  – Répondre exactement aux questions posées par l’assureur.
- –F RXUQLUWRXVGRFXPHQWVMXVWL¿FDWLIVGHPDQGpVSDUO¶DVVXUHXU
+ –FRXUQLUWRXVGRFXPHQWVMXVWL¿FDWLIVGHPDQGpVSDUO¶DVVXUHXU
  – Régler la cotisation (ou fraction de cotisation) indiquée au contrat.
  En cours de contrat :
  – Informer l’assureur de toutes circonstances nouvelles ayant pour conséquence d’aggraver les risques ou d’en créer de 
@@ -121,7 +121,7 @@ O¶HPSULVHGHVWXSp¿DQWV
  'DQVFHVFDVO¶DVVXUpGRLWIRXUQLUjO¶DVVXUHXUOHVMXVWL¿FDWLIVQpFHVVDLUHVjODPRGL¿FDWLRQGHVRQFRQWUDW
  &HVFKDQJHPHQWVSHXYHQWGDQVFHUWDLQVFDVHQWUDvQHUODPRGL¿FDWLRQGHODFRWLVDWLRQ
  En cas de sinistre :
- – Déclarer dans les conditions et délais impartis, tout sinistre susceptible de mettre en jeu l’une des garanties et joindre tous 
+ – Déclarer dans les conditions et délais impartis, tout sinistre susceptible de mettre en jeu l’une des garanties et joindre tou s 
 documents utiles à l’appréciation du sinistre.
  – Informer des garanties éventuellement souscrites pour les mêmes risques en tout ou partie auprès d’autres assureurs, ainsi 
 que tout remboursement que l’assuré reçoit suite à un sinistre.
@@ -130,7 +130,7 @@ que tout remboursement que l’assuré reçoit suite à un sinistre.
 Les cotisations sont payables d’avance pour une durée d’un an, à la date indiquée dans le contrat, auprès de l’assureur ou 
 de son représentant. Elles sont ensuite payables chaque année dans les dix jours à compter de l’échéance.
 Un paiement fractionné peut toutefois être accordé au choix (mensuel, trimestriel, semestriel).
-/HVSDLHPHQWVSHXYHQWrWUHHႇHFWXpVSDUSUpOqYHPHQWDXWRPDWLTXHFDUWHEDQFDLUH7,3 FKqTXH
+/HVSDLHPHQWVSHXYHQWrWUHHႇHFWXpVSDUSUpOqYHPHQWDXWRPDWLTXHFDUWHEDQFDLUH7,3FKqTXH
 4XDQGFRPPHQFHODFRXYHUWXUHHWTXDQGSUHQGHOOH¿Q"
 /HFRQWUDWHWOHVJDUDQWLHVSUHQQHQWHႇHWDX[GDWHVLQGLTXpHVGDQVOHFRQWUDW
 Le contrat est conclu pour une durée d’un an. Il se renouvelle automatiquement d’année en année à sa date d’échéance 
@@ -139,9 +139,9 @@ Comment puis-je résilier le contrat ?
 La résiliation doit être demandée, notamment par lettre ou tout autre support durable, dans les cas et conditions prévus au 
 contrat. 
  /¶DVVXUpSHXWPHWWUH¿QjVRQFRQWUDWQRWDPPHQW
- –j OD GDWH G¶pFKpDQFH SULQFLSDOH GX FRQWUDW HQ DGUHVVDQW XQH QRWL¿FDWLRQ j O¶DVVXUHXU RX j VRQ UHSUpVHQWDQW DX PRLQV
+ – j OD GDWH G¶pFKpDQFH SULQFLSDOH GX FRQWUDW HQ DGUHVVDQW XQH QRWL¿FDWLRQ j O¶DVVXUHXU RX j VRQ UHSUpVHQWDQW DX PRLQV
 deux mois avant cette date, 
- –HQFDVGHPRGL¿FDWLRQGHVDVLWXDWLRQSHUVRQQHOOHRXSURIHVVLRQQHOOH
+ – HQFDVGHPRGL¿FDWLRQGHVDVLWXDWLRQSHUVRQQHOOHRXSURIHVVLRQQHOOH
  – en cas de hausse de tarif à l’initiative de l’assureur. 
  Sous réserve que le contrat couvre le souscripteur en tant que personne physique en dehors de toutes activités 
 professionnelles, la résiliation peut aussi être demandée : 

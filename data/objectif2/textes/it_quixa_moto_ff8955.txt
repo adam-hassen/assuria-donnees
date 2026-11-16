@@ -84,7 +84,7 @@ In base alla tipologia di Veicolo da assicurare, verrà attivata una
 delle seguenti versioni di prodotto: 
 - “Moto protetta” – Versione CVT TOP MOTOCICLO
 - “Moto protetta” – Versione CVT TOP CICLOMOTORE
-Il pacchetto offerto comprende le seguenti garanzie accesso rie (per il dettaglio delle prestazioni fornite da ciascuna garanzia si veda il DIP aggiuntivo), valide per entrambe le versioni 
+Il pacchetto offerto comprende le seguenti garanzie accessorie (per il dettaglio delle prestazioni fornite da ciascuna garanzia si veda il DIP aggiuntivo), valide per entrambe le versioni 
 di prodotto:
 ✔ Danni al bauletto
 ✔ Perdita chiavi
@@ -109,7 +109,7 @@ del Codice Penale);
 ✘ I danni avventi durante la partecipazione con il veicolo 
 a gare automobilistiche e relative prove e allenamenti;
 ✘ I danni verificatisi in conseguenza di guerra, eruzioni 
-vulcaniche, terremoti, occupazioni militari, requisizio ni, invasioni, sviluppo di energia nucleare o di radioat tività;
+vulcaniche, terremoti, occupazioni militari, requisizioni, invasioni, sviluppo di energia nucleare o di radioattività;
 ✘ I danni causati in conseguenza di traino attivo o passivo, di manovre a spinta o a mano;
 ✘ I danni ad apparecchi fonoaudiovisivi;
 ✘ I danni causati da bruciature verificatesi in assenza di 
@@ -146,7 +146,7 @@ Ripensamento dopo la stipula della polizza
 È possibile recedere dalla polizza entro 60 giorni dalla data di firma del Modulo di Adesione. Per recedere è necessario scrivere una 
 lettera raccomandata A/R alla Contraente per il tramite del Broker (supportodb@brokeronline.it o via posta a APRIL CASELLA POSTALE 
 178 26100 CREMONA).
-In assenza di sinistro, il ripensamento comporta l’estinzione della polizza a partire dalle ore 24:00 del giorno di spedizione della racco mandata e il diritto di ottenere da QUIXA, con il tramite di Deutsche Bank S.p.A. la restituzione del premio totale.
+In assenza di sinistro, il ripensamento comporta l’estinzione della polizza a partire dalle ore 24:00 del giorno di spedizione della raccomandata e il diritto di ottenere da QUIXA, con il tramite di Deutsche Bank S.p.A. la restituzione del premio totale.
 Se si è verificato un sinistro:
 1) non è possibile recedere dalla polizza, se la durata della stessa è fino a 12 mesi;
 2) è possibile recedere dalla polizza, se la durata della stessa è superiore a 12 mesi, ma QUIXA trattiene il premio relativo all’annualità in 
@@ -239,7 +239,7 @@ Data Realizzazione 1 aprile 2025. Ultima edizione disponibile
 
 ===== page 6 =====
 Pagina 2 di 3
-✔ del 100% della differenza fra il prezzo di acquisto del Veicolo e il suo valore commerciale, in caso di riacquisto presso il medesimo concessio nario;
+✔ del 100% della differenza fra il prezzo di acquisto del Veicolo e il suo valore commerciale, in caso di riacquisto presso il medesimo concessionario;
 ✔ del 70% della differenza fra il prezzo di acquisto del Veicolo e il suo valore commerciale, in caso di NON riacquisto presso il medesimo concessionario.
 Non vi sono informazioni ulteriori rispetto a quelle fornite nel DIP Danni nella Sezione “Che cosa non è assicurato?”.
 Ad integrazione di quanto indicato nel DIP Danni nella Sezione “Ci sono limiti di copertura?” sono precisate qui di seguito esclusioni, 
@@ -400,7 +400,7 @@ Impresa: QUIXA Assicurazioni S.p.A.
 ===== page 9 =====
 Pagina 2 di 5
 Art. 1.4 CLAUSOLA DI RIPENSAMENTO
-È possibile recedere dalla polizza entro 60 giorni dalla data di firma del Modulo di Adesione. Per recedere è necessario scrivere una lettera racco mandata A/R alla Contraente per il tramite del Broker (supportodb@brokeronline.it o via posta a APRIL CASELLA POSTALE 178 26100 CREMONA).
+È possibile recedere dalla polizza entro 60 giorni dalla data di firma del Modulo di Adesione. Per recedere è necessario scrivere una lettera raccomandata A/R alla Contraente per il tramite del Broker (supportodb@brokeronline.it o via posta a APRIL CASELLA POSTALE 178 26100 CREMONA).
 In assenza di sinistro, il ripensamento comporta l’estinzione della polizza a partire dalle ore 24:00 del giorno di spedizione della raccomandata e il 
 diritto di ottenere da QUIXA, con il tramite di Deutsche Bank S.p.A. la restituzione del premio totale.
 1) non è possibile recedere dalla polizza, se la durata della stessa è fino a 12 mesi;
@@ -472,7 +472,7 @@ CAPITOLO 2 GARANZIE DANNI AL VEICOLO
 Pagina 3 di 5
 (totale o tentato) o rapina, compresi quelli cagionati in occasione del tentato furto e in occasione della circolazione abusiva successiva al furto e i 
 danni causati al tuo Veicolo nel tentativo di rubare eventuali oggetti trasportati con esclusione delle cose stesse. L’assicurazione vale anche per i 
-danni subiti al Veicolo durante la circolazione abusiva conseguenti a collisione, urto, ribaltamento o uscita di strada. Il tuo veicolo è assicurato se condo la formula a valore Intero.
+danni subiti al Veicolo durante la circolazione abusiva conseguenti a collisione, urto, ribaltamento o uscita di strada. Il tuo veicolo è assicurato secondo la formula a valore Intero.
 La garanzia Incendio copre i danni materiali e diretti arrecati al Veicolo in caso di incendio (totale o parziale) derivante da:
 › scoppio o esplosione dell’impianto di alimentazione e del serbatoio;
 › azione da fulmine.
@@ -737,12 +737,12 @@ I DATI PERSONALI?
 a) Finalità assicurativa1
 Per svolgere adeguatamente l’attività assicurativa (assunzione e gestione dei rischi effettuati dall’impresa di assicurazione) e gestire il rapporto 
 assicurativo, QUIXA ha la necessità di trattare i dati personali a lei riferiti 
-(dati già acquisiti, forniti direttamente da lei o da altri soggetti 2), anche 
+(dati già acquisiti, forniti direttamente da lei o da altri soggetti2), anche 
 mediante la consultazione di banche dati legittimamente accessibili 
 (es. sistemi di informazioni creditizie, utili per verificare il possesso di 
 requisiti specifici richiesti dalle compagnie per l’accesso ad agevolazioni e vantaggi, quali la rateizzazione del premio) e dispositivi tecnologici3 
 e/o dati ancora da acquisire, alcuni dei quali ci debbono essere forniti da 
-lei o da terzi per obbligo di legge 4). 
+lei o da terzi per obbligo di legge4). 
 Per questa finalità, QUIXA utilizzerà i suoi dati personali nell’ambito 
 delle seguenti attività, indicati a titolo esemplificativo e non esaustivo:
 • quotazione, preventivi, predisposizione, stipulazione di polizze 
@@ -774,7 +774,7 @@ dalla normativa, saranno trattati anche i dati giudiziari;
 premio;
 • utilizzo dei dati anche in forma pseudonimizzata o anonimizzata 
 per attività di analisi e statistiche di mercato;
-• valutazione delle condizioni che permettono di definire la prose cuzione di un rapporto assicurativo in essere ed il rinnovo di una 
+• valutazione delle condizioni che permettono di definire la prosecuzione di un rapporto assicurativo in essere ed il rinnovo di una 
 polizza in scadenza.
 Per queste attività di trattamento non è richiesto il suo consenso, in 
 quanto tali operazioni sono strettamente necessarie per la fornitura di 
@@ -789,7 +789,7 @@ contratto comporta un processo decisionale automatizzato finalizzato
 alla determinazione dello sconto/premio applicabile (es. sulla base del 
 numero di KM percorsi rilevati attraverso la cd. Black Box). 
 Viceversa, il suo consenso esplicito è richiesto per il trattamento 
-delle categorie particolari di dati 6, quali i dati relativi alla salute 
+delle categorie particolari di dati6, quali i dati relativi alla salute 
 (di seguito indicati anche come “dati sensibili”). Il consenso che le 
 chiediamo riguarda quindi il trattamento degli eventuali dati sensibili 
 il cui utilizzo sarà inerente esclusivamente alla fornitura dei servizi, 
@@ -804,7 +804,7 @@ natura pubblica che operano - in Italia o all’estero - come autonomi
 titolari, soggetti tutti così costituenti la c.d. “catena assicurativa”, in parte 
 anche in funzione meramente organizzativa.
 Il consenso che le chiediamo riguarda pertanto anche gli specifici 
-trattamenti e le comunicazioni all’interno della “catena assicurativa” 7 
+trattamenti e le comunicazioni all’interno della “catena assicurativa”7 
 effettuati dai predetti soggetti.
 Precisiamo che senza i suoi dati personali e sensibili non saremo in 
 grado di fornirle le prestazioni, i servizi e/o i prodotti assicurativi citati. 
@@ -819,7 +819,7 @@ altri specifici obblighi di legge o contrattuali; analisi di nuovi mercati assic
 2 Ad esempio: altri soggetti inerenti al rapporto che la riguarda (es. contraenti di assicurazioni in cui lei risulti assicurato; coobbligati); altri operatori assicurativi (quali agenti, broker 
 di assicurazione, altre imprese di assicurazione); soggetti che, per soddisfare le sue richieste (es. quali una copertura assicurativa) forniscono informazioni creditizie e commerciali; 
 organismi associativi e consortili propri del settore assicurativo altri soggetti pubblici, banche dati di autorità per finalità antiriciclaggio e/o antiterrorismo.
-3 Come, ad esempio, la black box o scatola nera installata in auto, intesa come un dispositivo fisico presente sull’autovettura che consente di raccogliere dati telematici, quali infor mazioni riguardanti il veicolo (es. la geolocalizzazione, i dati di percorrenza, l’accelerazione e la decelerazione, i chilometri percorsi, ecc.) e altri dispositivi, come i software installati 
+3 Come, ad esempio, la black box o scatola nera installata in auto, intesa come un dispositivo fisico presente sull’autovettura che consente di raccogliere dati telematici, quali informazioni riguardanti il veicolo (es. la geolocalizzazione, i dati di percorrenza, l’accelerazione e la decelerazione, i chilometri percorsi, ecc.) e altri dispositivi, come i software installati 
 dall’interessato sul proprio device, capaci di raccogliere dati relativi al veicolo ed al dispositivo, in relazione alle specifiche polizze auto o contratti di servizio.
 4 Ad esempio, ai sensi della normativa contro il riciclaggio di denaro, in materia fiscale e antiterrorismo
 5 I dati sono comunicati a taluni dei seguenti soggetti: società del Gruppo a cui appartiene AXA (controllanti, controllate e collegate, anche indirettamente, ai sensi delle vigenti disposizioni di legge); assicuratori, coassicuratori; agenti, subagenti, mediatori di assicurazione e di riassicurazione, produttori ed altri canali di acquisizione e gestione di contratti di 
@@ -866,7 +866,7 @@ assicurative
 quotazione, stipulazione di polizze; liquidazione dei sinistri, 
 riassicurazione e coassicurazione), le basi giuridiche che legittimano 
 il trattamento dei dati personali sono:
- - l’esecuzione di un contratto di cui l’interessato è parte o ese cuzione di misure precontrattuali adottate su richiesta dello 
+ - l’esecuzione di un contratto di cui l’interessato è parte o esecuzione di misure precontrattuali adottate su richiesta dello 
 stesso, per il trattamento dei dati personali non sensibili (dati 
 anagrafici, di contatto, telematici)
  - Il consenso esplicito dell’interessato, per il trattamento dei dati 
@@ -915,7 +915,7 @@ di comunicazione accessibili tramite i dati di recapito a lei riferiti
 (quali posta, posta elettronica, APP, telefono, sms, social media, 
 push notification ed altri servizi di messaggistica e di comunicazione telematica);
 • comunicarle novità e opportunità relative a prodotti e/o servizi sia 
-di società appartenenti al Gruppo AXA sia di società esterne part ner di QUIXA o che collaborano con essa, avendo in ogni caso cura 
+di società appartenenti al Gruppo AXA sia di società esterne partner di QUIXA o che collaborano con essa, avendo in ogni caso cura 
 di evitare di far conoscere a tali soggetti i suoi dati;
 • proporle prodotti e servizi sulla base dei dati generati nel caso lei 
 utilizzi strumenti che permettano la rilevazione della sua posizione 
@@ -944,10 +944,10 @@ specifici Accordi di Partnership e/o Collaborazione con il Titolare del
 Trattamento al fine di permettere a questi Soggetti (i quali agiranno in 
 qualità di Titolari Autonomi del Trattamento) la proposizione di offerte 
 e vantaggi riservati.
-Base giuridica del trattamento: per la finalità commerciale e di mar keting sopra descritta la base giuridica che legittima il trattamento è la 
+Base giuridica del trattamento: per la finalità commerciale e di marketing sopra descritta la base giuridica che legittima il trattamento è la 
 manifestazione del consenso dell’interessato al trattamento dei propri 
 dati personali per tale specifica finalità. Il consenso che le chiediamo è 
-facoltativo. In mancanza o in caso di revoca, non vi sono effetti sull’e rogazione dei servizi assicurativi, ma non potrà conoscere le nostre 
+facoltativo. In mancanza o in caso di revoca, non vi sono effetti sull’erogazione dei servizi assicurativi, ma non potrà conoscere le nostre 
 offerte, né partecipare alle iniziative sopra indicate.
 c) Trattamento dei dati personali per attività di profilazione
 Con il suo specifico e separato consenso, potremo svolgere attività di 
@@ -1103,7 +1103,7 @@ PER LE INFORMAZIONI PRECONTRATTUALI E LA GESTIONE DEI CONTRATTI ASSICURATIVI
 Fatti salvi gli altri obblighi informativi relativi alla disciplina vigente, il 
 contratto è assoggettato anche alle norme di cui agli articoli 67-quater e seguenti del D. Lgs. 6 settembre 2005, n. 206 (c.d. “Codice del 
 Consumo”).
-Il contratto è stipulato tra QUIXA Assicurazioni S.p.A. (di seguito, alter nativamente, “QUIXA” o la “Compagnia”) ed il Contraente, e con l’inter mediazione, ove previsto, dei propri distributori, i quali promuovono e 
+Il contratto è stipulato tra QUIXA Assicurazioni S.p.A. (di seguito, alternativamente, “QUIXA” o la “Compagnia”) ed il Contraente, e con l’intermediazione, ove previsto, dei propri distributori, i quali promuovono e 
 collocano il contratto di assicurazione avvalendosi di tecniche di comunicazione a distanza fino alla conclusione del contratto, compresa la 
 conclusione del contratto stesso.
 Per “Tecnica di Comunicazione a Distanza” deve intendersi qualunque 
@@ -1117,7 +1117,7 @@ Si informa il Contraente di quanto segue.
 Al primo contatto e, in ogni caso, prima della conclusione di un contratto di assicurazione a distanza, i distributori sono tenuti a fornire 
 al Contraente le informazioni di cui all’articolo 121, comma 1, del CAP 
 – Codice delle Assicurazioni Private (D. Lgs. 209 / 2005), inclusa la documentazione informativa precontrattuale del prodotto assicurativo (ex 
-artt. 185 – 185-bis – 185-ter del CAP) e degli altri documenti precontrat tuali del distributore previsti dall’art. 56 del reg. IVASS 40 del 02/08/2018 
+artt. 185 – 185-bis – 185-ter del CAP) e degli altri documenti precontrattuali del distributore previsti dall’art. 56 del reg. IVASS 40 del 02/08/2018 
 e successive modifiche.
 Il Contraente ha il diritto di scegliere di ricevere e di trasmettere la documentazione precontrattuale e contrattuale secondo quanto previsto 
 dall’articolo 120-quater del CAP, su supporto cartaceo o altro supporto 
@@ -1132,7 +1132,7 @@ poi, comunque, trasmessa al Contraente anche via posta elettronica
 (e-mail) o via posta tradizionale / cartacea sulla base della scelta dallo 
 stesso effettuata, unitamente alla documentazione contrattuale.
 La modalità di consegna della documentazione precontrattuale sarà 
-anche la modalità di ricezione delle comunicazioni in corso di contrat to da QUIXA al Contraente. Il Contraente ha diritto in ogni momento 
+anche la modalità di ricezione delle comunicazioni in corso di contratto da QUIXA al Contraente. Il Contraente ha diritto in ogni momento 
 di modificare la modalità di comunicazione, contattando QUIXA. Il 
 Contraente ha in ogni caso diritto di ricevere gratuitamente la documentazione in formato cartaceo, contattando QUIXA.
 

@@ -706,7 +706,7 @@ dell’indennizzo entro il termine di 15 giorni dalla data dell’atto di liquid
 definitivo.
 Premio Puoi effettuare il pagamento del premio, comprensivo di imposta e del contributo sanitario nazionale attraverso le 
 modalità descritte nel DIP Base.
-Rimborso Se trasferisci la proprietà del tuo veicolo (lo vendi, lo cedi in conto vendita) oppure lo rottami, lo demolisci, lo esporti definitivamente all’estero e decidi di non sostituirlo con un altro veicolo, oppure nel caso in cui ti sia stato rubato, QUIXA ti restituirà 
+Rimborso Se trasferisci la proprietà del tuo veicolo (lo vendi, lo cedi in conto vendita) oppure lo rottami, lo demolisci, lo esporti definiti vamente all’estero e decidi di non sostituirlo con un altro veicolo, oppure nel caso in cui ti sia stato rubato, QUIXA ti restituirà 
 la parte di premio R.C. Auto pagata e non goduta, al netto dell’imposta e del contributo al servizio sanitario nazionale.
 Se ci ripensi entro 14 giorni dalla data di decorrenza della polizza (diritto di recesso), l’impresa è tenuta a rimborsarti il premio 
 per il periodo di rischio non corso al netto dell’imposta e del contributo al Servizio Sanitario Nazionale.
@@ -2857,7 +2857,7 @@ mediante la consultazione di banche dati legittimamente accessibili
 requisiti specifici richiesti dalle compagnie per l’accesso ad agevolazioni 
 e vantaggi, quali la rateizzazione del premio) e dispositivi tecnologici 3 
 e/o dati ancora da acquisire, alcuni dei quali ci debbono essere forniti da 
-lei o da terzi per obbligo di legge 4). 
+lei o da terzi per obbligo di legge4). 
 Per questa finalità, QUIXA utilizzerà i suoi dati personali nell’ambito 
 delle seguenti attività, indicati a titolo esemplificativo e non esaustivo:
 • quotazione, preventivi, predisposizione, stipulazione di polizze 
@@ -2895,7 +2895,7 @@ una polizza in scadenza.
 Per queste attività di trattamento non è richiesto il suo consenso, in 
 quanto tali operazioni sono strettamente necessarie per la fornitura di 
 servizi e/o prodotti assicurativi e/o prestazioni da parte di QUIXA e di 
-terzi a cui tali dati saranno comunicati5.
+terzi a cui tali dati saranno comunicati 5.
 Si precisa che, nel caso in cui lei abbia sottoscritto un contratto 
 assicurativo che prevede l’utilizzo della cd. “black Box”, per il trattamento 
 dei dati telematici non è richiesto il suo consenso, poiché lo stesso è 
@@ -2981,7 +2981,7 @@ assicurative
 quotazione, stipulazione di polizze; liquidazione dei sinistri, 
 riassicurazione e coassicurazione), le basi giuridiche che legittimano 
 il trattamento dei dati personali sono:
- - l’ esecuzione di un contratto di cui l’interessato è parte o 
+ - l’esecuzione di un contratto di cui l’interessato è parte o 
 esecuzione di misure precontrattuali adottate su richiesta dello 
 stesso, per il trattamento dei dati personali non sensibili (dati 
 anagrafici, di contatto, telematici)

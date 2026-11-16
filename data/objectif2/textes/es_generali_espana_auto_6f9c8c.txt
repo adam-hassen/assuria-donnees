@@ -102,7 +102,7 @@ Los recibos se pagan mediante domiciliación bancaria, salvo que se pacte otra c
  
 ¿Cuándo comienza y finaliza la cobertura? 
 El seguro entra en vigor y finaliza en el día y hora indicados en el contrato, sin perjuicio de lo indicado en el apartado “¿Cómo 
-puedo rescindir el contrato?” .
+puedo rescindir el contrato?”.
 ¿Cómo puedo rescindir el contrato? 
 Si en el contrato se establece la renovación cada año, se podrá oponer comunicándolo por escrito al menos un mes antes de 
 la fecha de renovación. 

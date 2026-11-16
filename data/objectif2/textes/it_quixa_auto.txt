@@ -1458,7 +1458,7 @@ In caso tu abbia sottoscritto la garanzia Infortuni al Conducente, Quixa Point p
 entro il termine di 15 giorni dalla data dell’atto di liquidazione amichevole o del verbale di perizia definitivo.
 Premio Puoi effettuare il pagamento del premio, comprensivo di imposta e del contributo sanitario nazionale attraverso le 
 modalità descritte nel DIP Base.
-Rimborso Se trasferisci la proprietà della tua auto (la vendi, la cedi in conto vendita) oppure la rottami, la demolisci o la esporti definitivamente all’estero) e decidi di non sostituirla con un altro veicolo, Quixa Point, ti restituirà la parte di premio pagata e non 
+Rimborso Se trasferisci la proprietà della tua auto (la vendi, la cedi in conto vendita) oppure la rottami, la demolisci o la esporti defini tivamente all’estero) e decidi di non sostituirla con un altro veicolo, Quixa Point, ti restituirà la parte di premio pagata e non 
 goduta 
 al netto dell’imposta e del contributo al servizio sanitario nazionale.
 Anche nel caso in cui la tua auto ti sia stata rubata oppure se ci ripensi entro 15 giorni dalla data di decorrenza della polizza 
@@ -3862,7 +3862,7 @@ INFORMATIVA SUL TRATTAMENTO DEI DATI PERSONALI
 QUIXA Assicurazioni S.p.A. (di seguito, alternativamente, “QUIXA” o la 
 “Compagnia”), nella propria qualità di Titolare del Trattamento dei Dati 
 Personali, rispetta tutti i soggetti con cui entra in contatto. Per tale 
-motivo, tratta con cura i Dati Personali a riferibili a ciascun interessato 1 
+motivo, tratta con cura i Dati Personali a riferibili a ciascun interessato1 
 (di seguito, alternativamente, “Dati Comuni”, quali – ad esempio – Dati 
 identificativi e di contatto), che utilizza per lo svolgimento delle proprie 
 attività e che possono essere forniti direttamente dai soggetti interessati, reperiti da Terze Parti, ovvero acquisiti consultando apposite 
@@ -3876,21 +3876,21 @@ Ai sensi della vigente normativa in materia di protezione Dati Personali,
 nonché nel quadro del Regolamento (UE) 2016/679 del Parlamento 
 europeo e del Consiglio del 27 aprile 2016 (relativo alla protezione delle 
 persone fisiche con riguardo al Trattamento dei Dati Personali, nonché 
-alla libera circolazione di tali Dati) 3, in relazione ai Dati Personali che 
-riguardano una persona fisica identificata o identificabile 4 e che formeranno oggetto di Trattamento, informiamo che, per fornire al soggetto 
+alla libera circolazione di tali Dati)3, in relazione ai Dati Personali che 
+riguardano una persona fisica identificata o identificabile4 e che formeranno oggetto di Trattamento, informiamo che, per fornire al soggetto 
 interessato i servizi e/o i prodotti assicurativi richiesti, la Compagnia deve 
 poter disporre di Dati Personali che riguardano il soggetto di riferimento, 
 raccolti direttamente presso lo stesso, ovvero presso altri soggetti quali 
 – ad esempio – operatori assicurativi, gestori di banche Dati legittimamente utilizzabili ed organismi associativi e consortili propri del settore 
 assicurativo.
-1. Trattamento dei Dati Personali per Finalità Assicurative5
+1. Trattamento dei Dati Personali per Finalità Assicurative 5
 Per svolgere adeguatamente le attività necessarie alla gestione del rapporto assicurativo, QUIXA Assicurazioni S.p.A. ha la necessità di disporre 
 dei Dati Personali riferiti all’interessato (già acquisiti dalla Compagnia 
 stessa, forniti direttamente dall’interessato, ovvero reperiti presso altri 
 soggetti terzi 6, anche mediante la consultazione di apposite Banche 
 Dati legittimamente consultabili o attraverso il dispositivo di BlackBox, 
 nonché Dati Personali ancora da acquisire, alcuni debbono essere 
-necessariamente forniti per adempiere a specifici obblighi di legge 7), e 
+necessariamente forniti per adempiere a specifici obblighi di legge7), e 
 – a tal fine – si trova nella necessità di trattarli nel quadro dello specifico 
 rapporto assicurativo. 
 In tale ambito, tratteremo i Dati Personali dell’interessato di riferimento 
@@ -3941,7 +3941,7 @@ accessibili – a titolo meramente esemplificativo, i sistemi di informazioni
 creditizie – utili per verificare il possesso di requisiti specifici richiesti 
 dalla Compagnia per l’accesso ad agevolazioni e vantaggi, quali la rateizzazione del premio. A tali fini, non è richiesto all’interessato il Consenso 
 per il Trattamento dei Dati Personali strettamente necessari per la fornitura dei suddetti servizi e/o prodotti assicurativi e/o prestazioni da parte 
-di QUIXA e/o di Terze Parti a cui tali Dati saranno comunicati9. 
+di QUIXA e/o di Terze Parti a cui tali Dati saranno comunicati 9. 
 Si precisa, inoltre, che non è richiesto il Consenso per il Trattamento 
 dei Dati telematici raccolti attraverso la c.d. BlackBox, nel caso in cui 
 il Trattamento degli stessi Dati risulti necessario per la conclusione o 

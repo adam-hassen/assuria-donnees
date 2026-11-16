@@ -178,7 +178,7 @@ Absatz 6 Satz 4 Pflichtversicherungsgesetz).
  wesentliche Merkmale der Versicherungsleistung
 a) Die für das Versicherungsverhältnis geltenden Allgemeinen Versicherungsbedingungen einschließlich der Tarifbestimmungen 
 sowie die Angabe des auf den Vertrag anwendbaren Rechts.
-Für das Versicherungsverhältnis gelten die Allgemeinen Versicherungsbedingungen für die Kraftfahrtversicherung (AKB) sowie die 
+Für das Versicherungsverhältnis gelten die Allgemeinen Versiche rungsbedingungen für die Kraftfahrtversicherung (AKB) sowie die 
 vereinbarten besonderen Bedingungen und Klauseln.
 Auf den Vertrag findet das Recht der Bundesrepublik Deutschland 
 Anwendung.
@@ -190,7 +190,7 @@ Beschreibungen des Versicherungsumfangs.
 aller Steuern und sonstigen Preisbestandteile, 
  zusätzliche Kosten
 Die Angaben zur Beitragshöhe und die Zahlungsperiode ergeben 
-sich aus dem Antrag bzw. der Tarifauskunft. Die gesetzliche Versicherungsteuer ist in den Beiträgen enthalten.
+sich aus dem Antrag bzw. der Tarifauskunft. Die gesetzliche Versi cherungsteuer ist in den Beiträgen enthalten.
 Nebengebühren und Kosten werden nicht erhoben.
 Für die Benutzung von Fernkommunikationsmitteln entstehen Ihnen 
 lediglich Kosten in Höhe der üblichen Grundtarife.
@@ -232,7 +232,7 @@ Die Widerrufsfrist beginnt, nachdem Ihnen
 ▪ das Informationsblatt zu Versicherungsprodukten,
 ▪ und die weiteren in Abschnitt 2 aufgeführten Informationen
 jeweils in Textform zugegangen sind.
-Zur Wahrung der Widerrufsfrist genügt die rechtzeitige Absendung des Widerrufs. Der Widerruf ist zu richten an:
+Zur Wahrung der Widerrufsfrist genügt die rechtzeitige Ab sendung des Widerrufs. Der Widerruf ist zu richten an:
 Wenn Sie Angehöriger des öffentlichen Dienstes in Württemberg 
 sind, Württembergische Gemeinde-Versicherung a.G., Tübinger 
 Straße 55, 70178 Stuttgart, Fax: 0711 1695-1100, E-Mail: 
@@ -310,9 +310,9 @@ oder gewöhnlicher Aufenthalt zum Zeitpunkt der Klageerhebung nicht
 bekannt ist, gilt das Gericht als vereinbart, das für unseren Geschäftssitz zuständig ist.
 14. Kommunikation während der Laufzeit des 
  Vertrages
- Die Vertragsbedingungen und Vorabinformationen werden in deutscher Sprache mitgeteilt; die Kommunikation während der Laufzeit 
+ Die Vertragsbedingungen und Vorabinformationen werden in deut scher Sprache mitgeteilt; die Kommunikation während der Laufzeit 
 des Vertrages wird in deutscher Sprache geführt.
-15. Außergerichtliches Beschwerde- und Rechts behelfs verfahren
+15. Außergerichtliches Beschwerde- und Rechtsbehelfs verfahren
 Sie haben Zugang zu einem außergerichtlichen Streitschlichtungsverfahren bei der Verbraucherschlichtungsstelle
 Versicherungsombudsmann e.V. 
 Sitz: Leipziger Straße 121 
@@ -512,7 +512,7 @@ hinaus hat sich unser Unternehmen auf die „Verhaltensregeln für
 den Umgang mit personenbezogenen Daten durch die deutsche Versicherungswirtschaft“ (Code of Conduct) verpflichtet, die die oben 
 genannten Gesetze für die Versicherungswirtschaft präzisieren. Diese können Sie im Internet unter www.wgv.de/datenschutz abrufen.
 Stellen Sie einen Antrag auf Versicherungsschutz, benötigen wir die 
-von Ihnen hierbei gemachten Angaben für den Abschluss des Vertrags und zur Einschätzung des von uns zu übernehmenden Risikos. 
+von Ihnen hierbei gemachten Angaben für den Abschluss des Ver trags und zur Einschätzung des von uns zu übernehmenden Risikos. 
 Kommt der Versicherungsvertrag zustande, verarbeiten wir diese 
 Daten zur Durchführung des Vertragsverhältnisses, z.B. zur Policierung oder Rechnungsstellung. Angaben zum Schaden benötigen wir 
 etwa, um prüfen zu können, ob ein Versicherungsfall eingetreten und 
@@ -522,7 +522,7 @@ sowie die Erbringung von Leistungen ist ohne die Verarbeitung
 Ihrer personenbezogenen Daten nicht möglich.
 Darüber hinaus benötigen wir Ihre personenbezogenen Daten zur 
 Erstellung von versicherungsspezifischen Statistiken, z.B. für die Entwicklung neuer Tarife oder zur Erfüllung aufsichtsrechtlicher Vorgaben. Die Daten aller mit den Unternehmen der WGV Versicherungsgruppe bestehenden Verträge nutzen wir für eine Betrachtung der 
-gesamten Kundenbeziehung, beispielsweise zur Beratung hinsichtlich einer Vertragsanpassung, -ergänzung, für Kulanzentscheidungen oder für umfassende Auskunftserteilungen.
+gesamten Kundenbeziehung, beispielsweise zur Beratung hinsichtlich einer Vertragsanpassung, -ergänzung, für Kulanzentscheidun gen oder für umfassende Auskunftserteilungen.
 Rechtsgrundlage für diese Verarbeitungen personenbezogener Daten für vorvertragliche und vertragliche Zwecke ist Artikel 6 Absatz 1 b 
 DSGVO. Soweit dafür besondere Kategorien personenbezogener 
 Daten (z.B. Ihre Gesundheitsdaten bei Abschluss eines Lebensversicherungsvertrags) erforderlich sind, holen wir Ihre Einwilligung nach 
@@ -614,12 +614,12 @@ Telefax: 0711 615541-15
 E-Mail: poststelle@lfdi.bwl.de
 Hinweis- und Informationssystem der Versicherungswirtschaft
 Es besteht die Möglichkeit, dass wir bei Abschluss eines Versicherungsvertrags oder im Rahmen der Schadenbearbeitung Daten zum Versicherungsobjekt (Fahrzeugidentifikationsdaten oder Adresse des 
-Gebäudes) sowie Angaben zu Ihrer Person (Name, Vorname, Geburtsdatum, Anschrift, frühere Anschriften) an die Besurance HIS 
+Gebäudes) sowie Angaben zu Ihrer Person (Name, Vorname, Ge burtsdatum, Anschrift, frühere Anschriften) an die Besurance HIS 
 GmbH übermitteln (HIS-Anfrage). Die Besurance HIS GmbH überprüft anhand dieser Daten, ob zu Ihrer Person und/oder zu Ihrem 
 Versicherungsobjekt im „Hinweis- und Informationssystem der Versicherungswirtschaft“ (HIS) Informationen gespeichert sind, die auf 
 ein erhöhtes Risiko oder Unregelmäßigkeiten in einem Versiche rungsfall hindeuten können. Solche Informationen können nur auf grund einer früheren Meldung eines Versicherungsunternehmens an 
 das HIS vorliegen (HIS-Einmeldung), über die Sie gegebenenfalls 
-von dem einmeldenden Versicherungsunternehmen gesondert informiert worden sind. Daten, die aufgrund einer HIS-Einmeldung im 
+von dem einmeldenden Versicherungsunternehmen gesondert in formiert worden sind. Daten, die aufgrund einer HIS-Einmeldung im 
 HIS gespeichert sind, werden von der Besurance HIS GmbH an uns, 
 das anfragende Versiche rungsunternehmen, übermittelt.
 Nähere Informationen zum HIS finden Sie auf den folgenden Internetseiten: https://besurance-his.de. Auf Wunsch übersenden wir Ihnen 
@@ -695,7 +695,7 @@ anderen Bedingungen, geschlossen hätten.
 Können wir nicht zurücktreten oder kündigen, weil wir den Vertrag 
 auch bei Kenntnis der nicht angezeigten Gefahrumstände, wenn 
 auch zu anderen Bedingungen, geschlossen hätten, werden die anderen Bedingungen auf unser Verlangen Vertragsbestandteil. Haben 
-Sie die Anzeigepflicht fahrlässig verletzt, werden die anderen Bedingungen rückwirkend Vertragsbestandteil. Haben Sie die Anzeigepflicht schuldlos verletzt, werden die anderen Bedingungen erst ab 
+Sie die Anzeigepflicht fahrlässig verletzt, werden die anderen Bedingungen rückwirkend Vertragsbestandteil. Haben Sie die Anzeige pflicht schuldlos verletzt, werden die anderen Bedingungen erst ab 
 der laufenden Versicherungsperio de Vertragsbestandteil. 
 Erhöht sich durch die Vertragsänderung der Beitrag um mehr als 
 10 Prozent oder schließen wir die Gefahrabsicherung für den nicht 
@@ -732,7 +732,7 @@ A.1 Kfz-Haftpflichtversicherung – für Schäden, die Sie
 mit Ihrem Fahrzeug Anderen zufügen 11
 A.1.1 Was ist versichert? 11
 A.1.2 Wer ist versichert? 12
-A.1.3 Bis zu welcher Höhe leisten wir (Versicherungs summen)? 12
+A.1.3 Bis zu welcher Höhe leisten wir (Versicherungssummen)? 12
 A.1.4 In welchen Ländern besteht Versicherungsschutz? 12
 A.1.5 Was ist nicht versichert? 12
 A.2 Kaskoversicherung – für Schäden an Ihrem 
@@ -742,7 +742,7 @@ A.2.2 Welche Ereignisse sind versichert? 13
 A.2.3 Wer ist versichert? 16
 A.2.4 In welchen Ländern besteht Versicherungsschutz? 16
 A.2.5 Was zahlen wir im Schadenfall? 16
-A.2.6 Sachverständigenverfahren bei Meinungs verschiedenheit über die Schadenhöhe 18
+A.2.6 Sachverständigenverfahren bei Meinungsverschiedenheit über die Schadenhöhe 18
 A.2.7 Fälligkeit unserer Zahlung 18
 A.2.8 Können wir unsere Leistung vom Fahrer zurück- 
 fordern, wenn Sie nicht selbst gefahren sind? 18
@@ -765,7 +765,7 @@ oder getötet werden 21
 A.4.1 Was ist versichert? 21
 A.4.2 Wer ist versichert? 21
 A.4.3 In welchen Ländern besteht Versicherungsschutz? 21
-A.4.4 Welche Leistungen umfasst die Kfz-Unfall versicherung? 21
+A.4.4 Welche Leistungen umfasst die Kfz-Unfallversicherung? 21
 A.4.5 Leistung bei Invalidität 21
 A.4.6 Todesfallleistung 22
 A.4.7 Was passiert, wenn Unfallfolgen mit Krankheiten 
@@ -788,14 +788,14 @@ A.6.1 Was ist versichert? 24
 A.6.2 Wer ist versichert? 24
 A.6.3 Versicherte Fahrzeuge 24
 A.6.4 In welchen Ländern besteht Versicherungsschutz? 24
-A.6.5 Bis zu welcher Höhe leisten wir (Versicherungs summen)? 24
+A.6.5 Bis zu welcher Höhe leisten wir (Versicherungssummen)? 24
 A.6.6 Welches Recht gilt? 24
 A.6.7 Was ist nicht versichert? 24
 A.6.8 Verpflichtung Dritter, Anrechnung der Leistungen 
  Dritter 24
 A.6.9 Fälligkeit, Zahlung für eine mitversicherte Person 24
 A.7 Kfz-Umweltschadenversicherung – für öffentlich- 
-rechtliche Ansprüche nach dem Umweltschadens gesetz 25
+rechtliche Ansprüche nach dem Umweltschadensgesetz 25
 A.7.1 Was ist versichert? 25
 A.7.2 Wer ist versichert? 25
 A.7.3 Versicherungssumme, Höchstzahlung 25
@@ -860,7 +860,7 @@ H Außerbetriebsetzung, Saisonkennzeichen,
  Fahrten mit ungestempelten Kennzeichen, 
 Kurzzeitkennzeichen und kurzfristige Verträge 31
 H.1 Was ist bei Außerbetriebsetzung zu beachten? 31
-H.2 Welche Besonderheiten gelten bei Saison kennzeichen? 31
+H.2 Welche Besonderheiten gelten bei Saisonkennzeichen? 31
 H.3 Fahrten mit ungestempelten Kennzeichen 31
 H.4 Kurzzeitkennzeichen 31
 H.5 Kurzfristige Verträge 31
@@ -871,7 +871,7 @@ I.2 Ersteinstufung 31
 I.2.1 Ersteinstufung in SF-Klasse 0 31
 I.2.2 Sonderersteinstufung/Sondereinstufung in 
 SF-Klasse 1/2, 1, 2, 3 oder 4 32
-I.2.3 Anrechnung des Schadenverlaufs der Kfz-Haft pflichtversicherung in der Vollkaskoversicherung 32
+I.2.3 Anrechnung des Schadenverlaufs der Kfz-Haftpflichtversicherung in der Vollkaskoversicherung 32
 I.2.4 Führerscheinsonderregelung 32
 I.2.5 Gleichgestellte Fahrerlaubnisse 32
 I.3 Jährliche Neueinstufung 32
@@ -895,7 +895,7 @@ I.6.2 Welche Voraussetzungen gelten für die
 I.6.3 Wie wirkt sich eine Unterbrechung des 
  Versicherungs schutzes auf den Schadenverlauf 
 aus? 34
-I.6.4 Übernahme des Schadenverlaufs nach Betriebs übergang 34
+I.6.4 Übernahme des Schadenverlaufs nach Betriebsübergang 34
 I.7 Einstufung nach Abgabe des Schadenverlaufs 34
 I.8 Auskünfte über den Schadenverlauf 34
 J Beitragsänderung aufgrund tariflicher 
@@ -933,7 +933,7 @@ Anhang 1: Tabellen zum Schadenfreiheitsrabatt-System 38
 6 Für die übrigen Fahrzeuge 41
 Anhang 2: Tarifgruppen (Berufsgruppen) 42
 Anhang 3: Art und Verwendung von Fahrzeugen 42
-Anhang 4: Besondere Bedingungen für die Zusatz versicherung von Brems-, Betriebs- und 
+Anhang 4: Besondere Bedingungen für die Zusatzversicherung von Brems-, Betriebs- und 
 reinen Bruchschäden bei Nutzfahrzeugen 43
 Sie als Versicherungsnehmer sind unser Vertragspartner. 
 Die Kfz-Versicherung umfasst je nach dem Inhalt des Versicherungsvertrags folgende Versicherungsarten:
@@ -950,7 +950,7 @@ Verträge abgeschlossen. Ihrem Versicherungsschein können Sie entnehmen, welche
 Es gilt deutsches Recht. Die Vertragssprache ist deutsch.
 Die Kfz-Versicherung schützt technikneutral
 Kommt es zu einem versicherten Schadenereignis, für das wir nach 
-den AKB eintrittspflichtig sind, besteht Versicherungsschutz unabhängig davon, ob der Fahrer selbst oder das Fahrzeug automatisiert 
+den AKB eintrittspflichtig sind, besteht Versicherungsschutz unab hängig davon, ob der Fahrer selbst oder das Fahrzeug automatisiert 
 oder autonom gefahren ist.
 Dies gilt, wenn beispielsweise aus den folgenden Gründen ein Schadenfall eintritt:
 – Ihnen unterläuft ein Fahrfehler.
@@ -1011,8 +1011,8 @@ im Ausland bestehenden Kfz-Haftpflicht-Deckung.
  Unsere Zahlungen für ein Schadenereignis sind be schränkt auf die Höhe der Versicherungssummen für 
 Personen-, Sach- und Vermögensschäden, die Sie mit 
 uns in der Kfz-Haftpflichtversicherung für Ihr Fahrzeug 
-vereinbart haben. Die Höhe Ihrer Versicherungssummen können Sie dem Versicherungsschein entnehmen.
-A.1.1.6 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlossen wurde, haben Sie keinen Versicherungsschutz 
+vereinbart haben. Die Höhe Ihrer Versicherungssum men können Sie dem Versicherungsschein entnehmen.
+A.1.1.6 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlos sen wurde, haben Sie keinen Versicherungsschutz 
 beim Führen fremder Fahrzeuge im Ausland. 
 A.1.2 Wer ist versichert?
  Der Schutz der Kfz-Haftpflichtversicherung gilt für Sie und 
@@ -1022,13 +1022,13 @@ für folgende Personen (mitversicherte Personen):
  – den Fahrer des Fahrzeugs, 
  – die Technische Aufsicht für Fahrzeuge mit autonomer 
 Fahrfunktion,
- – den Beifahrer, der im Rahmen seines Arbeitsverhältnisses mit Ihnen oder mit dem Halter den berechtigten 
+ – den Beifahrer, der im Rahmen seines Arbeitsverhält nisses mit Ihnen oder mit dem Halter den berechtigten 
 Fahrer zu seiner Ablösung oder zur Vornahme von Lade- und Hilfsarbeiten nicht nur gelegentlich begleitet,
  – Ihren Arbeitgeber oder öffentlichen Dienstherrn, wenn 
 das Fahrzeug mit Ihrer Zustimmung für dienstliche 
 Zwecke gebraucht wird,
  – den Omnibusschaffner, der im Rahmen seines Arbeitsverhältnisses mit Ihnen oder mit dem Halter des versicherten Fahrzeugs tätig ist, 
- – den Halter, Eigentümer, Fahrer, die Technische Aufsicht, den Beifahrer und Omnibusschaffner eines nach 
+ – den Halter, Eigentümer, Fahrer, die Technische Auf sicht, den Beifahrer und Omnibusschaffner eines nach 
 A.1.1.5 mitversicherten Fahrzeugs. 
  Diese Personen können Ansprüche aus dem Versiche rungsvertrag selbstständig gegen uns erheben. 
 A.1.3 Bis zu welcher Höhe leisten wir (Versicherungssummen)?
@@ -1082,8 +1082,8 @@ die Zerstörung oder das Abhandenkommen
  – eines mit dem versicherten Fahrzeug verbundenen Anhängers oder Aufliegers,
  – eines mit dem versicherten Fahrzeug geschleppten 
 oder abgeschleppten Fahrzeugs.
- Versicherungsschutz besteht jedoch, wenn mit dem versicherten Kraftfahrzeug ein betriebsunfähiges Fahrzeug 
-im Rahmen üblicher Hilfeleistung ohne gewerbliche Absicht abgeschleppt wird, und dabei am abgeschleppten 
+ Versicherungsschutz besteht jedoch, wenn mit dem ver sicherten Kraftfahrzeug ein betriebsunfähiges Fahrzeug 
+im Rahmen üblicher Hilfeleistung ohne gewerbliche Ab sicht abgeschleppt wird, und dabei am abgeschleppten 
 Fahrzeug Schäden verursacht werden.
 Beschädigung von beförderten Sachen
 A.1.5.5 Kein Versicherungsschutz besteht bei Schadenersatzansprüchen wegen Beschädigung, Zerstörung oder Abhandenkommens von Sachen, die mit dem versicherten Fahrzeug befördert werden. 
@@ -1102,7 +1102,7 @@ Halter oder dem Eigentümer durch den Gebrauch des
 Fahrzeugs zufügt. Versicherungsschutz besteht jedoch für 
 Personenschäden, wenn Sie z.B. als Beifahrer Ihres Fahrzeugs verletzt werden.
 Nichteinhaltung von Liefer- und Beförderungsfristen
-A.1.5.7 Kein Versicherungsschutz besteht für reine Vermögensschäden, die durch die Nichteinhaltung von Liefer- und 
+A.1.5.7 Kein Versicherungsschutz besteht für reine Vermögens schäden, die durch die Nichteinhaltung von Liefer- und 
 Beförderungsfristen entstehen.
 Vertragliche Ansprüche
 A.1.5.8 Kein Versicherungsschutz besteht für Haftpflichtansprüche, 
@@ -1208,7 +1208,7 @@ mit der Betreuung des Fahrzeugs beauftragt wird (z.B.
 Werkstatt- oder Hotelmitarbeiter). Außerdem besteht 
 kein Versicherungsschutz, wenn der Täter in einem 
 Näheverhältnis zu dem Verfügungsberechtigten steht, 
-z.B. dessen Arbeitnehmer, Familien- oder Haushaltsangehöriger ist.
+z.B. dessen Arbeitnehmer, Familien- oder Haushalts angehöriger ist.
 Naturgewalten
 A.2.2.1.3 a Wenn Ihr Vertrag nach dem OPTIMAL-Tarif abgeschlossen wurde, ist die unmittelbare Einwirkung von Naturgewalten auf das Fahrzeug versichert. Naturgewalten 
 sind Sturm, Hagel, Blitzschlag, Überspannungsschäden durch Blitzschlag, Überschwemmung, Lawinen, 
@@ -1220,20 +1220,20 @@ mindestens Windstärke 7.
 14
  Lawinen sind an Berghängen oder von Hausdächern 
 niedergehende Schnee- oder Eismassen.
- Muren sind Abgänge von Geröll, Schlamm- und Gesteinsmassen auch in Verbindung mit Baumgruppen.
+ Muren sind Abgänge von Geröll, Schlamm- und Ge steinsmassen auch in Verbindung mit Baumgruppen.
  Erdsenkung ist eine naturbedingte Absenkung des Erdbodens über naturbedingten Hohlräumen.
- Als Erdbeben gilt eine naturbedingte, messbare Er schütterung des Erdbodens, die durch geophysikali sche Vorgänge im Erdinneren ausgelöst wird.
+ Als Erdbeben gilt eine naturbedingte, messbare Er schütterung des Erdbodens, die durch geophysikalische Vorgänge im Erdinneren ausgelöst wird.
  Eingeschlossen sind Schäden, die dadurch verursacht 
 werden, dass durch diese Naturgewalten Gegenstände auf oder gegen das Fahrzeug geworfen werden.
  Ausgeschlossen sind Schäden, die auf ein durch diese 
 Naturgewalten veranlasstes Verhalten des Fahrers zurückzuführen sind.
-A.2.2.1.3 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlossen wurde, ist nur die unmittelbare Einwirkung von 
+A.2.2.1.3 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlos sen wurde, ist nur die unmittelbare Einwirkung von 
 Sturm, Hagel, Blitzschlag, Überspannungsschäden 
 durch Blitzschlag oder Überschwemmung auf das 
 Fahrzeug versichert. 
 Zusammenstoß mit Tieren
 A.2.2.1.4 a Wenn Ihr Vertrag nach dem OPTIMAL-Tarif abgeschlossen wurde, ist der Zusammenstoß des in Fahrt befindlichen Fahrzeugs mit Tieren aller Art ver sichert.
-A.2.2.1.4 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlossen wurde, ist der Zusammenstoß des in Fahrt befindlichen Fahrzeugs mit Haarwild im Sinne von § 2 Ab satz 1 Nr. 1 des Bundesjagdgesetzes (z.B. Reh, Wildschwein) versichert. Sie haben keinen Ver siche rungsschutz für den Zusammenstoß des in Fahrt be find lichen 
+A.2.2.1.4 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlos sen wurde, ist der Zusammenstoß des in Fahrt befindlichen Fahrzeugs mit Haarwild im Sinne von § 2 Ab satz 1 Nr. 1 des Bundesjagdgesetzes (z.B. Reh, Wildschwein) versichert. Sie haben keinen Ver siche rungsschutz für den Zusammenstoß des in Fahrt be find lichen 
 Fahrzeugs mit anderen Tieren.
 Glasbruch
 A.2.2.1.5 Versichert sind Bruchschäden an der Verglasung des Fahrzeugs. Als Verglasung gelten Glas- und Kunststoffscheiben 
@@ -1245,11 +1245,11 @@ folgende Kosten:
  Weitere Folgeschäden sind nicht versichert. 
 Kurzschlussschäden an der Verkabelung
 A.2.2.1.6 a Wenn Ihr Vertrag nach dem OPTIMAL-Tarif abgeschlossen wurde, sind Schäden an der Verkabelung des Fahrzeugs durch Kurzschluss einschließlich der dadurch 
-bedingten Schäden an den angeschlossenen Aggregaten versichert. 
-A.2.2.1.6 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlossen wurde, beschränkt sich der Ersatz von Aggregatsschäden auf 3.000 EUR je Schadenereignis. 
+bedingten Schäden an den angeschlossenen Aggre gaten versichert. 
+A.2.2.1.6 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlos sen wurde, beschränkt sich der Ersatz von Aggregatsschäden auf 3.000 EUR je Schadenereignis. 
 Tierbiss
 A.2.2.1.7 a Wenn Ihr Vertrag nach dem OPTIMAL-Tarif abgeschlossen wurde, sind Schäden, die unmittelbar durch Tierbiss (z.B. Marder) an Ihrem Fahrzeug verursacht wurden, versichert. Folgeschäden aller Art (z.B. Steuergerät, Motor, Zylinderkopf und andere) sind mitversichert.
-A.2.2.1.7 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlossen wurde, haben Sie keinen Versicherungsschutz bei 
+A.2.2.1.7 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlos sen wurde, haben Sie keinen Versicherungsschutz bei 
 Schäden durch Tierbiss.
 A.2.2.2 Welche Ereignisse sind in der Vollkasko versichert?
  Versicherungsschutz besteht bei Beschädigung, Zerstörung, Totalschaden oder Verlust des Fahrzeugs einschließlich seiner mitversicherten Teile durch die nachfolgenden 
@@ -1276,12 +1276,12 @@ auch Schäden ersetzt, die am ziehenden Fahrzeug
 durch einen Anhänger ohne Einwirkung von außen entstanden sind. Wenn Ihr Vertrag nach dem BASIS-Tarif 
 abgeschlossen wurde, sind diese Schäden nicht ver sichert. 
  – Verwindungsschäden. 
- Vorhersehbare Beschädigungen des Fahrzeugs, die üblicherweise im Rahmen der bestimmungsgemäßen Verwendung des Fahrzeugs entstehen, gelten nicht als Un fallschaden. Beispiel: Schäden an der Lade ober fläche eines Lkw beim Beladen mit Kies.
+ Vorhersehbare Beschädigungen des Fahrzeugs, die üb licherweise im Rahmen der bestimmungsgemäßen Ver wendung des Fahrzeugs entstehen, gelten nicht als Un fallschaden. Beispiel: Schäden an der Lade ober fläche eines Lkw beim Beladen mit Kies.
 Mut- oder böswillige Handlungen
 A.2.2.2.3 Versichert sind mut- oder böswillige Handlungen von Personen, die in keiner Weise berechtigt sind, das Fahrzeug 
-zu gebrauchen. Als berechtigt sind insbesondere Personen anzusehen, die vom Verfügungsberechtigten mit der 
+zu gebrauchen. Als berechtigt sind insbesondere Perso nen anzusehen, die vom Verfügungsberechtigten mit der 
 Betreuung des Fahrzeugs beauftragt wurden (z.B. Werkstatt- oder Hotelmitarbeiter) oder in einem Näheverhältnis 
-zu dem Verfügungsberechtigten stehen (z.B. dessen Arbeitnehmer, Familien- oder Haushaltsangehörige).
+zu dem Verfügungsberechtigten stehen (z.B. dessen Ar beitnehmer, Familien- oder Haushaltsangehörige).
 Eigenschäden
 A.2.2.2.4 a Wenn Ihr Vertrag nach dem OPTIMAL-Tarif abgeschlossen wurde, leisten wir in der Vollkasko, abweichend 
 von A.1.5.6, auch für solche Sachschäden, die von Ihnen als Versicherungsnehmer oder von den in A.1.2 
@@ -1304,12 +1304,12 @@ Versicherungsschutz. Der Ver sicherungsschutz ist auf
 einen Kleinschaden je Versicherungsjahr begrenzt.
  Die Selbstbeteiligung an den Reparaturkosten beträgt 
 50 EUR. Die im Vertrag vereinbarte Selbstbeteiligung 
-für die Vollkaskoversicherung gilt für das Smart-RepairVerfahren nicht. Eine Reparatur nach dem Smart-Repair-Verfahren führt zu keiner Rückstufung im Schadenfall.
-A.2.2.2.5 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlossen wurde, haben Sie keine Möglichkeit bei Kleinschäden an der Karosserie das Smart-Repair-Verfahren zu 
+für die Vollkaskoversicherung gilt für das Smart-RepairVerfahren nicht. Eine Reparatur nach dem Smart-Repair-Verfahren führt zu keiner Rückstufung im Scha denfall.
+A.2.2.2.5 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlos sen wurde, haben Sie keine Möglichkeit bei Kleinschäden an der Karosserie das Smart-Repair-Verfahren zu 
 wählen.
 Allgefahrenversicherung
 A.2.2.2.6 a Wenn Ihr Vertrag nach dem OPTIMAL-Tarif abgeschlossen wurde, besteht für Ihr Elektro- oder Hybridfahrzeug 
-über die Schadenereignisse der Teilkasko oder Vollkasko hinaus eine Allgefahrenversicherung für Ihren 
+über die Schadenereignisse der Teilkasko oder Voll kasko hinaus eine Allgefahrenversicherung für Ihren 
 Akkumulator (Akku). Versichert ist die Beschädigung, 
 die Zerstörung oder der Verlust des Akkus durch alle 
 Ereignisse.
@@ -1322,7 +1322,7 @@ oder Hybridfahrzeugs.
  – die auf einen der in A.2.9 beschriebenen Leistungsausschlüsse zurückzuführen sind,
  – die durch allmähliche Einwirkung oder durch ge wöhnlichen Alterungsprozess entstehen (z.B. Abnutzung oder Verschleiß),
  – durch Konstruktions- oder Materialfehler des Her stellers oder
- – die am Akku durch chemische Reaktionen ausgelöst werden. Dies gilt nicht im Fall einer Tiefenentladung des Akkus.
+ – die am Akku durch chemische Reaktionen ausge löst werden. Dies gilt nicht im Fall einer Tiefenentladung des Akkus.
 A.2.2.2.6 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlossen 
 wurde, besteht keine Allgefahrenversicherung für den 
 Akku Ihres Elektro- oder Hybridfahrzeugs.
@@ -1402,7 +1402,7 @@ auf die Versicherungssumme von 10.000 EUR. Mehrere
 zeitlich zusammenhängende Schäden, die dieselbe Ur sache haben, gelten als ein einziges Schadenereignis.
 Bis zur Versicherungssumme mitversicherte Gegenstände 
 A.2.2.4.3.1 Bis zur Versicherungssumme sind die folgenden Gegenstände mitversichert:
- – loses, nicht fest eingebautes Inventar, z.B. Campingmöbel, Reiseküche, Kühlboxen, Vorrats-/Multifunktionsschränke, Stromerzeuger, 
+ – loses, nicht fest eingebautes Inventar, z.B. Camping möbel, Reiseküche, Kühlboxen, Vorrats-/Multifunktionsschränke, Stromerzeuger, 
  – persönliches Reisegepäck und sonstige Gegenstände 
 des persönlichen Bedarfs und
  – Haushaltszubehör und -geräte.
@@ -1464,7 +1464,7 @@ A.2.5.1 Was zahlen wir bei Totalschaden, Zerstörung oder
  Verlust?
 Wiederbeschaffungswert abzüglich Restwert
 A.2.5.1.1 Bei Totalschaden, Zerstörung oder Verlust des Fahrzeugs 
- zahlen wir den Wiederbeschaffungswert unter Abzug eines vorhandenen Restwerts des Fahrzeugs. 
+ zahlen wir den Wiederbeschaffungswert unter Abzug ei nes vorhandenen Restwerts des Fahrzeugs. 
 Neupreisentschädigung bei Totalschaden, Zerstörung oder 
 Verlust 
 A.2.5.1.2 a Wenn Ihr Vertrag nach dem OPTIMAL-Tarif abgeschlossen wurde, erstatten wir bei Pkw, Lastkraftwagen bis 
@@ -1500,7 +1500,7 @@ des Fahrzeugs am Tag der erstmaligen Zulassung auf
 Sie. Berücksichtigt wird dabei auch der Fahrzeugzu stand unmittelbar vor Eintritt des Schadens.
  Die Höchstentschädigung ist begrenzt auf den Kauf preis, den Sie für das Fahrzeug gezahlt haben. Im 
 Schadenfall müssen Sie uns auf Verlangen den Kaufvertrag für das Fahrzeug vorlegen.
-A.2.5.1.5 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlossen wurde, besteht kein Anspruch auf die Erstattung 
+A.2.5.1.5 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlos sen wurde, besteht kein Anspruch auf die Erstattung 
 einer Kaufwertentschädigung für Gebrauchtfahrzeuge.
 Überführungs- und Zulassungskosten
 A.2.5.1.6 a Wenn Ihr Vertrag nach dem OPTIMAL-Tarif abgeschlossen wurde, ersetzen wir nach Totalschaden, Zerstörung 
@@ -1517,13 +1517,13 @@ notwendigen und angemessenen Entsorgungskosten.
 Dies gilt nur, falls Sie das Ersatzfahrzeug bei uns versichern.
  Dies gilt auch für den Akku eines Elektro- oder Hybridfahrzeugs, wenn beim Akku ein Totalschaden oder eine Zerstörung eintritt. Dies gilt nur, wenn weder eine 
 Verwertung noch eine Rücknahme durch den Hersteller oder Händler möglich ist. 
-A.2.5.1.7 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlossen wurde, werden Entsorgungskosten nicht erstattet.
+A.2.5.1.7 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlos sen wurde, werden Entsorgungskosten nicht erstattet.
 Zusätzliche Leistungen bei Elektro- und Hybridfahrzeugen
 A.2.5.1.8 a Wenn Ihr Vertrag nach dem OPTIMAL-Tarif abgeschlossen wurde, zahlen wir bei Elektro- und Hybridfahrzeugen zusätzlich folgende, notwendigen und tatsächlich 
 angefallene Kosten aufgrund eines versicherten Schadenereignisses:
  – Zustandsdiagnostik und die Restwertermittlung des 
 beschädigten Akkus. 
- Hierfür übernehmen wir zusätzlich die dazugehörigen Abschlepp- oder Transportkosten zur nächstgelegenen Akku-Teststation. 
+ Hierfür übernehmen wir zusätzlich die dazugehörigen Abschlepp- oder Transportkosten zur nächst gelegenen Akku-Teststation. 
  Voraussetzung ist, dass die Beauftragung durch uns 
 erfolgt oder wir der Beauftragung zugestimmt ha ben. 
  – Verbringung oder Lagerung des Fahrzeugs in einem 
@@ -1538,7 +1538,7 @@ nächstgelegenen Rücknahmestelle.
  Voraussetzung ist, dass der Akku zur Erfüllung einer 
 gesetzlichen Rücknahmepflicht ausgebaut werden 
 muss und kein Dritter hierzu verpflichtet ist.
-A.2.5.1.8 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlossen wurde, besteht kein Versicherungsschutz für die 
+A.2.5.1.8 b Wenn Ihr Vertrag nach dem BASIS-Tarif abgeschlos sen wurde, besteht kein Versicherungsschutz für die 
 Zusatzleistungen für Elektro- und Hybridfahrzeuge.
 Was versteht man unter Totalschaden, Wiederbeschaffungswert, Restwert und Neupreis?
 A.2.5.1.9 Ein Totalschaden liegt vor, wenn die erforderlichen Kosten 
@@ -1742,7 +1742,7 @@ A.2.6.2 Für den Ausschuss benennen Sie und wir je einen Kraftfahrzeugsachverst�
 von dem jeweils Anderen bestimmt.
 A.2.6.3 Soweit sich der Ausschuss nicht einigt, entscheidet ein 
 weiterer Kraftfahrzeugsachverständiger als Obmann. Er 
-soll vor Beginn des Verfahrens von dem Ausschuss gewählt werden. Einigt sich der Ausschuss nicht über die 
+soll vor Beginn des Verfahrens von dem Ausschuss ge wählt werden. Einigt sich der Ausschuss nicht über die 
 Person des Obmanns, wird er über das zuständige Amtsgericht benannt. Die Entscheidung des Obmanns muss 
 zwischen den jeweils von den beiden Sachverständigen 
 geschätzten Beträgen liegen.
@@ -1831,7 +1831,7 @@ A.3.5.1 Unter Panne ist jeder Betriebs-, Bruch- oder Bremsschaden zu verstehen. 
 plötzlich mit mechanischer Gewalt auf das Fahrzeug einwirkendes Ereignis. Als Panne gilt bei Elektrofahrzeugen 
 auch ein leerer Akku.
 Was versteht man unter einer Reise?
-A.3.5.2 Reise ist jede Abwesenheit von Ihrem ständigen Wohnsitz. Als Ihr ständiger Wohnsitz gilt der Ort in Deutschland, 
+A.3.5.2 Reise ist jede Abwesenheit von Ihrem ständigen Wohn sitz. Als Ihr ständiger Wohnsitz gilt der Ort in Deutschland, 
 an dem Sie behördlich gemeldet sind und sich überwie gend aufhalten.
 Was versteht man unter Krankheit?
 A.3.5.3 Als unvorhersehbar gilt eine Erkrankung, wenn diese nicht 
@@ -1997,14 +1997,14 @@ Erkrankten durch ihm nahestehende Personen bis zu einem Betrag von 500 EUR.
 Im Todesfall
 A.3.7.14 Im Fall Ihres Todes auf einer Fahrt oder Reise mit dem 
 versicherten Fahrzeug innerhalb des Geltungsbereichs 
-nach A.3.4 vermitteln wir nach Abstimmung mit den Angehörigen
+nach A.3.4 vermitteln wir nach Abstimmung mit den An gehörigen
  – die Bestattung am Ort des Todes oder
  – die Überführung nach Deutschland 
  und übernehmen hierfür die Kosten.
  Diese Leistung gilt auch beim Tod eines berechtigten Insassen.
 Versand von Arzneimitteln
 A.3.7.15 Wenn Sie oder ein berechtigter Insasse des versicherten 
-Fahrzeugs auf einer Auslandsreise verschreibungspflichtige Arzneimittel zur Aufrechterhaltung oder Wiederherstellung der Gesundheit benötigen und diese weder von 
+Fahrzeugs auf einer Auslandsreise verschreibungspflichtige Arzneimittel zur Aufrechterhaltung oder Wiederher stellung der Gesundheit benötigen und diese weder von 
 Ihnen noch von einem Arzt vor Ort beschafft werden können, vermitteln wir den Versand der Arzneimittel und übernehmen die Kosten für den Versand.
  Über die Notwendigkeit des Arzneimittelversands entscheidet der von uns eingeschaltete Arzt nach Rücksprache 
 mit Ihrem behandelnden Arzt im Ausland oder Ihrem Hausarzt. Ein Arzneimittelversand erfolgt nicht, wenn keine Ausfuhr- oder Einfuhrgenehmigung erlangt werden kann oder 
@@ -2143,7 +2143,7 @@ A.4.2.2 Was versteht man unter berechtigten Insassen?
 ihrer Beförderung beim Gebrauch des Fahrzeugs tätig 
 werden.
 A.4.3 In welchen Ländern besteht Versicherungsschutz?
- Sie haben in der Kfz-Unfallversicherung Versicherungsschutz in den geographischen Grenzen Europas sowie 
+ Sie haben in der Kfz-Unfallversicherung Versicherungs schutz in den geographischen Grenzen Europas sowie 
 den außereuropäischen Gebieten, die zum Geltungsbe reich der Euro päischen Union gehören.
 A.4.4 Welche Leistungen umfasst die Kfz-Unfallversicherung? 
  Ihrem Versicherungsschein können Sie entnehmen, welche der nachstehenden Leistungen mit welchen Versicherungssummen vereinbart sind.
@@ -2261,7 +2261,7 @@ mitgewirkt haben (Mitwirkungsanteil), mindert sich
 A.4.7.2.2 Beträgt der Mitwirkungsanteil weniger als 25 Prozent, nehmen wir keine Minderung vor.
 A.4.8 Fälligkeit
  Wir erbringen unsere Leistungen, nachdem wir die Erhebungen abgeschlossen haben, die zur Feststellung des 
-Versicherungsfalls und des Umfangs unserer Leistungspflicht notwendig sind. Dazu gilt Folgendes:
+Versicherungsfalls und des Umfangs unserer Leistungs pflicht notwendig sind. Dazu gilt Folgendes:
 Erklärung über die Leistungspflicht
 A.4.8.1 Wir sind verpflichtet, innerhalb eines Monats in Textform 
 zu erklären, ob und in welchem Umfang wir unsere Leistungspflicht anerkennen. Bei Invaliditätsleistung beträgt 
@@ -2360,10 +2360,10 @@ von außen auf seinen Körper wirkendes Ereignis (Unfallereignis) unfreiwillig e
 Aussteigen oder das Be- und Entladen.
 A.5.2 Wer ist versichert?
  Versichert ist der berechtigte Fahrer des Fahrzeugs. Berechtigter Fahrer ist eine Person, die mit Wissen und Willen des Verfügungsberechtigten das Fahrzeug lenkt.
- Im Todesfall des Fahrers sind seine Hinterbliebenen bezüglich ihrer gesetzlichen Unterhaltsansprüche mitversichert.
+ Im Todesfall des Fahrers sind seine Hinterbliebenen be züglich ihrer gesetzlichen Unterhaltsansprüche mitversichert.
 A.5.3 Versicherte Fahrzeuge
  Die Fahrerschutzversicherung kann nur für Pkw und Campingfahrzeuge vereinbart werden. Versicherungsschutz 
-besteht für das im Versicherungsschein genannte Fahrzeug, für das auch eine Kfz-Haftpflichtversicherung bei 
+besteht für das im Versicherungsschein genannte Fahr zeug, für das auch eine Kfz-Haftpflichtversicherung bei 
 uns besteht.
 A.5.4 In welchen Ländern besteht Versicherungsschutz?
  In der Fahrerschutzversicherung besteht Versicherungsschutz in den geographischen Grenzen Europas sowie 
@@ -2387,12 +2387,12 @@ Arbeitgeber) Anspruch auf Ersatz Ihres Schadens oder
 Anspruch auf deckungsgleiche (kongruente) Leistungen 
 haben.
  Ausnahme: Soweit Sie einen solchen Anspruch nicht erfolgversprechend durchsetzen können, leisten wir den noch, wenn nachfolgende Voraussetzungen vorliegen: 
- − Sie haben den Anspruch in T extform geltend gemacht. 
+ − Sie haben den Anspruch in Textform geltend gemacht. 
  − Sie haben weitere zur Durchsetzung Ihres Anspruchs 
 erforderliche Anstrengungen unternommen, die Ihnen 
 billigerweise zumutbar waren. 
  − Sie haben Ihren Anspruch wirksam an uns abgetreten. 
- Hinweis: Ansprüche gegen Dritte sind nicht immer wirksam abtretbar. Unter anderem können Ansprüche gegen 
+ Hinweis: Ansprüche gegen Dritte sind nicht immer wirk sam abtretbar. Unter anderem können Ansprüche gegen 
 Sozial versicherungsträger (z.B. Krankenkasse, Rentenversicherungsträger) häufig nicht oder nur mit deren Zustimmung abgetreten werden. In diesen Fällen können wir 
 nicht im Voraus Leistungen erbringen, sondern erst dann, 
 wenn abschließend geklärt ist, dass keine Ansprüche gegenüber Dritten bestehen. 
@@ -2555,7 +2555,7 @@ Regulierungsvollmacht
 A.7.1.4 Wir sind bevollmächtigt, alle uns zur Abwicklung des Schadens zweckmäßig erscheinenden Erklärungen im Rahmen 
 pflichtgemäßen Ermessens abzugeben. Dies schließt Erklärungen zur Abwehr unberechtigter Inanspruchnahme 
 durch die Behörde oder einen sonstigen Dritten ein.
- Kommt es in einem Versicherungsfall zu einem Verwaltungsverfahren oder Rechtsstreit gegen Sie, so sind wir 
+ Kommt es in einem Versicherungsfall zu einem Verwal tungsverfahren oder Rechtsstreit gegen Sie, so sind wir 
 zur Verfahrens- und Prozessführung bevollmächtigt. Wir 
 führen das Verwaltungsverfahren oder den Rechtsstreit in 
 Ihrem Namen auf unsere Kosten.
@@ -2566,7 +2566,7 @@ A.7.3 Versicherungssumme, Höchstzahlung
 für alle Versicherungsfälle eines Versicherungsjahres beträgt das Doppelte der vereinbarten Versicherungssumme.
 A.7.4 In welchen Ländern besteht Versicherungsschutz?
 Geltungsbereich
- Abweichend von A.1.4 besteht Versicherungsschutz außerhalb des Anwendungsbereichs des USchadG auch in 
+ Abweichend von A.1.4 besteht Versicherungsschutz au ßerhalb des Anwendungsbereichs des USchadG auch in 
 den Ländern des Europäischen Wirtschaftsraums (EWR), 
 soweit die EU-Umwelthaftungsrichtlinie (2004/35/EG) gilt 
 oder sinngemäße Anwendung findet. Versicherungsschutz 
@@ -2610,7 +2610,7 @@ Bestimmungen vorläufigen Versicherungsschutz:
 Kfz-Haftpflichtversicherung
 B.2.1 Händigen wir Ihnen die Versicherungsbestätigung aus oder 
 nennen wir Ihnen bei elektronischer Versicherungsbestätigung die Versicherungsbestätigungs-Nummer, haben Sie 
-in der Kfz-Haftpflichtversicherung vorläufigen Versicherungsschutz zu dem vereinbarten Zeitpunkt, spätestens 
+in der Kfz-Haftpflichtversicherung vorläufigen Versiche rungsschutz zu dem vereinbarten Zeitpunkt, spätestens 
 ab dem Tag, an dem das Fahrzeug unter Verwendung der 
 Versicherungsbestätigung zugelassen wird. Ist das Fahrzeug bereits auf Sie zugelassen, beginnt der vorläufige 
 Versicherungsschutz ab dem vereinbarten Zeitpunkt. 
@@ -2680,7 +2680,7 @@ genannten Zahlungsfrist zahlen.
 zweiwöchigen Zahlungsfrist bis zu Ihrer Zahlung eintreten, 
 haben Sie keinen Versicherungsschutz. Versicherungsschutz besteht erst wieder für Schadenereignisse nach 
 Ihrer Zahlung.
-C.3 Nicht rechtzeitige Zahlung bei Fahrzeug wechsel
+C.3 Nicht rechtzeitige Zahlung bei Fahrzeugwechsel
  Versichern Sie anstelle Ihres bisher bei uns versicherten 
 Fahrzeugs ein anderes Fahrzeug bei uns (Fahrzeugwechsel), wenden wir für den neuen Vertrag bei nicht rechtzeitiger Zahlung des ersten oder einmaligen Beitrags die für 
 Sie günstigeren Regelungen zum Folgebeitrag nach C.2.2 
@@ -2691,7 +2691,7 @@ Fahrzeugs und dem Beginn der Versicherung des anderen Fahrzeugs sind nicht mehr 
 vergangen,
  – Fahrzeugart und Verwendungszweck der Fahrzeuge 
 sind gleich. 
- Kündigen wir das Versicherungsverhältnis wegen Nichtzahlung, können wir von Ihnen eine Geschäftsgebühr entsprechend C.1.3 verlangen.
+ Kündigen wir das Versicherungsverhältnis wegen Nicht zahlung, können wir von Ihnen eine Geschäftsgebühr entsprechend C.1.3 verlangen.
 C.4 Zahlungsperiode
  Beiträge für Ihre Versicherung müssen Sie entsprechend 
 der vereinbarten Zahlungsperiode (= Versicherungsperiode) 
@@ -2702,7 +2702,7 @@ Viertel jahreszahlung drei Monate und bei monatlicher Zahlung einen Monat.
 Ihrem Versicherungsschein entnehmen.
  Die Laufzeit des Vertrags, die sich von der Zahlungsperiode 
 unterscheiden kann, ist in Abschnitt G geregelt. 
-C.5 Rechtzeitige Zahlung bei SEPA-Lastschrift mandat und dessen Beendigung
+C.5 Rechtzeitige Zahlung bei SEPA-Lastschriftmandat und dessen Beendigung
 Rechtzeitige Zahlung bei SEPA-Lastschriftmandat
 C.5.1 Wenn wir die Einziehung des Beitrags von einem Konto 
 vereinbart haben, gilt die Zahlung als rechtzeitig, wenn
@@ -2717,7 +2717,7 @@ C.5.2 Können wir den fälligen Beitrag nicht einziehen, weil Sie
 das SEPA-Lastschriftmandat widerrufen haben, oder haben Sie aus anderen Gründen zu vertreten, dass wir den 
 Beitrag nicht einziehen können, sind wir berechtigt, künftig die Zahlung außerhalb des Lastschriftverfahrens zu 
 verlangen. In diesen Fällen sind wir auch berechtigt, eine 
-monatliche oder vierteljährliche Zahlweise auf halbjährli che Zahlweise umzustellen. Sie sind zur Übermittlung des 
+monatliche oder vierteljährliche Zahlweise auf halbjährliche Zahlweise umzustellen. Sie sind zur Übermittlung des 
 Beitrags erst verpflichtet, wenn Sie von uns hierzu in Textform aufgefordert worden sind.
 C.6 Beitragspflicht bei Nachhaftung in der 
 Kfz-Haftpflichtversicherung
@@ -2835,7 +2835,7 @@ E.1.1.2 Ermittelt die Polizei, die Staatsanwaltschaft oder eine andere Behörde 
 Dies gilt auch, wenn Sie uns das Schadenereignis bereits 
 gemeldet haben.
 Aufklärungspflicht
-E.1.1.3 Sie müssen alles tun, was zur Aufklärung des Versicherungsfalls und des Umfangs unserer Leistungspflicht er forderlich ist. Sie müssen dabei insbesondere folgende 
+E.1.1.3 Sie müssen alles tun, was zur Aufklärung des Versiche rungsfalls und des Umfangs unserer Leistungspflicht er forderlich ist. Sie müssen dabei insbesondere folgende 
 Pflichten beachten:
  – Sie dürfen den Unfallort nicht verlassen, ohne die gesetzlich erforderlichen Feststellungen zu ermöglichen 
 oder die dabei erforderliche Wartezeit zu beachten. Ist 
@@ -2903,7 +2903,7 @@ Original belege zum Nachweis der Schadenhöhe vorlegen
 und die behandelnden Ärzte im Rahmen von § 213 Versicherungsvertragsgesetz von der Schweigepflicht entbinden.
 E.1.5 Zusätzlich in der Kfz-Unfallversicherung
 Anzeige des Todesfalls innerhalb 48 Stunden 
-E.1.5.1 Hat der Unfall den Tod einer versicherten Person zur Folge, müssen die aus dem Versicherungsvertrag Begünstigten uns dies innerhalb von 48 Stunden melden. Dies 
+E.1.5.1 Hat der Unfall den Tod einer versicherten Person zur Folge, müssen die aus dem Versicherungsvertrag Begüns tigten uns dies innerhalb von 48 Stunden melden. Dies 
 gilt auch, wenn der Unfall schon angezeigt ist. Uns ist das 
 Recht zu verschaffen, eine Obduktion durch einen von 
 uns beauftragten Arzt vornehmen zu lassen.
@@ -2919,7 +2919,7 @@ oder untersucht haben.
 genannten Stellen erlauben, uns die Auskünfte direkt zu 
 erteilen. Ansonsten müssen Sie die Auskünfte selbst einholen und uns zur Verfügung stellen.
  Wir beauftragen Ärzte, falls dies für die Prüfung unserer 
-Leistungspflicht erforderlich ist. Von diesen Ärzten müssen Sie sich untersuchen lassen. Wir tragen die notwendigen Kosten und den Verdienstausfall, der durch die Untersuchung entsteht.
+Leistungspflicht erforderlich ist. Von diesen Ärzten müs sen Sie sich untersuchen lassen. Wir tragen die notwendigen Kosten und den Verdienstausfall, der durch die Untersuchung entsteht.
  Sie haben erforderlichenfalls darauf hinzuwirken, dass angeforderte Berichte alsbald erstellt werden.
 Frist zur Feststellung und Geltendmachung der Invalidität
 E.1.5.4 Beachten Sie auch die 15-Monatsfrist für die Feststellung 
@@ -2942,7 +2942,7 @@ Sie sich untersuchen lassen. Wir tragen die notwendigen
 Kosten und den Verdienstausfall, der durch die Untersuchung entsteht.
  Sie haben erforderlichenfalls darauf hinzuwirken, dass angeforderte Berichte alsbald erstellt werden.
 Aufklärung Ihrer Ansprüche gegen Dritte
-E.1.6.3 Sie müssen alles tun, was der Aufklärung möglicher Ansprüche gegen Dritte dienen kann. Insbesondere müssen 
+E.1.6.3 Sie müssen alles tun, was der Aufklärung möglicher An sprüche gegen Dritte dienen kann. Insbesondere müssen 
 Sie unsere Fragen zu möglichen Ansprüchen gegen Dritte, die sich auf den Umfang unserer Leistungspflicht auswirken können, wahrheitsgemäß und vollständig beant worten. Entsprechende Nachweise müssen Sie uns vorlegen.
 Wahrung Ihrer Ansprüche gegen Dritte
 E.1.6.4 Sie haben Ihren Anspruch gegen den Dritten unter Beachtung der Form- und Fristvorschriften zu wahren, soweit 
@@ -3045,10 +3045,10 @@ F Rechte und Pflichten der mitversicherten
 Pflichten mitversicherter Personen
 F.1 Für mitversicherte Personen finden die Regelungen zu 
 Ihren Pflichten sinngemäße Anwendung. Dies gilt für die 
-Technische Aufsicht nur insoweit, wie es nach der Kraftfahrzeug-Pflichtversicherungsverordnung zulässig ist.
+Technische Aufsicht nur insoweit, wie es nach der Kraft fahrzeug-Pflichtversicherungsverordnung zulässig ist.
 Ausübung der Rechte
 F.2 Die Ausübung der Rechte der versicherten Personen aus 
-dem Versicherungsvertrag steht nur Ihnen als Versicherungsnehmer zu, soweit nichts anderes geregelt ist. Eine 
+dem Versicherungsvertrag steht nur Ihnen als Versiche rungsnehmer zu, soweit nichts anderes geregelt ist. Eine 
 andere Regelung ist das Geltendmachen von Ansprüchen 
 in der Kfz-Haftpflichtversicherung nach A.1.2.
 Auswirkungen einer Pflichtverletzung auf mitversicherte 
@@ -3074,11 +3074,11 @@ des Vertrags deshalb weniger als ein Jahr vereinbart ist,
 um die folgenden Versicherungsjahre zu einem bestimmten Kalendertag beginnen zu lassen.
 Verträge mit einer Laufzeit unter einem Jahr
 G.1.3 Ist die Laufzeit ausdrücklich mit weniger als einem Jahr 
-vereinbart, endet der Vertrag zu dem vereinbarten Zeitpunkt, ohne dass es einer Kündigung bedarf.
+vereinbart, endet der Vertrag zu dem vereinbarten Zeit punkt, ohne dass es einer Kündigung bedarf.
 G.2 Wann und aus welchem Anlass können Sie 
 den Versicherungsvertrag kündigen?
 Kündigung zum Ablauf des Versicherungsjahres
-G.2.1 Sie können den Vertrag zum Ablauf des Versicherungsjahres kündigen. Die Kündigung ist nur wirksam, wenn sie 
+G.2.1 Sie können den Vertrag zum Ablauf des Versicherungs jahres kündigen. Die Kündigung ist nur wirksam, wenn sie 
 uns spätestens einen Monat vor Ablauf zugeht.
 Kündigung des vorläufigen Versicherungsschutzes
 G.2.2 Sie sind berechtigt, einen vorläufigen Versicherungsschutz 
@@ -3134,7 +3134,7 @@ die Änderung spätestens sechs Wochen vor dem Wirksamwerden mit und weisen Sie 
 G.3 Wann und aus welchem Anlass können wir 
 den Versicherungsvertrag kündigen?
 Kündigung zum Ablauf
-G.3.1 Wir können den Vertrag zum Ablauf des Versicherungsjahres kündigen. Die Kündigung ist nur wirksam, wenn sie 
+G.3.1 Wir können den Vertrag zum Ablauf des Versicherungs jahres kündigen. Die Kündigung ist nur wirksam, wenn sie 
 Ihnen spätestens einen Monat vor Ablauf zugeht.
 Kündigung des vorläufigen Versicherungsschutzes
 G.3.2 Wir sind berechtigt, einen vorläufigen Versicherungsschutz 
@@ -3210,7 +3210,7 @@ entweder von Ihnen oder vom Erwerber verlangen.
 Anzeige der Veräußerung
 G.7.4 Sie und der Erwerber sind verpflichtet, uns die Veräußerung des Fahrzeugs unverzüglich anzuzeigen. Unterbleibt 
 die Mitteilung, droht unter den Voraussetzungen des § 97 
-Versicherungsvertragsgesetz der Verlust des Versicherungsschutzes.
+Versicherungsvertragsgesetz der Verlust des Versiche rungsschutzes.
 Kündigung des Vertrags
 G.7.5 Im Falle der Veräußerung können der Erwerber nach G.2.5 
 und G.2.6 oder wir nach G.3.7 den Vertrag kündigen. Dann 
@@ -3220,7 +3220,7 @@ G.7.6 Die Regelungen G.7.1 bis G.7.5 sind entsprechend anzuwenden, wenn Ihr Fahr
 
 ===== page 31 =====
 31
-G.8 Wagniswegfall (z.B. durch Fahrzeug verschrottung)
+G.8 Wagniswegfall (z.B. durch Fahrzeugverschrottung)
  Fällt das versicherte Wagnis endgültig weg, steht uns der 
 Beitrag bis zu dem Zeitpunkt zu, zu dem das Fahrzeug 
 bei der Zulassungsbehörde außer Betrieb gesetzt wurde.
@@ -3238,7 +3238,7 @@ H.1.2 Der Vertrag geht in eine beitragsfreie Ruheversicherung
 H.1.3 Die Regelungen nach H.1.1 und H.1.2 gelten nicht für 
 Wohnwagenanhänger sowie bei Verträgen mit ausdrücklich kürzerer Vertragsdauer als ein Jahr.
 Umfang der Ruheversicherung
-H.1.4 Mit der beitragsfreien Ruheversicherung gewähren wir Ihnen während der Dauer der Außerbetriebsetzung eingeschränkten Versicherungsschutz.
+H.1.4 Mit der beitragsfreien Ruheversicherung gewähren wir Ihnen während der Dauer der Außerbetriebsetzung einge schränkten Versicherungsschutz.
  Der Ruheversicherungsschutz umfasst
  – die Kfz-Haftpflichtversicherung,
  – die Teilkaskoversicherung, wenn für das Fahrzeug zum 
@@ -3263,7 +3263,7 @@ H.1.8 Melden Sie das Fahrzeug während des Bestehens der
 Ruheversicherung mit einer Versicherungsbestätigung eines anderen Versicherers wieder an, haben wir das Recht, 
 den Vertrag fortzusetzen und den anderen Versicherer zur 
 Aufhebung des Vertrags aufzufordern.
-H.2 Welche Besonderheiten gelten bei Saison kennzeichen?
+H.2 Welche Besonderheiten gelten bei Saisonkennzeichen?
 H.2.1 Für Fahrzeuge, die mit einem Saisonkennzeichen zuge lassen sind, gewähren wir den vereinbarten Versicherungsschutz während des auf dem amtlichen Kennzeichen dokumentierten Zeitraums (Saison).
 H.2.2 Außerhalb der Saison haben Sie Ruheversicherungs schutz nach H.1.4 und H.1.5.
 H.2.3 Für Fahrten außerhalb der Saison haben Sie innerhalb 
@@ -3387,7 +3387,7 @@ Beginn nach I.2.2.1 eingestuft worden wäre.
 Sondereinstufung YoungDriver
 I.2.2.5 Beginnt Ihr Vertrag für ein Fahrzeug ohne Übernahme eines Schadenverlaufs nach I.6 und hat für Sie ein YoungDriver-Vertrag bei unserer Gesellschaft bestanden, rechnen wir Ihnen beim Abschluss einer Kfz-Ver sicherung auf 
 Ihren Namen bei den WGV Ver siche rungen einmalig eine 
-bestimmte SF-Klasse an. Diese richtet sich nach der Vereinbarung „A.2 Ansammeln schadenfreier Jahre“ (Allgemeine Bedingungen für die YoungDriver-Versicherung) 
+bestimmte SF-Klasse an. Diese richtet sich nach der Vereinbarung „A.2 Ansammeln schadenfreier Jahre“ (Allge meine Bedingungen für die YoungDriver-Versicherung) 
 Ihres YoungDriver-Vertrags.
 I.2.3 Anrechnung des Schadenverlaufs der Kfz-Haftpflichtver sicherung in der Vollkaskoversicherung
  Ist das versicherte Fahrzeug ein Pkw, ein Kraftrad oder 
@@ -3466,7 +3466,7 @@ des Schadens im Folgejahr in die nächst bessere Scha denfreiheitsklasse gestuft
 Voraussetzungen
 I.3.6.2 Der Rabattschutz kann vereinbart werden, wenn sich Ihr 
 Vertrag in der Kfz-Haftpflicht- und – sofern vereinbart – in 
-der Vollkaskoversicherung mindestens in der Schadenfreiheitsklasse 4 befindet (Sondereinstufungen werden dabei nicht berücksichtigt). 
+der Vollkaskoversicherung mindestens in der Schaden freiheitsklasse 4 befindet (Sondereinstufungen werden dabei nicht berücksichtigt). 
  Wird neben der Kfz-Haftpflicht- auch eine Vollkaskoversicherung abgeschlossen, kann der Rabattschutz nur für 
 beide Versicherungsarten gleichzeitig abgeschlossen werden.
 Wegfall der Voraussetzungen
@@ -3491,7 +3491,7 @@ gemäß Anhang 1.
 Bescheinigung bei Wechsel des Versicherers
 I.3.6.6 Endet der Versicherungsvertrag bei unserer Gesellschaft, 
 wird der Nachversicherung auf deren Anfrage der tatsächliche Schadenverlauf bestätigt, der sich ohne den Rabattschutz ergibt.
-I.4 Was bedeutet schadenfreier oder schaden belasteter Verlauf?
+I.4 Was bedeutet schadenfreier oder schadenbelasteter Verlauf?
 I.4.1 Schadenfreier Verlauf
 I.4.1.1 Ein schadenfreier Verlauf des Vertrags liegt unter folgenden Voraussetzungen vor:
  – Der Versicherungsschutz hat von Anfang bis Ende eines Kalenderjahres ununterbrochen bestanden und
@@ -3501,7 +3501,7 @@ I.4.1.2 Trotz Meldung eines Schadenereignisses gilt der Vertrag
 jeweils als schadenfrei, wenn eine der folgenden Voraussetzungen vorliegt:
  a Wir leisten Entschädigungen oder bilden Rückstellungen: 
  – nur aufgrund von Abkommen der Versicherungsunternehmen untereinander oder mit Sozialversicherungsträgern oder 
- – wegen der Ausgleichspflicht aufgrund einer Mehrfachversicherung.
+ – wegen der Ausgleichspflicht aufgrund einer Mehr fachversicherung.
  b Wir lösen Rückstellungen für das Schadenereignis in 
 den drei auf die Schadenmeldung folgenden Kalenderjahren auf, ohne eine Entschädigung geleistet zu ha ben.
  c Der Schädiger oder dessen Haftpflichtversicherung erstatten uns unsere Entschädigung in vollem Umfang.
@@ -3590,7 +3590,7 @@ eine landwirtschaftliche Zugmaschine ist.
 Gemeinsame Übernahme des Schadenverlaufs in der 
 Kfz-Haftpflicht- und der Vollkaskoversicherung
 I.6.2.2 Wir übernehmen die Schadenverläufe in der Kfz-Haft pflicht- und in der Vollkaskoversicherung nur zusammen.
- Dies gilt nicht, wenn der Versicherungsnehmer die Vollkaskoversicherung aus einem anderen für ihn bestehenden Vertrag aufgibt, um den Schadenverlauf für das versicherte Fahrzeug zu nutzen.
+ Dies gilt nicht, wenn der Versicherungsnehmer die Voll kaskoversicherung aus einem anderen für ihn bestehenden Vertrag aufgibt, um den Schadenverlauf für das versicherte Fahrzeug zu nutzen.
 Zusätzliche Regelung für die Übernahme des Schaden verlaufs 
 von einer anderen Person nach I.6.1.3
 I.6.2.3 Wir übernehmen den Schadenverlauf von einer anderen 
@@ -3607,7 +3607,7 @@ und Schwiegerkinder oder
  – Ihren Arbeitgeber.
  b Sie machen den Zeitraum, in dem das Fahrzeug der 
 anderen Person überwiegend von Ihnen gefahren wurde, glaubhaft; hierzu gehört insbesondere
- – eine Erklärung in Textform von Ihnen und der anderen Person; ist die andere Person verstorben, ist 
+ – eine Erklärung in Textform von Ihnen und der an deren Person; ist die andere Person verstorben, ist 
 die Erklärung durch Sie ausreichend;
  – die Vorlage einer Kopie Ihres Führerscheins zum 
 Nachweis dafür, dass Sie für den entsprechenden 
@@ -3636,7 +3636,7 @@ höchstens zehn Jahre, übernehmen wir den Schadenverlauf, wie er vor der Unterb
  c Beträgt die Unterbrechung mehr als zehn Jahre, übernehmen wir den schadenfreien Verlauf nicht. Die Einstufung erfolgt dann nach I.2.1 bzw. I.2.2.
 Im Folgejahr nach der Übernahme
 I.6.3.2 In dem auf die Übernahme folgenden Kalenderjahr richtet 
-sich die Einstufung des Vertrags nach dessen Schadenverlauf und danach, wie lange der Versicherungsschutz 
+sich die Einstufung des Vertrags nach dessen Schaden verlauf und danach, wie lange der Versicherungsschutz 
 in dem Kalenderjahr der Übernahme bestand:
  a Bestand der Versicherungsschutz im Kalenderjahr der 
 Übernahme mindestens sechs Monate, wird der Vertrag entsprechend seines Verlaufs so eingestuft, als 
@@ -3680,7 +3680,7 @@ J Beitragsänderung aufgrund tariflicher
  Maßnahmen
 J.1 Typklasse
  Richtet sich der Versicherungsbeitrag nach dem Typ Ihres 
-Fahrzeugs, können Sie Ihrem Versicherungsschein entnehmen, welcher Typklasse Ihr Fahrzeug zu Beginn des 
+Fahrzeugs, können Sie Ihrem Versicherungsschein ent nehmen, welcher Typklasse Ihr Fahrzeug zu Beginn des 
 Vertrags zugeordnet worden ist.
  Ein unabhängiger Treuhänder ermittelt jährlich, ob und in 
 welchem Umfang sich der Schadenbedarf Ihres Fahrzeugtyps im Verhältnis zu dem aller Fahrzeugtypen erhöht oder 
@@ -3693,14 +3693,14 @@ des nächsten Versicherungsjahres wirksam.
 35
 J.2 Regionalklasse
  Richtet sich der Versicherungsbeitrag nach dem Wohnsitz 
-des Halters, wird Ihr Fahrzeug einer Regionalklasse zugeordnet. Maßgeblich ist der Wohnsitz, den uns die Zu lassungsbehörde zu Ihrem Fahrzeug mitteilt. Ihrem Versicherungsschein können Sie entnehmen, welcher Regionalklasse Ihr Fahrzeug zu Beginn des Vertrags zugeordnet worden ist.
+des Halters, wird Ihr Fahrzeug einer Regionalklasse zugeordnet. Maßgeblich ist der Wohnsitz, den uns die Zu lassungsbehörde zu Ihrem Fahrzeug mitteilt. Ihrem Ver sicherungsschein können Sie entnehmen, welcher Regionalklasse Ihr Fahrzeug zu Beginn des Vertrags zugeordnet worden ist.
  Ein unabhängiger Treuhänder ermittelt jährlich, ob und in 
 welchem Umfang sich der Schadenbedarf der Region, in 
 welcher der Wohnsitz des Halters liegt, im Verhältnis zu 
 allen Regionen erhöht oder verringert hat. Ändert sich der 
 Schadenbedarf Ihrer Region im Verhältnis zu dem aller 
 Regionen, kann dies zu einer Zuordnung in eine andere 
-Regionalklasse führen. Die damit verbundene Beitrags änderung wird mit Beginn des nächsten Versicherungsjahres wirksam.
+Regionalklasse führen. Die damit verbundene Beitrags änderung wird mit Beginn des nächsten Versicherungs jahres wirksam.
  J.3 Tarifänderung 
 J.3.1 Jährliche Beitragsüberprüfung
  Wir sind berechtigt und verpflichtet, die Beiträge für die 
@@ -3722,7 +3722,7 @@ statistischen Erkenntnisse des Gesamtverbands der Deutschen Versicherungswirtsch
 des unabhängigen Treuhänders insbesondere zu den Typ- 
 und Regionalklassen zu berücksichtigen. 
 J.3.2 Auswirkung auf den Beitrag
- Abweichende Vereinbarungen (z.B. Zuschläge oder Rabatte) bleiben unberührt. Für die Ermittlung des neuen 
+ Abweichende Vereinbarungen (z.B. Zuschläge oder Ra batte) bleiben unberührt. Für die Ermittlung des neuen 
 Beitrags werden Änderungen nach J.5 sowie Änderungen 
 der Zuordnung des Vertrags zu den Regionalklassen (J.2) 
 und den Typklassen (J.1) einbezogen, wenn sie gleichzeitig wirksam werden.
@@ -3813,14 +3813,14 @@ K.2.4 Auf die Beitragsberechnung wirken sich Fahrten, die von
 Kaufinteressenten, Angestellten eines Kfz-Reparaturbetriebs, Hotel angestellten in Ausübung ihres Dienstes oder 
 von anderen Personen aufgrund einer Notfallsituation unternommen werden, nicht aus. In diesen Fällen besteht 
 auch keine Mitteilungspflicht.
-K.3 Änderung der Region wegen Wohnsitz wechsels
+K.3 Änderung der Region wegen Wohnsitzwechsels
 K.3.1 Der Beitrag in der Kfz-Haftpflicht- und Kaskoversicherung 
 berechnet sich nach dem Wohnsitz des Fahrzeughalters. 
 Wechselt der Halter seinen Wohn sitz und wird dadurch 
 das Fahrzeug einer anderen Region zugeordnet, richtet 
 sich der Beitrag ab der Ummeldung bei der Zulassungs behörde nach der neuen Region. Dies kann eine Beitragsänderung zur Folge haben.
 K.3.2 Maßgebend für die Zuordnung zu einer Region ist der 
-Wohnort des Fahrzeughalters und die dazugehörige Postleitzahl. Ihrem Versicherungsschein können Sie entnehmen, ob der Beitrag nach Regionen berechnet wird.
+Wohnort des Fahrzeughalters und die dazugehörige Postleitzahl. Ihrem Versicherungsschein können Sie entneh men, ob der Beitrag nach Regionen berechnet wird.
 K.4 Ihre Mitteilungspflichten zu den Merkmalen 
 zur Beitragsberechnung
 Anzeige von Änderungen 
@@ -3927,7 +3927,7 @@ durch
  – unmittelbar den Versicherungsvertrag betreffende, 
 rechtskräftige höchst richterliche Rechtsprechung;
  – den Versicherer bindende Änderungen der Verwaltungspraxis der Bundesanstalt für Finanzdienstleistungsaufsicht – Bereich Versicherungsaufsicht – oder der Kartellbehörde sowie
- – konkrete individuelle, den Versicherer bindende Weisungen durch die Bundesanstalt für Finanzdienstleistungsaufsicht – Bereich Versicherungsaufsicht – oder 
+ – konkrete individuelle, den Versicherer bindende Wei sungen durch die Bundesanstalt für Finanzdienstleistungsaufsicht – Bereich Versicherungsaufsicht – oder 
 durch die Kartellbehörde
  unwirksam geworden sind und hierdurch eine Vertragslücke 
 entstanden ist, die das bei Vertragsabschluss vorhandene 
@@ -3939,7 +3939,7 @@ O entfällt
 P Embargobestimmung
  Es besteht – unbeschadet der übrigen Vertragsbestim mungen – Versicherungsschutz nur, soweit und solange 
 dem keine auf die Vertragsparteien direkt anwendbaren 
-Wirtschafts-, Handels- oder Finanzsanktionen bzw. Embargos der Europäischen Union oder der Bundes re pub lik 
+Wirtschafts-, Handels- oder Finanzsanktionen bzw. Em bargos der Europäischen Union oder der Bundes re pub lik 
 Deutschland entgegenstehen.
  Dies gilt auch für Wirtschafts-, Handels- oder Finanzsanktionen bzw. Embargos der Vereinigten Staaten von Amerika, soweit dem nicht Rechtsvorschriften der Europäi schen Union oder der Bundesrepublik Deutschland ent gegenstehen.
 
@@ -4701,7 +4701,7 @@ werden und auf den Mieter zugelassen sind oder bei Zulassung auf den Vermieter d
 nach ihrer Bauart und Ausstattung zur Beförderung von 
 mehr als neun Personen (einschließlich Fahrer) geeignet 
 und bestimmt sind.
- 9.1 Linienverkehr ist eine zwischen bestimmten Ausgangs- und Endpunkten eingerichtete regelmäßige 
+ 9.1 Linienverkehr ist eine zwischen bestimmten Aus gangs- und Endpunkten eingerichtete regelmäßige 
 Verkehrsverbindung, auf der Fahrgäste an be stimmten Haltestellen ein- und aussteigen können, 
 sowie Verkehr, der unter Ausschluss anderer Fahrgäste der regelmäßigen Beförderung von Personen 
 zum Besuch von Märkten und Theatern dient.
@@ -4741,7 +4741,7 @@ Milch zwischen Molkereien oder von Molkereien zum Verteiler oder Verbraucher die
 17 Selbstfahrende Arbeitsmaschinen
  Selbstfahrende Arbeitsmaschinen sind Fahrzeuge, die 
 nach ihrer Bauart und ihren besonderen mit dem Fahrzeug 
-fest verbundenen Einrichtungen zur Verrichtung von Arbeit – nicht zur Beförderung von Personen oder Gütern – 
+fest verbundenen Einrichtungen zur Verrichtung von Ar beit – nicht zur Beförderung von Personen oder Gütern – 
 bestimmt und geeignet sind (z.B. Selbstlader, Bagger, 
 Greifer, Kran-Lkw sowie Räum- und Bergungsfahrzeuge, 
 auch wenn sie zu Abschleppzwecken mitverwendet werden).
@@ -4759,7 +4759,7 @@ Diese Besonderen Bedingungen gelten nur, soweit die Zusatzversicherung von Brems
 1 Versicherte Sachen 
 1.1 Der Versicherungsschutz bezieht sich auf
 1.1.1 das im Versicherungsschein bezeichnete Nutzfahrzeug
- (Nutzfahrzeuge sind Lastkraftwagen im Werkverkehr, Zugmaschinen, Anhänger/Auflieger, Kraftomnibusse, Kranken- und Mannschaftstransportwagen sowie Feuerwehrfahrzeuge, ausgenommen Drehleiterfahrzeuge und Kranfahrzeuge);
+ (Nutzfahrzeuge sind Lastkraftwagen im Werkverkehr, Zugmaschinen, Anhänger/Auflieger, Kraftomnibusse, Kran ken- und Mannschaftstransportwagen sowie Feuerwehrfahrzeuge, ausgenommen Drehleiterfahrzeuge und Kranfahrzeuge);
 1.1.2 die im Versicherungsschein aufgeführten Wechselaufbauten und Container;
 1.1.3 die mit dem versicherten Nutzfahrzeug, Wechselaufbau 
 oder Container fest verbundenen Teile einschließlich Zubehör, auch wenn diese Teile nicht zur serienmäßigen 
@@ -4775,8 +4775,8 @@ Teilen der versicherten Sachen erleiden, sind versichert
 1.2.2 Transportbänder, Siebe, Schläuche, Seile, Gurte, Riemen, 
 Bürsten, Bereifung, Ketten, Raupen, Kabel.
 1.3 Nicht versichert sind
-1.3.1 Motoren und Getriebe einschließlich dazugehöriger Aggregate, die der Fortbewegung des Fahrzeugs dienen.
- Zum Motor in diesem Sinne gehören: Anlasser, Aufladesysteme (z.B. Kompressoren, Turbolader), Auspuffanlage 
+1.3.1 Motoren und Getriebe einschließlich dazugehöriger Ag gregate, die der Fortbewegung des Fahrzeugs dienen.
+ Zum Motor in diesem Sinne gehören: Anlasser, Auflade systeme (z.B. Kompressoren, Turbolader), Auspuffanlage 
 einschließlich Halterungen, Kraftstoffsystem am Motor, 
 Kühlung (Wasserpumpe, Lüfter, Thermostatleitungen), 
 Kurbelwelle mit Lagerung, Lichtmaschine, Motorblock mit 
@@ -4812,7 +4812,7 @@ Reparaturauftrag einzutreten hat.
 verpflichtet ist.
  Ergibt sich nach Zahlung der Entschädigung, dass ein 
 Dritter für den Schaden eintreten muss, und bestreitet er 
-dies, behält der Versicherungsnehmer zunächst die bereits gezahlte Entschädigung. Die Regelungen über den 
+dies, behält der Versicherungsnehmer zunächst die be reits gezahlte Entschädigung. Die Regelungen über den 
 Übergang von Ersatzansprüchen des Gesetzes über den 
 Versicherungsvertrag (VVG) gelten für diese Fälle nicht. 
 Der Versicherungsnehmer hat seinen Anspruch auf Kosten und nach den Weisungen des Versicherers außergerichtlich und erforderlichenfalls gerichtlich geltend zu machen. Die Entschädigung ist zurückzuzahlen, wenn der 

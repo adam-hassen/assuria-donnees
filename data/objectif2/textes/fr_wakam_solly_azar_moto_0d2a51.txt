@@ -5,18 +5,18 @@ Document d’information sur le produit d’assurance
  
  
 Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas 
-en compte vos besoins et demandes spécifiques. V ous trouverez l’information complète sur ce pro duit dans la 
+en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la 
 documentation précontractuelle et contractuelle. 
 De quel type d’assurance s’agit-il ? 
 Le produit « MOTOPASS 2012 » est un contrat d’assurance qui a pour objectif premier de garantir le conducteur d’un cyclomoteur ou 
-scooter d’une cylindrée de 50 cm3 contre les conséquences des dommages matériels ou corporels causés par son véhicule à des t iers 
-(responsabilité civile). C’est une assurance obligatoire. Il peut inclure également, selon le c ontrat souscrit, des garanties facultatives 
+scooter d’une cylindrée de 50 cm3 contre les conséquences des dommages matériels ou corporels causés par son véhicule à des tiers 
+(responsabilité civile). C’est une assurance obligatoire. Il peut inclure également, selon le contrat souscrit, des garanties facultatives 
 couvrant les dommages au véhicule résultant d'un vol, un incendie, ainsi qu'une garantie des dommages corporels subis par le 
 conducteur. 
  
  Qu’est-ce qui est assuré ? 
  
-Les montants de s garanties sont soumis à des plafonds. Les 
+Les montants des garanties sont soumis à des plafonds. Les 
 indemnités dues en cas d’accident ne peuvent pas être plus 
 élevés que les montants de préjudices subis. 
  
@@ -1545,7 +1545,7 @@ dans les délais et formes précisés ci-dessus.
 Si le sinistre n’est pas déclaré dans les délais prévus, et si 
 l’assureur établit que ce retard lui a causé un préjudice, l’assureur est en droit d’appliquer une déchéance. Si les autres 
 obligations prévues cidessus ne sont pas respectées, l’assureur peut réclamer à l’assuré une indemnité proportionnée 
-au préjudice que ce manquement peut lui causer. Ces sanctions ne sont pas applicables si le manquement est dû à un 
+au préjudice que ce manquement peut lui causer. Ces sanc tions ne sont pas applicables si le manquement est dû à un 
 cas fortuit ou de force majeure. Si le souscripteur, l’assuré 
 ou l’ayant droit de l’un ou de l’autre, fait volontairement de 
 fausses déclarations sur la nature, les causes, circonstances 
@@ -1562,7 +1562,7 @@ défense de ses intérêts financiers. Si elle est reconnue responsable, l’ass
 L’assureur fait une offre, dans la limite de leurs droits, 
 aux personnes lésées ou à leurs héritiers et s’il y a lieu au 
 conjoint.
-Aucune reconnaissance de responsabilité, aucune transaction faite en dehors de l’assureur ne lui est opposable.
+Aucune reconnaissance de responsabilité, aucune transac tion faite en dehors de l’assureur ne lui est opposable.
 Lorsqu’il invoque une exception de garantie légale ou 
 contractuelle, l’assureur est néanmoins tenu de présenter 
 à la victime une offre d’indemnité telle que prévue aux articles 12 à 20 de la loi n° 85- 677 du 5 juillet 1985.
@@ -1766,7 +1766,7 @@ propres à Wakam, vous pouvez saisir par écrit le Médiateur
 de la Fédération Française de l’Assurance (FFA) dont les 
 coordonnées sont les suivantes :
 La Médiation de l’Assurance
-http:/ /www.mediation-assurance.org/Saisir+le+mediateur
+http://www.mediation-assurance.org/Saisir+le+mediateur
 TSA 50110
 75441 Paris Cedex 09
 E-mail : le.mediateur@mediation-assurance.org
@@ -1779,7 +1779,7 @@ médiation » de la FFA sont librement consultables sur le
 site : www.ffa-assurance.fr
 Pour l’ensemble des offres « dématérialisées » vous avez 
 également la possibilité d’utiliser la plateforme de Résolutions des Litiges en Ligne de la Commission Européenne au 
-lien suivant : http:/ /ec.europa.eu/consumers/odr/
+lien suivant : http://ec.europa.eu/consumers/odr/
 3. Autorité de contrôle
 Autorité de Contrôle Prudentiel et de Résolution
 4 place de Budapest 

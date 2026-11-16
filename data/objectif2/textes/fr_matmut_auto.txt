@@ -4,7 +4,7 @@ Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l
 documentation précontractuelle et contractuelle. 
 De quel type d’assurance s’agit-il ? 
 Ce contrat d’assurance a pour objet de garantir le conducteur ou le gardien d’un véhicule automobile ou d’un engin attelé contre les 
-conséquences des dommages matériels et corporels ca usés à des tiers (Responsabilité civile). C’est une assurance obligatoire. Il 
+conséquences des dommages matériels et corporels causés à des tiers (Responsabilité civile). C’est une assurance obligatoire. Il 
 comprend en outre une garantie du conducteur. Il peut également accorder des garanties complémentaires afin de renforcer la couverture 
 des dommages corporels du conducteur et de couvrir les dommages matériels subis par le véhicule assuré ou encore la défense des 
 intérêts de l’assuré. 
@@ -29,7 +29,7 @@ Décès : jusqu’à 1 000 000 €
 frais de défense pénale ou de recours de l’assuré suite à 
 accident jusqu’à 20 000 €. 
  Assistance au véhicule et aux personnes transportées : prise 
-en charge des personnes et dépannage -remorquage du 
+en charge des personnes et dépannage-remorquage du 
 véhicule assuré en cas d’accident, d’incendie, de vol, de 
 tentative de vol ou de panne (sous réserve que cette dernière 
 survienne au moins à 50 km du domicile). 
@@ -48,7 +48,7 @@ Effets personnels.
 Marchandises - outillage professionnels transportés. 
 Indemnisation renforcée. 
 Rachat de franchise(s) « réparations garages agréés ». 
-Assistance pa nne 0 km : prise en charge des personnes et 
+Assistance panne 0 km : prise en charge des personnes et 
 dépannage-remorquage du véhicule assuré sans franchise 
 kilométrique en cas de panne. 
 Véhicule de remplacement. 
@@ -74,7 +74,7 @@ subi un retrait d’immatriculation.
  
  
 Principales exclusions (légales et contractuelles) 
-! Les dommages provenant d’une faute intenti onnelle ou 
+! Les dommages provenant d’une faute intentionnelle ou 
 dolosive de l’assuré. 
 ! Les dommages survenus lorsque le conducteur n’a pas l’âge 
 requis ou n’est pas titulaire des certificats en état de validité 
@@ -98,7 +98,7 @@ déduite du montant de l’estimation des dommages.
 ! Lorsque la garantie panne mécanique est souscrite en cours 
 de contrat et que le véhicule, déjà assuré, a plus de 48 mois 
 écoulés depuis sa date de première mise en circulation, elle 
-est accordée 60 jours calendaires aprè s la date d’effet 
+est accordée 60 jours calendaires après la date d’effet 
 indiquée aux Conditions particulières. 
 ! Le seuil de déclenchement des Garanties du conducteur au 
 titre de l’Incapacité permanente est de 10 %. 
@@ -122,10 +122,10 @@ Produit : Contrat Multirisques « Auto 4D »
 ===== page 2 =====
 OÙ SUIS- JE COUVERT(E) ? 
  
- Les garanties s’exercent en France métropolitaine, dans les Départements et Régions d’Outre -Mer (Guadeloupe, Guyane, 
+ Les garanties s’exercent en France métropolitaine, dans les Départements et Régions d’Outre-Mer (Guadeloupe, Guyane, 
 Martinique, Mayotte et La Réunion) et au cours de déplacements effectués dans les pays de l’Union Européenne ainsi que dans 
 les pays suivants : Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Serbie et 
-Suisse. Elles peuvent également êt re accordées dans les pays suivants : Albanie, Maroc, Moldavie, République Macédoine du 
+Suisse. Elles peuvent également être accordées dans les pays suivants : Albanie, Maroc, Moldavie, République Macédoine du 
 Nord, Tunisie, Turquie et Ukraine sous réserve de l’accord préalable de l’assureur et de la présentation lors du passage à la 
 frontière de la carte internationale d’assurance automobile. 
  
@@ -170,7 +170,7 @@ comprise entre sa date d’effet et la date d’échéance annuelle indiquée au
 COMMENT PUIS-JE RÉSILIER LE CONTRAT ? 
  
 La résiliation du contrat doit être effectuée, soit par lettre ou tout autre support durable (courrier électronique sur l’Espace Personnel, 
-lettre recommandée électronique…) , soit par une déclaration faite auprès de l’assureur ou de son représentant, soit, lorsque la 
+lettre recommandée électronique…), soit par une déclaration faite auprès de l’assureur ou de son représentant, soit, lorsque la 
 conclusion de contrat est proposée par un mode de communication à distance, par ce même mode. 
  
 Elle peut être demandée aux conditions prévues au contrat : 

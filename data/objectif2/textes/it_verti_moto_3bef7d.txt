@@ -51,9 +51,9 @@ conducente alla guida del Veicolo assicurato è in stato di
 ebbrezza, solo per il primo Sinistro la rivalsa è limitata a
 € 2.500;
 » Parziale rinuncia alla Rivalsa in caso di Conducente con 
-età inferiore a 23 anni (Opzione Guida Esperta):se è stata 
+età inferiore a 23 anni (Opzione Guida Esperta): se è stata 
 opzionata la Guida Esperta e il Conducente ha meno di 23 
-anni, solo per il primo Sinistro la rivalsa è limitata a €3.000
+anni, solo per il primo Sinistro la rivalsa è limitata a € 3.000
 » Guida con patente scaduta o con patente estera non 
 convertita: se il Conducente ha omesso di rinnovare la 
 patente o di convertire la patente estera, solo per il primo 
@@ -109,7 +109,7 @@ diritto di rivalsa per le somme che abbia dovuto pagare a terzi.
 I limiti di copertura relativi alle garanzie dirette e accessorie sono riportati sul DIP aggiuntivo. 
 Con pagamento di Premio aggiuntivo, è possibile aggiungere le 
 seguenti Garanzie opzionali: Super protetto, Incendio e Furto,
-Infortunidel Conducente,Tutela Legale, Assistenza stradale.
+Infortuni del Conducente, Tutela Legale, Assistenza stradale.
 Contratto di Assicurazione R.C. Auto Motocicli e Ciclomotori
 Documento informativo precontrattuale relativo al prodotto assicurativo
 Compagnia: Verti Assicurazioni S.p.A. – Prodotto: Motocicli e Ciclomotori
@@ -129,7 +129,7 @@ SETINFOMOTO&CICLO_Ed. 05 luglio 2025
 Dove vale la copertura?
 ✓L’Assicurazione R.C. Auto ti copre in Italia, nella Città del Vaticano, nella Repubblica di San Marino, negli Stati aderenti all ’Unione 
 Europea, in Islanda, in Liechtenstein, in Norvegia, nel Principato di Monaco, in Svizzera, in Andorra, in Serbia, nel RegnoUnito, in Bosnia 
-Erzegovina e in Montenegro. La garanzia R.C. Auto ti copre anche negli Stati in cui le sigle internazionali sulla Carta Verde non siano 
+Erzegovina e in Montenegro. La garanzia R .C. Auto ti copre anche negli Stati in cui le sigle internazionali sulla Carta Verde non siano 
 barrate. In caso di Circolazione all’estero, la garanzia R .C. Auto opera secondo le condizioni ed e ntro i limiti delle singole legislazioni 
 internazionali, ferme le maggiori garanzie previste dall’Assicurazione. La Carta Verde è valida per lo stesso periodo di Assicurazione 
 per il quale è stato pagato il Premio.
@@ -210,7 +210,7 @@ assicurato.
 • Bonus Protetto: mantiene invariata la Classe di merito Interna Verti solo per il primo Sinistro con 
 responsabilità paritaria o principale del Conducente; 
 • Rinuncia alla Rivalsa in caso di guida in stato di ebbrezza: la Compagnia rinuncia alla rivalsa se il tasso 
-alcolemico del Conducente è inferiore a 1,5 grammi per litro e solo per il primo Sinistro. 
+alcolemico del Conducente è inferiore a 1,5 grammi per litro e solo per il primo Sinistro . 
 In aggiunta alla garanzia R.C. Auto obbligatoria è possibile, ma non obbligatorio, acquistare le seguenti Garanzie accessorie e 
 servizi di assistenza, con pagamento di un Premio aggiuntivo. 
 INCENDIO E FURTO Copre i danni materiali e diretti subiti dal Veicolo assicurato, in conseguenza di Incendio, Furto e Rapina. L’Indennizzo 
@@ -243,7 +243,7 @@ SCOPERTI/MINIMI E FRANCHIGIE, applicati per Sinistro: Puoi scegliere gli Scopert
 ! Incendio/Furto: Scoperto dal 10% al 20% e Minimo da € 250 a € 1.000. 
 LIMITI DI INDENNIZZO: Non sono coperti dalla garanzia: 
 ! danni avvenuti in conseguenza di atti di guerra: insurrezioni, occupazioni militari, invasioni; danni a seguito di: tumulti p opolari, 
-scioperi, sommosse, atti di sabotaggio, di terrorismo e di danneggiamento volontario compreso l’incendio doloso, terremoti, eruzioni 
+scioperi, sommosse, atti di sabotaggio, di terrorismo e di danneggiamento volontario compreso l’incendio doloso, terremoti , eruzioni 
 vulcaniche, inondazioni, alluvioni, allagamenti, eventi naturali di qualunque tipo, mareggiate, frane, smottamenti del terreno, valanghe, 
 slavine, caduta accidentale o sovraccarico di neve, ghiaccio e grandine; ! danni causati da: sviluppo di energia nucleare o radioattività 
 insorto in qualunque modo; ! danni determinati o agevolati dal dolo (compreso il suicidio e tentato suicidio) o dalla colpa grave del 
@@ -262,7 +262,7 @@ incaricate o autorizzate alla guida, riparazione o custodia del Veicolo; ! danni
 e competizioni sportive e alle relative prove ufficiali e libere, allenamenti e verifiche preliminari e finali previste nel r egolamento 
 particolare di gara. Non sono inoltre compresi i danni d a Circolazione del Veicolo in piste o circuiti privati; ! danni indiretti, come 
 deprezzamento o privazione dell’uso del Veicolo, qualunque ne sia la causa; ! danni derivanti da Furto per i quali non sia stato 
-impiegato un efficace congegno di bloccaggio o agevolato dalla presenza delle chiavi di accensione sul Veicolo o in prossimità dello 
+impiegato un efficace congegno di bloccaggio o agevolato dalla presenza delle chiavi di accensione sul Veicolo o in prossimit à dello 
 stesso; ! spese relative alla reimmatricolazione del Veicolo in caso di Furto della/e targa/he; ! danni da Furto di singole parti, accessori 
 di serie, optional e/o parti di ricambio; ! danni subiti dal Veicolo soggetto a fermo amministrativo, qualora non siano stati osservati i 
 criteri di custodia (art. 214 del vigente Codice della Strada); ! danni derivanti da Incendio, avvenuti durante la guida fuoristrada ovvero 
@@ -315,7 +315,7 @@ risoluzioni delle Nazioni Unite o a sanzioni commerciali o economiche, dell’Un
 qualsiasi altra disposizione vi gente, eventi verificatisi in Paesi non raccomandati dal Ministero degli Affari Esteri Italiano, 
 dall’Organizzazione Mondiale della Sanità (OMS) o altri organismi simili, o soggetti a embargo dal Consiglio di Sicurezza delle Nazioni 
 Unite o da altre organizzazioni internazionali, eventi verificati in eventuali conflitti o interventi nazionali o internazionali. 
-LIMITAZIONI DI INDENNIZZO PER LA GARANZIA ASSISTENZA STRADALE: ! Il diritto alle assistenze fornite dalla Compagnia decade 
+LIMITAZIONI DI INDENNIZZO PER LA GARANZIA ASSISTENZA STRADALE : ! Il diritto alle assistenze fornite dalla Compagnia decade 
 se l’Assicurato non contatta preventivamente la Struttura Organizzativa al momento del Sinistro; ! la Compagnia non è tenuta a fornire 
 indennizzi o prestazioni alternative di alcun genere a titolo di compensazione, se l’Assicurato non usufruisce di una o più prestazioni; ! la Struttura 
 Organizzativa non assume responsabilità per danni causati dall’intervento delle Autorità del Paese nel quale è prestata l’assistenza o conseguenti 
@@ -323,7 +323,7 @@ a ogni altra circostanza fortuita e imprevedibile.
  
  A chi è rivolto questo prodotto? 
 Il prodotto è rivolto a chi possiede un Motociclo o un Ciclomotore e deve farlo circolare: la Polizza copre i danni che il Veicolo assicurato può 
-causare ad altri durante la Circolazione. L’offerta delle garanzie aggiuntive è rivolta a determinati clienti in funzione del loro profilo di Rischio. 
+causare ad altri durante la Circolazione. L’offerta delle garanzie aggiuntive è rivolta a determinati clienti in funzione del loro profilo di Rischio . 
  
  Quali costi devo sostenere? 
 L’acquisto della Polizza tramite www.verti.it o il nostro call center non prevede costi d’intermediazione. La Compagnia riconosce una provvigione 
@@ -413,7 +413,7 @@ che ti tutelano contro i danni subiti dal Veicolo quali le garanzie Incendio e F
 la garanzia Assistenza stradale, Tutela Legale e Infortuni del Conducente.
 L’offerta delle garanzie riferite ai danni del Veicolo e la possibilità di acquistarne più di una delle stesse (fatta 
 eccezione per la garanzia R.C. Auto che è obbligatoria per legge) è subordinata ad una serie di parametri (per 
-esempio: vetustà del Veicolo, valore del Veicolo, Classe di merito , eccetera) che ne determinano, appunto, la 
+esempio: vetustà del Veicolo, valore del Veicolo, Classe di merito, eccetera) che ne determinano, appunto, la 
 loro acquistabilità.
 Il presente Set Informativo illustra le caratteristiche del Prodotto Motociclo e Ciclomotore ed è composto da:
 » DIP (Documento Informativo Precontrattuale)
@@ -468,7 +468,7 @@ MODIFICHE AL CONTRATTO..........................................................
 1.16. Sostituzione con un altro Veicolo .................................................................................................................... 11 
 1.17. Sospensione delle garanzie in corso di Polizza .............................................................................................. 12 
 1.18. Riattivazione delle garanzie ............................................................................................................................ 12 
-1.19. Trasferimento di proprietà del Veicolo assicurato ........................................................................................... 12 
+1.19. Trasferimento di proprietà del Veicolo assicurato........................................................................................... 12 
 1.20. Risoluzione del Contratto................................................................................................................................ 13 
 1.21. Recesso del Contratto su richiesta del Contraente (Diritto di ripensamento).................................................. 13 
 1.22. Obbligo distruzione di Certificato e Carta Verde ............................................................................................. 13 
@@ -487,10 +487,10 @@ DISPOSIZIONI DI LEGGE ..........................................................
 2. Responsabilità Civile Auto................................................................................................................... 16 
 2.1. Soggetti esclusi............................................................................................................................................... 16 
 2.2. Condizioni aggiuntive sempre operanti senza il pagamento di un Premio aggiuntivo..................................... 16 
-2.3. Conducente di età inferiore a 23 anni ............................................................................................................. 16 
+2.3. Conducente di età inferiore a 23 anni............................................................................................................. 16 
 2.4. Estensione territoriale ..................................................................................................................................... 17 
 2.5. Gestione delle vertenze .................................................................................................................................. 17 
-2.6. Esclusioni e Rivalse ........................................................................................................................................ 17 
+2.6. Esclusioni e Rivalse........................................................................................................................................ 17 
 2.7. Garanzia Super Protetto (opzione con pagamento di un Premio aggiuntivo).................................................. 17 
 Rinuncia alla Rivalsa in caso di guida in stato di ebbrezza (opzione con pagamento di un Premio aggiuntivo) ............ 18 
 2.8. Esclusioni della garanzia 2.7 Super Protetto................................................................................................... 18 
@@ -539,14 +539,14 @@ CONDIZIONI GENERALI DI ASSICURAZIONE ...........................................
 6.1. Traino.............................................................................................................................................................. 29 
 6.2. Spese di rimessaggio...................................................................................................................................... 30 
 6.3. Officina Mobile ................................................................................................................................................ 30 
-6.4. Informazioni telefoniche su torrette di ricarica (solo per i Motocicli) ................................................................ 30 
+6.4. Informazioni telefoniche su torrette di ricarica (solo per i Motocicli)................................................................ 30 
 6.5. Recupero del Veicolo fuori strada ................................................................................................................... 30 
 6.6. Supporto alla compilazione della CAI ............................................................................................................. 31 
 6.7. Rientro dei passeggeri o proseguimento del Viaggio (solo per i Motocicli) ..................................................... 31 
 6.8. Spese d’albergo (solo per i Motocicli) ............................................................................................................. 31 
-6.9. Invio taxi (solo per i Motocicli) ......................................................................................................................... 31 
+6.9. Invio taxi (solo per i Motocicli)......................................................................................................................... 31 
 6.10. Rimpatrio del Veicolo a mezzo pianale (solo per i Motocicli) .......................................................................... 31 
-6.11. Autoambulanza per trasporto in Istituto di Cura .............................................................................................. 31 
+6.11. Autoambulanza per trasporto in Istituto di Cura.............................................................................................. 31 
 6.12. Consigli medici telefonici................................................................................................................................. 32 
 6.13. Invio di un medico ........................................................................................................................................... 32 
 6.14. Viaggio di un familiare..................................................................................................................................... 32 
@@ -555,7 +555,7 @@ CONDIZIONI GENERALI DI ASSICURAZIONE ...........................................
 6.17. Informazioni automobilistiche.......................................................................................................................... 32 
 6.18. Informazioni burocratiche................................................................................................................................ 32 
 6.19. Informazioni meteo ......................................................................................................................................... 32 
-6.20. Recupero del Veicolo riparato (solo per i Motocicli) ........................................................................................ 33 
+6.20. Recupero del Veicolo riparato (solo per i Motocicli)........................................................................................ 33 
 6.21. Anticipo spese di prima necessità................................................................................................................... 33 
 6.22. Interprete a disposizione all’estero (solo per i Motocicli)................................................................................. 33 
 PACCHETTO DELUXE (solo per Motocicli)................................................................................................................... 33 
@@ -570,7 +570,7 @@ SETINFOMOTO&CICLO_Ed. 05 luglio 2025
 6.26. Cosa fare in caso di Sinistro ........................................................................................................................... 35 
 6.27. VERTIAIUTA: servizio aggiuntivo di prenotazione di autoveicolo in Italia....................................................... 35 
 Allegato 1 - Disciplina del Bonus Malus ................................................................................................... 36 
-Allegato 2 – Modifiche alla Polizza ............................................................................................................ 40 
+Allegato 2 – Modifiche alla Polizza............................................................................................................ 40 
 Allegato 3 – Regole evolutive Super protetto .......................................................................................... 41 
 Allegato 4 – Sintesi Massimali, Scoperti e Franchigie ............................................................................ 42
 
@@ -649,7 +649,7 @@ custodia del Veicolo
 Convenzione tra assicuratori per il Risarcimento diretto 
 » Carta Verde 
 Certificato internazionale di Assicurazione che attesta 
-l’estensione dell’efficacia dell’ Assicurazione obbligatoria
+l’estensione dell’efficacia dell’Assicurazione obbligatoria
 all’ estero
 » Cessionario
 Soggetto a cui viene trasferita la titolarità del Contratto 
@@ -1430,7 +1430,7 @@ presentata alle Autorità competenti.
 SETINFOMOTO&CICLO_Ed. 05 luglio 2025
 » alla Classe di merito CU 14, se il nuovo Veicolo da 
 assicurare è un’autovettura, un Ciclomotore, un 
-furgone o un taxi fatta salva l’applicabilità dell’art.134 
+furgone o un taxifatta salva l’applicabilità dell’art.134 
 comma 4 bis del CAP nel caso di proprietà di altro 
 Veicolo;
 » alle forme tariffarie Franchigia fissa ed assoluta e 
@@ -1527,7 +1527,7 @@ proprietà della medesima tipologia del Veicolo
 alienato. Verti rilascia i nuovi documenti assicurativi 
 e procede all’eventuale aumento o diminuzione del 
 Premio.
-b) Cessione del Contratto: la richiesta di cessione di 
+b) Cessione del Contratto : la richiesta di cessione di 
 Contratto deve avvenire contestualmente al 
 passaggio di proprietà o comunque entro 
 massimo 7 giorni.
@@ -1540,7 +1540,7 @@ alla sua naturale scadenza e non prevede il
 rilascio dell’Attestato di Rischio al Cessionario.
 Per assicurare lo stesso Veicolo, il nuovo 
 Proprietario deve stipulare una nuova Polizza a 
-cui viene assegnata la Classe di merito CU 14,
+cui viene assegnata la Classe di merito CU 14 ,
 secondo quanto disposto dall’articolo 134 comma 4bis del Codice delle Assicurazioni Private.
 Il Contraente deve distruggere la Carta Verde e il 
 Certificato. In caso contrario la Compagnia 
@@ -2045,7 +2045,7 @@ di Circolazione, per i danni ai terzi trasportati;
 ebbrezza o sotto l’influenza di sostanze 
 stupefacenti oppure da persona cui è stata 
 applicata la sanzione ai sensi degli artt. 186 , 186 
-bis e 187 del Codice della Strada e s uccessive 
+bis e 187 del Codice della Strada e successive 
 modifiche, salvo quanto previsto al paragrafo 
 2.2;
 » se il Veicolo adibito ad uso privato e utilizzato 
@@ -2271,7 +2271,7 @@ Indennizzo: € 9.000
 ESEMPIO 2: SCOPERTO E MINIMO DI SCOPERTO
 Danno: € 4.000
 Scoperto: 20% con Minimo € 1.000
-Calcolo Indennizzo: il 20% di € 4.000 è pari a €800, che 
+Calcolo Indennizzo: il 20% di € 4.000 è pari a € 800, che 
 è inferiore al minimo previsto, ovvero € 1.000; 
 perciò, in questo caso, dal danno per calcolare 
 l’Indennizzo verrà decurtato € 1.000.
@@ -2654,7 +2654,7 @@ pagamento di un Premio aggiuntivo. La garanzia
 prevede la Somma assicurata indicata in Polizza,
 operante per ogni Sinistro.
 4.1. Oggetto 
-Verti indennizza l'Invalidità permanente o la morte del 
+Verti indennizza l' Invalidità permanente o la morte del 
 Conducente del Veicolo assicurato per gli infortuni subiti 
 mentre circola alla guida del Veicolo assicurato. La 
 garanzia opera alle condizioni qui di seguito descritte.
@@ -2698,7 +2698,7 @@ del Veicolo durante la partecipazione a gare e
 competizioni sportive e alle relative prove 
 ufficiali, prove libere e allenamenti e alle verifiche 
 preliminari e finali previste nel regolamento 
-particolare di gara. Non sono inoltre compresi gli 
+particolare di gara. Non sono inoltrecompresi gli 
 Infortuni subiti durante la Circolazione in piste o 
 circuiti privati;
 » subisce un Infortunio in conseguenza di azioni di 
@@ -4041,7 +4041,7 @@ ASISTENCIA e le società di autonoleggio.
 Su richiesta della società di noleggio viene richiesto 
 all’Assicurato un deposito cauzionale. 
 Se l’Assicurato non ha una carta di credito , un 
-documento di identità valido o se l’u tilizzatore del 
+documento di identità valido o se l’utilizzatore del 
 Veicolo assicurato ha meno di 21 anni, potrebbe 
 essere difficoltoso individuare una società di
 Autonoleggio disponibile a erogare il servizio.
@@ -4104,7 +4104,7 @@ al di fuori del Periodo di osservazioneper i quali sia stata
 accertata la respon sabilità principale del Conducente 
 del Veicolo assicurato. 
 L’art. 133 del Codice delle Assicurazioni, così come 
-modificato dall’art. 34 bis del Decreto Leg ge n. 1 del 24 
+modificato dall’art. 34 bis del Decreto Legge n. 1 del 24 
 gennaio 2012, prevede che in as senza di Sinistri, le 
 variazioni in diminuzione del Premio siano 
 preventivamente quantificate in rapporto alle classi di 
@@ -4129,7 +4129,7 @@ giorni prima della scadenza annuale del Contratto, Verti
 rende disponibile l’ Attestato di Rischio nell’area 
 personale my Verti sul sito www.verti.it
 Il Contraente può richiedere la consegna dell’ Attestato
-di Rischio anche tramite e-mail. Verti si impegna, inoltre, 
+di Rischio anche tramite e-mail. Verti siimpegna, inoltre, 
 senza costi aggiuntivi a carico del Contraente, ad 
 informarlo di ogni eventuale variazione peggiorativa alla 
 Classe CU.
@@ -4850,7 +4850,7 @@ minimi necessari vengono elaborati utilizzando tecniche statistiche. L'interesse
 è quello di poter conoscere la propria clientela e identificare le tendenze del mercato;
 c. Verifica della qualità del servizio reso (indagini di “Customer Satisfaction /Experience”) al fine di effettuare 
 indagini circa il grado di soddisfazione rispetto alla qualità dei servizi prestati, nonché condurre un’analisi sulla 
-qualità percepita da ll’Interessato in merito a prodotti e/o servizi resi da Verti per la gestione ed esecuzione 
+qualità percepita dall’Interessato in merito a prodotti e/o servizi resi da Verti per la gestione ed esecuzione 
 del contratto assicurativo. Le interviste/questionari saranno indirizzati ai recapiti già comunicati, a mezzo 
 posta elettronica, telefono -anche cellulare-, servizi di invio testi quali short messaging system (“SMS”), servizi 
 di messaggistica istantanea o social network. 
@@ -4933,7 +4933,7 @@ trattamento esclusivamente ai seguenti destinatari o categorie di destinatari:
 Compagnia è legalmente obbligata a fornirli;
 2. All’interno di Verti tra i dipendenti di volta in volta addetti alla gestione della sua posizione, nonché dagli addetti 
 facenti parte della cd. “catena assicurativa”. I Dati potranno, inoltre, essere comunicati a soggetti necessari alla 
-prestazione della Pr eventivazione nonché a terzi debitamente nominati come responsabili, per finalità di cui al 
+prestazione della Preventivazione nonché a terzi debitamente nominati come responsabili, per finalità di cui al 
 precedente punto 4, il cui elenco è costantemente tenuto aggiornato presso il Titolare. I Dati potranno inoltre 
 essere comunicati al Gruppo MAPFRE al fine di dare corso alle verifiche finalizzate alla prevenzione delle frodi e 
 del finanziamento del terrorismo mediante i sistemi centralizzati gestiti da quest’ultima;

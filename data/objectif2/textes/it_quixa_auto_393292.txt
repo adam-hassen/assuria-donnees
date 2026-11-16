@@ -710,7 +710,7 @@ Pagina 2 di 2
 ===== page 6 =====
 Pagina 1 di 3
 Scopo
-Il presente documento contiene informazioni aggiuntive e complementari rispetto a quelle contenute nel documento informativo pre contrattuale per i prodotti assicurativi danni (DIP Danni), per aiutare il potenziale contraente a capire più nel dettaglio le caratteristiche 
+Il presente documento contiene informazioni aggiuntive e complementari rispetto a quelle contenute nel documento informativo precontrattuale per i prodotti assicurativi danni (DIP Danni), per aiutare il potenziale contraente a capire più nel dettaglio le caratteristiche 
 del prodotto, con particolare riguardo alle coperture assicurative, alle limitazioni, alle esclusioni, ai costi nonché alla situazione patrimoniale dell’impresa.
 Il contraente deve prendere visione delle condizioni di assicurazione prima della sottoscrizione del contratto.
 Società
@@ -1106,7 +1106,7 @@ vocato fiamma;
 › i danni derivanti dal mancat o uso del veicolo, il suo deprezzamento e le spese di ricovero.
 Art. 2.3 COSA COMPRENDE LA GARANZIA FURTO E INCENDIO?
 La garanzia Furto copre i danni materiali e diretti arrecati al Veicolo in caso di furto (totale o tentato) o rapina. Sono compresi quelli cagionati in occasione del tentato furto e in occasione della circolazione abusiva successiva al furto e i danni causati alla tua auto nel tentativo di rubare eventuali 
-oggetti trasportati con esclusione delle cose stesse. L’assicurazione vale anche per i danni subiti al veicolo durante la circolazione abusiva conse guenti a collisione, urto, ribaltamento o uscita di strada. Il tuo veicolo è assicurato secondo la formula a valore intero.
+oggetti trasportati con esclusione delle cose stesse. L’assicurazione vale anche per i danni subiti al veicolo durante la circolazione abusiva conseguenti a collisione, urto, ribaltamento o uscita di strada. Il tuo veicolo è assicurato secondo la formula a valore intero.
 La garanzia Incendio copre i danni materiali e diretti arrecati al Veicolo in caso di incendio (totale o parziale) derivante da:
 › scoppio o esplosione dell’impianto di alimentazione e del serbatoio;
 › azione da fulmine.
@@ -1221,7 +1221,7 @@ Rimborso Franchigie
 La copertura è valida solo se il sinistro che ha colpito il veicolo assicurato sia avvenuto durante il periodo di validità della presente garanzia sulla 
 singola targa interessata.
 In caso di riparazione presso una carrozzeria convenzionata Quixa il massimale corrisponde al valore della franchigia applicata • In caso di riparazione effettuata presso una delle carrozzerie non convenzionate, l’indennizzo verrà ridotto del 50%. 
-In caso di riacquisto presso lo stesso rivenditore, il massimale corrisponde al valore della franchigia applicata, in caso di mancato riacquisto o riac quisto presso rivenditore diverso, l’indennizzo verrà ridotto del 50%. 
+In caso di riacquisto presso lo stesso rivenditore, il massimale corrisponde al valore della franchigia applicata, in caso di mancato riacquisto o riacquisto presso rivenditore diverso, l’indennizzo verrà ridotto del 50%. 
 Verrà in ogni caso indennizzato massimo un evento per anno.
 Bonus Riacquisto
 La copertura Bonus di Riacquisto è valida solo se il sinistro che ha colpito il veicolo assicurato con la Polizza CVT primaria, sia avvenuto durante il 
@@ -1742,7 +1742,7 @@ più vicina, entro un raggio di 25 km (50 km A/R) dal punto di immobilizzo. L’
 Il Soccorso stradale sarà fornito, ad insindacabile giudizio della Centrale Operativa, anche qualora il sinistro abbia come conseguenza il danneggiamento del veicolo o di sue parti tali da consentirne la marcia, ma con rischio di aggravamento del danno o delle condizioni di pericolosità per 
 l’Assicurato o per la circolazione stradale.
 Si specifica che: 
-› sono incluse le eventuali spese di custodia del veicolo presso il deposito dell’autosoccorritore dal giorno del suo ingresso fino al giorno di conse gna al punto di assistenza, con il massimo di 5 (cinque) giorni; 
+› sono incluse le eventuali spese di custodia del veicolo presso il deposito dell’autosoccorritore dal giorno del suo ingresso fino al giorno di consegna al punto di assistenza, con il massimo di 5 (cinque) giorni; 
 › sono incluse le eventuali spese di traino, dal deposito dell’autosoccorritore al punto di assistenza (secondo traino), qualora si sia reso necessario il 
 rimessaggio del veicolo presso il deposito dell’autosoccorritore stesso causa la chiusura temporanea del punto di assistenza; 
 › in caso di immobilizz o avvenuto in autostrada, l’operatore della Centrale Operativa fornirà informazioni specifiche all’Assicurato; 
@@ -1932,7 +1932,7 @@ Art. 5.8 FORNITURA DEI MEZZI DI PROVA E DEI DOCUMENTI OCCORRENTI ALLA PRESTAZION
 Se l’assicurato richiede la copertura assicurativa deve:
 a) 
  infor
-mare immediatamente AXA Assistance in modo completo e veritiero di tutti i particolari del sinistro nonché indicare i mezzi di prova e do cumenti e, su richiesta, metterli a disposizione;
+mare immediatamente AXA Assistance in modo completo e veritiero di tutti i particolari del sinistro nonché indicare i mezzi di prova e documenti e, su richiesta, metterli a disposizione;
 b) 
  conf
 erire mandato al legale incaricato della tutela dei suoi interessi nonché informarlo in modo completo e veritiero su tutti i fatti, indicare i mezzi 
@@ -2218,7 +2218,7 @@ accessibili (es. sistemi di informazioni creditizie, utili per verificare il
 possesso di requisiti specifici richiesti dalle compagnie per l’accesso ad 
 agevolazioni e vantaggi, quali la rateizzazione del premio) e dispositivi 
 tecnologici3 e/o dati ancora da acquisire, alcuni dei quali ci debbono 
-essere forniti da lei o da terzi per obbligo di legge 4).
+essere forniti da lei o da terzi per obbligo di legge4).
 Per questa finalità, QUIXA utilizzerà i suoi dati personali nell’ambito 
 delle seguenti attività, indicati a titolo esemplificativo e non esaustivo:
 •
@@ -2283,7 +2283,7 @@ contratto comporta un processo decisionale automatizzato finalizzato
 alla determinazione dello sconto/premio applicabile (es. sulla base del 
 numero di KM percorsi rilevati attraverso la cd. Black Box). 
 Viceversa, il suo consenso esplicito è richiesto per il trattamento 
-delle categorie particolari di dati 6, quali i dati relativi alla salute 
+delle categorie particolari di dati6, quali i dati relativi alla salute 
 (di seguito indicati anche come “dati sensibili”). Il consenso che le 
 chiediamo riguarda quindi il trattamento degli eventuali dati sensibili 
 il cui utilizzo sarà inerente esclusivamente alla fornitura dei servizi, 
@@ -2298,7 +2298,7 @@ natura pubblica che operano - in Italia o all’estero - come autonomi
 titolari, soggetti tutti così costituenti la c.d. “catena assicurativa”, in parte 
 anche in funzione meramente organizzativa.
 Il consenso che le chiediamo riguarda pertanto anche gli specifici 
-trattamenti e le comunicazioni all’interno della “catena assicurativa” 7 
+trattamenti e le comunicazioni all’interno della “catena assicurativa”7 
 effettuati dai predetti soggetti.
 Precisiamo che senza i suoi dati personali e sensibili non saremo in 
 grado di fornirle le prestazioni, i servizi e/o i prodotti assicurativi citati. 
@@ -2316,7 +2316,7 @@ di assicurazione, altre imprese di assicurazione); soggetti che, per soddisfare 
 organismi associativi e consortili propri del settore assicurativo altri soggetti pubblici, banche dati di autorità per finalità antiriciclaggio e/o antiterrorismo.
 3 
  C
-ome, ad esempio, la black box o scatola nera installata in auto, intesa come un dispositivo fisico presente sull’autovettura che consente di raccogliere dati telematici, quali infor mazioni riguardanti il veicolo (es. la geolocalizzazione, i dati di percorrenza, l’accelerazione e la decelerazione, i chilometri percorsi, ecc.) e altri dispositivi, come i software installati 
+ome, ad esempio, la black box o scatola nera installata in auto, intesa come un dispositivo fisico presente sull’autovettura che consente di raccogliere dati telematici, quali informazioni riguardanti il veicolo (es. la geolocalizzazione, i dati di percorrenza, l’accelerazione e la decelerazione, i chilometri percorsi, ecc.) e altri dispositivi, come i software installati 
 dall’interessato sul proprio device, capaci di raccogliere dati relativi al veicolo ed al dispositivo, in relazione alle specifiche polizze auto o contratti di servizio.
 4 
  A
@@ -2691,7 +2691,7 @@ PER LE INFORMAZIONI PRECONTRATTUALI E LA GESTIONE DEI CONTRATTI ASSICURATIVI
 Fatti salvi gli altri obblighi informativi relativi alla disciplina vigente, il 
 contratto è assoggettato anche alle norme di cui agli articoli 67-quater e seguenti del D. Lgs. 6 settembre 2005, n. 206 (c.d. “Codice del 
 Consumo”).
-Il contratto è stipulato tra QUIXA Assicurazioni S.p.A. (di seguito, alter nativamente, “QUIXA” o la “Compagnia”) ed il Contraente, e con l’inter mediazione, ove previsto, dei propri distributori, i quali promuovono e 
+Il contratto è stipulato tra QUIXA Assicurazioni S.p.A. (di seguito, alternativamente, “QUIXA” o la “Compagnia”) ed il Contraente, e con l’intermediazione, ove previsto, dei propri distributori, i quali promuovono e 
 collocano il contratto di assicurazione avvalendosi di tecniche di comunicazione a distanza fino alla conclusione del contratto, compresa la 
 conclusione del contratto stesso.
 Per “Tecnica di Comunicazione a Distanza” deve intendersi qualunque 
@@ -2705,7 +2705,7 @@ Si informa il Contraente di quanto segue.
 Al primo contatto e, in ogni caso, prima della conclusione di un contratto di assicurazione a distanza, i distributori sono tenuti a fornire 
 al Contraente le informazioni di cui all’articolo 121, comma 1, del CAP 
 – Codice delle Assicurazioni Private (D. Lgs. 209 / 2005), inclusa la documentazione informativa precontrattuale del prodotto assicurativo (ex 
-artt. 185 – 185-bis – 185-ter del CAP) e degli altri documenti precontrat tuali del distributore previsti dall’art. 56 del reg. IVASS 40 del 02/08/2018 
+artt. 185 – 185-bis – 185-ter del CAP) e degli altri documenti precontrattuali del distributore previsti dall’art. 56 del reg. IVASS 40 del 02/08/2018 
 e successive modifiche.
 Il Contraente ha il diritto di scegliere di ricevere e di trasmettere la documentazione precontrattuale e contrattuale secondo quanto previsto 
 dall’articolo 120-quater del CAP, su supporto cartaceo o altro supporto 
@@ -2720,7 +2720,7 @@ poi, comunque, trasmessa al Contraente anche via posta elettronica
 (e-mail) o via posta tradizionale / cartacea sulla base della scelta dallo 
 stesso effettuata, unitamente alla documentazione contrattuale.
 La modalità di consegna della documentazione precontrattuale sarà 
-anche la modalità di ricezione delle comunicazioni in corso di contrat to da QUIXA al Contraente. Il Contraente ha diritto in ogni momento 
+anche la modalità di ricezione delle comunicazioni in corso di contratto da QUIXA al Contraente. Il Contraente ha diritto in ogni momento 
 di modificare la modalità di comunicazione, contattando QUIXA. Il 
 Contraente ha in ogni caso diritto di ricevere gratuitamente la documentazione in formato cartaceo, contattando QUIXA.
 
@@ -2730,7 +2730,7 @@ Contraente ha in ogni caso diritto di ricevere gratuitamente la documentazione i
 ===== page 28 =====
 Lʼassicurazione semplice
 inizia da qui
-QUIXA Assicurazioni S.p.A. - Sede Legale: Corso Como 17 , 20154 – Milano (MI), Italia;
+QUIXA Assicurazioni S.p.A. - Sede Legale: Corso Como 17, 20154 – Milano (MI), Italia;
 Capitale Sociale € 107.599.727,50 interamente versato – Ufficio del Registro delle Imprese di Milano –
 Monza Brianza – Lodi e C. F. n. 10370450966 – P. I.V.A. GRUPPO IVA AXA ITALIA n. 10534960967 –R.E.A. 
 di Milano n. Ml-2526115 – Direzione e Coordinamento di AXA Assicurazioni S.p.A. ai sensi dell’art. 2497 

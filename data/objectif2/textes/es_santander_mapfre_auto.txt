@@ -100,7 +100,7 @@ antigüedad similares al vehículo asegurado en el momento inmediatamente anteri
 Se entenderá por pérdida total del vehículo asegurado cuando el coste de su reparación sea superior al precio por el que puede 
 adquirirse un vehículo de características, uso, estado y antigüedad similares al vehículo asegurado, en el momento 
 inmediatamente anterior al accidente.
-! En la cobertura de “Daños del vehículo asegurado por fenómenos atmosféricos” cubiertos los daños por lluvia de 40 l/m 2/h y 
+! En la cobertura de “Daños del vehículo asegurado por fenómenos atmosféricos” cubiertos los daños por lluvia de 40 l/m2/h y 
 viento de más de 80 km/h.
 ! La cobertura de “Daños del vehículo asegurado” se puede contratar con una cantidad a cargo del asegurado por importes 
 distintos entre 200 € y 900 € por accidente.
